@@ -1,41 +1,47 @@
-Map_Save_CE0E:		dc.w word_CE56-Map_Save_CE0E
-		dc.w word_CE58-Map_Save_CE0E
-		dc.w word_CEC6-Map_Save_CE0E
-		dc.w word_CF1C-Map_Save_CE0E
-		dc.w word_CF36-Map_Save_CE0E
-		dc.w word_CF5C-Map_Save_CE0E
-		dc.w word_CF6A-Map_Save_CE0E
-		dc.w word_CF84-Map_Save_CE0E
-		dc.w word_CF98-Map_Save_CE0E
-		dc.w word_CFA6-Map_Save_CE0E
-		dc.w word_CFAE-Map_Save_CE0E
-		dc.w word_CFB6-Map_Save_CE0E
-		dc.w word_CFBE-Map_Save_CE0E
-		dc.w word_CFCC-Map_Save_CE0E
-		dc.w word_CFE0-Map_Save_CE0E
-		dc.w word_CFF4-Map_Save_CE0E
-		dc.w word_D002-Map_Save_CE0E
-		dc.w word_D00A-Map_Save_CE0E
-		dc.w word_D012-Map_Save_CE0E
-		dc.w word_D01A-Map_Save_CE0E
-		dc.w word_D022-Map_Save_CE0E
-		dc.w word_D02A-Map_Save_CE0E
-		dc.w word_D032-Map_Save_CE0E
-		dc.w word_D03A-Map_Save_CE0E
-		dc.w word_D060-Map_Save_CE0E
-		dc.w word_D086-Map_Save_CE0E
-		dc.w word_D0AC-Map_Save_CE0E
-		dc.w word_D0BA-Map_Save_CE0E
-		dc.w word_D0E0-Map_Save_CE0E
-		dc.w word_D0E8-Map_Save_CE0E
-		dc.w word_D0F0-Map_Save_CE0E
-		dc.w word_D0F8-Map_Save_CE0E
-		dc.w word_D100-Map_Save_CE0E
-		dc.w word_D108-Map_Save_CE0E
-		dc.w word_D110-Map_Save_CE0E
-		dc.w word_D118-Map_Save_CE0E
+Map_Save_CE0E:		dc.w word_CE56-Map_Save_CE0E ; 00
+		dc.w word_CE58-Map_Save_CE0E ; 01
+		dc.w word_CEC6-Map_Save_CE0E ; 02
+		dc.w word_CF1C-Map_Save_CE0E ; 03
+		dc.w word_CF36-Map_Save_CE0E ; 04
+		dc.w word_CF5C-Map_Save_CE0E ; 05
+		dc.w word_CF6A-Map_Save_CE0E ; 06
+		dc.w word_CF84-Map_Save_CE0E ; 07
+		dc.w word_CF98-Map_Save_CE0E ; 08
+		dc.w word_CFA6-Map_Save_CE0E ; 09
+		dc.w word_CFAE-Map_Save_CE0E ; 0A
+		dc.w word_CFB6-Map_Save_CE0E ; 0B
+		dc.w word_CFBE-Map_Save_CE0E ; 0C
+		dc.w word_CFCC-Map_Save_CE0E ; 0D
+		dc.w word_CFE0-Map_Save_CE0E ; 0E
+		dc.w word_CFF4-Map_Save_CE0E ; 0F
+
+		dc.w word_D002-Map_Save_CE0E ; 10
+		dc.w word_D00A-Map_Save_CE0E ; 11
+		dc.w word_D012-Map_Save_CE0E ; 12
+		dc.w word_D01A-Map_Save_CE0E ; 13
+		dc.w word_D022-Map_Save_CE0E ; 14
+		dc.w word_D02A-Map_Save_CE0E ; 15
+		dc.w word_D032-Map_Save_CE0E ; 16
+		dc.w word_D03A-Map_Save_CE0E ; 17
+		dc.w word_D060-Map_Save_CE0E ; 18
+		dc.w word_D086-Map_Save_CE0E ; 19
+		dc.w word_D0AC-Map_Save_CE0E ; 1A
+		dc.w word_D0BA-Map_Save_CE0E ; 1B
+		dc.w word_D0E0-Map_Save_CE0E ; 1C
+		dc.w word_D0E8-Map_Save_CE0E ; 1D
+		dc.w word_D0F0-Map_Save_CE0E ; 1E
+		dc.w word_D0F8-Map_Save_CE0E ; 1F
+		dc.w word_D100-Map_Save_CE0E ; 20
+		dc.w word_D108-Map_Save_CE0E ; 21
+		dc.w word_D110-Map_Save_CE0E ; 22
+		dc.w word_D118-Map_Save_CE0E ; 23
+		dc.w word_CF36-Map_Save_CE0E ; 24
+		dc.w word_CF5C-Map_Save_CE0E ; 25
+		dc.w word_CF6A-Map_Save_CE0E ; 26
+		dc.w word_CF84-Map_Save_CE0E ; 27
+		dc.w word_CF842-Map_Save_CE0E ; 28
 word_CE56:	dc.w 0			
-word_CE58:	dc.w $12		
+word_CE58:	dc.w $12 ; Red save file selection box 
 		dc.b  $A8,   0,	  1,   7, $FF, $D8
 		dc.b  $A8,  $C,	  1,   8, $FF, $E0
 		dc.b  $A8,  $C,	  1,   8,   0,	 0
@@ -54,7 +60,7 @@ word_CE58:	dc.w $12
 		dc.b  $50,  $D,	  1, $12, $FF, $E0
 		dc.b  $50,  $D,	  1, $12,   0,	 0
 		dc.b  $50,   1,	  9, $10,   0, $20
-word_CEC6:	dc.w $E			
+word_CEC6:	dc.w $E	; Red no save / delete selection box
 		dc.b  $A6,   0,	  0, $F9, $FF, $D8
 		dc.b  $A6,  $C,	  0, $FA, $FF, $E0
 		dc.b  $A6,  $C,	  0, $FA,   0,	 0
@@ -69,42 +75,42 @@ word_CEC6:	dc.w $E
 		dc.b  $F6,  $C,	  1,   3, $FF, $E0
 		dc.b  $F6,  $C,	  1,   3,   0,	 0
 		dc.b  $F6,   0,	  9,   2,   0, $20
-word_CF1C:	dc.w 4			
+word_CF1C:	dc.w 4	; Level Icon 
 		dc.b  $F4,  $E,	$20, $42, $FF, $C8
 		dc.b  $F4,  $E,	$20, $4E, $FF, $E8
 		dc.b  $F4,  $E,	$20, $5A,   0,	 8
 		dc.b  $F4,   6,	$20, $66,   0, $28
-word_CF36:	dc.w 6			
+word_CF36:	dc.w 6	; Sonic and Tails save icon		
 		dc.b  $D8,  $E,	$28, $6C, $FF, $E8
 		dc.b  $F0,   9,	$28, $78, $FF, $F0
 		dc.b  $D6,   0,	$28, $7E,   0,	 0
 		dc.b  $DE,  $D,	$28, $7F, $FF, $F8
 		dc.b  $EE,  $D,	$28, $87,   0,	 0
 		dc.b  $F6,   0,	$28, $8F, $FF, $F8
-word_CF5C:	dc.w 2			
+word_CF5C:	dc.w 2	; Sonic alone save icon
 		dc.b  $D8,  $E,	$28, $6C, $FF, $EE
 		dc.b  $F0,   9,	$28, $78, $FF, $F6
-word_CF6A:	dc.w 4			
+word_CF6A:	dc.w 4	; Tails alone save icon
 		dc.b  $D8,   0,	$20, $7E, $FF, $FF
 		dc.b  $E0,  $D,	$20, $7F, $FF, $EF
 		dc.b  $F0,  $D,	$20, $87, $FF, $E7
 		dc.b  $F8,   0,	$20, $8F,   0,	 7
-word_CF84:	dc.w 3			
+word_CF84:	dc.w 3	; Knuckles alone save icon
 		dc.b  $D8,  $E,	$28, $90, $FF, $F3
 		dc.b  $F0,   8,	$28, $9C, $FF, $F3
 		dc.b  $F8,  $C,	$28, $9F, $FF, $F3
-word_CF98:	dc.w 2			
+word_CF98:	dc.w 2	; Delete signpost	
 		dc.b  $B8,  $E,	$20, $A3, $FF, $E4
 		dc.b  $B8,   2,	$20, $AF,   0,	 4
-word_CFA6:	dc.w 1			
+word_CFA6:	dc.w 1	; Delete signpost		
 		dc.b  $B8,  $A,	$20, $B2, $FF, $EC
-word_CFAE:	dc.w 1			
+word_CFAE:	dc.w 1	; Delete signpost	
 		dc.b  $B8,   2,	$20, $BB, $FF, $F4
-word_CFB6:	dc.w 1			
+word_CFB6:	dc.w 1	; Delete signpost
 		dc.b  $B8,  $A,	$20, $B2, $FF, $EC
 word_CFBE:	dc.w 2			
 		dc.b  $B8,  $E,	$20, $BE, $FF, $E4
-		dc.b  $B8,   2,	$20, $CA,   0,	 4
+		dc.b  $B8,   3,	$20, $CA,   0,	 4
 word_CFCC:	dc.w 3			
 		dc.b  $D0,  $F,	$20, $CD, $FF, $EC
 		dc.b  $D8,   2,	$20, $DD,   0,	$C
@@ -182,3 +188,11 @@ word_D118:	dc.w 6
 		dc.b  $A8,  $E,	$62, $A9, $FF, $F8
 		dc.b  $88,   7,	$62, $B5,   0, $18
 		dc.b  $A8,   6,	$62, $BD,   0, $18
+word_CF842:	dc.w 7	; Knuckles and Tails save icon
+		dc.b  $D8,  $E,	$28, $90, $FF, $FC
+		dc.b  $F0,   8,	$28, $9C, $FF, $FC
+		dc.b  $F8,  $C,	$28, $9F, $FF, $FC
+		dc.b  $D8,   0,	$20, $7E, $FF, $FD
+		dc.b  $E0,  $D,	$20, $7F, $FF, $ED
+		dc.b  $F0,  $D,	$20, $87, $FF, $E5
+		dc.b  $F8,   0,	$20, $8F,   0,	 5

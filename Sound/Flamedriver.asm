@@ -4594,7 +4594,7 @@ z80_MusicBanks:
 	db zmake68kBank(MusData_Emerald)
 	db zmake68kBank(MusData_Invic)
 	db zmake68kBank(MusData_2PMenu)
-	db zmake68kBank(MusData_Minib_SK)
+	db zmake68kBank(MusData_Super)
 	db zmake68kBank(MusData_Menu)
 	db zmake68kBank(MusData_FinalBoss)
 	db zmake68kBank(MusData_Drown)
@@ -4829,7 +4829,7 @@ MusicPointers label *
 	declsong MusData_Emerald
 	declsong MusData_Invic
 	declsong MusData_2PMenu
-	declsong MusData_Minib_SK
+	declsong MusData_Super
 	declsong MusData_Menu
 	declsong MusData_FinalBoss
 	declsong MusData_Drown
@@ -5361,8 +5361,6 @@ MusData_HCZ1:			include	"Sound/Music/HCZ1.asm"
 MusData_HCZ2:			include	"Sound/Music/HCZ2.asm"
 MusData_MGZ1:			include	"Sound/Music/MGZ1.asm"
 MusData_MGZ2:			include	"Sound/Music/MGZ2.asm"
-MusData_CNZ2:			include	"Sound/Music/CNZ2.asm"
-MusData_CNZ1:			include	"Sound/Music/CNZ1.asm"
 
 	finishBank
 
@@ -5372,8 +5370,6 @@ MusData_CNZ1:			include	"Sound/Music/CNZ1.asm"
 Mus_Bank3_Start:	startBank
 	Music_Master_Table
 					include "Sound/UniBank.asm"
-MusData_ICZ2:			include	"Sound/Music/ICZ2.asm"
-MusData_ICZ1:			include	"Sound/Music/ICZ1.asm"
 MusData_LBZ2:			include	"Sound/Music/LBZ2.asm"
 MusData_LBZ1:			include	"Sound/Music/LBZ1.asm"
 MusData_SKCredits:		include	"Sound/Music/Credits.asm"
@@ -5403,4 +5399,17 @@ MusData_S3Credits:		include	"Sound/Music/Sonic 3 Credits.asm"
 MusData_2PMenu:			include	"Sound/Music/Competition Menu.asm"
 MusData_Drown:			include	"Sound/Music/Countdown.asm"
 
+	finishBank
+
+; ---------------------------------------------------------------------------
+; Music Bank 5
+; ---------------------------------------------------------------------------
+Mus_Bank5_Start:	startBank
+	Music_Master_Table
+					include "Sound/UniBank.asm"
+MusData_CNZ1:			include	"Sound/Music/CNZ1.asm"
+MusData_CNZ2:			include	"Sound/Music/CNZ2.asm"
+MusData_ICZ1:			include	"Sound/Music/ICZ1.asm"
+MusData_ICZ2:			include	"Sound/Music/ICZ2.asm"
+MusData_Super: 			include	"Sound/Music/Super Theme.asm"
 	finishBank

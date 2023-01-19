@@ -28,7 +28,7 @@ elif platform.system() == "Darwin": # Osx
 
 elif platform.system() == "Linux":
 	asBinary = "AS/Linux/asl";
-	fdp2binBinary = "AS/Linux/fdp2bin";
+	fdp2binBinary = "AS/fdp2bin/fdp2bin.exe";
 
 else:
 	print("Unknown platform")
@@ -109,6 +109,8 @@ def build(targetName, def0, def1, accurate):
 	# Create binary
 
 	binaryCommand = [fdp2binBinary, "sonic3k.p", romPath, "sonic3k.h"];
+
+	
 
 	if accurate:
 		binaryCommand.append("-a");

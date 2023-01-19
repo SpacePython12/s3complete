@@ -829,7 +829,7 @@ _unkFEDE			ds.b 1			; unused
 Results_screen_2P		ds.w 1			; left over from Sonic 2
 Perfect_rings_left		ds.w 1			; left over from Sonic 2
 _unkFF06			ds.w 1			; uknown
-Player_mode			ds.w 1			; 0 = Sonic and Tails, 1 = Sonic alone, 2 = Tails alone, 3 = Knuckles alone
+Player_mode			ds.w 1			; 0 = Sonic and Tails, 1 = Sonic alone, 2 = Tails alone, 3 = Knuckles alone, 4 = Knuckles and Tails
 Player_option			ds.w 1			; option selected on level select, data select screen or Sonic & Knuckles title screen
 			ds.w 1				; unused
 
@@ -1099,7 +1099,7 @@ mus_ExtraLife			ds.b 1		; $2A
 mus_Emerald			ds.b 1		; $2B
 mus_Invincibility		ds.b 1		; $2C
 mus_CompetitionMenu		ds.b 1		; $2D
-mus_Miniboss			ds.b 1		; $2E
+mus_Super			ds.b 1		; $2E
 mus_DataSelect			ds.b 1		; $2F
 mus_FinalBoss			ds.b 1		; $30
 mus_Drowning			ds.b 1		; $31
