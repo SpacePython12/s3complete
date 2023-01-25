@@ -1,25 +1,25 @@
-s3p46_Header:
+Snd_Super_Header:
 	smpsHeaderStartSong 3, 1
-	smpsHeaderVoice     s3p46_Voices
+	smpsHeaderVoice     Snd_Super_Voices
 	smpsHeaderChan      $06, $03
 	smpsHeaderTempo     $01, $00
 
-	smpsHeaderDAC       s3p46_DAC
-	smpsHeaderFM        s3p46_FM1,	$00, $0D
-	smpsHeaderFM        s3p46_FM2,	$0C, $09
-	smpsHeaderFM        s3p46_FM3,	$00, $11
-	smpsHeaderFM        s3p46_FM4,	$00, $11
-	smpsHeaderFM        s3p46_FM5,	$00, $11
-	smpsHeaderPSG       s3p46_PSG1,	$00, $02, $00, $00
-	smpsHeaderPSG       s3p46_PSG2,	$00, $02, $00, $00
-	smpsHeaderPSG       s3p46_PSG3,	$00, $02, $00, $00
+	smpsHeaderDAC       Snd_Super_DAC
+	smpsHeaderFM        Snd_Super_FM1,	$00, $0D
+	smpsHeaderFM        Snd_Super_FM2,	$0C, $09
+	smpsHeaderFM        Snd_Super_FM3,	$00, $11
+	smpsHeaderFM        Snd_Super_FM4,	$00, $11
+	smpsHeaderFM        Snd_Super_FM5,	$00, $11
+	smpsHeaderPSG       Snd_Super_PSG1,	$00, $02, $00, $00
+	smpsHeaderPSG       Snd_Super_PSG2,	$00, $02, $00, $00
+	smpsHeaderPSG       Snd_Super_PSG3,	$00, $02, $00, $00
 
 ; FM1 Data
-s3p46_FM1:
+Snd_Super_FM1:
 	smpsSetvoice        $00
 	smpsModSet          $11, $01, $09, $08
 
-s3p46_Jump04:
+Snd_Super_Jump04:
 	dc.b	nAb4, $24, nRst, $18, nFs4, $0C, nAb4, $06, nRst, nA4, $0C, nRst
 	dc.b	nAb4, $14, nRst, $04, nE4, $14, nRst, $04, nFs4, $24, nAb4, nRst
 	dc.b	$18, nFs4, $0C, nAb4, $06, nRst, nA4, $0C, nRst, nAb4, $14, nRst
@@ -37,14 +37,14 @@ s3p46_Jump04:
 	dc.b	$0C, nAb5, nE5, nRst, $30, nE5, $10, nRst, $08, nFs5, $10, nRst
 	dc.b	$08, nG5, $24, nFs5, nE5, $18, nA5, nFs5, nA5, nD6, nE6, $30
 	dc.b	smpsNoAttack, $30, smpsNoAttack, $60, smpsNoAttack, $60, smpsNoAttack, $30, nRst, $30
-	smpsJump            s3p46_Jump04
+	smpsJump            Snd_Super_Jump04
 
 ; FM2 Data
-s3p46_FM2:
+Snd_Super_FM2:
 	smpsSetvoice        $01
 	smpsPan             panCenter, $00
 
-s3p46_Jump03:
+Snd_Super_Jump03:
 	dc.b	nE2, $0C, nD2, nE2, nRst, $06, nE2, nRst, nE2, nD2, $0C, nE2
 	dc.b	$12, nE3, $04, nRst, $02, nE2, $0C, nD2, nE2, nRst, $06, nE2
 	dc.b	nRst, nE2, nD2, $0C, nE2, $12, nE3, $04, nRst, $02, nE2, $0C
@@ -90,13 +90,13 @@ s3p46_Jump03:
 	dc.b	$0F, nRst, $03, nB2, $0A, nRst, $02, nD3, $0A, nRst, $02, nE2
 	dc.b	$0F, nRst, $03, nE2, $0F, nRst, $03, nAb2, $0F, nRst, $03, nA2
 	dc.b	$0F, nRst, $03, nB2, $0A, nRst, $02, nD3, $0A, nRst, $02
-	smpsJump            s3p46_Jump03
+	smpsJump            Snd_Super_Jump03
 
 ; FM3 Data
-s3p46_FM3:
+Snd_Super_FM3:
 	smpsSetvoice        $02
 
-s3p46_Jump02:
+Snd_Super_Jump02:
 	dc.b	nRst, $30, nRst, nRst, nRst, nRst, nRst, nRst, nRst, nRst, nRst, nRst
 	dc.b	nRst, nRst, nRst, nRst, nRst, $24
 	smpsSetvoice        $02
@@ -117,15 +117,15 @@ s3p46_Jump02:
 	dc.b	nA5, $0C, nAb5, $18, nA5, $0C, nAb5, nE5, nE6, $24, nD6, nC6
 	dc.b	$14, nRst, $04, nC6, $18, nB5, nA5, nD6, nAb6, $30, smpsNoAttack, $30
 	dc.b	nRst, $30, nRst, nRst, nRst, nRst, nRst
-	smpsJump            s3p46_Jump02
+	smpsJump            Snd_Super_Jump02
 
 ; FM4 Data
-s3p46_FM4:
+Snd_Super_FM4:
 	smpsSetvoice        $03
 	smpsPan             panLeft, $00
 	smpsModSet          $05, $01, $07, $03
 
-s3p46_Jump01:
+Snd_Super_Jump01:
 	dc.b	nAb4, $0F, nRst, $03, nAb4, $04, nRst, $0E, nAb4, $0F, nRst, $03
 	dc.b	nAb4, $0F, nRst, $03, nFs4, $0A, nRst, $02, nFs4, $0A, nRst, $02
 	dc.b	nAb4, $0F, nRst, $03, nAb4, $04, nRst, $0E, nA4, $0F, nRst, $03
@@ -184,15 +184,15 @@ s3p46_Jump01:
 	dc.b	nAb4, $0F, nRst, $03, nA4, $0A, nRst, $02, nAb4, $0A, nRst, $02
 	dc.b	nB4, $0F, nRst, $03, nA4, $04, nRst, $0E, nAb4, $0F, nRst, $03
 	dc.b	nAb4, $0F, nRst, $03, nA4, $0A, nRst, $02, nAb4, $0A, nRst, $02
-	smpsJump            s3p46_Jump01
+	smpsJump            Snd_Super_Jump01
 
 ; FM5 Data
-s3p46_FM5:
+Snd_Super_FM5:
 	smpsSetvoice        $03
 	smpsPan             panRight, $00
 	smpsModSet          $05, $01, $07, $03
 
-s3p46_Jump00:
+Snd_Super_Jump00:
 	dc.b	nE4, $0F, nRst, $03, nE4, $04, nRst, $0E, nE4, $0F, nRst, $03
 	dc.b	nE4, $0F, nRst, $03, nE4, $0A, nRst, $02, nE4, $0A, nRst, $02
 	dc.b	nE4, $0F, nRst, $03, nE4, $04, nRst, $0E, nE4, $0F, nRst, $03
@@ -251,22 +251,22 @@ s3p46_Jump00:
 	dc.b	nE4, $0F, nRst, $03, nE4, $0A, nRst, $02, nE4, $0A, nRst, $02
 	dc.b	nE4, $0F, nRst, $03, nE4, $04, nRst, $0E, nE4, $0F, nRst, $03
 	dc.b	nE4, $0F, nRst, $03, nE4, $0A, nRst, $02, nE4, $0A, nRst, $02
-	smpsJump            s3p46_Jump00
+	smpsJump            Snd_Super_Jump00
 
 ; PSG1 Data
-s3p46_PSG1:
+Snd_Super_PSG1:
 	smpsStop
 
 ; PSG2 Data
-s3p46_PSG2:
+Snd_Super_PSG2:
 	smpsStop
 
 ; PSG3 Data
-s3p46_PSG3:
+Snd_Super_PSG3:
 	smpsStop
 
 ; DAC Data
-s3p46_DAC:
+Snd_Super_DAC:
 	dc.b	dKickS3, $18, dSnareS3, $12, $06, dKickS3, $18, dSnareS3, dKickS3, dSnareS3, $12, $06
 	dc.b	dKickS3, $18, dSnareS3, dKickS3, dSnareS3, $12, $06, dKickS3, $18, dSnareS3, dKickS3, dSnareS3
 	dc.b	$12, $06, dKickS3, $18, dSnareS3, dKickS3, dSnareS3, $12, $06, dKickS3, $18, dSnareS3
@@ -292,9 +292,9 @@ s3p46_DAC:
 	dc.b	$06, dKickS3, dSnareS3, $12, dSnareS3, dSnareS3, $06, dKickS3, $18, dSnareS3, $12, $06
 	dc.b	dKickS3, dSnareS3, $12, dSnareS3, dSnareS3, $06, dKickS3, $18, dSnareS3, $12, $06, dKickS3
 	dc.b	dSnareS3, $12, dSnareS3, dSnareS3, $06
-	smpsJump            s3p46_DAC
+	smpsJump            Snd_Super_DAC
 
-s3p46_Voices:
+Snd_Super_Voices:
 ;	Voice $00
 ;	$3A
 ;	$11, $12, $51, $31, 	$1E, $19, $14, $14, 	$08, $0A, $0A, $05

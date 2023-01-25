@@ -253,7 +253,7 @@
 ;	$38
 ;	$63, $31, $31, $31, 	$10, $13, $1A, $1B, 	$0E, $00, $00, $00
 ;	$00, $00, $00, $00, 	$3F, $0F, $0F, $0F, 	$1A, $19, $1A, $80
-	smpsVcAlgorithm     $00
+	smpsVcAlgorithm     $02
 	smpsVcFeedback      $07
 	smpsVcUnusedBits    $00
 	smpsVcDetune        $03, $03, $03, $06
