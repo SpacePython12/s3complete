@@ -1,0 +1,1877 @@
+Map_146620:		.word word_146A0C-Map_146620/*  0 */
+		.word word_146A0E-Map_146620/*  1 */
+		.word word_146A22-Map_146620/*  2 */
+		.word word_146A36-Map_146620/*  3 */
+		.word word_146A4A-Map_146620/*  4 */
+		.word word_146A58-Map_146620/*  5 */
+		.word word_146A6C-Map_146620/*  6 */
+		.word word_146A80-Map_146620/*  7 */
+		.word word_146A94-Map_146620/*  8 */
+		.word word_146AA2-Map_146620/*  9 */
+		.word word_146ABC-Map_146620/*  10 */
+		.word word_146AD6-Map_146620/*  11 */
+		.word word_146AF0-Map_146620/*  12 */
+		.word word_146B0A-Map_146620/*  13 */
+		.word word_146B24-Map_146620/*  14 */
+		.word word_146B3E-Map_146620/*  15 */
+		.word word_146B58-Map_146620/*  16 */
+		.word word_146B72-Map_146620/*  17 */
+		.word word_146B86-Map_146620/*  18 */
+		.word word_146B9A-Map_146620/*  19 */
+		.word word_146BAE-Map_146620/*  20 */
+		.word word_146BBC-Map_146620/*  21 */
+		.word word_146BD0-Map_146620/*  22 */
+		.word word_146BEA-Map_146620/*  23 */
+		.word word_146BFE-Map_146620/*  24 */
+		.word word_146C0C-Map_146620/*  25 */
+		.word word_146C26-Map_146620/*  26 */
+		.word word_146C40-Map_146620/*  27 */
+		.word word_146C5A-Map_146620/*  28 */
+		.word word_146C74-Map_146620/*  29 */
+		.word word_146C8E-Map_146620/*  30 */
+		.word word_146CA8-Map_146620/*  31 */
+		.word word_146CC2-Map_146620/*  32 */
+		.word word_146CDC-Map_146620/*  33 */
+		.word word_146CEA-Map_146620/*  34 */
+		.word word_146CF8-Map_146620/*  35 */
+		.word word_146D06-Map_146620/*  36 */
+		.word word_146D14-Map_146620/*  37 */
+		.word word_146D2E-Map_146620/*  38 */
+		.word word_146D3C-Map_146620/*  39 */
+		.word word_146D56-Map_146620/*  40 */
+		.word word_146D64-Map_146620/*  41 */
+		.word word_146D72-Map_146620/*  42 */
+		.word word_146D80-Map_146620/*  43 */
+		.word word_146D8E-Map_146620/*  44 */
+		.word word_146D9C-Map_146620/*  45 */
+		.word word_146DB0-Map_146620/*  46 */
+		.word word_146DBE-Map_146620/*  47 */
+		.word word_146DD2-Map_146620/*  48 */
+		.word word_146DE0-Map_146620/*  49 */
+		.word word_146DF4-Map_146620/*  50 */
+		.word word_146E0E-Map_146620/*  51 */
+		.word word_146E28-Map_146620/*  52 */
+		.word word_146E42-Map_146620/*  53 */
+		.word word_146E5C-Map_146620/*  54 */
+		.word word_146E70-Map_146620/*  55 */
+		.word word_146E7E-Map_146620/*  56 */
+		.word word_146E8C-Map_146620/*  57 */
+		.word word_146EA0-Map_146620/*  58 */
+		.word word_146EBA-Map_146620/*  59 */
+		.word word_146EC8-Map_146620/*  60 */
+		.word word_146ED6-Map_146620/*  61 */
+		.word word_146EEA-Map_146620/*  62 */
+		.word word_146EF2-Map_146620/*  63 */
+		.word word_146F06-Map_146620/*  64 */
+		.word word_146F20-Map_146620/*  65 */
+		.word word_146F3A-Map_146620/*  66 */
+		.word word_146F54-Map_146620/*  67 */
+		.word word_146F62-Map_146620/*  68 */
+		.word word_146F6A-Map_146620/*  69 */
+		.word word_146F78-Map_146620/*  70 */
+		.word word_146F80-Map_146620/*  71 */
+		.word word_146F8E-Map_146620/*  72 */
+		.word word_146FA2-Map_146620/*  73 */
+		.word word_146FBC-Map_146620/*  74 */
+		.word word_146FD6-Map_146620/*  75 */
+		.word word_146FEA-Map_146620/*  76 */
+		.word word_146FFE-Map_146620/*  77 */
+		.word word_147012-Map_146620/*  78 */
+		.word word_14701A-Map_146620/*  79 */
+		.word word_147034-Map_146620/*  80 */
+		.word word_14704E-Map_146620/*  81 */
+		.word word_14705C-Map_146620/*  82 */
+		.word word_147070-Map_146620/*  83 */
+		.word word_147084-Map_146620/*  84 */
+		.word word_147092-Map_146620/*  85 */
+		.word word_1470AC-Map_146620/*  86 */
+		.word word_1470C0-Map_146620/*  87 */
+		.word word_1470CE-Map_146620/*  88 */
+		.word word_1470DC-Map_146620/*  89 */
+		.word word_1470F6-Map_146620/*  90 */
+		.word word_14710A-Map_146620/*  91 */
+		.word word_147118-Map_146620/*  92 */
+		.word word_14712C-Map_146620/*  93 */
+		.word word_147134-Map_146620/*  94 */
+		.word word_147142-Map_146620/*  95 */
+		.word word_147156-Map_146620/*  96 */
+		.word word_14715E-Map_146620/*  97 */
+		.word word_14716C-Map_146620/*  98 */
+		.word word_14717A-Map_146620/*  99 */
+		.word word_14718E-Map_146620/*  100 */
+		.word word_147196-Map_146620/*  101 */
+		.word word_1471A4-Map_146620/*  102 */
+		.word word_1471B8-Map_146620/*  103 */
+		.word word_1471C0-Map_146620/*  104 */
+		.word word_1471CE-Map_146620/*  105 */
+		.word word_1471DC-Map_146620/*  106 */
+		.word word_1471F6-Map_146620/*  107 */
+		.word word_14720A-Map_146620/*  108 */
+		.word word_14721E-Map_146620/*  109 */
+		.word word_14722C-Map_146620/*  110 */
+		.word word_147240-Map_146620/*  111 */
+		.word word_147254-Map_146620/*  112 */
+		.word word_147268-Map_146620/*  113 */
+		.word word_147276-Map_146620/*  114 */
+		.word word_147290-Map_146620/*  115 */
+		.word word_1472A4-Map_146620/*  116 */
+		.word word_1472B8-Map_146620/*  117 */
+		.word word_1472C6-Map_146620/*  118 */
+		.word word_1472DA-Map_146620/*  119 */
+		.word word_1472E2-Map_146620/*  120 */
+		.word word_1472FC-Map_146620/*  121 */
+		.word word_147316-Map_146620/*  122 */
+		.word word_14732A-Map_146620/*  123 */
+		.word word_147344-Map_146620/*  124 */
+		.word word_14735E-Map_146620/*  125 */
+		.word word_147378-Map_146620/*  126 */
+		.word word_14738C-Map_146620/*  127 */
+		.word word_1473A6-Map_146620/*  128 */
+		.word word_1473C0-Map_146620/*  129 */
+		.word word_1473DA-Map_146620/*  130 */
+		.word word_1473EE-Map_146620/*  131 */
+		.word word_147408-Map_146620/*  132 */
+		.word word_14741C-Map_146620/*  133 */
+		.word word_14742A-Map_146620/*  134 */
+		.word word_14743E-Map_146620/*  135 */
+		.word word_14744C-Map_146620/*  136 */
+		.word word_14745A-Map_146620/*  137 */
+		.word word_147468-Map_146620/*  138 */
+		.word word_147476-Map_146620/*  139 */
+		.word word_147484-Map_146620/*  140 */
+		.word word_147498-Map_146620/*  141 */
+		.word word_1474AC-Map_146620/*  142 */
+		.word word_1474BA-Map_146620/*  143 */
+		.word word_1474CE-Map_146620/*  144 */
+		.word word_1474E8-Map_146620/*  145 */
+		.word word_147502-Map_146620/*  146 */
+		.word word_14751C-Map_146620/*  147 */
+		.word word_14752A-Map_146620/*  148 */
+		.word word_14754A-Map_146620/*  149 */
+		.word word_14756A-Map_146620/*  150 */
+		.word word_147572-Map_146620/*  151 */
+		.word word_14757A-Map_146620/*  152 */
+		.word word_147582-Map_146620/*  153 */
+		.word word_14758A-Map_146620/*  154 */
+		.word word_147592-Map_146620/*  155 */
+		.word word_1475A0-Map_146620/*  156 */
+		.word word_1475AE-Map_146620/*  157 */
+		.word word_1475C8-Map_146620/*  158 */
+		.word word_1475E2-Map_146620/*  159 */
+		.word word_1475FC-Map_146620/*  160 */
+		.word word_147610-Map_146620/*  161 */
+		.word word_147624-Map_146620/*  162 */
+		.word word_14763E-Map_146620/*  163 */
+		.word word_147652-Map_146620/*  164 */
+		.word word_14766C-Map_146620/*  165 */
+		.word word_147680-Map_146620/*  166 */
+		.word word_14769A-Map_146620/*  167 */
+		.word word_1476AE-Map_146620/*  168 */
+		.word word_1476C2-Map_146620/*  169 */
+		.word word_1476D6-Map_146620/*  170 */
+		.word word_1476EA-Map_146620/*  171 */
+		.word word_1476FE-Map_146620/*  172 */
+		.word word_147718-Map_146620/*  173 */
+		.word word_147732-Map_146620/*  174 */
+		.word word_14774C-Map_146620/*  175 */
+		.word word_147766-Map_146620/*  176 */
+		.word word_147774-Map_146620/*  177 */
+		.word word_147788-Map_146620/*  178 */
+		.word word_14779C-Map_146620/*  179 */
+		.word word_1477B0-Map_146620/*  180 */
+		.word word_1477C4-Map_146620/*  181 */
+		.word word_1477D8-Map_146620/*  182 */
+		.word word_1477EC-Map_146620/*  183 */
+		.word word_147800-Map_146620/*  184 */
+		.word word_147814-Map_146620/*  185 */
+		.word word_147828-Map_146620/*  186 */
+		.word word_147842-Map_146620/*  187 */
+		.word word_147856-Map_146620/*  188 */
+		.word word_147870-Map_146620/*  189 */
+		.word word_14788A-Map_146620/*  190 */
+		.word word_1478A4-Map_146620/*  191 */
+		.word word_1478BE-Map_146620/*  192 */
+		.word word_1478D8-Map_146620/*  193 */
+		.word word_1478E6-Map_146620/*  194 */
+		.word word_147900-Map_146620/*  195 */
+		.word word_14791A-Map_146620/*  196 */
+		.word word_147934-Map_146620/*  197 */
+		.word word_147948-Map_146620/*  198 */
+		.word word_147962-Map_146620/*  199 */
+		.word word_14797C-Map_146620/*  200 */
+		.word word_147990-Map_146620/*  201 */
+		.word word_1479A4-Map_146620/*  202 */
+		.word word_1479B2-Map_146620/*  203 */
+		.word word_1479C6-Map_146620/*  204 */
+		.word word_1479DA-Map_146620/*  205 */
+		.word word_1479E8-Map_146620/*  206 */
+		.word word_1479F6-Map_146620/*  207 */
+		.word word_147A04-Map_146620/*  208 */
+		.word word_147A18-Map_146620/*  209 */
+		.word word_148130-Map_146620/*  210 */
+		.word word_148138-Map_146620/*  211 */
+		.word word_14814C-Map_146620/*  212 */
+		.word word_14815A-Map_146620/*  213 */
+		.word word_14816E-Map_146620/*  214 */
+		.word word_147A2C-Map_146620/*  215 */
+		.word word_147A40-Map_146620/*  216 */
+		.word word_147A54-Map_146620/*  217 */
+		.word word_147A6E-Map_146620/*  218 */
+		.word word_147A6E-Map_146620/*  219 */
+		.word word_147A6E-Map_146620/*  220 */
+		.word word_147A6E-Map_146620/*  221 */
+		.word word_147A6E-Map_146620/*  222 */
+		.word word_147A6E-Map_146620/*  223 */
+		.word word_147A82-Map_146620/*  224 */
+		.word word_147A8A-Map_146620/*  225 */
+		.word word_147A98-Map_146620/*  226 */
+		.word word_147AB2-Map_146620/*  227 */
+		.word word_147ACC-Map_146620/*  228 */
+		.word word_147AE6-Map_146620/*  229 */
+		.word word_147B00-Map_146620/*  230 */
+		.word word_147B14-Map_146620/*  231 */
+		.word word_147B22-Map_146620/*  232 */
+		.word word_147B3C-Map_146620/*  233 */
+		.word word_147B50-Map_146620/*  234 */
+		.word word_147B5E-Map_146620/*  235 */
+		.word word_147B78-Map_146620/*  236 */
+		.word word_147B8C-Map_146620/*  237 */
+		.word word_147BA0-Map_146620/*  238 */
+		.word word_147BBA-Map_146620/*  239 */
+		.word word_147BC8-Map_146620/*  240 */
+		.word word_147BDC-Map_146620/*  241 */
+		.word word_147BEA-Map_146620/*  242 */
+		.word word_147BF8-Map_146620/*  243 */
+		.word word_147C06-Map_146620/*  244 */
+		.word word_147C20-Map_146620/*  245 */
+		.word word_147C34-Map_146620/*  246 */
+		.word word_147C42-Map_146620/*  247 */
+		.word word_147C50-Map_146620/*  248 */
+		.word word_147C64-Map_146620/*  249 */
+		.word word_147C72-Map_146620/*  250 */
+Map_146816:	
+Map_SuperSonic:
+		.word word_146A0C-Map_146816						
+		.word word_147C80-Map_146816
+		.word word_147C94-Map_146816
+		.word word_147CA8-Map_146816
+		.word word_147CBC-Map_146816
+		.word word_147CD0-Map_146816
+		.word word_147CEA-Map_146816
+		.word word_147D04-Map_146816
+		.word word_147D18-Map_146816
+		.word word_147D26-Map_146816
+		.word word_147D40-Map_146816
+		.word word_147D5A-Map_146816
+		.word word_147D74-Map_146816
+		.word word_147D8E-Map_146816
+		.word word_147DA8-Map_146816
+		.word word_147DC2-Map_146816
+		.word word_147DDC-Map_146816
+		.word word_147DF6-Map_146816
+		.word word_147E0A-Map_146816
+		.word word_147E1E-Map_146816
+		.word word_147E32-Map_146816
+		.word word_147E46-Map_146816
+		.word word_147E60-Map_146816
+		.word word_147E7A-Map_146816
+		.word word_147E8E-Map_146816
+		.word word_147E9C-Map_146816
+		.word word_147EB6-Map_146816
+		.word word_147ED0-Map_146816
+		.word word_147EEA-Map_146816
+		.word word_147F04-Map_146816
+		.word word_147F1E-Map_146816
+		.word word_147F38-Map_146816
+		.word word_147F52-Map_146816
+		.word word_147F6C-Map_146816
+		.word word_147F86-Map_146816
+		.word word_147F6C-Map_146816
+		.word word_147F86-Map_146816
+		.word word_147FA0-Map_146816
+		.word word_147FBA-Map_146816
+		.word word_147FA0-Map_146816
+		.word word_147FBA-Map_146816
+		.word word_147FD4-Map_146816
+		.word word_147FEE-Map_146816
+		.word word_147FD4-Map_146816
+		.word word_147FEE-Map_146816
+		.word word_148008-Map_146816
+		.word word_148022-Map_146816
+		.word word_148008-Map_146816
+		.word word_148022-Map_146816
+		.word word_146DE0-Map_146816
+		.word word_146DF4-Map_146816
+		.word word_146E0E-Map_146816
+		.word word_146E28-Map_146816
+		.word word_146E42-Map_146816
+		.word word_146E5C-Map_146816
+		.word word_146E70-Map_146816
+		.word word_146E7E-Map_146816
+		.word word_146E8C-Map_146816
+		.word word_146EA0-Map_146816
+		.word word_146EBA-Map_146816
+		.word word_146EC8-Map_146816
+		.word word_146ED6-Map_146816
+		.word word_146EEA-Map_146816
+		.word word_146EF2-Map_146816
+		.word word_146F06-Map_146816
+		.word word_146F20-Map_146816
+		.word word_146F3A-Map_146816
+		.word word_146F54-Map_146816
+		.word word_146F62-Map_146816
+		.word word_146F6A-Map_146816
+		.word word_146F78-Map_146816
+		.word word_146F80-Map_146816
+		.word word_146F8E-Map_146816
+		.word word_146FA2-Map_146816
+		.word word_146FBC-Map_146816
+		.word word_146FD6-Map_146816
+		.word word_146FEA-Map_146816
+		.word word_146FFE-Map_146816
+		.word word_147012-Map_146816
+		.word word_14701A-Map_146816
+		.word word_147034-Map_146816
+		.word word_14704E-Map_146816
+		.word word_14705C-Map_146816
+		.word word_147070-Map_146816
+		.word word_147084-Map_146816
+		.word word_147092-Map_146816
+		.word word_1470AC-Map_146816
+		.word word_1470C0-Map_146816
+		.word word_1470CE-Map_146816
+		.word word_1470DC-Map_146816
+		.word word_1470F6-Map_146816
+		.word word_14710A-Map_146816
+		.word word_147118-Map_146816
+		.word word_14712C-Map_146816
+		.word word_147134-Map_146816
+		.word word_147142-Map_146816
+		.word word_147156-Map_146816
+		.word word_14715E-Map_146816
+		.word word_14716C-Map_146816
+		.word word_14717A-Map_146816
+		.word word_14718E-Map_146816
+		.word word_147196-Map_146816
+		.word word_1471A4-Map_146816
+		.word word_1471B8-Map_146816
+		.word word_1471C0-Map_146816
+		.word word_1471CE-Map_146816
+		.word word_1471DC-Map_146816
+		.word word_1471F6-Map_146816
+		.word word_14720A-Map_146816
+		.word word_14721E-Map_146816
+		.word word_14722C-Map_146816
+		.word word_147240-Map_146816
+		.word word_147254-Map_146816
+		.word word_147268-Map_146816
+		.word word_147276-Map_146816
+		.word word_147290-Map_146816
+		.word word_1472A4-Map_146816
+		.word word_1472B8-Map_146816
+		.word word_1472C6-Map_146816
+		.word word_1472DA-Map_146816
+		.word word_1472E2-Map_146816
+		.word word_1472FC-Map_146816
+		.word word_147316-Map_146816
+		.word word_14732A-Map_146816
+		.word word_147344-Map_146816
+		.word word_14735E-Map_146816
+		.word word_147378-Map_146816
+		.word word_14738C-Map_146816
+		.word word_1473A6-Map_146816
+		.word word_1473C0-Map_146816
+		.word word_1473DA-Map_146816
+		.word word_1473EE-Map_146816
+		.word word_147408-Map_146816
+		.word word_14741C-Map_146816
+		.word word_14742A-Map_146816
+		.word word_14743E-Map_146816
+		.word word_14744C-Map_146816
+		.word word_14745A-Map_146816
+		.word word_147468-Map_146816
+		.word word_147476-Map_146816
+		.word word_147484-Map_146816
+		.word word_147498-Map_146816
+		.word word_1474AC-Map_146816
+		.word word_1474BA-Map_146816
+		.word word_1474CE-Map_146816
+		.word word_1474E8-Map_146816
+		.word word_147502-Map_146816
+		.word word_14751C-Map_146816
+		.word word_14752A-Map_146816
+		.word word_14754A-Map_146816
+		.word word_14756A-Map_146816
+		.word word_147572-Map_146816
+		.word word_14757A-Map_146816
+		.word word_147582-Map_146816
+		.word word_14758A-Map_146816
+		.word word_14803C-Map_146816
+		.word word_14803C-Map_146816
+		.word word_1475AE-Map_146816
+		.word word_1475C8-Map_146816
+		.word word_1475E2-Map_146816
+		.word word_1475FC-Map_146816
+		.word word_14804A-Map_146816
+		.word word_148064-Map_146816
+		.word word_14807E-Map_146816
+		.word word_14804A-Map_146816
+		.word word_148064-Map_146816
+		.word word_14807E-Map_146816
+		.word word_14769A-Map_146816
+		.word word_1476AE-Map_146816
+		.word word_1476C2-Map_146816
+		.word word_1476D6-Map_146816
+		.word word_1476EA-Map_146816
+		.word word_1476FE-Map_146816
+		.word word_147718-Map_146816
+		.word word_147732-Map_146816
+		.word word_14774C-Map_146816
+		.word word_147766-Map_146816
+		.word word_147774-Map_146816
+		.word word_147788-Map_146816
+		.word word_14779C-Map_146816
+		.word word_1477B0-Map_146816
+		.word word_1477C4-Map_146816
+		.word word_148098-Map_146816
+		.word word_1480AC-Map_146816
+		.word word_1480C0-Map_146816
+		.word word_1480D4-Map_146816
+		.word word_1480E8-Map_146816
+		.word word_148102-Map_146816
+		.word word_14811C-Map_146816
+		.word word_1480E8-Map_146816
+		.word word_148102-Map_146816
+		.word word_14811C-Map_146816
+		.word word_1480E8-Map_146816
+		.word word_148102-Map_146816
+		.word word_14811C-Map_146816
+		.word word_147900-Map_146816
+		.word word_14791A-Map_146816
+		.word word_1480E8-Map_146816
+		.word word_148102-Map_146816
+		.word word_14811C-Map_146816
+		.word word_14797C-Map_146816
+		.word word_147990-Map_146816
+		.word word_1479A4-Map_146816
+		.word word_1479B2-Map_146816
+		.word word_1479C6-Map_146816
+		.word word_1479DA-Map_146816
+		.word word_1479E8-Map_146816
+		.word word_1479F6-Map_146816
+		.word word_147A04-Map_146816
+		.word word_147A18-Map_146816
+		.word word_148130-Map_146816
+		.word word_148138-Map_146816
+		.word word_14814C-Map_146816
+		.word word_14815A-Map_146816
+		.word word_14816E-Map_146816
+		.word word_147A2C-Map_146816
+		.word word_147A40-Map_146816
+		.word word_147A54-Map_146816
+		.word word_147A6E-Map_146816
+		.word word_147A6E-Map_146816
+		.word word_147A6E-Map_146816
+		.word word_147A6E-Map_146816
+		.word word_147A6E-Map_146816
+		.word word_147A6E-Map_146816
+		.word word_147A82-Map_146816
+		.word word_147A8A-Map_146816
+		.word word_147A98-Map_146816
+		.word word_147AB2-Map_146816
+		.word word_147ACC-Map_146816
+		.word word_147AE6-Map_146816
+		.word word_147B00-Map_146816
+		.word word_147B14-Map_146816
+		.word word_147B22-Map_146816
+		.word word_147B3C-Map_146816
+		.word word_147B50-Map_146816
+		.word word_147B5E-Map_146816
+		.word word_147B78-Map_146816
+		.word word_147B8C-Map_146816
+		.word word_147BA0-Map_146816
+		.word word_147BBA-Map_146816
+		.word word_147BC8-Map_146816
+		.word word_147BDC-Map_146816
+		.word word_147BEA-Map_146816
+		.word word_147BF8-Map_146816
+		.word word_147C06-Map_146816
+		.word word_147C20-Map_146816
+		.word word_147C34-Map_146816
+		.word word_147C42-Map_146816
+		.word word_147C50-Map_146816
+		.word word_147C64-Map_146816
+		.word word_147C72-Map_146816
+word_146A0C:	.word 0			
+					
+word_146A0E:	.word 3			
+		.byte  0xEC,  0xD,	  0,   0, 0xFF, 0xEC
+		.byte  0xFC,   6,	  0,   8,   0,	 4
+		.byte  0xFC,  0xA,	  0,  0xE, 0xFF, 0xEC
+word_146A22:	.word 3			
+		.byte  0xFD,  0xE,	  0,   0, 0xFF, 0xEC
+		.byte	5,   1,	  0,  0xC,   0,	0xC
+		.byte  0xED,  0xD,	  0,  0xE, 0xFF, 0xEC
+word_146A36:	.word 3			
+		.byte  0xFE,  0xA,	  0,   0, 0xFF, 0xF4
+		.byte  0xF6,  0xC,	  0,   9, 0xFF, 0xEC
+		.byte  0xEE,   8,	  0,  0xD, 0xFF, 0xF4
+word_146A4A:	.word 2			
+		.byte  0xFC,  0xE,	  0,   0, 0xFF, 0xEE
+		.byte  0xEC,   9,	  0,  0xC, 0xFF, 0xF4
+word_146A58:	.word 3			
+		.byte  0xFC,  0xE,	  0,   0, 0xFF, 0xEE
+		.byte  0xFC,   1,	  0,  0xC,   0,	0xE
+		.byte  0xEC,   9,	  0,  0xE, 0xFF, 0xF4
+word_146A6C:	.word 3			
+		.byte  0xFD,  0xE,	  0,   0, 0xFF, 0xED
+		.byte	5,   1,	  0,  0xC,   0,	0xD
+		.byte  0xED,   9,	  0,  0xE, 0xFF, 0xF4
+word_146A80:	.word 3			
+		.byte  0xFE,  0xA,	  0,   0, 0xFF, 0xF4
+		.byte  0xF6,  0xC,	  0,   9, 0xFF, 0xEC
+		.byte  0xEE,   8,	  0,  0xD, 0xFF, 0xF4
+word_146A94:	.word 2			
+		.byte  0xFC,  0xA,	  0,   0, 0xFF, 0xF4
+		.byte  0xEC,  0xD,	  0,   9, 0xFF, 0xEC
+word_146AA2:	.word 4			
+		.byte  0xFD,  0xB,	  0,   0, 0xFF, 0xFB
+		.byte  0xED,  0xD,	  0,  0xC, 0xFF, 0xEB
+		.byte  0xF5,   0,	  0, 0x14,   0,	0xB
+		.byte  0xFD,   5,	  0, 0x15, 0xFF, 0xEB
+word_146ABC:	.word 4			
+		.byte	2,  0xE,	  0,   0, 0xFF, 0xFC
+		.byte  0xF2,  0xD,	  0,  0xC, 0xFF, 0xEC
+		.byte  0xFA,   4,	  0, 0x14,   0,	0xC
+		.byte	2,   4,	  0, 0x16, 0xFF, 0xEC
+word_146AD6:	.word 4			
+		.byte  0xFB,  0xA,	  0,   0, 0xFF, 0xFD
+		.byte  0xEB,   4,	  0,   9, 0xFF, 0xF5
+		.byte  0xF3,  0xC,	  0,  0xB, 0xFF, 0xED
+		.byte  0xFB,   5,	  0,  0xF, 0xFF, 0xED
+word_146AF0:	.word 4			
+		.byte  0xFD,  0xE,	  0,   0, 0xFF, 0xFC
+		.byte  0xED,  0xD,	  0,  0xC, 0xFF, 0xEC
+		.byte  0xFD,   4,	  0, 0x14, 0xFF, 0xEC
+		.byte	5,   0,	  0, 0x16, 0xFF, 0xF4
+word_146B0A:	.word 4			
+		.byte  0xFE,  0xB,	  0,   0, 0xFF, 0xFC
+		.byte  0xEE,  0xD,	  0,  0xC, 0xFF, 0xEC
+		.byte  0xEE,   1,	  0, 0x14,   0,	0xC
+		.byte  0xFE,   6,	  0, 0x16, 0xFF, 0xEC
+word_146B24:	.word 4			
+		.byte  0xFC,  0xF,	  0,   0, 0xFF, 0xFB
+		.byte  0xEC,   9,	  0, 0x10, 0xFF, 0xEB
+		.byte  0xF4,   8,	  0, 0x16,   0,	 3
+		.byte  0xFC,   5,	  0, 0x19, 0xFF, 0xEB
+word_146B3E:	.word 4			
+		.byte  0xFF,  0xA,	  0,   0, 0xFF, 0xFA
+		.byte  0xEF,  0xD,	  0,   9, 0xFF, 0xEA
+		.byte  0xFF,   4,	  0, 0x11, 0xFF, 0xEA
+		.byte	7,   0,	  0, 0x13, 0xFF, 0xF2
+word_146B58:	.word 4			
+		.byte  0xFE,  0xA,	  0,   0, 0xFF, 0xFC
+		.byte  0xEE,   8,	  0,   9, 0xFF, 0xEC
+		.byte  0xF6,  0xC,	  0,  0xC, 0xFF, 0xEC
+		.byte  0xFE,   5,	  0, 0x10, 0xFF, 0xEC
+word_146B72:	.word 3			
+		.byte  0xED,   9,	  0,   0, 0xFF, 0xFC
+		.byte  0xFD,  0xA,	  0,   6, 0xFF, 0xFC
+		.byte  0xF5,   7,	  0,  0xF, 0xFF, 0xEC
+word_146B86:	.word 3			
+		.byte  0xF5,  0xB,	  0,   0, 0xFF, 0xFC
+		.byte  0xED,   4,	  0,  0xC,   0,	 4
+		.byte  0xF5,   7,	  0,  0xE, 0xFF, 0xEC
+word_146B9A:	.word 3			
+		.byte  0xF5,  0xA,	  0,   0, 0xFF, 0xFC
+		.byte  0xF5,   6,	  0,   9, 0xFF, 0xEC
+		.byte   0xD,   0,	  0,  0xF, 0xFF, 0xF4
+word_146BAE:	.word 2			
+		.byte  0xF3,  0xB,	  0,   0, 0xFF, 0xFC
+		.byte  0xF3,   7,	  0,  0xC, 0xFF, 0xEC
+word_146BBC:	.word 3			
+		.byte  0xEB,   4,	  0,   0, 0xFF, 0xFC
+		.byte  0xF3,  0xB,	  0,   2, 0xFF, 0xFC
+		.byte  0xF3,   7,	  0,  0xE, 0xFF, 0xEC
+word_146BD0:	.word 4			
+		.byte  0xEC,   4,	  0,   0,   0,	 4
+		.byte  0xF4,  0xB,	  0,   2, 0xFF, 0xFC
+		.byte  0xF4,   6,	  0,  0xE, 0xFF, 0xEC
+		.byte   0xC,   0,	  0, 0x14, 0xFF, 0xF4
+word_146BEA:	.word 3			
+		.byte  0xF5,  0xA,	  0,   0, 0xFF, 0xFC
+		.byte  0xF5,   6,	  0,   9, 0xFF, 0xEC
+		.byte   0xD,   0,	  0,  0xF, 0xFF, 0xF4
+word_146BFE:	.word 2			
+		.byte  0xF5,  0xA,	  0,   0, 0xFF, 0xFC
+		.byte  0xF5,   7,	  0,   9, 0xFF, 0xEC
+word_146C0C:	.word 4			
+		.byte  0xEF,  0xE,	  0,   0, 0xFF, 0xFE
+		.byte  0xEF,   6,	  0,  0xC, 0xFF, 0xEE
+		.byte	7,  0xC,	  0, 0x12, 0xFF, 0xEE
+		.byte   0xF,   8,	  0, 0x16, 0xFF, 0xEE
+word_146C26:	.word 4			
+		.byte  0xE7,  0xB,	  0,   0,   0,	 0
+		.byte  0xE7,   1,	  0,  0xC, 0xFF, 0xF8
+		.byte  0xF7,   5,	  0,  0xE, 0xFF, 0xF0
+		.byte	7,   9,	  0, 0x12, 0xFF, 0xF0
+word_146C40:	.word 4			
+		.byte  0xEF,  0xA,	  0,   0, 0xFF, 0xFD
+		.byte  0xF7,   5,	  0,   9, 0xFF, 0xED
+		.byte	7,  0xC,	  0,  0xD, 0xFF, 0xED
+		.byte   0xF,   4,	  0, 0x11, 0xFF, 0xF5
+word_146C5A:	.word 4			
+		.byte  0xE7,  0xB,	  0,   0,   0,	 0
+		.byte  0xF7,   5,	  0,  0xC, 0xFF, 0xF0
+		.byte	7,  0xC,	  0, 0x10, 0xFF, 0xF0
+		.byte   0xF,   8,	  0, 0x14, 0xFF, 0xF0
+word_146C74:	.word 4			
+		.byte  0xEE,  0xE,	  0,   0, 0xFF, 0xFF
+		.byte  0xEE,   6,	  0,  0xC, 0xFF, 0xEF
+		.byte	6,  0xD,	  0, 0x12, 0xFF, 0xEF
+		.byte	6,   0,	  0, 0x1A,   0,	0xF
+word_146C8E:	.word 4			
+		.byte  0xE8,  0xF,	  0,   0, 0xFF, 0xFF
+		.byte  0xE8,   2,	  0, 0x10, 0xFF, 0xF7
+		.byte	0,   4,	  0, 0x13, 0xFF, 0xEF
+		.byte	8,  0xD,	  0, 0x15, 0xFF, 0xEF
+word_146CA8:	.word 4			
+		.byte  0xEE,  0xA,	  0,   0, 0xFF, 0xFE
+		.byte  0xF6,   5,	  0,   9, 0xFF, 0xEE
+		.byte	6,  0xC,	  0,  0xD, 0xFF, 0xEE
+		.byte   0xE,   8,	  0, 0x11, 0xFF, 0xEE
+word_146CC2:	.word 4			
+		.byte  0xEE,  0xA,	  0,   0, 0xFF, 0xFE
+		.byte  0xF6,   5,	  0,   9, 0xFF, 0xEE
+		.byte	6,  0xC,	  0,  0xD, 0xFF, 0xEE
+		.byte   0xE,   8,	  0, 0x11, 0xFF, 0xEE
+word_146CDC:	.word 2			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF8
+		.byte  0xF4,  0xF,	  0,   3, 0xFF, 0xF0
+word_146CEA:	.word 2			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF8
+		.byte  0xF4,  0xF,	  0,   3, 0xFF, 0xF0
+word_146CF8:	.word 2			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF8
+		.byte  0xF4,  0xF,	  0,   3, 0xFF, 0xF0
+word_146D06:	.word 2			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF8
+		.byte  0xF4,  0xF,	  0,   3, 0xFF, 0xF0
+word_146D14:	.word 4			
+		.byte  0xEF,  0xE,	  0,   0, 0xFF, 0xED
+		.byte  0xFF,   0,	  0,  0xC,   0,	0xD
+		.byte	7,  0xC,	  0,  0xD, 0xFF, 0xF5
+		.byte   0xF,   8,	  0, 0x11, 0xFF, 0xF5
+word_146D2E:	.word 2			
+		.byte  0xEE,   8,	  0,   0, 0xFF, 0xF0
+		.byte  0xF6,  0xF,	  0,   3, 0xFF, 0xF0
+word_146D3C:	.word 4			
+		.byte  0xEF,  0xE,	  0,   0, 0xFF, 0xED
+		.byte  0xFF,   0,	  0,  0xC,   0,	0xD
+		.byte	7,  0xC,	  0,  0xD, 0xFF, 0xF5
+		.byte   0xF,   8,	  0, 0x11, 0xFF, 0xF5
+word_146D56:	.word 2			
+		.byte  0xEE,   8,	  0,   0, 0xFF, 0xF0
+		.byte  0xF6,  0xF,	  0,   3, 0xFF, 0xF0
+word_146D64:	.word 2			
+		.byte  0xF0,   2,	  0,   0, 0xFF, 0xEC
+		.byte  0xF0,  0xF,	  0,   3, 0xFF, 0xF4
+word_146D72:	.word 2			
+		.byte  0xF0,   2,	  0,   0, 0xFF, 0xEC
+		.byte  0xF0,  0xF,	  0,   3, 0xFF, 0xF4
+word_146D80:	.word 2			
+		.byte  0xF0,   2,	  0,   0, 0xFF, 0xEC
+		.byte  0xF0,  0xF,	  0,   3, 0xFF, 0xF4
+word_146D8E:	.word 2			
+		.byte  0xF0,   2,	  0,   0, 0xFF, 0xEC
+		.byte  0xF0,  0xF,	  0,   3, 0xFF, 0xF4
+word_146D9C:	.word 3			
+		.byte  0xEA,   4,	  0,   0, 0xFF, 0xFE
+		.byte  0xF2,  0xB,	  0,   2, 0xFF, 0xEE
+		.byte  0xF2,   6,	  0,  0xE,   0,	 6
+word_146DB0:	.word 2			
+		.byte  0xF7,   2,	  0,   0, 0xFF, 0xED
+		.byte  0xEF,  0xF,	  0,   3, 0xFF, 0xF5
+word_146DBE:	.word 3			
+		.byte  0xEA,   4,	  0,   0, 0xFF, 0xFE
+		.byte  0xF2,  0xB,	  0,   2, 0xFF, 0xEE
+		.byte  0xF2,   6,	  0,  0xE,   0,	 6
+word_146DD2:	.word 2			
+		.byte  0xF7,   2,	  0,   0, 0xFF, 0xED
+		.byte  0xEF,  0xF,	  0,   3, 0xFF, 0xF5
+word_146DE0:	.word 3			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF2
+		.byte  0xF4,  0xE,	  0,   3, 0xFF, 0xF2
+		.byte   0xC,   8,	  0,  0xF, 0xFF, 0xF2
+word_146DF4:	.word 4			
+					
+		.byte  0xEA,   9,	  0,   0, 0xFF, 0xF3
+		.byte  0xFA,  0xC,	  0,   6, 0xFF, 0xF3
+		.byte	2,   8,	  0,  0xA, 0xFF, 0xF3
+		.byte   0xA,   4,	  0,  0xD, 0xFF, 0xFB
+word_146E0E:	.word 4			
+					
+		.byte  0xF0,   4,	  0,   0, 0xFF, 0xF9
+		.byte  0xF8,   8,	  0,   2, 0xFF, 0xF1
+		.byte	0,  0xC,	  0,   5, 0xFF, 0xF1
+		.byte	8,   4,	  0,   9, 0xFF, 0xF9
+word_146E28:	.word 4			
+					
+		.byte  0xEF,   8,	  0,   0, 0xFF, 0xF9
+		.byte  0xF7,  0xC,	  0,   3, 0xFF, 0xF1
+		.byte  0xFF,   8,	  0,   7, 0xFF, 0xF1
+		.byte	7,  0xC,	  0,  0xA, 0xFF, 0xF1
+word_146E42:	.word 4			
+					
+		.byte  0xEF,   4,	  0,   0, 0xFF, 0xF4
+		.byte  0xF7,   8,	  0,   2, 0xFF, 0xF4
+		.byte  0xFF,  0xC,	  0,   5, 0xFF, 0xF4
+		.byte	7,   8,	  0,   9, 0xFF, 0xF4
+word_146E5C:	.word 3			
+					
+		.byte  0xEA,   4,	  0,   0, 0xFF, 0xF9
+		.byte  0xF2,  0xD,	  0,   2, 0xFF, 0xF1
+		.byte	2,   9,	  0,  0xA, 0xFF, 0xF1
+word_146E70:	.word 2			
+					
+		.byte  0xEC,  0xF,	  0,   0, 0xFF, 0xF0
+		.byte   0xC,   8,	  0, 0x10, 0xFF, 0xF0
+word_146E7E:	.word 2			
+					
+		.byte  0xEE,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte   0xE,   0,	  0,  0xC, 0xFF, 0xFC
+word_146E8C:	.word 3			
+					
+		.byte  0xEE,   4,	  0,   0, 0xFF, 0xF0
+		.byte  0xF6,  0xD,	  0,   2, 0xFF, 0xF0
+		.byte	6,   8,	  0,  0xA, 0xFF, 0xF0
+word_146EA0:	.word 4			
+					
+		.byte  0xF0,   8,	  0,   0, 0xFF, 0xF5
+		.byte  0xF8,  0xC,	  0,   3, 0xFF, 0xED
+		.byte	0,   8,	  0,   7, 0xFF, 0xF5
+		.byte	8,   4,	  0,  0xA, 0xFF, 0xF5
+word_146EBA:	.word 2			
+					
+		.byte  0xEC,  0xA,	  0,   0, 0xFF, 0xF4
+		.byte	4,   5,	  0,   9, 0xFF, 0xFC
+word_146EC8:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte   0xC,   8,	  0,  0xC, 0xFF, 0xF4
+word_146ED6:	.word 3			
+					
+		.byte  0xE6,   0,	  0,   0, 0xFF, 0xFA
+		.byte  0xEE,  0xB,	  0,   1, 0xFF, 0xF2
+		.byte   0xE,   8,	  0,  0xD, 0xFF, 0xF2
+word_146EEA:	.word 1			
+					
+		.byte  0xF0,  0xB,	  0,   0, 0xFF, 0xF3
+word_146EF2:	.word 3			
+					
+		.byte  0xF1,   8,	  0,   0, 0xFF, 0xEF
+		.byte  0xF9,  0xD,	  0,   3, 0xFF, 0xEF
+		.byte	9,   4,	  0,  0xB, 0xFF, 0xF7
+word_146F06:	.word 4			
+					
+		.byte  0xF2,   8,	  0,   0, 0xFF, 0xF8
+		.byte  0xFA,  0xC,	  0,   3, 0xFF, 0xF0
+		.byte	2,   8,	  0,   7, 0xFF, 0xF0
+		.byte   0xA,   4,	  0,  0xA, 0xFF, 0xF8
+word_146F20:	.word 4			
+					
+		.byte  0xEF,   9,	  0,   0, 0xFF, 0xF8
+		.byte  0xFF,  0xC,	  0,   6, 0xFF, 0xF0
+		.byte	7,   8,	  0,  0xA, 0xFF, 0xF0
+		.byte   0xF,   4,	  0,  0xD, 0xFF, 0xF8
+word_146F3A:	.word 4			
+					
+		.byte  0xEC,   9,	  0,   0, 0xFF, 0xF8
+		.byte  0xFC,   8,	  0,   6, 0xFF, 0xF0
+		.byte	4,  0xC,	  0,   9, 0xFF, 0xF0
+		.byte   0xC,   8,	  0,  0xD, 0xFF, 0xF0
+word_146F54:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF5
+		.byte   0xC,   8,	  0,  0xC, 0xFF, 0xF5
+word_146F62:	.word 1			
+					
+		.byte  0xF0,  0xB,	  0,   0, 0xFF, 0xF4
+word_146F6A:	.word 2			
+					
+		.byte  0xF6,  0xD,	  0,   0, 0xFF, 0xF2
+		.byte	6,   8,	  0,   8, 0xFF, 0xF2
+word_146F78:	.word 1			
+					
+		.byte  0xF3,  0xB,	  0,   0, 0xFF, 0xF3
+word_146F80:	.word 2			
+					
+		.byte  0xEB,   4,	  0,   0, 0xFF, 0xFB
+		.byte  0xF3,  0xB,	  0,   2, 0xFF, 0xF3
+word_146F8E:	.word 3			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF0
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xF0
+		.byte	4,   9,	  0,  0xB, 0xFF, 0xF8
+word_146FA2:	.word 4			
+					
+		.byte  0xE8,  0xA,	  0,   0, 0xFF, 0xFC
+		.byte  0xF0,   5,	  0,   9, 0xFF, 0xEC
+		.byte	0,  0xC,	  0,  0xD, 0xFF, 0xEC
+		.byte	8,   8,	  0, 0x11, 0xFF, 0xF4
+word_146FBC:	.word 4			
+					
+		.byte  0xEA,   8,	  0,   0, 0xFF, 0xFA
+		.byte  0xF2,  0xD,	  0,   3, 0xFF, 0xF2
+		.byte	2,   8,	  0,  0xB, 0xFF, 0xF2
+		.byte   0xA,   5,	  0,  0xE, 0xFF, 0xF2
+word_146FD6:	.word 3			
+					
+		.byte  0xEB,   9,	  0,   0, 0xFF, 0xF8
+		.byte  0xFB,  0xC,	  0,   6, 0xFF, 0xF0
+		.byte	3,   8,	  0,  0xA, 0xFF, 0xF8
+word_146FEA:	.word 3			
+					
+		.byte  0xF1,   8,	  0,   0, 0xFF, 0xF3
+		.byte  0xF9,  0xD,	  0,   3, 0xFF, 0xF3
+		.byte	9,   8,	  0,  0xB, 0xFF, 0xF3
+word_146FFE:	.word 3			
+					
+		.byte  0xEE,   4,	  0,   0, 0xFF, 0xFB
+		.byte  0xF6,  0xD,	  0,   2, 0xFF, 0xF3
+		.byte	6,   4,	  0,  0xA, 0xFF, 0xFB
+word_147012:	.word 1			
+					
+		.byte  0xF2,  0xF,	  0,   0, 0xFF, 0xEE
+word_14701A:	.word 4			
+					
+		.byte  0xEA,   0,	  0,   0,   0,	 2
+		.byte  0xF2,  0xD,	  0,   1, 0xFF, 0xF2
+		.byte  0xFA,   0,	  0,   9, 0xFF, 0xEA
+		.byte	2,  0xD,	  0,  0xA, 0xFF, 0xEA
+word_147034:	.word 4			
+					
+		.byte  0xEC,   4,	  0,   0, 0xFF, 0xFB
+		.byte  0xF4,   8,	  0,   2, 0xFF, 0xF3
+		.byte  0xFC,  0xA,	  0,   5, 0xFF, 0xEB
+		.byte  0xFC,   5,	  0,  0xE,   0,	 3
+word_14704E:	.word 2			
+					
+		.byte  0xED,   4,	  0,   0, 0xFF, 0xFF
+		.byte  0xF5,  0xE,	  0,   2, 0xFF, 0xEF
+word_14705C:	.word 3			
+					
+		.byte  0xEF,   4,	  0,   0, 0xFF, 0xFA
+		.byte  0xF7,  0xD,	  0,   2, 0xFF, 0xF2
+		.byte	7,   4,	  0,  0xA, 0xFF, 0xFA
+word_147070:	.word 3			
+					
+		.byte  0xED,   0,	  0,   0,   0,	 0
+		.byte  0xF5,  0xA,	  0,   1, 0xFF, 0xF8
+		.byte  0xFD,   4,	  0,  0xA, 0xFF, 0xE8
+word_147084:	.word 2			
+					
+		.byte  0xF0,  0xF,	  0,   0, 0xFF, 0xEF
+		.byte  0xF8,   0,	  0, 0x10,   0,	0xF
+word_147092:	.word 4			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF0
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xF0
+		.byte	4,   8,	  0,  0xB, 0xFF, 0xF0
+		.byte   0xC,   8,	  0,  0xE, 0xFF, 0xF8
+word_1470AC:	.word 3			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEF
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEF
+		.byte	4,   9,	  0,  0xB, 0xFF, 0xF7
+word_1470C0:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF0
+		.byte   0xC,  0xC,	  0,  0xC, 0xFF, 0xF0
+word_1470CE:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF3
+		.byte   0xC,   8,	  0,  0xC, 0xFF, 0xF3
+word_1470DC:	.word 4			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF7
+		.byte  0xF4,  0xC,	  0,   3, 0xFF, 0xEF
+		.byte  0xFC,   8,	  0,   7, 0xFF, 0xF7
+		.byte	4,  0xD,	  0,  0xA, 0xFF, 0xEF
+word_1470F6:	.word 3			
+					
+		.byte  0xEC,  0xA,	  0,   0, 0xFF, 0xF6
+		.byte	4,  0xC,	  0,   9, 0xFF, 0xEE
+		.byte   0xC,   8,	  0,  0xD, 0xFF, 0xF6
+word_14710A:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF3
+		.byte   0xC,   8,	  0,  0xC, 0xFF, 0xF3
+word_147118:	.word 3			
+					
+		.byte  0xF5,  0xA,	  0,   0, 0xFF, 0xEC
+		.byte  0xF5,   9,	  0,   9,   0,	 4
+		.byte	5,   0,	  0,  0xF,   0, 0x14
+word_14712C:	.word 1			
+					
+		.byte  0xF4,  0xE,	  0,   0, 0xFF, 0xFC
+word_147134:	.word 2			
+					
+		.byte  0xF4,  0xE,	  0,   0, 0xFF, 0xE2
+		.byte  0xF4,   2,	  0,  0xC,   0,	 2
+word_147142:	.word 3			
+					
+		.byte  0xF5,   5,	  0,   0, 0xFF, 0xE5
+		.byte  0xF5,  0xE,	  0,   4, 0xFF, 0xF5
+		.byte	5,   0,	  0, 0x10, 0xFF, 0xE5
+word_147156:	.word 1			
+					
+		.byte  0xF4,  0xE,	  0,   0, 0xFF, 0xF6
+word_14715E:	.word 2			
+					
+		.byte  0xFC,   0,	  0,   0, 0xFF, 0xDA
+		.byte  0xF4,  0xE,	  0,   1, 0xFF, 0xE2
+word_14716C:	.word 2			
+					
+		.byte  0xF0,  0xA,	  0,   0, 0xFF, 0xEC
+		.byte  0xF8,   6,	  0,   9,   0,	 4
+word_14717A:	.word 3			
+					
+		.byte  0xE8,  0xA,	  0,   0, 0xFF, 0xF5
+		.byte	0,   5,	  0,   9, 0xFF, 0xF5
+		.byte  0x10,   8,	  0,  0xD, 0xFF, 0xF5
+word_14718E:	.word 1			
+					
+		.byte  0xF1,  0xB,	  0,   0, 0xFF, 0xF3
+word_147196:	.word 2			
+					
+		.byte  0xEB,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte   0xB,   8,	  0,  0xC, 0xFF, 0xF4
+word_1471A4:	.word 3			
+					
+		.byte  0xE8,   8,	  0,   0, 0xFF, 0xF4
+		.byte  0xF0,   4,	  0,   3, 0xFF, 0xF4
+		.byte  0xF8,  0xB,	  0,   5, 0xFF, 0xF4
+word_1471B8:	.word 1			
+					
+		.byte  0xF0,  0xB,	  0,   0, 0xFF, 0xF2
+word_1471C0:	.word 2			
+					
+		.byte  0xE8,   0,	  0,   0, 0xFF, 0xFA
+		.byte  0xF0,  0xB,	  0,   1, 0xFF, 0xF2
+word_1471CE:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF0
+		.byte   0xC,   8,	  0,  0xC, 0xFF, 0xF8
+word_1471DC:	.word 4			
+					
+		.byte  0xEC,   4,	  0,   0, 0xFF, 0xF0
+		.byte  0xF4,  0xC,	  0,   2, 0xFF, 0xF0
+		.byte  0xFC,   9,	  0,   6, 0xFF, 0xF0
+		.byte   0xC,   4,	  0,  0xC, 0xFF, 0xF8
+word_1471F6:	.word 3			
+					
+		.byte  0xEC,   0,	  0,   0, 0xFF, 0xFB
+		.byte  0xF4,  0xD,	  0,   1, 0xFF, 0xEB
+		.byte	4,   8,	  0,   9, 0xFF, 0xF3
+word_14720A:	.word 3			
+					
+		.byte  0xF0,   0,	  0,   0,   0,	 0
+		.byte  0xF8,  0xD,	  0,   1, 0xFF, 0xF0
+		.byte	8,   8,	  0,   9, 0xFF, 0xF0
+word_14721E:	.word 2			
+					
+		.byte  0xF8,   6,	  0,   0, 0xFF, 0xEC
+		.byte  0xF0,  0xB,	  0,   6, 0xFF, 0xFC
+word_14722C:	.word 3			
+					
+		.byte  0xF0,   0,	  0,   0, 0xFF, 0xFC
+		.byte  0xF8,  0xA,	  0,   1, 0xFF, 0xEC
+		.byte  0xF8,   5,	  0,  0xA,   0,	 4
+word_147240:	.word 3			
+					
+		.byte  0xF0,   4,	  0,   0, 0xFF, 0xF8
+		.byte  0xF8,   9,	  0,   2, 0xFF, 0xF0
+		.byte	8,  0xC,	  0,   8, 0xFF, 0xF0
+word_147254:	.word 3			
+					
+		.byte  0xF0,   9,	  0,   0, 0xFF, 0xF8
+		.byte	0,  0xC,	  0,   6, 0xFF, 0xF0
+		.byte	8,   4,	  0,  0xA,   0,	 0
+word_147268:	.word 2			
+					
+		.byte  0xF0,   0,	  0,   0,   0,	 0
+		.byte  0xF8,  0xE,	  0,   1, 0xFF, 0xF0
+word_147276:	.word 4			
+					
+		.byte  0xF0,   4,	  0,   0, 0xFF, 0xF4
+		.byte  0xF8,   0,	  0,   2, 0xFF, 0xEC
+		.byte	8,   0,	  0,   3, 0xFF, 0xEC
+		.byte  0xF8,  0xE,	  0,   4, 0xFF, 0xF4
+word_147290:	.word 3			
+					
+		.byte  0xF0,   4,	  0,   0, 0xFF, 0xFC
+		.byte  0xF8,  0xE,	  0,   2, 0xFF, 0xEC
+		.byte  0xF8,   2,	  0,  0xE,   0,	0xC
+word_1472A4:	.word 3			
+					
+		.byte  0xF0,   4,	  0,   0, 0xFF, 0xF8
+		.byte  0xF8,  0xD,	  0,   2, 0xFF, 0xF0
+		.byte	8,   8,	  0,  0xA, 0xFF, 0xF8
+word_1472B8:	.word 2			
+					
+		.byte  0xF0,   0,	  0,   0, 0xFF, 0xF4
+		.byte  0xF8,  0xA,	  0,   1, 0xFF, 0xF4
+word_1472C6:	.word 3			
+					
+		.byte  0xF0,   8,	  0,   0, 0xFF, 0xF0
+		.byte  0xF8,  0xD,	  0,   3, 0xFF, 0xF0
+		.byte	8,   8,	  0,  0xB, 0xFF, 0xF0
+word_1472DA:	.word 1			
+					
+		.byte  0xF4,  0xE,	  0,   0, 0xFF, 0xF0
+word_1472E2:	.word 4			
+					
+		.byte  0xE7,  0xC,	  0,   0, 0xFF, 0xEE
+		.byte  0xEF,   8,	  0,   4, 0xFF, 0xEE
+		.byte  0xF7,  0xD,	  0,   7, 0xFF, 0xEE
+		.byte	7,  0xD,	  0,  0xF, 0xFF, 0xF6
+word_1472FC:	.word 4			
+					
+		.byte  0xE6,   4,	  0,   0, 0xFF, 0xE9
+		.byte  0xEE,  0xE,	  0,   2, 0xFF, 0xE1
+		.byte  0xF6,   6,	  0,  0xE,   0,	 1
+		.byte	6,   8,	  0, 0x14, 0xFF, 0xE9
+word_147316:	.word 3			
+					
+		.byte  0xF1,   8,	  0,   0, 0xFF, 0xE6
+		.byte  0xF9,  0xE,	  0,   3, 0xFF, 0xE6
+		.byte  0xE9,   7,	  0,  0xF,   0,	 6
+word_14732A:	.word 4			
+					
+		.byte  0xEE,   8,	  0,   0, 0xFF, 0xF5
+		.byte  0xF6,   4,	  0,   3, 0xFF, 0xFD
+		.byte	6,   1,	  0,   5, 0xFF, 0xE5
+		.byte  0xFE,  0xF,	  0,   7, 0xFF, 0xED
+word_147344:	.word 4			
+					
+		.byte  0x12,  0xC,	0x18,   0, 0xFF, 0xF1
+		.byte   0xA,   8,	0x18,   4, 0xFF, 0xF9
+		.byte  0xFA,  0xD,	0x18,   7, 0xFF, 0xF1
+		.byte  0xEA,  0xD,	0x18,  0xF, 0xFF, 0xE9
+word_14735E:	.word 4			
+					
+		.byte  0x13,   4,	0x18,   0,   0,	 4
+		.byte  0xFB,  0xE,	0x18,   2, 0xFF, 0xFC
+		.byte  0xF3,   6,	0x18,  0xE, 0xFF, 0xEC
+		.byte  0xF3,   8,	0x18, 0x14, 0xFF, 0xFC
+word_147378:	.word 3			
+					
+		.byte	7,   8,	0x18,   0,   0,	 1
+		.byte  0xEF,  0xE,	0x18,   3, 0xFF, 0xF9
+		.byte  0xF7,   7,	0x18,  0xF, 0xFF, 0xE9
+word_14738C:	.word 4			
+					
+		.byte   0xC,   8,	0x18,   0, 0xFF, 0xF3
+		.byte	4,   4,	0x18,   3, 0xFF, 0xF3
+		.byte  0xEC,   1,	0x18,   5,   0, 0x13
+		.byte  0xE4,  0xF,	0x18,   7, 0xFF, 0xF3
+word_1473A6:	.word 4			
+					
+		.byte  0xE8,  0xE,	  0,   0, 0xFF, 0xEF
+		.byte  0xE8,   0,	  0,  0xC,   0,	0xF
+		.byte	0,   4,	  0,  0xD, 0xFF, 0xF7
+		.byte	8,   9,	  0,  0xF, 0xFF, 0xEF
+word_1473C0:	.word 4			
+					
+		.byte  0xE8,  0xC,	  0,   0, 0xFF, 0xEE
+		.byte  0xF0,  0xD,	  0,   4, 0xFF, 0xEE
+		.byte	0,   5,	  0,  0xC, 0xFF, 0xF6
+		.byte  0x10,   8,	  0, 0x10, 0xFF, 0xEE
+word_1473DA:	.word 3			
+					
+		.byte  0xE8,   8,	  0,   0, 0xFF, 0xF4
+		.byte  0xF0,  0xC,	  0,   3, 0xFF, 0xEC
+		.byte  0xF8,  0xB,	  0,   7, 0xFF, 0xF4
+word_1473EE:	.word 4			
+					
+		.byte  0xE8,   0,	  0,   0, 0xFF, 0xEA
+		.byte  0xE8,  0xD,	  0,   1, 0xFF, 0xF2
+		.byte  0xF8,   8,	  0,   9, 0xFF, 0xF2
+		.byte	0,   6,	  0,  0xC, 0xFF, 0xFA
+word_147408:	.word 3			
+					
+		.byte  0xE8,  0xE,	  0,   0, 0xFF, 0xED
+		.byte	0,   9,	  0,  0xC, 0xFF, 0xF5
+		.byte  0x10,   4,	  0, 0x12, 0xFF, 0xF5
+word_14741C:	.word 2			
+					
+		.byte  0xE8,  0xE,	  0,   0, 0xFF, 0xEF
+		.byte	0,   6,	  0,  0xC, 0xFF, 0xF7
+word_14742A:	.word 3			
+					
+		.byte  0xF8,   8,	  0,   0, 0xFF, 0xFC
+		.byte	0,  0xD,	  0,   3, 0xFF, 0xF4
+		.byte  0x10,   8,	  0,  0xB, 0xFF, 0xF4
+word_14743E:	.word 2			
+					
+		.byte  0xF8,  0xE,	  0,   0, 0xFF, 0xF4
+		.byte  0x10,   8,	  0,  0xC, 0xFF, 0xF4
+word_14744C:	.word 2			
+					
+		.byte  0xF8,  0xE,	  0,   0, 0xFF, 0xF4
+		.byte  0x10,   8,	  0,  0xC, 0xFF, 0xF4
+word_14745A:	.word 2			
+					
+		.byte  0xF8,  0xE,	  0,   0, 0xFF, 0xF4
+		.byte  0x10,   8,	  0,  0xC, 0xFF, 0xF4
+word_147468:	.word 2			
+					
+		.byte  0xF8,  0xE,	  0,   0, 0xFF, 0xF4
+		.byte  0x10,   8,	  0,  0xC, 0xFF, 0xF4
+word_147476:	.word 2			
+					
+		.byte  0xF8,  0xE,	  0,   0, 0xFF, 0xF4
+		.byte  0x10,   8,	  0,  0xC, 0xFF, 0xF4
+word_147484:	.word 3			
+					
+		.byte  0xF0,  0xE,	  0,   0, 0xFF, 0xEC
+		.byte  0xF0,   2,	  0,  0xC,   0,	0xC
+		.byte	8,   8,	  0,  0xF, 0xFF, 0xF4
+word_147498:	.word 3			
+					
+		.byte  0xEF,  0xE,	  0,   0, 0xFF, 0xEC
+		.byte  0xEF,   2,	  0,  0xC,   0,	0xC
+		.byte	7,   8,	  0,  0xF, 0xFF, 0xF4
+word_1474AC:	.word 2			
+					
+		.byte  0xE8,  0xB,	  0,   0, 0xFF, 0xF1
+		.byte	8,   5,	  0,  0xC, 0xFF, 0xF9
+word_1474BA:	.word 3			
+					
+		.byte  0xF1,  0xC,	  0,   0, 0xFF, 0xE9
+		.byte  0xF9,   5,	  0,   4, 0xFF, 0xE9
+		.byte  0xF9,  0xA,	  0,   8, 0xFF, 0xF9
+word_1474CE:	.word 4			
+					
+		.byte  0xE8,   9,	  0,   0, 0xFF, 0xF0
+		.byte  0xF8,  0xC,	  0,   6, 0xFF, 0xF0
+		.byte	0,   8,	  0,  0xA, 0xFF, 0xF0
+		.byte	8,   9,	  0,  0xD, 0xFF, 0xF8
+word_1474E8:	.word 4			
+					
+		.byte  0xE6,   9,	  0,   0, 0xFF, 0xF0
+		.byte  0xF6,  0xC,	  0,   6, 0xFF, 0xF0
+		.byte  0xFE,   8,	  0,  0xA, 0xFF, 0xF0
+		.byte	6,  0xD,	  0,  0xD, 0xFF, 0xF8
+word_147502:	.word 4			
+					
+		.byte  0xE8,   8,	  0,   0, 0xFF, 0xF0
+		.byte  0xF0,  0xE,	  0,   3, 0xFF, 0xF0
+		.byte	0,   0,	  0,  0xF,   0, 0x10
+		.byte	8,   4,	  0, 0x10,   0,	 0
+word_14751C:	.word 2			
+					
+		.byte  0xE8,   8,	  0,   0, 0xFF, 0xF0
+		.byte  0xF0,  0xE,	  0,   3, 0xFF, 0xF0
+word_14752A:	.word 5			
+					
+		.byte  0xE8,  0xD,	  0,   0, 0xFF, 0xF2
+		.byte  0xE8,   4,	  0,   8, 0xFF, 0xF7
+		.byte  0xF0,   9,	  0,  0xA, 0xFF, 0xF7
+		.byte	0,   5,	  0, 0x10, 0xFF, 0xF7
+		.byte  0x10,   8,	  0, 0x14, 0xFF, 0xF7
+word_14754A:	.word 5			
+					
+		.byte  0xE8,   8,	  0,   0, 0xFF, 0xF6
+		.byte  0xE8,   4,	  0,   3, 0xFF, 0xF7
+		.byte  0xF0,   9,	  0,   5, 0xFF, 0xF7
+		.byte	0,   5,	  0,  0xB, 0xFF, 0xF7
+		.byte  0x10,   8,	  0,  0xF, 0xFF, 0xF7
+word_14756A:	.word 1			
+					
+		.byte  0xF0,  0xF,	  0,   0, 0xFF, 0xF0
+word_147572:	.word 1			
+					
+		.byte  0xF0,  0xF,	  0,   0, 0xFF, 0xF0
+word_14757A:	.word 1			
+					
+		.byte  0xF0,  0xF,	  0,   0, 0xFF, 0xF0
+word_147582:	.word 1			
+					
+		.byte  0xF0,  0xF,	  0,   0, 0xFF, 0xF0
+word_14758A:	.word 1			
+					
+		.byte  0xF0,  0xF,	  0,   0, 0xFF, 0xF0
+word_147592:	.word 2			
+		.byte  0xEC,   0,	  0,   0,   0,	 0
+		.byte  0xF4,  0xB,	  0,   1, 0xFF, 0xF8
+word_1475A0:	.word 2			
+		.byte  0xF4,   0,	  0,   0,   0,	 3
+		.byte  0xFC,  0xE,	  0,   1, 0xFF, 0xF3
+word_1475AE:	.word 4			
+					
+		.byte  0xEB,  0xA,	  0,   0, 0xFF, 0xF5
+		.byte  0xF3,   1,	  0,   9, 0xFF, 0xED
+		.byte	3,  0xC,	  0,  0xB, 0xFF, 0xF5
+		.byte   0xB,   8,	  0,  0xF, 0xFF, 0xFD
+word_1475C8:	.word 4			
+					
+		.byte  0xEB,  0xA,	  0,   0, 0xFF, 0xF6
+		.byte  0xF3,   1,	  0,   9, 0xFF, 0xEE
+		.byte	3,  0xC,	  0,  0xB, 0xFF, 0xF6
+		.byte   0xB,   8,	  0,  0xF, 0xFF, 0xFE
+word_1475E2:	.word 4			
+					
+		.byte  0xEA,   8,	  0,   0, 0xFF, 0xF9
+		.byte  0xF2,  0xD,	  0,   3, 0xFF, 0xF1
+		.byte	2,   8,	  0,  0xB, 0xFF, 0xF9
+		.byte   0xA,   4,	  0,  0xE,   0,	 1
+word_1475FC:	.word 3			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEF
+		.byte  0xF4,  0xE,	  0,   3, 0xFF, 0xEF
+		.byte   0xC,   8,	  0,  0xF, 0xFF, 0xF7
+word_147610:	.word 3			
+		.byte  0xEC,  0xD,	  0,   0, 0xFF, 0xEB
+		.byte  0xEC,   0,	  0,   8,   0,	0xB
+		.byte  0xFC,  0xA,	  0,   9, 0xFF, 0xEB
+word_147624:	.word 4			
+		.byte  0xE5,   0,	  0,   0, 0xFF, 0xF4
+		.byte  0xED,  0xE,	  0,   1, 0xFF, 0xEC
+		.byte  0xED,   0,	  0,  0xD, 0xFF, 0xE4
+		.byte	5,   9,	  0,  0xE, 0xFF, 0xEC
+word_14763E:	.word 3			
+		.byte  0xE4,   0,	  0,   0, 0xFF, 0xFB
+		.byte  0xEC,  0xF,	  0,   1, 0xFF, 0xEB
+		.byte   0xC,   8,	  0, 0x11, 0xFF, 0xEB
+word_147652:	.word 4			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF2
+		.byte  0xF4,  0xE,	  0,   3, 0xFF, 0xE2
+		.byte  0xF4,   1,	  0,  0xF,   0,	 2
+		.byte   0xC,   8,	  0, 0x11, 0xFF, 0xEA
+word_14766C:	.word 3			
+		.byte  0xEC,  0xF,	  0,   0, 0xFF, 0xEB
+		.byte	4,   0,	  0, 0x10, 0xFF, 0xE3
+		.byte   0xC,   8,	  0, 0x11, 0xFF, 0xEB
+word_147680:	.word 4			
+		.byte  0xED,   8,	  0,   0, 0xFF, 0xF2
+		.byte  0xF5,  0xE,	  0,   3, 0xFF, 0xE2
+		.byte  0xF5,   1,	  0,  0xF,   0,	 2
+		.byte   0xD,   8,	  0, 0x11, 0xFF, 0xEA
+word_14769A:	.word 3			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF8
+		.byte  0xF4,  0xF,	  0,   3, 0xFF, 0xF0
+		.byte  0xF4,   0,	  0, 0x13,   0, 0x10
+word_1476AE:	.word 3			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF8
+		.byte  0xF4,  0xF,	  0,   3, 0xFF, 0xF0
+		.byte  0xF4,   0,	  0, 0x13,   0, 0x10
+word_1476C2:	.word 3			
+					
+		.byte  0xEC,   4,	  0,   0, 0xFF, 0xF8
+		.byte  0xF4,  0xF,	  0,   2, 0xFF, 0xF0
+		.byte  0xF4,   0,	  0, 0x12,   0, 0x10
+word_1476D6:	.word 3			
+					
+		.byte  0xF4,  0xE,	  0,   0, 0xFF, 0xE6
+		.byte  0xF4,   0,	  0,  0xC,   0,	 6
+		.byte  0xFC,   9,	  0,  0xD,   0,	 6
+word_1476EA:	.word 3			
+					
+		.byte  0xF4,  0xE,	  0,   0, 0xFF, 0xE6
+		.byte  0xF4,   0,	  0,  0xC,   0,	 6
+		.byte  0xFC,   9,	  0,  0xD,   0,	 6
+word_1476FE:	.word 4			
+					
+		.byte  0xEC,  0xF,	  0,   0, 0xFF, 0xEC
+		.byte	4,   0,	  0, 0x10,   0,	0xC
+		.byte   0xC,   4,	  0, 0x11, 0xFF, 0xEC
+		.byte   0xC,   4,	  0, 0x13,   0,	 4
+word_147718:	.word 4			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEE
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEE
+		.byte	4,   4,	  0,  0xB, 0xFF, 0xF6
+		.byte   0xC,   8,	  0,  0xD, 0xFF, 0xF6
+word_147732:	.word 4			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEE
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEE
+		.byte	4,   4,	  0,  0xB, 0xFF, 0xF6
+		.byte   0xC,   8,	  0,  0xD, 0xFF, 0xF6
+word_14774C:	.word 4			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEE
+		.byte  0xF4,  0xC,	  0,   3, 0xFF, 0xE6
+		.byte  0xFC,  0xD,	  0,   7, 0xFF, 0xEE
+		.byte   0xC,   8,	  0,  0xF, 0xFF, 0xF6
+word_147766:	.word 2			
+					
+		.byte  0xEC,  0xD,	  0,   0, 0xFF, 0xEA
+		.byte  0xFC,  0xA,	  0,   8, 0xFF, 0xF2
+word_147774:	.word 3			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEF
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEF
+		.byte	4,   9,	  0,  0xB, 0xFF, 0xEF
+word_147788:	.word 3			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEF
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEF
+		.byte	4,   9,	  0,  0xB, 0xFF, 0xEF
+word_14779C:	.word 3			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEF
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEF
+		.byte	4,   9,	  0,  0xB, 0xFF, 0xEF
+word_1477B0:	.word 3			
+					
+		.byte  0xE6,  0xB,	  0,   0, 0xFF, 0xF5
+		.byte	6,   8,	  0,  0xC, 0xFF, 0xF5
+		.byte   0xE,   5,	  0,  0xF, 0xFF, 0xF5
+word_1477C4:	.word 3			
+					
+		.byte  0xE6,  0xB,	  0,   0, 0xFF, 0xF5
+		.byte	6,   8,	  0,  0xC, 0xFF, 0xF5
+		.byte   0xE,   5,	  0,  0xF, 0xFF, 0xF5
+word_1477D8:	.word 3			
+		.byte  0xEC,   4,	  0,   0, 0xFF, 0xFD
+		.byte  0xF4,  0xA,	  0,   2, 0xFF, 0xF5
+		.byte   0xC,  0xC,	  0,  0xB, 0xFF, 0xED
+word_1477EC:	.word 3			
+		.byte  0xEC,   4,	  0,   0, 0xFF, 0xFD
+		.byte  0xF4,  0xA,	  0,   2, 0xFF, 0xF5
+		.byte   0xC,   4,	  0,  0xB, 0xFF, 0xF5
+word_147800:	.word 3			
+		.byte  0xEC,   4,	  0,   0, 0xFF, 0xFD
+		.byte  0xF4,   9,	  0,   2, 0xFF, 0xF5
+		.byte	4,  0xD,	  0,   8, 0xFF, 0xED
+word_147814:	.word 3			
+		.byte  0xEC,   4,	  0,   0, 0xFF, 0xFD
+		.byte  0xF4,  0xA,	  0,   2, 0xFF, 0xF5
+		.byte   0xC,   4,	  0,  0xB, 0xFF, 0xF5
+word_147828:	.word 4			
+		.byte  0xFC,  0xA,	  0,   0, 0xFF, 0xF8
+		.byte  0xEC,   8,	  0,   9, 0xFF, 0xF0
+		.byte  0xF4,  0xC,	  0,  0xC, 0xFF, 0xF0
+		.byte  0xFC,   0,	  0, 0x10, 0xFF, 0xF0
+word_147842:	.word 3			
+		.byte  0xED,   8,	  0,   0, 0xFF, 0xEE
+		.byte  0xF5,  0xD,	  0,   3, 0xFF, 0xEE
+		.byte	5,   9,	  0,  0xB, 0xFF, 0xF6
+word_147856:	.word 4			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEE
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEE
+		.byte	4,   8,	  0,  0xB, 0xFF, 0xEE
+		.byte   0xC,   8,	  0,  0xE, 0xFF, 0xF6
+word_147870:	.word 4			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEE
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEE
+		.byte	4,   8,	  0,  0xB, 0xFF, 0xEE
+		.byte   0xC,   8,	  0,  0xE, 0xFF, 0xF6
+word_14788A:	.word 4			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEE
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEE
+		.byte	4,   8,	  0,  0xB, 0xFF, 0xEE
+		.byte   0xC,   8,	  0,  0xE, 0xFF, 0xF6
+word_1478A4:	.word 4			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEE
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEE
+		.byte	4,   8,	  0,  0xB, 0xFF, 0xEE
+		.byte   0xC,   8,	  0,  0xE, 0xFF, 0xF6
+word_1478BE:	.word 4			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEE
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEE
+		.byte	4,   8,	  0,  0xB, 0xFF, 0xEE
+		.byte   0xC,   8,	  0,  0xE, 0xFF, 0xF6
+word_1478D8:	.word 2			
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF3
+		.byte   0xC,  0xC,	  0,  0xC, 0xFF, 0xF3
+word_1478E6:	.word 4			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF3
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xF3
+		.byte	4,   8,	  0,  0xB, 0xFF, 0xF3
+		.byte   0xC,  0xC,	  0,  0xE, 0xFF, 0xF3
+word_147900:	.word 4			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xED
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xED
+		.byte	4,   8,	  0,  0xB, 0xFF, 0xF5
+		.byte   0xC,   8,	  0,  0xE, 0xFF, 0xF5
+word_14791A:	.word 4			
+					
+		.byte  0xEE,   8,	  0,   0, 0xFF, 0xED
+		.byte  0xF6,  0xC,	  0,   3, 0xFF, 0xE5
+		.byte  0xFE,  0xC,	  0,   7, 0xFF, 0xED
+		.byte	6,   9,	  0,  0xB, 0xFF, 0xF5
+word_147934:	.word 3			
+		.byte  0xEC,  0xE,	  0,   0, 0xFF, 0xED
+		.byte	4,   8,	  0,  0xC, 0xFF, 0xF5
+		.byte   0xC,   8,	  0,  0xF, 0xFF, 0xF5
+word_147948:	.word 4			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xEE
+		.byte  0xF4,  0xD,	  0,   3, 0xFF, 0xEE
+		.byte	4,   8,	  0,  0xB, 0xFF, 0xF6
+		.byte   0xC,   8,	  0,  0xE, 0xFF, 0xF6
+word_147962:	.word 4			
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF5
+		.byte  0xF4,  0xC,	  0,   3, 0xFF, 0xED
+		.byte  0xFC,   9,	  0,   7, 0xFF, 0xF5
+		.byte   0xC,   8,	  0,  0xD, 0xFF, 0xF5
+word_14797C:	.word 3			
+					
+		.byte  0xF4,  0xA,	  0,   0, 0xFF, 0xFB
+		.byte  0xFC,   4,	  0,   9, 0xFF, 0xEB
+		.byte	4,   8,	  0,  0xB, 0xFF, 0xE3
+word_147990:	.word 3			
+					
+		.byte  0xF4,   9,	  0,   0, 0xFF, 0xF4
+		.byte	4,  0xC,	  0,   6, 0xFF, 0xEC
+		.byte	4,   0,	  0,  0xA,   0,	0xC
+word_1479A4:	.word 2			
+					
+		.byte  0xF4,   9,	  0,   0, 0xFF, 0xF7
+		.byte	4,  0xC,	  0,   6, 0xFF, 0xEF
+word_1479B2:	.word 3			
+					
+		.byte  0xF4,   9,	  8,   0, 0xFF, 0xF3
+		.byte	4,  0xC,	  8,   6, 0xFF, 0xF3
+		.byte	4,   0,	  8,  0xA, 0xFF, 0xEB
+word_1479C6:	.word 3			
+					
+		.byte  0xF4,  0xA,	  8,   0, 0xFF, 0xEE
+		.byte  0xFC,   4,	  8,   9,   0,	 6
+		.byte	4,   8,	  8,  0xB,   0,	 6
+word_1479DA:	.word 2			
+					
+		.byte  0xF4,  0xE,	  0,   0, 0xFF, 0xF2
+		.byte	4,   0,	  0,  0xC, 0xFF, 0xEA
+word_1479E8:	.word 2			
+					
+		.byte  0xF4,   9,	  0,   0, 0xFF, 0xF7
+		.byte	4,  0xC,	  0,   6, 0xFF, 0xEF
+word_1479F6:	.word 2			
+					
+		.byte  0xF4,  0xE,	  8,   0, 0xFF, 0xEF
+		.byte	4,   0,	  8,  0xC,   0,	0xF
+word_147A04:	.word 3			
+					
+		.byte  0xF8,  0xE,	  0,   0, 0xFF, 0xEC
+		.byte  0xF8,   2,	  0,  0xC,   0,	0xC
+		.byte  0x10,   8,	  0,  0xF, 0xFF, 0xF4
+word_147A18:	.word 3			
+					
+		.byte  0xF7,  0xE,	  0,   0, 0xFF, 0xEC
+		.byte  0xF7,   2,	  0,  0xC,   0,	0xC
+		.byte   0xF,   8,	  0,  0xF, 0xFF, 0xF4
+word_147A2C:	.word 3			
+					
+		.byte  0xF4,  0xE,	  0,   0, 0xFF, 0xE8
+		.byte  0xF4,   2,	  0,  0xC,   0,	 8
+		.byte   0xC,   8,	  0,  0xF, 0xFF, 0xF0
+word_147A40:	.word 3			
+					
+		.byte  0xF3,  0xE,	  0,   0, 0xFF, 0xE8
+		.byte  0xF3,   2,	  0,  0xC,   0,	 8
+		.byte   0xB,   8,	  0,  0xF, 0xFF, 0xF0
+word_147A54:	.word 4			
+					
+		.byte  0xEC,  0xE,	  0,   0, 0xFF, 0xE8
+		.byte  0xFC,   0,	  0,  0xC,   0,	 8
+		.byte	4,  0xC,	  0,  0xD, 0xFF, 0xF0
+		.byte   0xC,   8,	  0, 0x11, 0xFF, 0xF8
+word_147A6E:	.word 3			
+					
+		.byte  0xEC,   9,	  0,   0, 0xFF, 0xF0
+		.byte  0xFC,  0xD,	  0,   6, 0xFF, 0xF0
+		.byte   0xC,   4,	  0,  0xE, 0xFF, 0xF8
+word_147A82:	.word 1			
+					
+		.byte  0xF0,  0xB,	  0,   0, 0xFF, 0xF4
+word_147A8A:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte   0xC,   8,	  0,  0xC, 0xFF, 0xF4
+word_147A98:	.word 4			
+					
+		.byte  0xEC,   9,	  0,   0, 0xFF, 0xF0
+		.byte  0xFC,  0xC,	  0,   6, 0xFF, 0xF0
+		.byte	4,   8,	  0,  0xA, 0xFF, 0xF8
+		.byte   0xC,   4,	  0,  0xD,   0,	 0
+word_147AB2:	.word 4			
+					
+		.byte  0xE8,  0xB,	  0,   0, 0xFF, 0xEC
+		.byte  0xF8,   5,	  0,  0xC,   0,	 4
+		.byte	8,   8,	  0, 0x10, 0xFF, 0xEC
+		.byte  0x10,   4,	  0, 0x13, 0xFF, 0xEC
+word_147ACC:	.word 4			
+					
+		.byte  0xE8,   9,	  0,   0, 0xFF, 0xF0
+		.byte  0xF8,  0xD,	  0,   6, 0xFF, 0xF0
+		.byte	8,   4,	  0,  0xE, 0xFF, 0xF8
+		.byte  0x10,   8,	  0, 0x10, 0xFF, 0xF8
+word_147AE6:	.word 4			
+					
+		.byte  0xE8,   9,	  0,   0, 0xFF, 0xF0
+		.byte  0xF8,  0xC,	  0,   6, 0xFF, 0xF0
+		.byte	0,   8,	  0,  0xA, 0xFF, 0xF0
+		.byte	8,   9,	  0,  0xD, 0xFF, 0xF8
+word_147B00:	.word 3			
+					
+		.byte  0xE8,  0xB,	  0,   0, 0xFF, 0xF0
+		.byte	8,   4,	  0,  0xC, 0xFF, 0xF8
+		.byte  0x10,   8,	  0,  0xE, 0xFF, 0xF8
+word_147B14:	.word 2			
+					
+		.byte  0xE8,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte	8,   9,	  0,  0xC, 0xFF, 0xF4
+word_147B22:	.word 4			
+					
+		.byte  0xE8,   9,	  0,   0, 0xFF, 0xF8
+		.byte  0xF8,  0xC,	  0,   6, 0xFF, 0xF0
+		.byte	0,   8,	  0,  0xA, 0xFF, 0xF8
+		.byte	8,   9,	  0,  0xD, 0xFF, 0xF0
+word_147B3C:	.word 3			
+					
+		.byte  0xE8,  0xC,	  0,   0, 0xFF, 0xF0
+		.byte  0xF0,  0xA,	  0,   4, 0xFF, 0xF8
+		.byte	8,   9,	  0,  0xD, 0xFF, 0xF0
+word_147B50:	.word 2			
+					
+		.byte  0xE8,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte	8,   9,	  0,  0xC, 0xFF, 0xF4
+word_147B5E:	.word 4			
+					
+		.byte  0xE8,   9,	  0,   0, 0xFF, 0xEC
+		.byte  0xF8,  0xC,	  0,   6, 0xFF, 0xEC
+		.byte	0,   8,	  0,  0xA, 0xFF, 0xEC
+		.byte	8,  0xD,	  0,  0xD, 0xFF, 0xF4
+word_147B78:	.word 3			
+					
+		.byte  0xEC,   4,	  0,   0,   0,	 0
+		.byte  0xF4,  0xF,	  0,   2, 0xFF, 0xF8
+		.byte  0xFC,   6,	  0, 0x12, 0xFF, 0xE8
+word_147B8C:	.word 3			
+					
+		.byte  0xE8,   9,	  0,   0, 0xFF, 0xF0
+		.byte  0xF8,  0xD,	  0,   6, 0xFF, 0xF0
+		.byte	8,   9,	  0,  0xE, 0xFF, 0xF8
+word_147BA0:	.word 4			
+					
+		.byte  0xEC,   4,	  0,   0,   0,	 0
+		.byte  0xF4,  0xD,	  0,   2, 0xFF, 0xE8
+		.byte  0xF4,   5,	  0,  0xA,   0,	 8
+		.byte	4,   5,	  0,  0xE, 0xFF, 0xF0
+word_147BBA:	.word 2			
+					
+		.byte  0xEC,  0xF,	  0,   0, 0xFF, 0xF0
+		.byte   0xC,   8,	  0, 0x10, 0xFF, 0xF0
+word_147BC8:	.word 3			
+					
+		.byte  0xEC,  0xE,	  0,   0, 0xFF, 0xF0
+		.byte	4,   8,	  0,  0xC, 0xFF, 0xF0
+		.byte   0xC,   4,	  0,  0xF, 0xFF, 0xF8
+word_147BDC:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte   0xC,   8,	  0,  0xC, 0xFF, 0xF4
+word_147BEA:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte   0xC,   0,	  0,  0xC, 0xFF, 0xFC
+word_147BF8:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte   0xC,   8,	  0,  0xC, 0xFF, 0xF4
+word_147C06:	.word 4			
+					
+		.byte  0xEC,  0xD,	  0,   0, 0xFF, 0xF0
+		.byte  0xFC,   8,	  0,   8, 0xFF, 0xF0
+		.byte	4,  0xC,	  0,  0xB, 0xFF, 0xF0
+		.byte   0xC,   8,	  0,  0xF, 0xFF, 0xF8
+word_147C20:	.word 3			
+					
+		.byte  0xEC,   8,	  0,   0, 0xFF, 0xF0
+		.byte  0xF4,  0xE,	  0,   3, 0xFF, 0xF0
+		.byte   0xC,   8,	  0,  0xF, 0xFF, 0xF0
+word_147C34:	.word 2			
+					
+		.byte  0xEC,  0xF,	  0,   0, 0xFF, 0xF0
+		.byte   0xC,   8,	  0, 0x10, 0xFF, 0xF8
+word_147C42:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte   0xC,   4,	  0,  0xC, 0xFF, 0xF4
+word_147C50:	.word 3			
+					
+		.byte  0xEC,  0xA,	  0,   0, 0xFF, 0xF4
+		.byte	4,   4,	  0,   9, 0xFF, 0xFC
+		.byte   0xC,   8,	  0,  0xB, 0xFF, 0xF4
+word_147C64:	.word 2			
+					
+		.byte  0xEC,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte   0xC,   4,	  0,  0xC, 0xFF, 0xFC
+word_147C72:	.word 2			
+					
+		.byte  0xEC,  0xE,	  0,   0, 0xFF, 0xF0
+		.byte	4,   9,	  0,  0xC, 0xFF, 0xF0
+word_147C80:	.word 3			
+		.byte  0xFC,  0xA,	  0,   0, 0xFF, 0xEC
+		.byte  0xFC,   6,	  0,   9,   0,	 4
+		.byte  0xE4,  0xE,	  0,  0xF, 0xFF, 0xEC
+word_147C94:	.word 3			
+		.byte  0xFD,  0xE,	  0,   0, 0xFF, 0xEC
+		.byte	5,   1,	  0,  0xC,   0,	0xC
+		.byte  0xE5,  0xE,	  0,  0xE, 0xFF, 0xEC
+word_147CA8:	.word 3			
+		.byte  0xE6,  0xD,	  0,   0, 0xFF, 0xEC
+		.byte  0xFE,  0xA,	  0,   8, 0xFF, 0xF4
+		.byte  0xF6,   8,	  0, 0x11, 0xFF, 0xF4
+word_147CBC:	.word 3			
+		.byte  0xFC,  0xE,	  0,   0, 0xFF, 0xEE
+		.byte  0xEC,   9,	  0,  0xC, 0xFF, 0xF4
+		.byte  0xE4,  0xC,	  0, 0x12, 0xFF, 0xEC
+word_147CD0:	.word 4			
+		.byte  0xFC,  0xE,	  0,   0, 0xFF, 0xEE
+		.byte  0xFC,   1,	  0,  0xC,   0,	0xE
+		.byte  0xE4,  0xC,	  0,  0xE, 0xFF, 0xEC
+		.byte  0xEC,   9,	  0, 0x12, 0xFF, 0xF4
+word_147CEA:	.word 4			
+		.byte  0xFD,  0xE,	  0,   0, 0xFF, 0xED
+		.byte	5,   1,	  0,  0xC,   0,	0xD
+		.byte  0xE5,  0xC,	  0,  0xE, 0xFF, 0xEC
+		.byte  0xED,   9,	  0, 0x12, 0xFF, 0xF4
+word_147D04:	.word 3			
+		.byte  0xFE,  0xA,	  0,   0, 0xFF, 0xF4
+		.byte  0xF6,   8,	  0,   9, 0xFF, 0xF4
+		.byte  0xE6,  0xD,	  0,  0xC, 0xFF, 0xEC
+word_147D18:	.word 2			
+		.byte  0xFC,  0xA,	  0,   0, 0xFF, 0xF4
+		.byte  0xE4,  0xE,	  0,   9, 0xFF, 0xEC
+word_147D26:	.word 4			
+		.byte  0xFB,  0xB,	  0,   0, 0xFF, 0xFB
+		.byte  0xE3,   4,	  0,  0xC, 0xFF, 0xEB
+		.byte  0xEB,  0xB,	  0,  0xE, 0xFF, 0xE3
+		.byte  0xEB,   9,	  0, 0x1A, 0xFF, 0xFB
+word_147D40:	.word 4			
+		.byte  0xFF,  0xE,	  0,   0, 0xFF, 0xFB
+		.byte  0xE7,   4,	  0,  0xC, 0xFF, 0xEB
+		.byte  0xEF,  0xA,	  0,  0xE, 0xFF, 0xE3
+		.byte  0xEF,  0xD,	  0, 0x17, 0xFF, 0xFB
+word_147D5A:	.word 4			
+		.byte  0xFB,  0xA,	  0,   0, 0xFF, 0xFB
+		.byte  0xEB,  0xD,	  0,   9, 0xFF, 0xE3
+		.byte  0xF3,   0,	  0, 0x11,   0,	 3
+		.byte  0xFB,   4,	  0, 0x12, 0xFF, 0xEB
+word_147D74:	.word 4			
+		.byte  0xFB,  0xE,	  0,   0, 0xFF, 0xFB
+		.byte  0xEB,  0xB,	  0,  0xC, 0xFF, 0xE3
+		.byte  0xE3,   0,	  0, 0x18, 0xFF, 0xEB
+		.byte  0xEB,   5,	  0, 0x19, 0xFF, 0xFB
+word_147D8E:	.word 4			
+		.byte  0xFB,  0xB,	  0,   0, 0xFF, 0xFB
+		.byte  0xE3,  0xA,	  0,  0xC, 0xFF, 0xE3
+		.byte  0xEB,   9,	  0, 0x15, 0xFF, 0xFB
+		.byte  0xFB,   6,	  0, 0x1B, 0xFF, 0xEB
+word_147DA8:	.word 4			
+		.byte  0xFB,  0xF,	  0,   0, 0xFF, 0xFB
+		.byte  0xEB,  0xD,	  0, 0x10, 0xFF, 0xE3
+		.byte  0xF3,   8,	  0, 0x18,   0,	 3
+		.byte  0xFB,   5,	  0, 0x1B, 0xFF, 0xEB
+word_147DC2:	.word 4			
+		.byte  0xFB,  0xA,	  0,   0, 0xFF, 0xFB
+		.byte  0xE3,   9,	  0,   9, 0xFF, 0xEB
+		.byte  0xF3,  0xA,	  0,  0xF, 0xFF, 0xE3
+		.byte  0xF3,   4,	  0, 0x18, 0xFF, 0xFB
+word_147DDC:	.word 4			
+		.byte  0xFB,  0xA,	  0,   0, 0xFF, 0xFB
+		.byte  0xEB,  0xD,	  0,   9, 0xFF, 0xE3
+		.byte  0xF3,   0,	  0, 0x11,   0,	 3
+		.byte  0xFB,   8,	  0, 0x12, 0xFF, 0xE3
+word_147DF6:	.word 3			
+		.byte  0xEC,   9,	  0,   0, 0xFF, 0xFC
+		.byte  0xFC,  0xA,	  0,   6, 0xFF, 0xFC
+		.byte  0xF4,  0xB,	  0,  0xF, 0xFF, 0xE4
+word_147E0A:	.word 3			
+		.byte  0xEC,   4,	  0,   0,   0,	 5
+		.byte  0xF4,  0xB,	  0,   2, 0xFF, 0xFD
+		.byte  0xF4,  0xB,	  0,  0xE, 0xFF, 0xE5
+word_147E1E:	.word 3			
+		.byte  0xF4,  0xA,	  0,   0, 0xFF, 0xFE
+		.byte  0xF4,  0xA,	  0,   9, 0xFF, 0xE6
+		.byte   0xC,   4,	  0, 0x12, 0xFF, 0xE6
+word_147E32:	.word 3			
+		.byte  0xF2,  0xB,	  0,   0, 0xFF, 0xFC
+		.byte  0xF4,  0xA,	  0,  0xC, 0xFF, 0xE4
+		.byte   0xC,   0,	  0, 0x15, 0xFF, 0xE4
+word_147E46:	.word 4			
+		.byte  0xF2,  0xB,	  0,   0, 0xFF, 0xFC
+		.byte  0xEA,   4,	  0,  0xC, 0xFF, 0xFC
+		.byte  0xF4,  0xA,	  0,  0xE, 0xFF, 0xE4
+		.byte   0xC,   0,	  0, 0x17, 0xFF, 0xE4
+word_147E60:	.word 4			
+		.byte  0xF3,  0xB,	  0,   0, 0xFF, 0xFD
+		.byte  0xEB,   4,	  0,  0xC,   0,	 5
+		.byte  0xF4,  0xA,	  0,  0xE, 0xFF, 0xE5
+		.byte   0xC,   0,	  0, 0x17, 0xFF, 0xE5
+word_147E7A:	.word 3			
+		.byte  0xF4,  0xA,	  0,   0, 0xFF, 0xFE
+		.byte  0xF4,  0xA,	  0,   9, 0xFF, 0xE6
+		.byte   0xC,   4,	  0, 0x12, 0xFF, 0xE6
+word_147E8E:	.word 2			
+		.byte  0xF4,  0xA,	  0,   0, 0xFF, 0xFC
+		.byte  0xF4,  0xB,	  0,   9, 0xFF, 0xE4
+word_147E9C:	.word 4			
+		.byte  0xEC,  0xE,	  0,   0, 0xFF, 0xFC
+		.byte  0xEC,   6,	  0,  0xC, 0xFF, 0xEC
+		.byte	4,  0xE,	  0, 0x12, 0xFF, 0xE4
+		.byte	4,   0,	  0, 0x1E,   0,	 4
+word_147EB6:	.word 4			
+		.byte  0xE4,  0xB,	  0,   0,   0,	 0
+		.byte  0xE4,   7,	  0,  0xC, 0xFF, 0xF0
+		.byte	4,  0xD,	  0, 0x14, 0xFF, 0xE8
+		.byte  0x14,   4,	  0, 0x1C, 0xFF, 0xF0
+word_147ED0:	.word 4			
+		.byte  0xEC,  0xA,	  0,   0, 0xFF, 0xFC
+		.byte  0xF4,   0,	  0,   9, 0xFF, 0xF4
+		.byte  0xFC,   4,	  0,  0xA, 0xFF, 0xEC
+		.byte	4,  0xA,	  0,  0xC, 0xFF, 0xEC
+word_147EEA:	.word 4			
+		.byte  0xE4,  0xB,	  0,   0, 0xFF, 0xFC
+		.byte  0xF4,   5,	  0,  0xC, 0xFF, 0xEC
+		.byte	4,  0xE,	  0, 0x10, 0xFF, 0xE4
+		.byte	4,   0,	  0, 0x1C,   0,	 4
+word_147F04:	.word 4			
+		.byte  0xEC,  0xE,	  0,   0, 0xFF, 0xFC
+		.byte  0xEC,   6,	  0,  0xC, 0xFF, 0xEC
+		.byte	4,  0xA,	  0, 0x12, 0xFF, 0xE4
+		.byte	4,   9,	  0, 0x1B, 0xFF, 0xFC
+word_147F1E:	.word 4			
+		.byte  0xE4,  0xF,	  0,   0, 0xFF, 0xFC
+		.byte  0xE4,   3,	  0, 0x10, 0xFF, 0xF4
+		.byte  0xFC,   0,	  0, 0x14, 0xFF, 0xEC
+		.byte	4,  0xE,	  0, 0x15, 0xFF, 0xEC
+word_147F38:	.word 4			
+		.byte  0xEC,  0xA,	  0,   0, 0xFF, 0xFC
+		.byte  0xF4,   5,	  0,   9, 0xFF, 0xEC
+		.byte	4,  0xE,	  0,  0xD, 0xFF, 0xE4
+		.byte	4,   0,	  0, 0x19,   0,	 4
+word_147F52:	.word 4			
+		.byte  0xEC,  0xA,	  0,   0, 0xFF, 0xFC
+		.byte  0xF4,   5,	  0,   9, 0xFF, 0xEC
+		.byte	4,   9,	  0,  0xD, 0xFF, 0xEC
+		.byte  0x14,   4,	  0, 0x13, 0xFF, 0xF4
+word_147F6C:	.word 4			
+		.byte  0xEB,  0xD,	  0,   0, 0xFF, 0xED
+		.byte  0xFB,   8,	  0,   8, 0xFF, 0xF5
+		.byte	3,   9,	  0,  0xB, 0xFF, 0xE5
+		.byte	3,   4,	  0, 0x11, 0xFF, 0xFD
+word_147F86:	.word 4			
+		.byte  0xEB,  0xD,	  0,   0, 0xFF, 0xED
+		.byte  0xFB,   8,	  0,   8, 0xFF, 0xF5
+		.byte	3,   9,	  0,  0xB, 0xFF, 0xE5
+		.byte	3,   4,	  0, 0x11, 0xFF, 0xFD
+word_147FA0:	.word 4			
+		.byte  0xEA,   4,	  0,   0, 0xFF, 0xF4
+		.byte  0xF2,  0xD,	  0,   2, 0xFF, 0xEC
+		.byte  0xFA,   0,	  0,  0xA, 0xFF, 0xE4
+		.byte	2,  0xE,	  0,  0xB, 0xFF, 0xEC
+word_147FBA:	.word 4			
+		.byte  0xE9,   4,	  0,   0, 0xFF, 0xF4
+		.byte  0xF1,  0xD,	  0,   2, 0xFF, 0xEC
+		.byte  0xF9,   0,	  0,  0xA, 0xFF, 0xE4
+		.byte	1,  0xE,	  0,  0xB, 0xFF, 0xEC
+word_147FD4:	.word 4			
+		.byte  0xF4,  0xE,	  0,   0, 0xFF, 0xEB
+		.byte   0xC,   4,	  0,  0xC, 0xFF, 0xEB
+		.byte	4,   0,	  0,  0xE,   0,	0xB
+		.byte   0xC,   5,	  0,  0xF,   0,	 3
+word_147FEE:	.word 4			
+		.byte  0xF4,  0xE,	  0,   0, 0xFF, 0xEB
+		.byte   0xC,   4,	  0,  0xC, 0xFF, 0xEB
+		.byte	4,   0,	  0,  0xE,   0,	0xB
+		.byte   0xC,   5,	  0,  0xF,   0,	 3
+word_148008:	.word 4			
+		.byte  0xF4,  0xC,	  0,   0, 0xFF, 0xF2
+		.byte  0xFC,  0xD,	  0,   4, 0xFF, 0xEA
+		.byte  0xFC,   6,	  0,  0xC,   0,	0xA
+		.byte   0xC,   5,	  0, 0x12, 0xFF, 0xF2
+word_148022:	.word 4			
+		.byte  0xF4,   8,	  0,   0, 0xFF, 0xF1
+		.byte  0xFC,  0xD,	  0,   3, 0xFF, 0xE9
+		.byte  0xFC,   6,	  0,  0xB,   0,	 9
+		.byte   0xC,   5,	  0, 0x11, 0xFF, 0xF1
+word_14803C:	.word 2			
+		.byte  0xF4,  0xF,	  0,   0, 0xFF, 0xF0
+		.byte	4,   0,	  0, 0x10,   0, 0x10
+word_14804A:	.word 4			
+		.byte  0xF5,   5,	  0,   0,   0,	 2
+		.byte	5,   5,	  0,   4, 0xFF, 0xF2
+		.byte  0xE5,  0xD,	  0,   8, 0xFF, 0xEA
+		.byte  0xF5,   9,	  0, 0x10, 0xFF, 0xEA
+word_148064:	.word 4			
+		.byte  0xF5,   5,	  0,   0,   0,	 2
+		.byte	5,   5,	  0,   4, 0xFF, 0xF2
+		.byte  0xE5,  0xD,	  0,   8, 0xFF, 0xEA
+		.byte  0xF5,   9,	  0, 0x10, 0xFF, 0xEA
+word_14807E:	.word 4			
+		.byte  0xF5,   5,	  0,   0,   0,	 2
+		.byte	5,   5,	  0,   4, 0xFF, 0xF2
+		.byte  0xE5,  0xD,	  0,   8, 0xFF, 0xEA
+		.byte  0xF5,   9,	  0, 0x10, 0xFF, 0xEA
+word_148098:	.word 3			
+		.byte  0xE4,   8,	  0,   0, 0xFF, 0xED
+		.byte  0xEC,  0xF,	  0,   3, 0xFF, 0xED
+		.byte   0xC,  0xC,	  0, 0x13, 0xFF, 0xED
+word_1480AC:	.word 3			
+		.byte  0xE5,   8,	  0,   0, 0xFF, 0xED
+		.byte  0xED,  0xF,	  0,   3, 0xFF, 0xED
+		.byte   0xD,   8,	  0, 0x13, 0xFF, 0xED
+word_1480C0:	.word 3			
+		.byte  0xE4,   0,	  0,   0, 0xFF, 0xFD
+		.byte  0xEC,  0xF,	  0,   1, 0xFF, 0xED
+		.byte   0xC,  0xC,	  0, 0x11, 0xFF, 0xED
+word_1480D4:	.word 3			
+		.byte  0xE5,   8,	  0,   0, 0xFF, 0xED
+		.byte  0xED,  0xF,	  0,   3, 0xFF, 0xED
+		.byte   0xD,   8,	  0, 0x13, 0xFF, 0xED
+word_1480E8:	.word 4			
+		.byte  0xFC,  0xA,	  0,   0, 0xFF, 0xF8
+		.byte  0xE4,  0xD,	  0,   9, 0xFF, 0xE8
+		.byte  0xF4,   8,	  0, 0x11, 0xFF, 0xF0
+		.byte  0xFC,   0,	  0, 0x14, 0xFF, 0xF0
+word_148102:	.word 4			
+		.byte  0xFC,  0xA,	  0,   0, 0xFF, 0xF8
+		.byte  0xE4,  0xD,	  0,   9, 0xFF, 0xE8
+		.byte  0xF4,   8,	  0, 0x11, 0xFF, 0xF0
+		.byte  0xFC,   0,	  0, 0x14, 0xFF, 0xF0
+word_14811C:	.word 3			
+		.byte  0xFC,  0xA,	  0,   0, 0xFF, 0xF8
+		.byte  0xE4,  0xE,	  0,   9, 0xFF, 0xE8
+		.byte  0xFC,   0,	  0, 0x15, 0xFF, 0xF0
+word_148130:	.word 1			
+					
+		.byte  0xF0,  0xB,	  0,   0, 0xFF, 0xF4
+word_148138:	.word 3			
+					
+		.byte  0xE8,   9,	  0,   0, 0xFF, 0xF3
+		.byte  0xF8,  0xD,	  0,   6, 0xFF, 0xF3
+		.byte	8,   9,	  0,  0xE, 0xFF, 0xF3
+word_14814C:	.word 2			
+					
+		.byte  0xE8,  0xF,	  0,   0, 0xFF, 0xF0
+		.byte	8,   9,	  0, 0x10, 0xFF, 0xF0
+word_14815A:	.word 3			
+					
+		.byte  0xE8,  0xA,	  0,   0, 0xFF, 0xF0
+		.byte	0,  0xC,	  0,   9, 0xFF, 0xF0
+		.byte	8,   9,	  0,  0xD, 0xFF, 0xF0
+word_14816E:	.word 3			
+					
+		.byte  0xE8,  0xA,	  0,   0, 0xFF, 0xF0
+		.byte	0,  0xC,	  0,   9, 0xFF, 0xF0
+		.byte	8,   9,	  0,  0xD, 0xFF, 0xF0

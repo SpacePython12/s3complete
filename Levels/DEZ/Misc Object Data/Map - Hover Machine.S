@@ -1,0 +1,11 @@
+		.word word_495DE-Map_DEZHoverMachine
+		.word word_495EC-Map_DEZHoverMachine
+		.word word_495FA-Map_DEZHoverMachine
+word_495DE:	.word 2			/*  DATA XREF: ROM:000495D8o */
+		.byte  0xF8,  0xE,	0x10,   0, 0xFF, 0xF0
+		.byte  0xF0,   4,	0x10,  0xC, 0xFF, 0xF8
+word_495EC:	.word 2			/*  DATA XREF: ROM:000495D8o */
+		.byte  0xF8,  0xE,	0x10,   0, 0xFF, 0xF0
+		.byte  0xF0,   4,	0x10, 0x1E, 0xFF, 0xF8
+word_495FA:	.word 1			/*  DATA XREF: ROM:000495D8o */
+		.byte  0xF0,  0xF,	  0,  0xE, 0xFF, 0xF0

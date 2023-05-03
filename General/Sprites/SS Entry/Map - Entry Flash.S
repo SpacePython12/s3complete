@@ -1,0 +1,41 @@
+Map_61B28:		.word word_61B30-Map_61B28
+		.word word_61B56-Map_61B28
+		.word word_61B7C-Map_61B28
+		.word word_61BAE-Map_61B28
+word_61B30:	.word 6			
+		.byte  0xE0,   8,	  0,   0,   0,	 0
+		.byte  0xE8,   9,	  0,   3,   0,	 8
+		.byte  0xF8,   0,	  0,   9,   0, 0x18
+		.byte  0x18,   8,	0x10,   0,   0,	 0
+		.byte	8,   9,	0x10,   3,   0,	 8
+		.byte	0,   0,	0x10,   9,   0, 0x18
+word_61B56:	.word 6			
+		.byte  0xE0,  0xC,	  0,   0,   0,	 0
+		.byte  0xE8,  0xD,	  0,   4,   0,	 8
+		.byte  0xF8,   4,	  0,  0xC,   0, 0x18
+		.byte  0x18,  0xC,	0x10,   0,   0,	 0
+		.byte	8,  0xD,	0x10,   4,   0,	 8
+		.byte	0,   4,	0x10,  0xC,   0, 0x18
+word_61B7C:	.word 8			
+		.byte  0xE0,   8,	  0,   0,   0,	 0
+		.byte  0xE8,  0xE,	  0,   3,   0,	 0
+		.byte  0x18,   8,	0x10,   0,   0,	 0
+		.byte	0,  0xE,	0x10,   3,   0,	 0
+		.byte  0xE0,   5,	  8,  0xF, 0xFF, 0xF0
+		.byte  0xF0,   1,	  8, 0x13, 0xFF, 0xF8
+		.byte  0x10,   5,	0x18,  0xF, 0xFF, 0xF0
+		.byte	0,   1,	0x18, 0x13, 0xFF, 0xF8
+word_61BAE:	.word 8			
+		.byte  0xE0,   8,	  0,   0,   0,	 0
+		.byte  0xE8,  0xE,	  0,   3,   0,	 0
+		.byte  0x18,   8,	0x10,   0,   0,	 0
+		.byte	0,  0xE,	0x10,   3,   0,	 0
+		.byte  0xE0,   8,	  8,   0, 0xFF, 0xE8
+		.byte  0xE8,  0xE,	  8,   3, 0xFF, 0xE0
+		.byte  0x18,   8,	0x18,   0, 0xFF, 0xE8
+		.byte	0,  0xE,	0x18,   3, 0xFF, 0xE0
+		.word 4			
+		.byte  0xE0,   5,	  0,   0,   0,	 0
+		.byte  0xF0,   1,	  0,   4,   0,	 0
+		.byte  0x10,   5,	0x10,   0,   0,	 0
+		.byte	0,   1,	0x10,   4,   0,	 0

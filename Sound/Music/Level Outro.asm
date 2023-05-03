@@ -87,7 +87,7 @@ Snd_Results_FM5:
 Snd_Results_PSG1:
 	smpsAlterNote       $01
 	smpsPSGvoice        sTone_03
-	smpsJump            Snd_Results_Jump00
+	; smpsJump            Snd_Results_Jump00
 
 ; Unreachable
 	smpsSetvoice        sTone_01

@@ -1,0 +1,15 @@
+Map_36165C_:	.word Frame_361666-Map_36165C_
+		.word Frame_36166E-Map_36165C_
+		.word Frame_361676-Map_36165C_
+		.word Frame_36167E-Map_36165C_
+		.word Frame_361686-Map_36165C_
+Frame_361666:	.word 1
+		.byte 0xEC, 0xF,  0,  0,0xFF,0xEC
+Frame_36166E:	.word 1
+		.byte 0xF0, 0xF,  0,0x10,0xFF,0xF0
+Frame_361676:	.word 1
+		.byte 0xF0, 0xF,  0,0x20,0xFF,0xF0
+Frame_36167E:	.word 1
+		.byte 0xF0, 0xF,  0,0x30,0xFF,0xF0
+Frame_361686:	.word 1
+		.byte 0xEB, 0xF,  0,0x40,0xFF,0xF0

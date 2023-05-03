@@ -1,0 +1,58 @@
+Map_70FB4:	.word word_70FD4-Map_70FB4
+		.word word_70FFA-Map_70FB4
+		.word word_71014-Map_70FB4
+		.word word_7101C-Map_70FB4
+		.word word_71024-Map_70FB4
+		.word word_7102C-Map_70FB4
+		.word word_71034-Map_70FB4
+		.word word_7103C-Map_70FB4
+		.word word_71044-Map_70FB4
+		.word word_71052-Map_70FB4
+		.word word_71060-Map_70FB4
+		.word word_71068-Map_70FB4
+		.word word_71070-Map_70FB4
+		.word word_71078-Map_70FB4
+		.word word_71080-Map_70FB4
+		.word word_71088-Map_70FB4
+word_70FD4:	.word 6			
+		.byte  0xF8,   1,	  0,   0, 0xFF, 0xD8
+		.byte  0xF8,  0xF,	  0,   2, 0xFF, 0xE0
+		.byte  0x18,  0xD,	  0, 0x12, 0xFF, 0xE0
+		.byte  0xF8,   1,	  8,   0,   0, 0x20
+		.byte  0xF8,  0xF,	  8,   2,   0,	 0
+		.byte  0x18,  0xD,	  8, 0x12,   0,	 0
+word_70FFA:	.word 4			
+		.byte  0xE0,   7,	  0, 0x1A, 0xFF, 0xF0
+		.byte  0xE0,   7,	  8, 0x1A,   0,	 0
+		.byte	0,   7,	0x10, 0x1A, 0xFF, 0xF0
+		.byte	0,   7,	0x18, 0x1A,   0,	 0
+word_71014:	.word 1			
+		.byte  0xF8,   5,	  0, 0x22, 0xFF, 0xF8
+word_7101C:	.word 1			
+		.byte  0xF8,   9,	  0, 0x26, 0xFF, 0xF4
+word_71024:	.word 1			
+		.byte  0xF8,   1,	  0, 0x2C, 0xFF, 0xFC
+word_7102C:	.word 1			
+		.byte  0xF8,   1,	  0, 0x2E, 0xFF, 0xFC
+word_71034:	.word 1			
+		.byte  0xF8,   1,	  8, 0x2C, 0xFF, 0xFC
+word_7103C:	.word 1			
+		.byte  0xF8,   1,	  8, 0x2E, 0xFF, 0xFC
+word_71044:	.word 2			
+		.byte  0xF0,   1,	  0,   0, 0xFF, 0xEC
+		.byte  0xF0,  0xF,	  0,   2, 0xFF, 0xF4
+word_71052:	.word 2			
+		.byte  0xF0,   1,	  8,   0,   0,	0xC
+		.byte  0xF0,  0xF,	  8,   2, 0xFF, 0xEC
+word_71060:	.word 1			
+		.byte  0xF8,  0xD,	  0, 0x12, 0xFF, 0xF0
+word_71068:	.word 1			
+		.byte  0xF8,  0xD,	  8, 0x12, 0xFF, 0xF0
+word_71070:	.word 1			
+		.byte  0xF0,   7,	  0, 0x1A, 0xFF, 0xF8
+word_71078:	.word 1			
+		.byte  0xF0,   7,	  8, 0x1A, 0xFF, 0xF8
+word_71080:	.word 1			
+		.byte  0xF0,   7,	0x10, 0x1A, 0xFF, 0xF8
+word_71088:	.word 1			
+		.byte  0xF0,   7,	0x18, 0x1A, 0xFF, 0xF8

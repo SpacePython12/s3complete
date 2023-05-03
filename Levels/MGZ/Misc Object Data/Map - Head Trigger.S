@@ -1,0 +1,25 @@
+Map_233812:	.word Frame_233822-Map_233812 /*  ... */
+		.word Frame_23382A-Map_233812
+		.word Frame_233832-Map_233812
+		.word Frame_23383A-Map_233812
+		.word Frame_233842-Map_233812
+		.word Frame_23384A-Map_233812
+		.word Frame_233852-Map_233812
+		.word Frame_233866-Map_233812
+Frame_233822:	.word 1
+		.byte 0xFC, 0xC,0xE0,0x4E,0xFF,0xF0
+Frame_23382A:	.word 1
+		.byte 0xF8,  1,  0,0x44,0xFF,0xF8
+Frame_233832:	.word 1
+		.byte 0xF8,  1,  0,0x46,0xFF,0xF8
+Frame_23383A:	.word 1
+		.byte 0xF8,  1,  0,0x48,0xFF,0xF8
+Frame_233842:	.word 1
+		.byte 0xF8,  1,  0,0x4A,0xFF,0xF8
+Frame_23384A:	.word 1
+		.byte 0xF8,  1,  0,0x4C,0xFF,0xF8
+Frame_233852:	.word 3
+		.byte 0xE8,  9,0x20,0x26,0xFF,0xF8
+		.byte 0xF8, 0xB,  0,0x2C,0xFF,0xF8
+		.byte 0x18, 0xB,  0,0x38,0xFF,0xF8
+Frame_233866:	.word 0

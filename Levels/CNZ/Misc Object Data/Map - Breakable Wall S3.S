@@ -1,0 +1,32 @@
+		.word word_1FE80-Map_CNZBreakableWall
+		.word word_1FE9A-Map_CNZBreakableWall
+		.word word_1FECC-Map_CNZBreakableWall
+		.word word_1FEE6-Map_CNZBreakableWall
+word_1FE80:	.word 4
+		.byte  0xE0,  0xD,   0,   0, 0xFF, 0xF0
+		.byte  0xF0,  0xD,   0,   0, 0xFF, 0xF0
+		.byte    0,  0xD,   0,   0, 0xFF, 0xF0
+		.byte  0x10,  0xD,   0,   0, 0xFF, 0xF0
+word_1FE9A:	.word 8
+		.byte  0xE0,   5,   0,   0, 0xFF, 0xF0
+		.byte  0xE0,   5,   0,   4,   0,   0
+		.byte  0xF0,   5,   0,   0, 0xFF, 0xF0
+		.byte  0xF0,   5,   0,   4,   0,   0
+		.byte    0,   5,   0,   0, 0xFF, 0xF0
+		.byte    0,   5,   0,   4,   0,   0
+		.byte  0x10,   5,   0,   0, 0xFF, 0xF0
+		.byte  0x10,   5,   0,   4,   0,   0
+word_1FECC:	.word 4
+		.byte  0xE0,  0xD,   0,   8, 0xFF, 0xF0
+		.byte  0xF0,  0xD,   0,   8, 0xFF, 0xF0
+		.byte    0,  0xD,   0,   8, 0xFF, 0xF0
+		.byte  0x10,  0xD,   0,   8, 0xFF, 0xF0
+word_1FEE6:	.word 8
+		.byte  0xE0,   5,   0,   8, 0xFF, 0xF0
+		.byte  0xE0,   5,   0,  0xC,   0,   0
+		.byte  0xF0,   5,   0,   8, 0xFF, 0xF0
+		.byte  0xF0,   5,   0,  0xC,   0,   0
+		.byte    0,   5,   0,   8, 0xFF, 0xF0
+		.byte    0,   5,   0,  0xC,   0,   0
+		.byte  0x10,   5,   0,   8, 0xFF, 0xF0
+		.byte  0x10,   5,   0,  0xC,   0,   0

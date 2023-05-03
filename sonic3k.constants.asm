@@ -240,6 +240,7 @@ Sprite_table_buffer_P2_2 =	ramaddr(   $FF7D80 ) ; $280 bytes ; alternate sprite 
 
 	phase $FFFF0000
 RAM_start =			*
+	
 Chunk_table			ds.b $8000		; chunk (128x128) definitions, $80 bytes per definition
 
 Level_layout_header		ds.b 8			; first word = chunks per FG row, second word = chunks per BG row, third word = FG rows, fourth word = BG rows
@@ -360,6 +361,7 @@ _unkEE70			ds.w 1			; it is unclear how this is used
 			ds.w 1				; unused
 _unkEE74			ds.w 1			; it is unclear how this is used
 			ds.w 1				; unused
+	message "Camera pos is 0x\{*}"
 Camera_X_pos			ds.l 1
 Camera_Y_pos			ds.l 1
 Camera_X_pos_copy		ds.l 1

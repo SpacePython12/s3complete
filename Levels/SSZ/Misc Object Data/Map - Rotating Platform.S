@@ -1,0 +1,12 @@
+		.word word_46CEE-Map_SSZRotatingPlatform
+		.word word_46CFC-Map_SSZRotatingPlatform
+		.word word_46D0A-Map_SSZRotatingPlatform
+word_46CEE:	.word 2			/*  DATA XREF: ROM:00046CE8o */
+		.byte  0xE0,  0xB,	  0,   0, 0xFF, 0xF4
+		.byte	0,  0xB,	0x10,   0, 0xFF, 0xF4
+word_46CFC:	.word 2			/*  DATA XREF: ROM:00046CE8o */
+		.byte  0xE0,  0xB,	  0,  0xC, 0xFF, 0xF4
+		.byte	0,  0xB,	0x10,  0xC, 0xFF, 0xF4
+word_46D0A:	.word 2			/*  DATA XREF: ROM:00046CE8o */
+		.byte  0xE0,  0xB,	  0, 0x18, 0xFF, 0xF4
+		.byte	0,  0xB,	0x10, 0x18, 0xFF, 0xF4

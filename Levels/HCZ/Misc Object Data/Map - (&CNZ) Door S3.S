@@ -1,0 +1,10 @@
+		.word word_2FC00-Map_HCZCNZDoor
+		.word word_2FC0E-Map_HCZCNZDoor
+word_2FC00:	.word 2
+		.byte  0xE0,  0xF,   0,   0, 0xFF, 0xF0
+		.byte    0,  0xF,   0,   0, 0xFF, 0xF0
+word_2FC0E:	.word 4
+		.byte  0xE0,   5,   0,   0, 0xFF, 0xF8
+		.byte  0xF0,   5,   0,   0, 0xFF, 0xF8
+		.byte    0,   5,   0,   0, 0xFF, 0xF8
+		.byte  0x10,   5,   0,   0, 0xFF, 0xF8

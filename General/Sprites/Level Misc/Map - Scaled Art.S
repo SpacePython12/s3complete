@@ -1,0 +1,90 @@
+Map_24BE8:		.word word_24C28-Map_24BE8
+		.word word_24C8A-Map_24BE8
+		.word word_24CEC-Map_24BE8
+		.word word_24CEC-Map_24BE8
+		.word word_24D24-Map_24BE8
+		.word word_24D24-Map_24BE8
+		.word word_24D24-Map_24BE8
+		.word word_24D3E-Map_24BE8
+		.word word_24D3E-Map_24BE8
+		.word word_24D3E-Map_24BE8
+		.word word_24D3E-Map_24BE8
+		.word word_24D3E-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D58-Map_24BE8
+		.word word_24D60-Map_24BE8
+		.word word_24D60-Map_24BE8
+		.word word_24D60-Map_24BE8
+		.word word_24D60-Map_24BE8
+word_24C28:	.word 0x10		
+		.byte	0,  0xF,	  0,   0,   0,	 0
+		.byte	0,  0xF,	  0, 0x10,   0, 0x20
+		.byte	0,  0xF,	  0, 0x20,   0, 0x40
+		.byte	0,  0xF,	  0, 0x30,   0, 0x60
+		.byte  0x20,  0xF,	  0, 0x40,   0,	 0
+		.byte  0x20,  0xF,	  0, 0x50,   0, 0x20
+		.byte  0x20,  0xF,	  0, 0x60,   0, 0x40
+		.byte  0x20,  0xF,	  0, 0x70,   0, 0x60
+		.byte  0x40,  0xF,	  0, 0x80,   0,	 0
+		.byte  0x40,  0xF,	  0, 0x90,   0, 0x20
+		.byte  0x40,  0xF,	  0, 0xA0,   0, 0x40
+		.byte  0x40,  0xF,	  0, 0xB0,   0, 0x60
+		.byte  0x60,  0xF,	  0, 0xC0,   0,	 0
+		.byte  0x60,  0xF,	  0, 0xD0,   0, 0x20
+		.byte  0x60,  0xF,	  0, 0xE0,   0, 0x40
+		.byte  0x60,  0xF,	  0, 0xF0,   0, 0x60
+word_24C8A:	.word 0x10		
+		.byte	0,  0xF,	  0,   0,   0,	 0
+		.byte	0,  0xF,	  0, 0x10,   0, 0x20
+		.byte	0,  0xF,	  0, 0x20,   0, 0x40
+		.byte	0,   7,	  0, 0x30,   0, 0x60
+		.byte  0x20,  0xF,	  0, 0x40,   0,	 0
+		.byte  0x20,  0xF,	  0, 0x50,   0, 0x20
+		.byte  0x20,  0xF,	  0, 0x60,   0, 0x40
+		.byte  0x20,   7,	  0, 0x70,   0, 0x60
+		.byte  0x40,  0xF,	  0, 0x80,   0,	 0
+		.byte  0x40,  0xF,	  0, 0x90,   0, 0x20
+		.byte  0x40,  0xF,	  0, 0xA0,   0, 0x40
+		.byte  0x40,   7,	  0, 0xB0,   0, 0x60
+		.byte  0x60,  0xF,	  0, 0xC0,   0,	 0
+		.byte  0x60,  0xF,	  0, 0xD0,   0, 0x20
+		.byte  0x60,  0xF,	  0, 0xE0,   0, 0x40
+		.byte  0x60,   7,	  0, 0xF0,   0, 0x60
+word_24CEC:	.word 9			
+		.byte	0,  0xF,	  0,   0,   0,	 0
+		.byte	0,  0xF,	  0, 0x10,   0, 0x20
+		.byte	0,  0xF,	  0, 0x20,   0, 0x40
+		.byte  0x20,  0xF,	  0, 0x30,   0,	 0
+		.byte  0x20,  0xF,	  0, 0x40,   0, 0x20
+		.byte  0x20,  0xF,	  0, 0x50,   0, 0x40
+		.byte  0x40,  0xF,	  0, 0x60,   0,	 0
+		.byte  0x40,  0xF,	  0, 0x70,   0, 0x20
+		.byte  0x40,  0xF,	  0, 0x80,   0, 0x40
+word_24D24:	.word 4			
+		.byte	0,  0xF,	  0,   0,   0,	 0
+		.byte	0,  0xF,	  0, 0x10,   0, 0x20
+		.byte  0x20,  0xF,	  0, 0x20,   0,	 0
+		.byte  0x20,  0xF,	  0, 0x30,   0, 0x20
+word_24D3E:	.word 4			
+		.byte	0,  0xF,	  0,   0,   0,	 0
+		.byte	0,   7,	  0, 0x10,   0, 0x20
+		.byte  0x20,  0xF,	  0, 0x20,   0,	 0
+		.byte  0x20,   7,	  0, 0x30,   0, 0x20
+word_24D58:	.word 1			
+		.byte	0,  0xF,	  0,   0,   0,	 0
+word_24D60:	.word 1			
+		.byte	0,   7,	  0,   0,   0,	 0

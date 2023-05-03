@@ -1,0 +1,5 @@
+		.word word_44288-Map_LRZSolidRock
+word_44288:	.word 3			/*  DATA XREF: ROM:00044286o */
+		.byte  0xF0,  0xD,	  0, 0x30, 0xFF, 0xE8
+		.byte	0,  0xD,	  0, 0x20, 0xFF, 0xE8
+		.byte  0xF0,   7,	  0, 0x38,   0,	 8

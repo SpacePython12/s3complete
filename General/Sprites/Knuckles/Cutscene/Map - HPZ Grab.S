@@ -1,0 +1,79 @@
+Map_66F36:		.word word_66F5C-Map_66F36
+		.word word_66F6A-Map_66F36
+		.word word_66F78-Map_66F36
+		.word word_66F86-Map_66F36
+		.word word_66F94-Map_66F36
+		.word word_66FA2-Map_66F36
+		.word word_66FB0-Map_66F36
+		.word word_66FBE-Map_66F36
+		.word word_66FCC-Map_66F36
+		.word word_66FDA-Map_66F36
+		.word word_66FE8-Map_66F36
+		.word word_66FF6-Map_66F36
+		.word word_6700A-Map_66F36
+		.word word_6701E-Map_66F36
+		.word word_6702C-Map_66F36
+		.word word_6703A-Map_66F36
+		.word word_67048-Map_66F36
+		.word word_6705C-Map_66F36
+		.word word_6706A-Map_66F36
+word_66F5C:	.word 2			
+		.byte  0xF0,   2,	  0,   0, 0xFF, 0xEC
+		.byte  0xF0,  0xF,	  0,   3, 0xFF, 0xF4
+word_66F6A:	.word 2			
+		.byte  0xF0,   2,	  0,   0, 0xFF, 0xEC
+		.byte  0xF0,  0xF,	  0,   3, 0xFF, 0xF4
+word_66F78:	.word 2			
+		.byte  0xF0,  0xF,	  0,   0, 0xFF, 0xEC
+		.byte  0xF0,   2,	  0, 0x10,   0,	0xC
+word_66F86:	.word 2			
+		.byte  0xF5,   2,	  0,   0, 0xFF, 0xEC
+		.byte  0xF5,  0xF,	  0,   3, 0xFF, 0xF4
+word_66F94:	.word 2			
+		.byte  0xFC,  0xA,	  0,   0, 0xFF, 0xEC
+		.byte	4,   5,	  0,   9,   0,	 4
+word_66FA2:	.word 2			
+		.byte  0xFC,  0xA,	  0,   0, 0xFF, 0xEC
+		.byte	4,   5,	  0,   9,   0,	 4
+word_66FB0:	.word 2			
+		.byte  0xFC,  0xA,	  0,   0, 0xFF, 0xEC
+		.byte	4,   5,	  0,   9,   0,	 4
+word_66FBE:	.word 2			
+		.byte  0xFC,  0xE,	  0,   0, 0xFF, 0xEC
+		.byte	4,   1,	  0,  0xC,   0,	0xC
+word_66FCC:	.word 2			
+		.byte  0xFC,  0xE,	  0,   0, 0xFF, 0xEC
+		.byte	4,   1,	  0,  0xC,   0,	0xC
+word_66FDA:	.word 2			
+		.byte  0xEC,  0xE,	  0,   0, 0xFF, 0xF4
+		.byte	4,  0xD,	  0,  0xC, 0xFF, 0xF4
+word_66FE8:	.word 2			
+		.byte  0xEC,  0xE,	  0,   0, 0xFF, 0xF4
+		.byte	4,  0xD,	  0,  0xC, 0xFF, 0xF4
+word_66FF6:	.word 3			
+		.byte  0xEC,  0xD,	  0,   0, 0xFF, 0xF4
+		.byte  0xFC,   9,	  0,   8, 0xFF, 0xF4
+		.byte   0xC,  0xC,	  0,  0xE, 0xFF, 0xF4
+word_6700A:	.word 3			
+		.byte  0xEC,  0xD,	  0,   0, 0xFF, 0xF4
+		.byte  0xFC,   9,	  0,   8, 0xFF, 0xF4
+		.byte   0xC,  0xC,	  0,  0xE, 0xFF, 0xF4
+word_6701E:	.word 2			
+		.byte  0xF4,   9,	  0,   0, 0xFF, 0xF4
+		.byte	4,  0xD,	  0,   6, 0xFF, 0xF4
+word_6702C:	.word 2			
+		.byte  0xEC,  0xE,	  0,   0, 0xFF, 0xF4
+		.byte	4,   9,	  0,  0xC, 0xFF, 0xF4
+word_6703A:	.word 2			
+		.byte  0xEC,   9,	  0,   0, 0xFF, 0xF4
+		.byte  0xFC,  0xE,	  0,   6, 0xFF, 0xF4
+word_67048:	.word 3			
+		.byte  0xEC,   9,	  0,   0, 0xFF, 0xF4
+		.byte  0xFC,  0xA,	  0,   6, 0xFF, 0xF4
+		.byte  0xFC,   4,	  0,  0xF,   0,	0xC
+word_6705C:	.word 2			
+		.byte  0xEC,  0xE,	  0,   0, 0xFF, 0xF4
+		.byte	4,   9,	  0,  0xC, 0xFF, 0xF4
+word_6706A:	.word 2			
+		.byte  0xEC,  0xE,	  0,   0, 0xFF, 0xF4
+		.byte	4,   9,	  0,  0xC, 0xFF, 0xF4

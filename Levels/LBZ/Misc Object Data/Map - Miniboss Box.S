@@ -1,0 +1,41 @@
+Map_36036A:	.word Frame_360382-Map_36036A
+		.word Frame_360390-Map_36036A
+		.word Frame_36039E-Map_36036A
+		.word Frame_3603AC-Map_36036A
+		.word Frame_3603BA-Map_36036A
+		.word Frame_3603C8-Map_36036A
+		.word Frame_3603D0-Map_36036A
+		.word Frame_3603D8-Map_36036A
+		.word Frame_3603E0-Map_36036A
+		.word Frame_3603E8-Map_36036A
+		.word Frame_3603F0-Map_36036A
+		.word Frame_3603F8-Map_36036A
+Frame_360382:	.word 2
+		.byte 0xF0,  2,  0,  0,0xFF,0xEC
+		.byte 0xF0, 0xF,  0,  3,0xFF,0xF4
+Frame_360390:	.word 2
+		.byte 0xF4, 0xE,  0,0x13,0xFF,0xEC
+		.byte 0xF4,  2,  0,0x1F,  0, 0xC
+Frame_36039E:	.word 2
+		.byte 0xF8, 0xD,  0,0x22,0xFF,0xEC
+		.byte 0xF8,  1,  0,0x2A,  0, 0xC
+Frame_3603AC:	.word 2
+		.byte 0xEC, 0xB,  0,0x2C,0xFF,0xF4
+		.byte  0xC,  0,0x10,0x34,  0,  4
+Frame_3603BA:	.word 2
+		.byte 0xEC, 0xA,  0,0x38,0xFF,0xF4
+		.byte   4,  0,  0,0x41,  0,  4
+Frame_3603C8:	.word 1
+		.byte 0xF4,  9,  0,0x42,0xFF,0xF4
+Frame_3603D0:	.word 1
+		.byte 0xF8,  1,  0,0x48,0xFF,0xFC
+Frame_3603D8:	.word 1
+		.byte 0xF8,  0,0x10,0x48,0xFF,0xFC
+Frame_3603E0:	.word 1
+		.byte 0xF8,  0,  0,0x4A,0xFF,0xFC
+Frame_3603E8:	.word 1
+		.byte 0xFC,  4,  0,0x4B,0xFF,0xF8
+Frame_3603F0:	.word 1
+		.byte 0xFC,  0,  0,0x4B,0xFF,0xF8
+Frame_3603F8:	.word 1
+		.byte 0xFC,  0,  0,0x4D,0xFF,0xF8

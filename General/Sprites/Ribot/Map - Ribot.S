@@ -1,0 +1,55 @@
+Map_3604B8:	.word Frame_3604C8-Map_3604B8
+		.word Frame_3604EE-Map_3604B8
+		.word Frame_360514-Map_3604B8
+		.word Frame_36053A-Map_3604B8
+		.word Frame_360560-Map_3604B8
+		.word Frame_360586-Map_3604B8
+		.word Frame_3605AC-Map_3604B8
+		.word Frame_3605B4-Map_3604B8
+Frame_3604C8:	.word 6
+		.byte 0xF4,  1,  0,  0,0xFF,0xF8
+		.byte   4,  4,  0,  2,0xFF,0xF0
+		.byte 0xF4,  1,  8,  0,  0,  0
+		.byte   4,  4,  8,  2,  0,  0
+		.byte 0xFC,  0,  0, 0xF,  0,  8
+		.byte 0xFC,  0,  0, 0xF,0xFF,0xF0
+Frame_3604EE:	.word 6
+		.byte 0xF4,  1,  0,  4,0xFF,0xF8
+		.byte   4,  4,  0,  6,0xFF,0xF0
+		.byte 0xF4,  1,  8,  4,  0,  0
+		.byte   4,  4,  8,  6,  0,  0
+		.byte 0xFC,  0,  0, 0xF,  0,  8
+		.byte 0xFC,  0,  0, 0xF,0xFF,0xF0
+Frame_360514:	.word 6
+		.byte 0xF4,  1,  0,  8,0xFF,0xF8
+		.byte   4,  4,  0, 0xA,0xFF,0xF0
+		.byte 0xF4,  1,  8,  8,  0,  0
+		.byte   4,  4,  8, 0xA,  0,  0
+		.byte 0xFC,  0,  0, 0xF,  0,  8
+		.byte 0xFC,  0,  0, 0xF,0xFF,0xF0
+Frame_36053A:	.word 6
+		.byte 0xF4,  1,  0,  0,0xFF,0xF8
+		.byte   4,  4,  0,  2,0xFF,0xF0
+		.byte 0xF4,  1,  8,  0,  0,  0
+		.byte   4,  4,  8,  2,  0,  0
+		.byte 0xEC,  0,  0, 0xF,0xFF,0xFC
+		.byte 0xF4,  0,  0,0x10,0xFF,0xFC
+Frame_360560:	.word 6
+		.byte 0xF4,  1,  0,  4,0xFF,0xF8
+		.byte   4,  4,  0,  6,0xFF,0xF0
+		.byte 0xF4,  1,  8,  4,  0,  0
+		.byte   4,  4,  8,  6,  0,  0
+		.byte 0xEC,  0,  0, 0xF,0xFF,0xFC
+		.byte 0xF4,  0,  0,0x10,0xFF,0xFC
+Frame_360586:	.word 6
+		.byte 0xF4,  1,  0,  8,0xFF,0xF8
+		.byte   4,  4,  0, 0xA,0xFF,0xF0
+		.byte 0xF4,  1,  8,  8,  0,  0
+		.byte   4,  4,  8, 0xA,  0,  0
+		.byte 0xEC,  0,  0, 0xF,0xFF,0xFC
+		.byte 0xF4,  0,  0,0x10,0xFF,0xFC
+Frame_3605AC:	.word 1
+		.byte 0xFC,  0,  0, 0xC,0xFF,0xFC
+Frame_3605B4:	.word 2
+		.byte 0xF8,  1,  0, 0xD,0xFF,0xF8
+		.byte 0xF8,  1,  8, 0xD,  0,  0

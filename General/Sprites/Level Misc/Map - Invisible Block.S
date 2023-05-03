@@ -1,0 +1,18 @@
+		.word	word_1ECCC-Map_InvisibleBlock
+		.word word_1ECE6-Map_InvisibleBlock
+		.word word_1ED00-Map_InvisibleBlock
+word_1ECCC:	.word 4			/*  DATA XREF: ROM:0001ECC6o */
+		.byte  0xF0,   5,	  0, 0x1C, 0xFF, 0xF0
+		.byte  0xF0,   5,	  0, 0x1C,   0,	 0
+		.byte	0,   5,	  0, 0x1C, 0xFF, 0xF0
+		.byte	0,   5,	  0, 0x1C,   0,	 0
+word_1ECE6:	.word 4			/*  DATA XREF: ROM:0001ECC6o */
+		.byte  0xE0,   5,	  0, 0x1C, 0xFF, 0xC0
+		.byte  0xE0,   5,	  0, 0x1C,   0, 0x30
+		.byte  0x10,   5,	  0, 0x1C, 0xFF, 0xC0
+		.byte  0x10,   5,	  0, 0x1C,   0, 0x30
+word_1ED00:	.word 4			/*  DATA XREF: ROM:0001ECC6o */
+		.byte  0xE0,   5,	  0, 0x1C, 0xFF, 0x80
+		.byte  0xE0,   5,	  0, 0x1C,   0, 0x70
+		.byte  0x10,   5,	  0, 0x1C, 0xFF, 0x80
+		.byte  0x10,   5,	  0, 0x1C,   0, 0x70

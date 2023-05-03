@@ -28,7 +28,7 @@ elif platform.system() == "Darwin": # Osx
 
 elif platform.system() == "Linux":
 	asBinary = "AS/Linux/asl";
-	fdp2binBinary = "AS/fdp2bin/fdp2bin.exe";
+	fdp2binBinary = "AS/fdp2bin/fdp2bin";
 
 else:
 	print("Unknown platform")
@@ -87,6 +87,8 @@ def build(targetName, def0, def1, accurate):
 
 	assembleProcess = subprocess.Popen(assembleCommand, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 	output, errors = assembleProcess.communicate()
+	output = output.replace(b"\x08", b"")
+	errors = errors.replace(b"\x08", b"")
 	errorsFile = open(errorsPath, "wb")
 	errorsFile.write(errors)
 	errorsFile.close()
@@ -107,7 +109,6 @@ def build(targetName, def0, def1, accurate):
 		return assembleProcess.returncode
 
 	# Create binary
-
 	binaryCommand = [fdp2binBinary, "sonic3k.p", romPath, "sonic3k.h"];
 
 	
@@ -134,7 +135,6 @@ def build(targetName, def0, def1, accurate):
 
 	# delete working files
 	delete("sonic3k.p");
-	delete("sonic3k.h");
 
 	# Assembly was successful.
 	return True

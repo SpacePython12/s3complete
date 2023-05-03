@@ -4618,6 +4618,8 @@ z80_SoundDriverPointersEnd:
 
 Z80_Snd_Driver_End:
 
+	shared z80_SoundDriverStart,z80_SoundDriverPointers,z80_SoundDriverPointersEnd,Z80_Snd_Driver_End,z80_MusicBanks,DAC_Banks
+
 little_endian function x,((x)<<8)&$FF00|((x)>>8)&$FF
 
 ; Function to make a little endian (z80) pointer
@@ -5413,3 +5415,6 @@ MusData_ICZ1:			include	"Sound/Music/ICZ1.asm"
 MusData_ICZ2:			include	"Sound/Music/ICZ2.asm"
 MusData_Super: 			include	"Sound/Music/Super Theme.asm"
 	finishBank
+
+z80_SoundDriverEnd:
+	shared z80_SoundDriverEnd,MusicPointers,SFXPointers

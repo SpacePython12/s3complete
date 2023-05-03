@@ -1,0 +1,335 @@
+Snd_SSZ_Header:
+	smpsHeaderStartSong 3
+	smpsHeaderVoice     Snd_SSZ_Voices
+	smpsHeaderChan      0x06, 0x03
+	smpsHeaderTempo     0x01, 0x04
+
+	smpsHeaderDAC       Snd_SSZ_DAC
+	smpsHeaderFM        Snd_SSZ_FM1,	0xE8, 0x0D
+	smpsHeaderFM        Snd_SSZ_FM2,	0x00, 0x17
+	smpsHeaderFM        Snd_SSZ_FM3,	0x00, 0x17
+	smpsHeaderFM        Snd_SSZ_FM4,	0x00, 0x1C
+	smpsHeaderFM        Snd_SSZ_FM5,	0x00, 0x15
+	smpsHeaderPSG       Snd_SSZ_PSG1,	0xF4, 0x05, 0x00, 0x00
+	smpsHeaderPSG       Snd_SSZ_PSG2,	0xF4, 0x05, 0x00, 0x00
+	smpsHeaderPSG       Snd_SSZ_PSG3,	0x00, 0x02, 0x00, 0x00
+
+/*  FM1 Data */
+Snd_SSZ_FM1:
+	smpsSetvoice        0x00
+	smpsAlterNote       0xFE
+
+Snd_SSZ_Jump01:
+	.byte	nG2, 0x07, nRst, 0x04, nG2, 0x08, nRst, 0x04, 0x24, nG3, nG2, nG2
+	.byte	0x0C, nRst, nC3, 0x14, nB2, 0x10, nG2, 0x08, nRst, 0x04, nG2, 0x08
+	.byte	nRst, 0x04, 0x24, nG3, nG2, nG2, 0x0C, nRst, 0x30
+
+Snd_SSZ_Loop08:
+	.byte	nC3, 0x60, nC4, 0x24, nC3, nC4, 0x18, nBb2, 0x06, nRst, 0x06, nBb2
+	.byte	0x54, nBb3, 0x24, nBb2, nBb3, 0x18, nA2, 0x06, nRst, 0x06, nA2, 0x48
+	.byte	nG3, 0x06, nAb3, nA3, 0x24, nA2, nA3, 0x18, nAb2, 0x06, nRst, 0x06
+	.byte	nAb2, 0x54, nAb3, 0x24, nAb2, nBb3, 0x18
+	smpsLoop            0x00, 0x02, Snd_SSZ_Loop08
+	.byte	nG2, 0x48, nG3, 0x0C, nG3, 0x48, nG2, 0x24, nAb2, 0x48, nAb3, 0x0C
+	.byte	nAb3, 0x48, nAb2, 0x0C, nAb3, 0x18, nG2, 0x48, nG3, 0x0C, nG3, 0x48
+	.byte	nG2, 0x24, nAb2, 0x3C, nAb3, 0x24, nBb2, 0x3C, nBb3, 0x24, nC3, 0x60
+	.byte	nC4, 0x24, nC3, nC4, 0x18, nBb2, 0x06, nRst, 0x06, nBb2, 0x54, nBb3
+	.byte	0x24, nBb2, nBb3, 0x18, nA2, 0x06, nRst, 0x06, nA2, 0x48, nG3, 0x06
+	.byte	nAb3, nA3, 0x24, nA2, nA3, 0x18, nAb2, 0x06, nRst, 0x06, nAb2, 0x54
+	.byte	nBb3, 0x24, nBb2, nBb3, 0x18, nRst, 0x01
+	smpsJump            Snd_SSZ_Jump01
+
+/*  Unreachable */
+	smpsStop
+
+/*  FM2 Data */
+Snd_SSZ_FM2:
+	.byte	nRst, 0x60, nRst, nRst, nRst
+
+Snd_SSZ_Loop07:
+	smpsSetvoice        0x03
+	.byte	nC4, 0x60, smpsNoAttack, 0x60, nBb3, smpsNoAttack, 0x60, nA3, smpsNoAttack, 0x60, nAb3, smpsNoAttack
+	.byte	0x60
+	smpsLoop            0x00, 0x02, Snd_SSZ_Loop07
+	.byte	nG3, smpsNoAttack, 0x60, nAb3, smpsNoAttack, 0x60, nG3, smpsNoAttack, 0x60, nAb3, nBb3, nC4
+	.byte	smpsNoAttack, 0x60, nBb3, smpsNoAttack, 0x60, nA3, smpsNoAttack, 0x60, nAb3, nBb3
+	smpsJump            Snd_SSZ_FM2
+
+/*  Unreachable */
+	smpsStop
+
+/*  FM3 Data */
+Snd_SSZ_FM3:
+	smpsSetvoice        0x01
+	.byte	nRst, 0x60, nRst, nF5, 0x12, nE5, nC5, 0x0C, nC6, 0x12, nB5, nG5
+	.byte	0x0C, nF5, 0x12, nE5
+	smpsFMAlterVol      0xFF
+	.byte	nC5, 0x0C, nRst
+	smpsFMAlterVol      0x01
+	.byte	nB4, nRst, 0x18
+	smpsSetvoice        0x02
+
+Snd_SSZ_Loop03:
+	smpsCall            Snd_SSZ_Call00
+	smpsLoop            0x01, 0x02, Snd_SSZ_Loop03
+
+Snd_SSZ_Loop04:
+	.byte	nC3, 0x06, nG1, nC3, nG1, nD3, nG1, nE3, nG1, nF3, nG1, nE3
+	.byte	nG1, nD3, nG1, nE3, nG1
+	smpsLoop            0x00, 0x02, Snd_SSZ_Loop04
+
+Snd_SSZ_Loop05:
+	.byte	nC3, 0x06, nAb1, nC3, nAb1, nD3, nAb1, nE3, nAb1, nF3, nAb1, nE3
+	.byte	nAb1, nD3, nAb1, nE3, nAb1
+	smpsLoop            0x00, 0x02, Snd_SSZ_Loop05
+
+Snd_SSZ_Loop06:
+	.byte	nC3, 0x06, nG1, nC3, nG1, nD3, nG1, nE3, nG1, nF3, nG1, nE3
+	.byte	nG1, nD3, nG1, nE3, nG1
+	smpsLoop            0x00, 0x02, Snd_SSZ_Loop06
+	.byte	nC3, 0x06, nAb1, nC3, nAb1, nD3, nAb1, nE3, nAb1, nF3, nAb1, nE3
+	.byte	nAb1, nD3, nAb1, nE3, nAb1, nC3, 0x06, nBb1, nC3, nBb1, nD3, nBb1
+	.byte	nE3, nBb1, nF3, nBb1, nE3, nBb1, nD3, nBb1, nE3, nBb1
+	smpsCall            Snd_SSZ_Call00
+	smpsJump            Snd_SSZ_FM3
+
+/*  Unreachable */
+	smpsStop
+
+Snd_SSZ_Call00:
+	smpsSetvoice        0x02
+	.byte	nC3, 0x06, nC2, nC3, nC2, nD3, nC2, nE3, nC2, nF3, nC2, nE3
+	.byte	nC2, nD3, nC2, nE3, nC2
+	smpsLoop            0x00, 0x02, Snd_SSZ_Call00
+
+Snd_SSZ_Loop0C:
+	smpsSetvoice        0x02
+	.byte	nC3, 0x06, nBb1, nC3, nBb1, nD3, nBb1, nE3, nBb1, nF3, nBb1, nE3
+	.byte	nBb1, nD3, nBb1, nE3, nBb1
+	smpsLoop            0x00, 0x02, Snd_SSZ_Loop0C
+
+Snd_SSZ_Loop0D:
+	smpsSetvoice        0x02
+	.byte	nC3, 0x06, nA1, nC3, nA1, nD3, nA1, nE3, nA1, nF3, nA1, nE3
+	.byte	nA1, nD3, nA1, nE3, nA1
+	smpsLoop            0x00, 0x02, Snd_SSZ_Loop0D
+
+Snd_SSZ_Loop0E:
+	smpsSetvoice        0x02
+	.byte	nC3, 0x06, nAb1, nC3, nAb1, nD3, nAb1, nE3, nAb1, nF3, nAb1, nE3
+	.byte	nAb1, nD3, nAb1, nE3, nAb1
+	smpsLoop            0x00, 0x02, Snd_SSZ_Loop0E
+	smpsReturn
+
+/*  FM5 Data */
+Snd_SSZ_FM5:
+	smpsModSet          0x24, 0x01, 0x04, 0x08
+	smpsSetvoice        0x01
+
+Snd_SSZ_Jump00:
+	.byte	nC5, 0x12, nB4, nG4, 0x0C, nG5, 0x12, nF5, nE5, 0x0C
+	smpsLoop            0x00, 0x03, Snd_SSZ_Jump00
+	.byte	nC5, 0x12, nB4
+	smpsFMAlterVol      0xFF
+	.byte	nG4, 0x0C, nRst
+	smpsFMAlterVol      0x01
+	.byte	nG4, nRst, 0x18
+	smpsFMAlterVol      0xFD
+
+Snd_SSZ_Loop01:
+	.byte	nC6, 0x07, nRst, 0x05, nC6, 0x48, nC5, 0x06, nE5, nF5, 0x24, nE5
+	.byte	0x18, nC5, 0x24
+	smpsLoop            0x00, 0x02, Snd_SSZ_Loop01
+	.byte	nRst, 0x0C, nRst, nA4, nRst, nRst, nC5, nRst, nRst, nF4, nRst, nRst
+	.byte	nA4, 0x24, nA4, 0x18, nRst, 0x24, nAb4, 0x0C, nC5, nBb4, nAb4, nEb5
+	.byte	0x18, nC5, 0x0C, nD5, nEb5, 0x18, nD5, 0x0C, nC5, 0x18
+
+Snd_SSZ_Loop02:
+	.byte	nC6, 0x06, nRst, nC6, 0x48, nC5, 0x06, nE5, nF5, 0x24, nE5, 0x18
+	.byte	nC5, 0x24
+	smpsLoop            0x00, 0x02, Snd_SSZ_Loop02
+	.byte	nRst, 0x0C, nRst, nA4, nRst, nRst, nC5, nRst, nRst, nF4, nRst, nRst
+	.byte	nA4, 0x24, nA4, 0x18, nRst, 0x24, nAb4, 0x0C, nC5, nBb4, nAb4, nEb5
+	.byte	0x18, nC5, 0x0C, nD5, nEb5, 0x18, nD5, 0x0C, nF5, 0x18
+	smpsFMAlterVol      0xFF
+	.byte	nG5, 0x24, nEb6, nD6, 0x07, nRst, 0x05, 0x18, nG5, 0x54, nAb5, 0x24
+	.byte	nEb6, nD6, 0x07, nRst, 0x05, 0x18, nF6, 0x24, nEb6, 0x18, nD6, nG5
+	.byte	0x24, nEb6, nD6, 0x07, nRst, 0x05, 0x18, nG5, 0x54, nAb5, 0x24, nC6
+	.byte	nEb6, 0x18, nG6, nF6, 0x0C, nEb6, 0x18, nF6, 0x24, nC6, 0x54, nC5
+	.byte	0x06, nE5, nF5, 0x24, nE5, 0x18, nC5, 0x24
+	smpsFMAlterVol      0xFF
+	.byte	nC6, 0x54, nC6, 0x06, nE6, nF6, 0x24, nE6, 0x18, nC6, 0x24
+	smpsFMAlterVol      0xFF
+	.byte	nG6, 0x0C, nC6, 0x07, nRst, 0x05, nRst, 0x24, nC6, 0x0C, nG6, nC6
+	.byte	0x07, nRst, 0x05, nRst, 0x0C, nC6, nRst, nC6, nG6, nC6, nRst, nC6
+	smpsFMAlterVol      0xFF
+	.byte	nBb6, 0x24, nAb6, nG6, nF6, nEb6, 0x18, nF6
+	smpsFMAlterVol      0x07
+	smpsJump            Snd_SSZ_Jump00
+
+/*  Unreachable */
+	smpsStop
+
+/*  FM4 Data */
+Snd_SSZ_FM4:
+	smpsModSet          0x24, 0x01, 0x04, 0x07
+	smpsAlterNote       0x02
+	smpsSetvoice        0x01
+	.byte	nRst, 0x0E
+	smpsJump            Snd_SSZ_Jump00
+
+/*  Unreachable */
+	smpsStop
+
+/*  PSG1 Data */
+Snd_SSZ_PSG1:
+	smpsPSGvoice        sTone_04
+
+Snd_SSZ_Loop09:
+	.byte	nG4, 0x06, nF4, nC4, nF4
+	smpsLoop            0x00, 0x0E, Snd_SSZ_Loop09
+	.byte	nRst, 0x0C, nB3, nRst, 0x18
+
+Snd_SSZ_Loop0A:
+	smpsCall            Snd_SSZ_Call01
+	smpsLoop            0x00, 0x08, Snd_SSZ_Loop0A
+	smpsAlterPitch      0x07
+	smpsCall            Snd_SSZ_Call01
+	smpsAlterPitch      0x01
+	smpsCall            Snd_SSZ_Call01
+	smpsAlterPitch      0xFF
+	smpsCall            Snd_SSZ_Call01
+	smpsAlterPitch      0xF9
+	smpsCall            Snd_SSZ_Call01
+
+Snd_SSZ_Loop0B:
+	smpsCall            Snd_SSZ_Call01
+	smpsLoop            0x00, 0x04, Snd_SSZ_Loop0B
+	smpsJump            Snd_SSZ_Loop09
+
+/*  Unreachable */
+	smpsStop
+
+Snd_SSZ_Call01:
+	.byte	nC5, 0x06, nC4, nC5, nC4, nC5, nC4, nC5, nC4, nC6, nC4, nC6
+	.byte	nC4, nC5, nC4, nC5, nC4
+	smpsLoop            0x01, 0x02, Snd_SSZ_Call01
+	smpsReturn
+
+/*  PSG2 Data */
+Snd_SSZ_PSG2:
+	smpsStop
+
+/*  PSG3 Data */
+Snd_SSZ_PSG3:
+	smpsPSGform         0xE7
+
+Snd_SSZ_Jump02:
+	smpsPSGvoice        sTone_01
+	.byte	nMaxPSG2, 0x06, nMaxPSG2
+	smpsPSGvoice        sTone_04
+	.byte	nMaxPSG2, 0x0C
+	smpsJump            Snd_SSZ_Jump02
+
+/*  Unreachable */
+	smpsStop
+
+/*  DAC Data */
+Snd_SSZ_DAC:
+	smpsPan             panCenter, 0x00
+	.byte	nRst, 0x60, nRst, nRst, nRst, 0x17, nRst, 0x0C, dSnareS3, nRst, dSnareS3, nRst
+	.byte	dKickS3, 0x06, dKickS3
+
+Snd_SSZ_Loop00:
+	smpsPan             panCenter, 0x00
+	.byte	dKickS3, 0x05, dKickS3, dKickS3, 0x0E, nRst, 0x0C, dMuffledSnare, 0x05, dMuffledSnare, dMuffledSnare, 0x0E
+	.byte	dMuffledSnare, 0x0C, nRst, dKickS3, 0x06, dKickS3, dKickS3, 0x0C, dKickS3, nRst, dMuffledSnare, 0x05
+	.byte	dMuffledSnare, dMuffledSnare, 0x0E, dMuffledSnare, 0x0C, nRst, dKickS3, dKickS3, 0x0C, dKickS3, nRst, dMuffledSnare
+	.byte	0x05, dMuffledSnare, dMuffledSnare, 0x0E, dMuffledSnare, 0x0C, nRst, dKickS3, 0x06, dKickS3, dKickS3, 0x0C
+	.byte	dKickS3, nRst, dMuffledSnare, 0x05, dMuffledSnare, dMuffledSnare, 0x08
+	smpsPan             panLeft, 0x00
+	.byte	dElectricMidTom, 0x06, dElectricMidTom, dElectricMidTom
+	smpsPan             panCenter, 0x00
+	.byte	dElectricLowTom, dElectricLowTom
+	smpsPan             panRight, 0x00
+	.byte	dElectricFloorTom, nRst
+	smpsLoop            0x00, 0x08, Snd_SSZ_Loop00
+	.byte	nRst, 0x01
+	smpsJump            Snd_SSZ_DAC
+
+/*  Unreachable */
+	smpsStop
+
+Snd_SSZ_Voices:
+/* 	Voice 0x00 */
+/* 	0x34 */
+/* 	0x02, 0x02, 0x02, 0x02, 	0x1F, 0x5F, 0x1F, 0x5F, 	0x0E, 0x00, 0x12, 0x00 */
+/* 	0x00, 0x08, 0x02, 0x08, 	0x4F, 0x0F, 0x4F, 0x0F, 	0x12, 0x80, 0x12, 0x80 */
+	smpsVcAlgorithm     0x04
+	smpsVcFeedback      0x06
+	smpsVcUnusedBits    0x00
+	smpsVcDetune        0x00, 0x00, 0x00, 0x00
+	smpsVcCoarseFreq    0x02, 0x02, 0x02, 0x02
+	smpsVcRateScale     0x01, 0x00, 0x01, 0x00
+	smpsVcAttackRate    0x1F, 0x1F, 0x1F, 0x1F
+	smpsVcAmpMod        0x00, 0x00, 0x00, 0x00
+	smpsVcDecayRate1    0x00, 0x12, 0x00, 0x0E
+	smpsVcDecayRate2    0x08, 0x02, 0x08, 0x00
+	smpsVcDecayLevel    0x00, 0x04, 0x00, 0x04
+	smpsVcReleaseRate   0x0F, 0x0F, 0x0F, 0x0F
+	smpsVcTotalLevel    0x00, 0x12, 0x00, 0x12
+
+/* 	Voice 0x01 */
+/* 	0x3D */
+/* 	0x01, 0x01, 0x01, 0x11, 	0x1C, 0x18, 0x18, 0x1B, 	0x06, 0x05, 0x04, 0x05 */
+/* 	0x06, 0x05, 0x06, 0x06, 	0x60, 0x89, 0x59, 0x79, 	0x18, 0x80, 0x80, 0x80 */
+	smpsVcAlgorithm     0x05
+	smpsVcFeedback      0x07
+	smpsVcUnusedBits    0x00
+	smpsVcDetune        0x01, 0x00, 0x00, 0x00
+	smpsVcCoarseFreq    0x01, 0x01, 0x01, 0x01
+	smpsVcRateScale     0x00, 0x00, 0x00, 0x00
+	smpsVcAttackRate    0x1B, 0x18, 0x18, 0x1C
+	smpsVcAmpMod        0x00, 0x00, 0x00, 0x00
+	smpsVcDecayRate1    0x05, 0x04, 0x05, 0x06
+	smpsVcDecayRate2    0x06, 0x06, 0x05, 0x06
+	smpsVcDecayLevel    0x07, 0x05, 0x08, 0x06
+	smpsVcReleaseRate   0x09, 0x09, 0x09, 0x00
+	smpsVcTotalLevel    0x00, 0x00, 0x00, 0x18
+
+/* 	Voice 0x02 */
+/* 	0x3D */
+/* 	0x02, 0x01, 0x01, 0x11, 	0x1C, 0x18, 0x18, 0x1B, 	0x06, 0x05, 0x04, 0x05 */
+/* 	0x06, 0x05, 0x06, 0x06, 	0x6F, 0x8F, 0x5F, 0x7F, 	0x18, 0x88, 0x88, 0x88 */
+	smpsVcAlgorithm     0x05
+	smpsVcFeedback      0x07
+	smpsVcUnusedBits    0x00
+	smpsVcDetune        0x01, 0x00, 0x00, 0x00
+	smpsVcCoarseFreq    0x01, 0x01, 0x01, 0x02
+	smpsVcRateScale     0x00, 0x00, 0x00, 0x00
+	smpsVcAttackRate    0x1B, 0x18, 0x18, 0x1C
+	smpsVcAmpMod        0x00, 0x00, 0x00, 0x00
+	smpsVcDecayRate1    0x05, 0x04, 0x05, 0x06
+	smpsVcDecayRate2    0x06, 0x06, 0x05, 0x06
+	smpsVcDecayLevel    0x07, 0x05, 0x08, 0x06
+	smpsVcReleaseRate   0x0F, 0x0F, 0x0F, 0x0F
+	smpsVcTotalLevel    0x08, 0x08, 0x08, 0x18
+
+/* 	Voice 0x03 */
+/* 	0x04 */
+/* 	0x02, 0x02, 0x03, 0x03, 	0x13, 0x10, 0x13, 0x10, 	0x06, 0x0C, 0x06, 0x0C */
+/* 	0x00, 0x00, 0x00, 0x00, 	0x4F, 0x2F, 0x4F, 0x2F, 	0x18, 0x90, 0x18, 0x90 */
+	smpsVcAlgorithm     0x04
+	smpsVcFeedback      0x00
+	smpsVcUnusedBits    0x00
+	smpsVcDetune        0x00, 0x00, 0x00, 0x00
+	smpsVcCoarseFreq    0x03, 0x03, 0x02, 0x02
+	smpsVcRateScale     0x00, 0x00, 0x00, 0x00
+	smpsVcAttackRate    0x10, 0x13, 0x10, 0x13
+	smpsVcAmpMod        0x00, 0x00, 0x00, 0x00
+	smpsVcDecayRate1    0x0C, 0x06, 0x0C, 0x06
+	smpsVcDecayRate2    0x00, 0x00, 0x00, 0x00
+	smpsVcDecayLevel    0x02, 0x04, 0x02, 0x04
+	smpsVcReleaseRate   0x0F, 0x0F, 0x0F, 0x0F
+	smpsVcTotalLevel    0x10, 0x18, 0x10, 0x18
+

@@ -1,0 +1,6 @@
+		.word word_256A4-Map_AIZFloatingPlatform
+word_256A4:	.word 4			/*  DATA XREF: ROM:000256A2o */
+		.byte  0xE6,  0xE,	  0,   0, 0xFF, 0xE0
+		.byte  0xE6,  0xE,	  8,   0,   0,	 0
+		.byte  0xFE,  0xD,	  0,  0xC, 0xFF, 0xE0
+		.byte  0xFE,  0xD,	  0,  0xC,   0,	 0

@@ -1,0 +1,14 @@
+		.word word_416CC-Map_SOZSwingingPlatform
+		.word word_416EC-Map_SOZSwingingPlatform
+		.word word_416F4-Map_SOZSwingingPlatform
+word_416CC:	.word 4			/*  DATA XREF: ROM:000416C6o */
+		.byte  0xF0,  0xD,	0x18, 0x10, 0xFF, 0xE0
+		.byte  0xF0,  0xD,	0x10, 0x10,   0,	 0
+		.byte	0,   9,	0x10, 0x18, 0xFF, 0xE8
+		.byte	0,   9,	0x18, 0x18,   0,	 0
+		.byte  0x31, 0x7C,	  3, 0xC9,   0,	0xA
+word_416EC:	.word 1			/*  DATA XREF: ROM:000416C6o */
+		.byte  0xF8,   5,	  3, 0xC8, 0xFF, 0xF8
+word_416F4:	.word 2			/*  DATA XREF: ROM:000416C6o */
+		.byte  0xF0,   7,	  3, 0xCC, 0xFF, 0xF0
+		.byte  0xF0,   7,	 0xB, 0xCC,   0,	 0

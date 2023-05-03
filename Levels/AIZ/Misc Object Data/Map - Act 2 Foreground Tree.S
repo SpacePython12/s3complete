@@ -1,0 +1,6 @@
+		.word word_2B99C-Map_AIZ2FGTree
+word_2B99C:	.word 4
+		.byte  0xC0,   7,   0,   0, 0xFF, 0xF8
+		.byte  0xE0,   7,   0,   0, 0xFF, 0xF8
+		.byte    0,   7,   0,   0, 0xFF, 0xF8
+		.byte  0x20,   7,   0,   0, 0xFF, 0xF8

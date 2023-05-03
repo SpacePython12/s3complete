@@ -1,0 +1,32 @@
+		.word word_160D5C-Map_FBZEggCapsule
+		.word word_160D82-Map_FBZEggCapsule
+		.word word_160DA8-Map_FBZEggCapsule
+		.word word_160DB0-Map_FBZEggCapsule
+		.word word_160DB8-Map_FBZEggCapsule
+		.word word_160DC0-Map_FBZEggCapsule
+		.word word_160DC8-Map_FBZEggCapsule
+		.word word_160DC8-Map_FBZEggCapsule
+word_160D5C:	.word 6
+		.byte  0xE0,   8,   0,   0, 0xFF, 0xE8
+		.byte  0xE0,   8,   8,   0,   0,   0
+		.byte  0xE8,  0xF,   0,   3, 0xFF, 0xE0
+		.byte  0xE8,  0xF,   8,   3,   0,   0
+		.byte    8,  0xE,   0, 0x13, 0xFF, 0xE0
+		.byte    8,  0xE,   8, 0x13,   0,   0
+word_160D82:	.word 6
+		.byte  0xE0,  0xD,   0, 0x1F, 0xFF, 0xE0
+		.byte  0xE0,  0xD,   8, 0x1F,   0,   0
+		.byte  0xF0,  0xE,   0, 0x27, 0xFF, 0xE0
+		.byte  0xF0,  0xE,   8, 0x27,   0,   0
+		.byte    8,  0xE,   0, 0x13, 0xFF, 0xE0
+		.byte    8,  0xE,   8, 0x13,   0,   0
+word_160DA8:	.word 1
+		.byte  0xF8,  0xD,   0, 0x33, 0xFF, 0xF0
+word_160DB0:	.word 1
+		.byte  0xF8,   5,   0, 0x3F, 0xFF, 0xF8
+word_160DB8:	.word 1
+		.byte  0xF8,   5,   8, 0x3F, 0xFF, 0xF8
+word_160DC0:	.word 1
+		.byte  0xF8,   5,   0, 0x3B, 0xFF, 0xF8
+word_160DC8:	.word 1
+		.byte  0xF8,   1,   0,   4, 0xFF, 0xFC

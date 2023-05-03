@@ -1,0 +1,11 @@
+Map_58A14:		.word word_58A1A-Map_58A14
+		.word word_58A22-Map_58A14
+		.word word_58A30-Map_58A14
+word_58A1A:	.word 1			
+		.byte  0xF8,   5,	  0,   1, 0xFF, 0xF8
+word_58A22:	.word 2			
+		.byte  0xF8,   0,	0x40, 0x65, 0xFF, 0xF8
+		.byte  0xF8,   0,	0x40, 0x67,   0,	 0
+word_58A30:	.word 2			
+		.byte  0xF8,   0,	0x48, 0x65,   0,	 0
+		.byte  0xF8,   0,	0x48, 0x67, 0xFF, 0xF8

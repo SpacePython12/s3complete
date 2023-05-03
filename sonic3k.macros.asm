@@ -20,7 +20,7 @@ WRITE = %000111
 DMA = %100111
 
 ; tells the VDP to copy a region of 68k memory to VRAM or CRAM or VSRAM
-dma68kToVDP macro source,dest,length,type
+dma_68kToVDP macro source,dest,length,type
 	lea	(VDP_control_port).l,a5
 	move.l	#(($9400|((((length)>>1)&$FF00)>>8))<<16)|($9300|(((length)>>1)&$FF)),(a5)
 	move.l	#(($9600|((((source)>>1)&$FF00)>>8))<<16)|($9500|(((source)>>1)&$FF)),(a5)

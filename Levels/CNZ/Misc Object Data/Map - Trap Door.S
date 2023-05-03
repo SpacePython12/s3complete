@@ -1,0 +1,12 @@
+Map_230DCC:	.word Frame_230DD2-Map_230DCC /*  ... */
+		.word Frame_230DE0-Map_230DCC
+		.word Frame_230DEE-Map_230DCC
+Frame_230DD2:	.word 2
+		.byte 0xF6, 0xC,  0,  0,0xFF,0xE0
+		.byte 0xF6, 0xC,  8,  0,  0,  0
+Frame_230DE0:	.word 2
+		.byte 0xEE, 0xD,  0,  4,0xFF,0xE0
+		.byte 0xEE, 0xD,  8,  4,  0,  0
+Frame_230DEE:	.word 2
+		.byte 0xEE, 0xD,  0, 0xC,0xFF,0xE0
+		.byte 0xEE, 0xD,  8, 0xC,  0,  0

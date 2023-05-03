@@ -1,0 +1,5 @@
+Map_4DA68:		.word word_4DA6A-Map_4DA68
+word_4DA6A:	.word 3			
+		.byte  0xFC,   0,	  0,   0, 0xFF, 0xD4
+		.byte  0xFC,  0xC,	  0,   1, 0xFF, 0xE4
+		.byte  0xFC,  0xC,	  0,   5,   0,	0xC

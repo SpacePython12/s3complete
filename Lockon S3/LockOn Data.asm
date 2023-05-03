@@ -794,6 +794,8 @@ ArtNem_LBZKnuxBomb:		binclude "Levels/LBZ/Nemesis Art/Knuckles Bomb.bin"
 	even
 ArtKosM_LBZ2DeathEggSmall:	binclude "Levels/LBZ/KosinskiM Art/Act 2 Death Egg Small.bin"
 	even
+ArtScaled_FleeingRobotnik:	binclude "General/Sprites/Robotnik/Robotnik Fly Scaled.bin"
+	even
 ArtKosM_LBZ2DeathEgg2_8x8:	binclude "Levels/LBZ/Tiles/Act 2 Death Egg 2.bin"
 	even
 ArtNem_AIZBossFire:		binclude "Levels/AIZ/Nemesis Art/Miniboss Fire.bin"
