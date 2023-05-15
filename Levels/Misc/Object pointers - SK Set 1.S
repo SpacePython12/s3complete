@@ -1,256 +1,256 @@
-		.long Obj_Ring				/*  0 */
-		.long Obj_Monitor			/*  1 */
-		.long Obj_PathSwap			/*  2 */
-		.long Obj_AIZHollowTree			/*  3 */
-		.long Obj_CollapsingPlatform		/*  4 */
-		.long Obj_AIZLRZEMZRock			/*  5 */
-		.long Obj_AIZRideVine			/*  6 */
-		.long Obj_Spring				/*  7 */
-		.long Obj_Spikes				/*  8 */
-		.long Obj_09_1				/*  9 */
-		.long Obj_0A_1				/*  10 */
-		.long Obj_Ring				/*  11 */
-		.long Obj_AIZGiantRideVine		/*  12 */
-		.long Obj_BreakableWall			/*  13 */
-		.long Obj_0E				/*  14 */
-		.long Obj_CollapsingBridge		/*  15 */
-		.long Obj_LBZTubeElevator		/*  16 */
-		.long Obj_LBZMovingPlatform		/*  17 */
-		.long Obj_12_1				/*  18 */
-		.long Obj_LBZExplodingTrigger		/*  19 */
-		.long Obj_LBZTriggerBridge		/*  20 */
-		.long Obj_LBZPlayerLauncher		/*  21 */
-		.long Obj_LBZFlameThrower		/*  22 */
-		.long Obj_LBZRideGrapple			/*  23 */
-		.long Obj_LBZCupElevator			/*  24 */
-		.long Obj_LBZCupElevatorPole		/*  25 */
-		.long Obj_1A_1				/*  26 */
-		.long Obj_LBZPipePlug			/*  27 */
-		.long Obj_Ring				/*  28 */
-		.long Obj_1D_1				/*  29 */
-		.long Obj_LBZSpinLauncher		/*  30 */
-		.long Obj_LBZLoweringGrapple		/*  31 */
-		.long Obj_MGZLBZSmashingPillar		/*  32 */
-		.long Obj_LBZGateLaser			/*  33 */
-		.long Obj_22_1				/*  34 */
-		.long Obj_23_1				/*  35 */
-		.long Obj_AutomaticTunnel		/*  36 */
-		.long Obj_Ring				/*  37 */
-		.long Obj_26				/*  38 */
-		.long Obj_27				/*  39 */
-		.long Obj_28_Invisible_Barrier		/*  40 */
-		.long Obj_AIZDisappearingFloor		/*  41 */
-		.long Obj_CorkFloor			/*  42 */
-		.long Obj_AIZFlippingBridge		/*  43 */
-		.long Obj_AIZCollapsingLogBridge		/*  44 */
-		.long Obj_AIZFallingLog			/*  45 */
-		.long Obj_AIZSpikedLog			/*  46 */
-		.long Obj_StillSprite			/*  47 */
-		.long Obj_AnimatedStillSprite		/*  48 */
-		.long Obj_31_1				/*  49 */
-		.long Obj_AIZDrawBridge			/*  50 */
-		.long Obj_Button				/*  51 */
-		.long Obj_StarPost			/*  52 */
-		.long Obj_AIZForegroundPlant		/*  53 */
-		.long Obj_BreakableBar			/*  54 */
-		.long Obj_37_1				/*  55 */
-		.long Obj_HCZCGZFan			/*  56 */
-		.long Obj_HCZLargeFan			/*  57 */
-		.long Obj_HCZHandLauncher		/*  58 */
-		.long Obj_HCZWaterWall			/*  59 */
-		.long Obj_Door				/*  60 */
-		.long Obj_RetractingSpring		/*  61 */
-		.long Obj_HCZConveyorBelt		/*  62 */
-		.long Obj_HCZConveryorSpike		/*  63 */
-		.long Obj_HCZBlock			/*  64 */
-		.long Obj_CNZBalloon			/*  65 */
-		.long Obj_CNZCannon			/*  66 */
-		.long Obj_CNZRisingPlatform		/*  67 */
-		.long Obj_CNZTrapDoor			/*  68 */
-		.long Obj_CNZLightBulb			/*  69 */
-		.long Obj_CNZHoverFan			/*  70 */
-		.long Obj_CNZCylinder			/*  71 */
-		.long Obj_48_1				/*  72 */
-		.long Obj_49_1				/*  73 */
-		.long Obj_Bumper				/*  74 */
-		.long Obj_4B_1				/*  75 */
-		.long Obj_4C_1				/*  76 */
-		.long Obj_CNZBarberPoleSprite		/*  77 */
-		.long Obj_4E_1				/*  78 */
-		.long Obj_4F_1				/*  79 */
-		.long Obj_50_1				/*  80 */
-		.long Obj_FloatingPlatform		/*  81 */
-		.long Obj_MGZLBZSmashingPillar		/*  82 */
-		.long Obj_MGZSwingingPlatform		/*  83 */
-		.long Obj_Bubbler			/*  84 */
-		.long Obj_MGZHeadTrigger			/*  85 */
-		.long Obj_MGZMovingSpikePlatform		/*  86 */
-		.long Obj_MGZTriggerPlatform		/*  87 */
-		.long Obj_MGZSwingingSpikeBall		/*  88 */
-		.long Obj_MGZDashTrigger			/*  89 */
-		.long Obj_MGZPulley			/*  90 */
-		.long Obj_MGZTopPlatform			/*  91 */
-		.long Obj_MGZTopLauncher			/*  92 */
-		.long Obj_5D_1				/*  93 */
-		.long Obj_CGZBladePlatform		/*  94 */
-		.long Obj_2PRetractingSpring		/*  95 */
-		.long Obj_BPZElephantBlock		/*  96 */
-		.long Obj_BPZBalloon			/*  97 */
-		.long Obj_DPZDisolvingSandBar		/*  98 */
-		.long Obj_DPZButton			/*  99 */
-		.long Obj_2PItem				/*  100 */
-		.long Obj_2PGoalMarker			/*  101 */
-		.long Obj_EMZDripper			/*  102 */
-		.long Obj_HCZSnakeBlocks			/*  103 */
-		.long Obj_HCZSpinningColumn		/*  104 */
-		.long Obj_69_1				/*  105 */
-		.long Obj_InvisibleHurtBlockHorizontal	/*  106 */
-		.long Obj_InvisibleHurtBlockVertical	/*  107 */
-		.long Obj_TensionBridge			/*  108 */
-		.long Obj_HCZWaterSplash			/*  109 */
-		.long Obj_WaterDrop			/*  110 */
-		.long Obj_6F_1				/*  111 */
-		.long Obj_70_1_FBZ_Twisting_Cylinders	/*  112 */
-		.long Obj_FBZFloatingPlatform		/*  113 */
-		.long Obj_FBZ_ChainLink			/*  114 */
-		.long Obj_FBZMagneticSpikeBall		/*  115 */
-		.long Obj_FBZMagneticPlatform		/*  116 */
-		.long Obj_FBZSnakePlatform		/*  117 */
-		.long Obj_FBZBentPipe			/*  118 */
-		.long Obj_FBZRotatingPlatform		/*  119 */
-		.long Obj_FBZDEZPlayerLauncher		/*  120 */
-		.long Obj_FBZDisappearingPlatform	/*  121 */
-		.long Obj_FBZScrewDoor			/*  122 */
-		.long Obj_7B_1				/*  123 */
-		.long Obj_FBZPropeller			/*  124 */
-		.long Obj_FBZPiston			/*  125 */
-		.long Obj_FBZPlatformBlocks		/*  126 */
-		.long Obj_FBZMissileLauncher		/*  127 */
-		.long Obj_HiddenMonitor			/*  128 */
-		.long Obj_81				/*  129 */
-		.long Obj_CutsceneKnuckles		/*  130 */
-		.long Obj_83				/*  131 */
-		.long Obj_AIZPlaneIntro			/*  132 */
-		.long Obj_SSEntryRing			/*  133 */
-		.long Obj_86				/*  134 */
-		.long Obj_87				/*  135 */
-		.long Obj_88				/*  136 */
-		.long Obj_89				/*  137 */
-		.long Obj_8A				/*  138 */
-		.long Obj_8B				/*  139 */
-		.long Obj_Tulipon			/*  140 */
-		.long Obj_RhinoBot			/*  141 */
-		.long Obj_MonkeyDude			/*  142 */
-		.long Obj_CaterKillerJr			/*  143 */
-		.long Obj_AIZ_Miniboss_Cutscene		/*  144 */
-		.long Obj_AIZ_Miniboss			/*  145 */
-		.long Obj_AIZ_EndBoss			/*  146 */
-		.long Obj_Jawz				/*  147 */
-		.long Obj_Blastoid			/*  148 */
-		.long Obj_Buggernaut			/*  149 */
-		.long Obj_TurboSpiker			/*  150 */
-		.long Obj_MegaChomper			/*  151 */
-		.long Obj_Poindexter			/*  152 */
-		.long Obj_HCZMiniboss			/*  153 */
-		.long Obj_HCZEndBoss			/*  154 */
-		.long Obj_BubblesBadnik			/*  155 */
-		.long Obj_Spiker				/*  156 */
-		.long Obj_Mantis				/*  157 */
-		.long Obj_MGZMiniBoss			/*  158 */
-		.long Obj_9F_1				/*  159 */
-		.long Obj_MGZ2DrillingEggman		/*  160 */
-		.long Obj_A1_1_MGZ2_Boss			/*  161 */
-		.long Obj_A2_1				/*  162 */
-		.long Obj_Clamer				/*  163 */
-		.long Obj_CNZBlastoid			/*  164 */
-		.long Obj_Batbot				/*  165 */
-		.long Obj_CNZMiniboss			/*  166 */
-		.long Obj_CNZEndBoss			/*  167 */
-		.long Obj_Blaster			/*  168 */
-		.long Obj_TechnoSqueek			/*  169 */
-		.long Obj_AA_1_FBZ1_Boss			/*  170 */
-		.long Obj_AB_1_FBZ_Laser_Boss		/*  171 */
-		.long Obj_FBZEndBoss			/*  172 */
-		.long Obj_Penguinator			/*  173 */
-		.long Obj_StarPointer			/*  174 */
-		.long Obj_ICZCrushingColumn		/*  175 */
-		.long Obj_ICZPathFollowPlatform		/*  176 */
-		.long Obj_ICZBreakableWall		/*  177 */
-		.long Obj_ICZFreezer			/*  178 */
-		.long Obj_ICZSegmentColumn		/*  179 */
-		.long Obj_ICZSwingingPlatform		/*  180 */
-		.long Obj_ICZStalagtite			/*  181 */
-		.long Obj_ICZIceCube			/*  182 */
-		.long Obj_ICZIceSpikes			/*  183 */
-		.long Obj_ICZHarmfulIce			/*  184 */
-		.long Obj_ICZ_SnowPile			/*  185 */
-		.long Obj_ICZ_TensionPlatform		/*  186 */
-		.long Obj_BB_1				/*  187 */
-		.long Obj_ICZMiniboss			/*  188 */
-		.long Obj_ICZEndBoss			/*  189 */
-		.long Obj_SnaleBlaster			/*  190 */
-		.long Obj_Ribot				/*  191 */
-		.long Obj_Orbinaut			/*  192 */
-		.long Obj_Corkey				/*  193 */
-		.long Obj_Flybot767			/*  194 */
-		.long Obj_C3_1				/*  195 */
-		.long Obj_C4_1				/*  196 */
-		.long Obj_C5_1				/*  197 */
-		.long Obj_C6_1				/*  198 */
-		.long Obj_Ring				/*  199 */
-		.long Obj_C8_1				/*  200 */
-		.long Obj_LBZMiniboss			/*  201 */
-		.long Obj_LBZ_FinalBoss1			/*  202 */
-		.long Obj_LBZ_EndBoss			/*  203 */
-		.long Obj_LBZ_FinalBoss2			/*  204 */
-		.long Obj_CD_1_LBZ2_TallBoss		/*  205 */
-		.long Obj_FBZExitDoor			/*  206 */
-		.long Obj_FBZEggPrison			/*  207 */
-		.long Obj_FBZSpringPlunger		/*  208 */
-		.long Obj_Ring				/*  209 */
-		.long Obj_Ring				/*  210 */
-		.long Obj_Ring				/*  211 */
-		.long Obj_Ring				/*  212 */
-		.long Obj_Ring				/*  213 */
-		.long Obj_Ring				/*  214 */
-		.long Obj_Ring				/*  215 */
-		.long Obj_Ring				/*  216 */
-		.long Obj_Ring				/*  217 */
-		.long Obj_Ring				/*  218 */
-		.long Obj_Ring				/*  219 */
-		.long Obj_Ring				/*  220 */
-		.long Obj_Ring				/*  221 */
-		.long Obj_Ring				/*  222 */
-		.long Obj_Ring				/*  223 */
-		.long Obj_FBZWallMissile			/*  224 */
-		.long Obj_FBZMine			/*  225 */
-		.long Obj_FBZElevator			/*  226 */
-		.long Obj_FBZTrapSpring			/*  227 */
-		.long Obj_FBZFlamethrower		/*  228 */
-		.long Obj_FBZSpiderCrane			/*  229 */
-		.long Obj_PachinkoTriangleBumper		/*  230 */
-		.long Obj_PachinkoFlipper		/*  231 */
-		.long Obj_PachinkoEnergyTrap		/*  232 */
-		.long Obj_PachinkoInvisibleUnknown	/*  233 */
-		.long Obj_Pachinko_Platform		/*  234 */
-		.long Obj_GumballItem			/*  235 */
-		.long Obj_EC_1				/*  236 */
-		.long Obj_PachinkoItemOrb		/*  237 */
-		.long Obj_Ring				/*  238 */
-		.long Obj_Ring				/*  239 */
-		.long Obj_Ring				/*  240 */
-		.long Obj_Ring				/*  241 */
-		.long Obj_Ring				/*  242 */
-		.long Obj_Ring				/*  243 */
-		.long Obj_Ring				/*  244 */
-		.long Obj_Ring				/*  245 */
-		.long Obj_Ring				/*  246 */
-		.long Obj_Ring				/*  247 */
-		.long Obj_Ring				/*  248 */
-		.long Obj_Ring				/*  249 */
-		.long Obj_Ring				/*  250 */
-		.long Obj_Ring				/*  251 */
-		.long Obj_Ring				/*  252 */
-		.long Obj_Ring				/*  253 */
-		.long Obj_Ring				/*  254 */
-		.long Obj_FBZMagneticPendulum		/*  255 */
+		.long Obj_Ring				/* 0*/
+		.long Obj_Monitor			/* 1*/
+		.long Obj_PathSwap			/* 2*/
+		.long Obj_AIZHollowTree			/* 3*/
+		.long Obj_CollapsingPlatform		/* 4*/
+		.long Obj_AIZLRZEMZRock			/* 5*/
+		.long Obj_AIZRideVine			/* 6*/
+		.long Obj_Spring				/* 7*/
+		.long Obj_Spikes				/* 8*/
+		.long Obj_09_1				/* 9*/
+		.long Obj_0A_1				/* 10*/
+		.long Obj_Ring				/* 11*/
+		.long Obj_AIZGiantRideVine		/* 12*/
+		.long Obj_BreakableWall			/* 13*/
+		.long Obj_0E				/* 14*/
+		.long Obj_CollapsingBridge		/* 15*/
+		.long Obj_LBZTubeElevator		/* 16*/
+		.long Obj_LBZMovingPlatform		/* 17*/
+		.long Obj_12_1				/* 18*/
+		.long Obj_LBZExplodingTrigger		/* 19*/
+		.long Obj_LBZTriggerBridge		/* 20*/
+		.long Obj_LBZPlayerLauncher		/* 21*/
+		.long Obj_LBZFlameThrower		/* 22*/
+		.long Obj_LBZRideGrapple			/* 23*/
+		.long Obj_LBZCupElevator			/* 24*/
+		.long Obj_LBZCupElevatorPole		/* 25*/
+		.long Obj_1A_1				/* 26*/
+		.long Obj_LBZPipePlug			/* 27*/
+		.long Obj_Ring				/* 28*/
+		.long Obj_1D_1				/* 29*/
+		.long Obj_LBZSpinLauncher		/* 30*/
+		.long Obj_LBZLoweringGrapple		/* 31*/
+		.long Obj_MGZLBZSmashingPillar		/* 32*/
+		.long Obj_LBZGateLaser			/* 33*/
+		.long Obj_22_1				/* 34*/
+		.long Obj_23_1				/* 35*/
+		.long Obj_AutomaticTunnel		/* 36*/
+		.long Obj_Ring				/* 37*/
+		.long Obj_26				/* 38*/
+		.long Obj_27				/* 39*/
+		.long Obj_28_Invisible_Barrier		/* 40*/
+		.long Obj_AIZDisappearingFloor		/* 41*/
+		.long Obj_CorkFloor			/* 42*/
+		.long Obj_AIZFlippingBridge		/* 43*/
+		.long Obj_AIZCollapsingLogBridge		/* 44*/
+		.long Obj_AIZFallingLog			/* 45*/
+		.long Obj_AIZSpikedLog			/* 46*/
+		.long Obj_StillSprite			/* 47*/
+		.long Obj_AnimatedStillSprite		/* 48*/
+		.long Obj_31_1				/* 49*/
+		.long Obj_AIZDrawBridge			/* 50*/
+		.long Obj_Button				/* 51*/
+		.long Obj_StarPost			/* 52*/
+		.long Obj_AIZForegroundPlant		/* 53*/
+		.long Obj_BreakableBar			/* 54*/
+		.long Obj_37_1				/* 55*/
+		.long Obj_HCZCGZFan			/* 56*/
+		.long Obj_HCZLargeFan			/* 57*/
+		.long Obj_HCZHandLauncher		/* 58*/
+		.long Obj_HCZWaterWall			/* 59*/
+		.long Obj_Door				/* 60*/
+		.long Obj_RetractingSpring		/* 61*/
+		.long Obj_HCZConveyorBelt		/* 62*/
+		.long Obj_HCZConveryorSpike		/* 63*/
+		.long Obj_HCZBlock			/* 64*/
+		.long Obj_CNZBalloon			/* 65*/
+		.long Obj_CNZCannon			/* 66*/
+		.long Obj_CNZRisingPlatform		/* 67*/
+		.long Obj_CNZTrapDoor			/* 68*/
+		.long Obj_CNZLightBulb			/* 69*/
+		.long Obj_CNZHoverFan			/* 70*/
+		.long Obj_CNZCylinder			/* 71*/
+		.long Obj_48_1				/* 72*/
+		.long Obj_49_1				/* 73*/
+		.long Obj_Bumper				/* 74*/
+		.long Obj_4B_1				/* 75*/
+		.long Obj_4C_1				/* 76*/
+		.long Obj_CNZBarberPoleSprite		/* 77*/
+		.long Obj_4E_1				/* 78*/
+		.long Obj_4F_1				/* 79*/
+		.long Obj_50_1				/* 80*/
+		.long Obj_FloatingPlatform		/* 81*/
+		.long Obj_MGZLBZSmashingPillar		/* 82*/
+		.long Obj_MGZSwingingPlatform		/* 83*/
+		.long Obj_Bubbler			/* 84*/
+		.long Obj_MGZHeadTrigger			/* 85*/
+		.long Obj_MGZMovingSpikePlatform		/* 86*/
+		.long Obj_MGZTriggerPlatform		/* 87*/
+		.long Obj_MGZSwingingSpikeBall		/* 88*/
+		.long Obj_MGZDashTrigger			/* 89*/
+		.long Obj_MGZPulley			/* 90*/
+		.long Obj_MGZTopPlatform			/* 91*/
+		.long Obj_MGZTopLauncher			/* 92*/
+		.long Obj_5D_1				/* 93*/
+		.long Obj_CGZBladePlatform		/* 94*/
+		.long Obj_2PRetractingSpring		/* 95*/
+		.long Obj_BPZElephantBlock		/* 96*/
+		.long Obj_BPZBalloon			/* 97*/
+		.long Obj_DPZDisolvingSandBar		/* 98*/
+		.long Obj_DPZButton			/* 99*/
+		.long Obj_2PItem				/* 100*/
+		.long Obj_2PGoalMarker			/* 101*/
+		.long Obj_EMZDripper			/* 102*/
+		.long Obj_HCZSnakeBlocks			/* 103*/
+		.long Obj_HCZSpinningColumn		/* 104*/
+		.long Obj_69_1				/* 105*/
+		.long Obj_InvisibleHurtBlockHorizontal	/* 106*/
+		.long Obj_InvisibleHurtBlockVertical	/* 107*/
+		.long Obj_TensionBridge			/* 108*/
+		.long Obj_HCZWaterSplash			/* 109*/
+		.long Obj_WaterDrop			/* 110*/
+		.long Obj_6F_1				/* 111*/
+		.long Obj_70_1_FBZ_Twisting_Cylinders	/* 112*/
+		.long Obj_FBZFloatingPlatform		/* 113*/
+		.long Obj_FBZ_ChainLink			/* 114*/
+		.long Obj_FBZMagneticSpikeBall		/* 115*/
+		.long Obj_FBZMagneticPlatform		/* 116*/
+		.long Obj_FBZSnakePlatform		/* 117*/
+		.long Obj_FBZBentPipe			/* 118*/
+		.long Obj_FBZRotatingPlatform		/* 119*/
+		.long Obj_FBZDEZPlayerLauncher		/* 120*/
+		.long Obj_FBZDisappearingPlatform	/* 121*/
+		.long Obj_FBZScrewDoor			/* 122*/
+		.long Obj_7B_1				/* 123*/
+		.long Obj_FBZPropeller			/* 124*/
+		.long Obj_FBZPiston			/* 125*/
+		.long Obj_FBZPlatformBlocks		/* 126*/
+		.long Obj_FBZMissileLauncher		/* 127*/
+		.long Obj_HiddenMonitor			/* 128*/
+		.long Obj_81				/* 129*/
+		.long Obj_CutsceneKnuckles		/* 130*/
+		.long Obj_83				/* 131*/
+		.long Obj_AIZPlaneIntro			/* 132*/
+		.long Obj_SSEntryRing			/* 133*/
+		.long Obj_86				/* 134*/
+		.long Obj_87				/* 135*/
+		.long Obj_88				/* 136*/
+		.long Obj_89				/* 137*/
+		.long Obj_8A				/* 138*/
+		.long Obj_8B				/* 139*/
+		.long Obj_Tulipon			/* 140*/
+		.long Obj_RhinoBot			/* 141*/
+		.long Obj_MonkeyDude			/* 142*/
+		.long Obj_CaterKillerJr			/* 143*/
+		.long Obj_AIZ_Miniboss_Cutscene		/* 144*/
+		.long Obj_AIZ_Miniboss			/* 145*/
+		.long Obj_AIZ_EndBoss			/* 146*/
+		.long Obj_Jawz				/* 147*/
+		.long Obj_Blastoid			/* 148*/
+		.long Obj_Buggernaut			/* 149*/
+		.long Obj_TurboSpiker			/* 150*/
+		.long Obj_MegaChomper			/* 151*/
+		.long Obj_Poindexter			/* 152*/
+		.long Obj_HCZMiniboss			/* 153*/
+		.long Obj_HCZEndBoss			/* 154*/
+		.long Obj_BubblesBadnik			/* 155*/
+		.long Obj_Spiker				/* 156*/
+		.long Obj_Mantis				/* 157*/
+		.long Obj_MGZMiniBoss			/* 158*/
+		.long Obj_9F_1				/* 159*/
+		.long Obj_MGZ2DrillingEggman		/* 160*/
+		.long Obj_A1_1_MGZ2_Boss			/* 161*/
+		.long Obj_A2_1				/* 162*/
+		.long Obj_Clamer				/* 163*/
+		.long Obj_CNZBlastoid			/* 164*/
+		.long Obj_Batbot				/* 165*/
+		.long Obj_CNZMiniboss			/* 166*/
+		.long Obj_CNZEndBoss			/* 167*/
+		.long Obj_Blaster			/* 168*/
+		.long Obj_TechnoSqueek			/* 169*/
+		.long Obj_AA_1_FBZ1_Boss			/* 170*/
+		.long Obj_AB_1_FBZ_Laser_Boss		/* 171*/
+		.long Obj_FBZEndBoss			/* 172*/
+		.long Obj_Penguinator			/* 173*/
+		.long Obj_StarPointer			/* 174*/
+		.long Obj_ICZCrushingColumn		/* 175*/
+		.long Obj_ICZPathFollowPlatform		/* 176*/
+		.long Obj_ICZBreakableWall		/* 177*/
+		.long Obj_ICZFreezer			/* 178*/
+		.long Obj_ICZSegmentColumn		/* 179*/
+		.long Obj_ICZSwingingPlatform		/* 180*/
+		.long Obj_ICZStalagtite			/* 181*/
+		.long Obj_ICZIceCube			/* 182*/
+		.long Obj_ICZIceSpikes			/* 183*/
+		.long Obj_ICZHarmfulIce			/* 184*/
+		.long Obj_ICZ_SnowPile			/* 185*/
+		.long Obj_ICZ_TensionPlatform		/* 186*/
+		.long Obj_BB_1				/* 187*/
+		.long Obj_ICZMiniboss			/* 188*/
+		.long Obj_ICZEndBoss			/* 189*/
+		.long Obj_SnaleBlaster			/* 190*/
+		.long Obj_Ribot				/* 191*/
+		.long Obj_Orbinaut			/* 192*/
+		.long Obj_Corkey				/* 193*/
+		.long Obj_Flybot767			/* 194*/
+		.long Obj_C3_1				/* 195*/
+		.long Obj_C4_1				/* 196*/
+		.long Obj_C5_1				/* 197*/
+		.long Obj_C6_1				/* 198*/
+		.long Obj_Ring				/* 199*/
+		.long Obj_C8_1				/* 200*/
+		.long Obj_LBZMiniboss			/* 201*/
+		.long Obj_LBZ_FinalBoss1			/* 202*/
+		.long Obj_LBZ_EndBoss			/* 203*/
+		.long Obj_LBZ_FinalBoss2			/* 204*/
+		.long Obj_CD_1_LBZ2_TallBoss		/* 205*/
+		.long Obj_FBZExitDoor			/* 206*/
+		.long Obj_FBZEggPrison			/* 207*/
+		.long Obj_FBZSpringPlunger		/* 208*/
+		.long Obj_Ring				/* 209*/
+		.long Obj_Ring				/* 210*/
+		.long Obj_Ring				/* 211*/
+		.long Obj_Ring				/* 212*/
+		.long Obj_Ring				/* 213*/
+		.long Obj_Ring				/* 214*/
+		.long Obj_Ring				/* 215*/
+		.long Obj_Ring				/* 216*/
+		.long Obj_Ring				/* 217*/
+		.long Obj_Ring				/* 218*/
+		.long Obj_Ring				/* 219*/
+		.long Obj_Ring				/* 220*/
+		.long Obj_Ring				/* 221*/
+		.long Obj_Ring				/* 222*/
+		.long Obj_Ring				/* 223*/
+		.long Obj_FBZWallMissile			/* 224*/
+		.long Obj_FBZMine			/* 225*/
+		.long Obj_FBZElevator			/* 226*/
+		.long Obj_FBZTrapSpring			/* 227*/
+		.long Obj_FBZFlamethrower		/* 228*/
+		.long Obj_FBZSpiderCrane			/* 229*/
+		.long Obj_PachinkoTriangleBumper		/* 230*/
+		.long Obj_PachinkoFlipper		/* 231*/
+		.long Obj_PachinkoEnergyTrap		/* 232*/
+		.long Obj_PachinkoInvisibleUnknown	/* 233*/
+		.long Obj_Pachinko_Platform		/* 234*/
+		.long Obj_GumballItem			/* 235*/
+		.long Obj_EC_1				/* 236*/
+		.long Obj_PachinkoItemOrb		/* 237*/
+		.long Obj_Ring				/* 238*/
+		.long Obj_Ring				/* 239*/
+		.long Obj_Ring				/* 240*/
+		.long Obj_Ring				/* 241*/
+		.long Obj_Ring				/* 242*/
+		.long Obj_Ring				/* 243*/
+		.long Obj_Ring				/* 244*/
+		.long Obj_Ring				/* 245*/
+		.long Obj_Ring				/* 246*/
+		.long Obj_Ring				/* 247*/
+		.long Obj_Ring				/* 248*/
+		.long Obj_Ring				/* 249*/
+		.long Obj_Ring				/* 250*/
+		.long Obj_Ring				/* 251*/
+		.long Obj_Ring				/* 252*/
+		.long Obj_Ring				/* 253*/
+		.long Obj_Ring				/* 254*/
+		.long Obj_FBZMagneticPendulum		/* 255*/

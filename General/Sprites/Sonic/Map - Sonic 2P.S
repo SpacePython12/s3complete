@@ -1,4 +1,4 @@
-Map_29FC3A:	.word Frame_29FC92-Map_29FC3A /*  ... */
+Map_29FC3A:	.word Frame_29FC92-Map_29FC3A /* ...*/
 		.word Frame_29FC94-Map_29FC3A
 		.word Frame_29FC9C-Map_29FC3A
 		.word Frame_29FCA4-Map_29FC3A

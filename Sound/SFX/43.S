@@ -6,7 +6,7 @@ Sound_43_Header:
 
 	smpsHeaderSFXChannel cPSG3, Sound_43_PSG3,	0x00, 0x00
 
-/*  PSG3 Data */
+/* PSG3 Data*/
 Sound_43_PSG3:
 	smpsPSGform         0xE7
 	.byte	nD3, 0x15, smpsNoAttack
@@ -18,5 +18,5 @@ Sound_43_Loop00:
 	smpsLoop            0x00, 0x10, Sound_43_Loop00
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_43_Voices:

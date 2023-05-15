@@ -6,7 +6,7 @@ Sound_64_Header:
 
 	smpsHeaderSFXChannel cPSG3, Sound_64_PSG3,	0x00, 0x00
 
-/*  PSG3 Data */
+/* PSG3 Data*/
 Sound_64_PSG3:
 	smpsModSet          0x01, 0x01, 0xF0, 0x08
 	smpsPSGform         0xE7
@@ -18,5 +18,5 @@ Sound_64_Loop00:
 	smpsLoop            0x00, 0x06, Sound_64_Loop00
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_64_Voices:

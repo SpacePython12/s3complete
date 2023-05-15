@@ -1,4 +1,4 @@
-PLC_344D74:	.word Frame_344DCE-PLC_344D74 /*  ... */
+PLC_344D74:	.word Frame_344DCE-PLC_344D74 /* ...*/
 		.word Frame_344DD0-PLC_344D74
 		.word Frame_344DD4-PLC_344D74
 		.word Frame_344DD8-PLC_344D74

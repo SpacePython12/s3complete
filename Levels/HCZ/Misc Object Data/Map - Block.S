@@ -1,4 +1,4 @@
-Map_21D04A:	.word Frame_21D052-Map_21D04A /*  ... */
+Map_21D04A:	.word Frame_21D052-Map_21D04A /* ...*/
 		.word Frame_21D05A-Map_21D04A
 		.word Frame_21D068-Map_21D04A
 		.word Frame_21D07C-Map_21D04A

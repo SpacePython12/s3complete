@@ -6,7 +6,7 @@ Sound_56_Header:
 
 	smpsHeaderSFXChannel cFM5, Sound_56_FM5,	0xEE, 0x00
 
-/*  FM5 Data */
+/* FM5 Data*/
 Sound_56_FM5:
 	smpsSetvoice        0x00
 	.byte	nB2, 0x06, nEb3

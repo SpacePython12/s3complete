@@ -1,5 +1,5 @@
 		.word word_3CB0E-Map_FBZElevator
-word_3CB0E:	.word 7			/*  DATA XREF: ROM:0003CB0Co */
+word_3CB0E:	.word 7			/* DATA XREF: ROM:0003CB0Co*/
 		.byte  0xE8,  0xE,	  0,   0, 0xFF, 0xD0
 		.byte	0,  0xD,	  0,  0xC, 0xFF, 0xD0
 		.byte  0xE0,  0xE,	  0, 0x14,   0, 0x10

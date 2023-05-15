@@ -1,4 +1,4 @@
-Map_2317B0:	.word Frame_2317B8-Map_2317B0 /*  ... */
+Map_2317B0:	.word Frame_2317B8-Map_2317B0 /* ...*/
 		.word Frame_2317EA-Map_2317B0
 		.word Frame_23181C-Map_2317B0
 		.word Frame_23184E-Map_2317B0

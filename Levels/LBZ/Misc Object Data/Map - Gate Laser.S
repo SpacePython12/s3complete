@@ -1,4 +1,4 @@
-Map_228394:	.word Frame_22839A-Map_228394 /*  ... */
+Map_228394:	.word Frame_22839A-Map_228394 /* ...*/
 		.word Frame_2283A8-Map_228394
 		.word Frame_2283B0-Map_228394
 Frame_22839A:	.word 2

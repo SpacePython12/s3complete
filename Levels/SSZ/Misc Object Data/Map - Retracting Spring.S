@@ -4,25 +4,25 @@
 		.word word_46D56-Map_SSZRetractingSpring
 		.word word_46D70-Map_SSZRetractingSpring
 		.word word_46D84-Map_SSZRetractingSpring
-word_46D2C:	.word 0			/*  DATA XREF: ROM:00046D20o */
-word_46D2E:	.word 1			/*  DATA XREF: ROM:00046D20o */
+word_46D2C:	.word 0			/* DATA XREF: ROM:00046D20o*/
+word_46D2E:	.word 1			/* DATA XREF: ROM:00046D20o*/
 		.byte	8,  0xC,	0x28, 0x1B, 0xFF, 0xF8
-word_46D36:	.word 5			/*  DATA XREF: ROM:00046D20o */
+word_46D36:	.word 5			/* DATA XREF: ROM:00046D20o*/
 		.byte  0xF8,  0xE,	  8,   0, 0xFF, 0xF8
 		.byte  0xF0,   8,	0x28, 0x1F, 0xFF, 0xF6
 		.byte  0xF8,   8,	0x28, 0x22, 0xFF, 0xEE
 		.byte	0,   4,	0x28, 0x25, 0xFF, 0xEE
 		.byte	8,   0,	0x28, 0x27, 0xFF, 0xEE
-word_46D56:	.word 4			/*  DATA XREF: ROM:00046D20o */
+word_46D56:	.word 4			/* DATA XREF: ROM:00046D20o*/
 		.byte  0xF0,   8,	  8,  0xC, 0xFF, 0xF8
 		.byte  0xF8,  0xE,	  8,  0xF, 0xFF, 0xF8
 		.byte  0xF8,   1,	  8, 0x2C, 0xFF, 0xF0
 		.byte  0xF0,   3,	0x28, 0x28, 0xFF, 0xE8
-word_46D70:	.word 3			/*  DATA XREF: ROM:00046D20o */
+word_46D70:	.word 3			/* DATA XREF: ROM:00046D20o*/
 		.byte  0xF0,   8,	  8,  0xC, 0xFF, 0xF8
 		.byte  0xF8,  0xE,	  8,  0xF, 0xFF, 0xF8
 		.byte  0xF0,   3,	0x28, 0x28, 0xFF, 0xF0
-word_46D84:	.word 4			/*  DATA XREF: ROM:00046D20o */
+word_46D84:	.word 4			/* DATA XREF: ROM:00046D20o*/
 		.byte  0xF0,   8,	  8,  0xC, 0xFF, 0xF8
 		.byte  0xF8,  0xE,	  8,  0xF, 0xFF, 0xF8
 		.byte  0xF8,   9,	  8, 0x2E, 0xFF, 0xE0

@@ -49,19 +49,19 @@
 		.word word_2BEEA-Map_StillSprites
 		.word word_2BEF8-Map_StillSprites
 		.word word_2BF06-Map_StillSprites
-word_2BB00:	.word 2			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BB00:	.word 2			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF4,   5,	  1, 0x26, 0xFF, 0xF4
 		.byte	4,   8,	  1, 0x2A, 0xFF, 0xF4
-word_2BB0E:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BB0E:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF8,  0xD,	  0,   0, 0xFF, 0xF0
-word_2BB16:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BB16:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xFC,   4,	  0,   8, 0xFF, 0xF8
-word_2BB1E:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BB1E:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF8,   5,	  0, 0x26, 0xFF, 0xF8
-word_2BB26:	.word 2			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BB26:	.word 2			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xE0,   7,	  0, 0x3A, 0xFF, 0xF8
 		.byte	0,   7,	  0, 0x42, 0xFF, 0xF8
-word_2BB34:	.word 0x10		/*  DATA XREF: ROM:0002BA9Ao */
+word_2BB34:	.word 0x10		/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xC0,  0xF,	  0, 0x50, 0xFF, 0xC0
 		.byte  0xC0,  0xF,	  0, 0x50, 0xFF, 0xE0
 		.byte  0xC0,  0xF,	  0, 0x50,   0,	 0
@@ -78,7 +78,7 @@ word_2BB34:	.word 0x10		/*  DATA XREF: ROM:0002BA9Ao */
 		.byte  0x20,  0xF,	  0, 0x50, 0xFF, 0xE0
 		.byte  0x20,  0xF,	  0, 0x50,   0,	 0
 		.byte  0x20,  0xF,	  0, 0x50,   0, 0x20
-word_2BB96:	.word 8			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BB96:	.word 8			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xE0,  0xF,	  0, 0x50, 0xFF, 0xC0
 		.byte  0xE0,  0xF,	  0, 0x50, 0xFF, 0xE0
 		.byte  0xE0,  0xF,	  0, 0x50,   0,	 0
@@ -87,12 +87,12 @@ word_2BB96:	.word 8			/*  DATA XREF: ROM:0002BA9Ao */
 		.byte	0,  0xF,	  0, 0x50, 0xFF, 0xE0
 		.byte	0,  0xF,	  0, 0x50,   0,	 0
 		.byte	0,  0xF,	  0, 0x50,   0, 0x20
-word_2BBC8:	.word 4			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BBC8:	.word 4			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF0,  0xF,	  0, 0x50, 0xFF, 0xC0
 		.byte  0xF0,  0xF,	  0, 0x50, 0xFF, 0xE0
 		.byte  0xF0,  0xF,	  0, 0x50,   0,	 0
 		.byte  0xF0,  0xF,	  0, 0x50,   0, 0x20
-word_2BBE2:	.word 9			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BBE2:	.word 9			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xC0,  0xF,	  0, 0x50,   0, 0x20
 		.byte  0xE0,  0xF,	  0, 0x50,   0,	 0
 		.byte  0xE0,  0xF,	  0, 0x50,   0, 0x20
@@ -102,7 +102,7 @@ word_2BBE2:	.word 9			/*  DATA XREF: ROM:0002BA9Ao */
 		.byte  0x20,  0xF,	  0, 0x50, 0xFF, 0xC0
 		.byte  0x20,  0xF,	  0, 0x50, 0xFF, 0xE0
 		.byte  0x20,  0xF,	  0, 0x50,   0,	 0
-word_2BC1A:	.word 0xC			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BC1A:	.word 0xC			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xA0,  0xF,	  0, 0x50, 0xFF, 0xC0
 		.byte  0xC0,  0xF,	  0, 0x50, 0xFF, 0xC0
 		.byte  0xC0,  0xF,	  0, 0x50, 0xFF, 0xE0
@@ -115,38 +115,38 @@ word_2BC1A:	.word 0xC			/*  DATA XREF: ROM:0002BA9Ao */
 		.byte  0x20,  0xF,	  0, 0x50,   0,	 0
 		.byte  0x20,  0xF,	  0, 0x50,   0, 0x20
 		.byte  0x40,  0xF,	  0, 0x50,   0, 0x20
-word_2BC64:	.word 3			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BC64:	.word 3			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF0,  0xE,	  0,   3, 0xFF, 0xF0
 		.byte  0xE8,   0,	  0,   0, 0xFF, 0xFC
 		.byte	8,   1,	  0,   1, 0xFF, 0xFC
-word_2BC78:	.word 3			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BC78:	.word 3			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF0,  0xE,	  8,   3, 0xFF, 0xF0
 		.byte  0xE8,   0,	  0,   0, 0xFF, 0xFC
 		.byte	8,   1,	  0,   1, 0xFF, 0xFC
-word_2BC8C:	.word 3			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BC8C:	.word 3			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xEC,  0xB,	  0,  0xF, 0xFF, 0xF4
 		.byte  0xE8,   0,	  0,   0, 0xFF, 0xFC
 		.byte	8,   1,	  0,   1, 0xFF, 0xFC
-word_2BCA0:	.word 3			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BCA0:	.word 3			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xEC,  0xB,	  0, 0x1B, 0xFF, 0xF4
 		.byte  0xE8,   0,	  0,   0, 0xFF, 0xFC
 		.byte	8,   1,	  0,   1, 0xFF, 0xFC
-word_2BCB4:	.word 4			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BCB4:	.word 4			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xD0,   5,	  0,   0, 0xFF, 0xF8
 		.byte  0xE0,   3,	  0,   4, 0xFF, 0xF8
 		.byte	0,   2,	  0,   8, 0xFF, 0xF8
 		.byte  0x18,   6,	  0,  0xB, 0xFF, 0xF8
-word_2BCCE:	.word 6			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BCCE:	.word 6			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xE8,   9,	  0,   0, 0xFF, 0xD0
 		.byte  0xF8,  0xC,	  0,   6, 0xFF, 0xD0
 		.byte	0,  0xC,	  0,  0xA, 0xFF, 0xD8
 		.byte	8,  0xD,	  0,  0xE, 0xFF, 0xD8
 		.byte	8,   9,	  0, 0x16, 0xFF, 0xF8
 		.byte  0x10,  0xC,	  0, 0x1C,   0, 0x10
-word_2BCF4:	.word 2			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BCF4:	.word 2			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF0,   4,	  0,   0, 0xFF, 0xFC
 		.byte  0xF8,  0xA,	  0,   2, 0xFF, 0xF4
-word_2BD02:	.word 8			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BD02:	.word 8			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xCC,   7,	  0,   0, 0xFF, 0xE0
 		.byte  0xEC,   6,	  0,   8, 0xFF, 0xE0
 		.byte  0xDC,   7,	  0,   0, 0xFF, 0xF0
@@ -155,16 +155,16 @@ word_2BD02:	.word 8			/*  DATA XREF: ROM:0002BA9Ao */
 		.byte   0xC,   6,	  0,   8,   0,	 0
 		.byte  0xFC,   7,	  0,   0,   0, 0x10
 		.byte  0x1C,   6,	  0,   8,   0, 0x10
-word_2BD34:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BD34:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF0,   3,	  0,   0, 0xFF, 0xFC
-word_2BD3C:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BD3C:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF8,   5,	  0, 0x22, 0xFF, 0xF8
-word_2BD44:	.word 4			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BD44:	.word 4			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xC0,  0xF,	  0,   9, 0xFF, 0xF0
 		.byte  0xE0,  0xF,	  8,   9, 0xFF, 0xF0
 		.byte	0,  0xF,	  0,   9, 0xFF, 0xF0
 		.byte  0x20,  0xF,	  8,   9, 0xFF, 0xF0
-word_2BD5E:	.word 8			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BD5E:	.word 8			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0x80,  0xF,	  0,   9, 0xFF, 0xF0
 		.byte  0xA0,  0xF,	  8,   9, 0xFF, 0xF0
 		.byte  0xC0,  0xF,	  0,   9, 0xFF, 0xF0
@@ -173,60 +173,60 @@ word_2BD5E:	.word 8			/*  DATA XREF: ROM:0002BA9Ao */
 		.byte  0x20,  0xF,	  8,   9, 0xFF, 0xF0
 		.byte  0x40,  0xF,	  0,   9, 0xFF, 0xF0
 		.byte  0x60,  0xF,	  8,   9, 0xFF, 0xF0
-word_2BD90:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BD90:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF0,   3,	  0,   4, 0xFF, 0xFC
-word_2BD98:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BD98:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF0,   3,	  0,   8, 0xFF, 0xFC
-word_2BDA0:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BDA0:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xFC,  0xC,	  0,   0, 0xFF, 0xF0
-word_2BDA8:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BDA8:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF8,  0xD,	  0,   0, 0xFF, 0xF0
-word_2BDB0:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BDB0:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF8,  0xD,	  0,   8, 0xFF, 0xF0
-word_2BDB8:	.word 2			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BDB8:	.word 2			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF8,   1,	  0,   0, 0xFF, 0xF0
 		.byte  0xF8,   1,	  8,   0,   0,	 8
-word_2BDC6:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BDC6:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF8,   5,	  0,   0, 0xFF, 0xF8
-word_2BDCE:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BDCE:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xFC,  0xC,	0x10, 0x8B, 0xFF, 0xF0
-word_2BDD6:	.word 2			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BDD6:	.word 2			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xFC,  0xC,	0x10, 0x8B, 0xFF, 0xE0
 		.byte  0xFC,  0xC,	0x10, 0x8B,   0,	 0
-word_2BDE4:	.word 3			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BDE4:	.word 3			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xFC,  0xC,	0x10, 0x8B, 0xFF, 0xD0
 		.byte  0xFC,  0xC,	0x10, 0x8B, 0xFF, 0xF0
 		.byte  0xFC,  0xC,	0x10, 0x8B,   0, 0x10
-word_2BDF8:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BDF8:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF0,  0xF,	0x10, 0x71, 0xFF, 0xF0
-word_2BE00:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BE00:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF0,   3,	  0, 0x8F, 0xFF, 0xFC
-word_2BE08:	.word 2			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BE08:	.word 2			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xE0,   3,	  0, 0x91, 0xFF, 0xFC
 		.byte	0,   3,	  0, 0x91, 0xFF, 0xFC
-word_2BE16:	.word 4			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BE16:	.word 4			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xC0,   3,	  0, 0x91, 0xFF, 0xFC
 		.byte  0xE0,   3,	  0, 0x91, 0xFF, 0xFC
 		.byte	0,   3,	  0, 0x91, 0xFF, 0xFC
 		.byte  0x20,   3,	  0, 0x91, 0xFF, 0xFC
-word_2BE30:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BE30:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF0,   3,	  0, 0x93, 0xFF, 0xFC
-word_2BE38:	.word 2			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BE38:	.word 2			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xEC,   5,	  0,   0, 0xFF, 0xF8
 		.byte  0xFC,   6,	  0,   4, 0xFF, 0xF8
-word_2BE46:	.word 4			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BE46:	.word 4			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xEC,   5,	  0,   0, 0xFF, 0xE8
 		.byte  0xFC,   6,	  0,   4, 0xFF, 0xE8
 		.byte  0xEC,   5,	  0,   0,   0,	 8
 		.byte  0xFC,   6,	  0,   4,   0,	 8
-word_2BE60:	.word 6			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BE60:	.word 6			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xEC,   5,	  0,   0, 0xFF, 0xD8
 		.byte  0xFC,   6,	  0,   4, 0xFF, 0xD8
 		.byte  0xEC,   5,	  0,   0, 0xFF, 0xF8
 		.byte  0xFC,   6,	  0,   4, 0xFF, 0xF8
 		.byte  0xEC,   5,	  0,   0,   0, 0x18
 		.byte  0xFC,   6,	  0,   4,   0, 0x18
-word_2BE86:	.word 8			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BE86:	.word 8			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xEC,   5,	  0,   0, 0xFF, 0xC8
 		.byte  0xFC,   6,	  0,   4, 0xFF, 0xC8
 		.byte  0xEC,   5,	  0,   0, 0xFF, 0xE8
@@ -235,24 +235,24 @@ word_2BE86:	.word 8			/*  DATA XREF: ROM:0002BA9Ao */
 		.byte  0xFC,   6,	  0,   4,   0,	 8
 		.byte  0xEC,   5,	  0,   0,   0, 0x28
 		.byte  0xFC,   6,	  0,   4,   0, 0x28
-word_2BEB8:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BEB8:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF0,   3,	  0,   0, 0xFF, 0xFC
-word_2BEC0:	.word 4			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BEC0:	.word 4			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xFC,  0xC,	  0, 0x1E, 0xFF, 0xC0
 		.byte  0xFC,  0xC,	  0, 0x1E, 0xFF, 0xE0
 		.byte  0xFC,  0xC,	  0, 0x1E,   0,	 0
 		.byte  0xFC,  0xC,	  0, 0x1E,   0, 0x20
-word_2BEDA:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BEDA:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF8,  0xD,	  0, 0x20, 0xFF, 0xF0
-word_2BEE2:	.word 1			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BEE2:	.word 1			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte	0,  0xC,	  0,   0, 0xFF, 0xF0
-word_2BEEA:	.word 2			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BEEA:	.word 2			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF4,   4,	  0,   0, 0xFF, 0xF8
 		.byte  0xFC,   1,	  0,   2, 0xFF, 0xF8
-word_2BEF8:	.word 2			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BEF8:	.word 2			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xF8,   8,	  0,   4, 0xFF, 0xF4
 		.byte	0,   0,	  0,   7, 0xFF, 0xF4
-word_2BF06:	.word 4			/*  DATA XREF: ROM:0002BA9Ao */
+word_2BF06:	.word 4			/* DATA XREF: ROM:0002BA9Ao*/
 		.byte  0xDC,   6,	  0, 0x41, 0xFF, 0xF0
 		.byte  0xDC,   6,	  8, 0x41,   0,	 0
 		.byte  0xF4,  0xA,	  0, 0x47, 0xFF, 0xF8

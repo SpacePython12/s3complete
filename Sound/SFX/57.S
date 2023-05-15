@@ -7,7 +7,7 @@ Sound_57_Header:
 	smpsHeaderSFXChannel cPSG3, Sound_57_PSG3,	0x00, 0x00
 	smpsHeaderSFXChannel cFM5, Sound_39_57_6C_FM5,	0x00, 0x00
 
-/*  PSG3 Data */
+/* PSG3 Data*/
 Sound_57_PSG3:
 	smpsPSGform         0xE7
 	.byte	nB4, 0x0B

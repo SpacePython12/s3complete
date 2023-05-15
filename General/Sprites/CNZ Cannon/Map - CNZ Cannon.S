@@ -1,4 +1,4 @@
-Map_230A32:	.word Frame_230AFE-Map_230A32 /*  ... */
+Map_230A32:	.word Frame_230AFE-Map_230A32 /* ...*/
 		.word Frame_230AD8-Map_230A32
 		.word Frame_230AB2-Map_230A32
 		.word Frame_230A8C-Map_230A32

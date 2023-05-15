@@ -1,4 +1,4 @@
-Map_22534C:	.word Frame_225350-Map_22534C /*  ... */
+Map_22534C:	.word Frame_225350-Map_22534C /* ...*/
 		.word Frame_225364-Map_22534C
 Frame_225350:	.word 3
 		.byte 0xF8,  5,  0,0x14,0xFF,0xE0

@@ -1,4 +1,4 @@
-Map_21FD52:	.word Frame_21FD5E-Map_21FD52 /*  ... */
+Map_21FD52:	.word Frame_21FD5E-Map_21FD52 /* ...*/
 		.word Frame_21FDBE-Map_21FD52
 		.word Frame_21FD7E-Map_21FD52
 		.word Frame_21FDFC-Map_21FD52

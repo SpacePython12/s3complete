@@ -1,4 +1,4 @@
-Map_230E52:	.word Frame_230E56-Map_230E52 /*  ... */
+Map_230E52:	.word Frame_230E56-Map_230E52 /* ...*/
 		.word Frame_230E70-Map_230E52
 Frame_230E56:	.word 4
 		.byte 0xE8,  7,  0,  0,0xFF,0xF0

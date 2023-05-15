@@ -1,4 +1,4 @@
-Map_2339B2:	.word Frame_2339B6-Map_2339B2 /*  ... */
+Map_2339B2:	.word Frame_2339B6-Map_2339B2 /* ...*/
 		.word Frame_233A18-Map_2339B2
 Frame_2339B6:	.word 0x10
 		.byte 0xDC, 0xD,  0,0x18,0xFF,0xC0

@@ -1,4 +1,4 @@
-Map_3605C2:	.word Frame_3605D2-Map_3605C2 /*  ... */
+Map_3605C2:	.word Frame_3605D2-Map_3605C2 /* ...*/
 		.word Frame_3605E0-Map_3605C2
 		.word Frame_3605E8-Map_3605C2
 		.word Frame_3605F0-Map_3605C2

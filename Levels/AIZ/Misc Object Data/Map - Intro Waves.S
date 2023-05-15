@@ -1,4 +1,4 @@
-Map_22119A_:	.word Frame_2211A6-Map_22119A_ /*  ... */
+Map_22119A_:	.word Frame_2211A6-Map_22119A_ /* ...*/
 		.word Frame_2211B4-Map_22119A_
 		.word Frame_2211D4-Map_22119A_
 		.word Frame_2211F4-Map_22119A_

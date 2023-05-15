@@ -1,4 +1,4 @@
-Map_22F998:	.word Frame_22F9A8-Map_22F998 /*  ... */
+Map_22F998:	.word Frame_22F9A8-Map_22F998 /* ...*/
 		.word Frame_22F9CE-Map_22F998
 		.word Frame_22F9F4-Map_22F998
 		.word Frame_22FA1A-Map_22F998

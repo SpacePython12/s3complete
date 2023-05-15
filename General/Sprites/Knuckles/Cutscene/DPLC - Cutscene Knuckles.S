@@ -1,4 +1,4 @@
-PLC_36430E:	.word Frame_364358-PLC_36430E /*  ... */
+PLC_36430E:	.word Frame_364358-PLC_36430E /* ...*/
 		.word Frame_36435C-PLC_36430E
 		.word Frame_364366-PLC_36430E
 		.word Frame_364370-PLC_36430E

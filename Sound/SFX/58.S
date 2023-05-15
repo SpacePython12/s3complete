@@ -6,7 +6,7 @@ Sound_58_Header:
 
 	smpsHeaderSFXChannel cPSG3, Sound_58_PSG3,	0x1D, 0x00
 
-/*  PSG3 Data */
+/* PSG3 Data*/
 Sound_58_PSG3:
 	smpsPSGform         0xE7
 	smpsPSGvoice        sTone_0F
@@ -15,5 +15,5 @@ Sound_58_PSG3:
 	.byte	nD3, 0x04
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_58_Voices:

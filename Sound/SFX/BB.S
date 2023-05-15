@@ -6,7 +6,7 @@ Sound_BB_Header:
 
 	smpsHeaderSFXChannel cFM4, Sound_BB_FM4,	0xFA, 0x0B
 
-/*  FM4 Data */
+/* FM4 Data*/
 Sound_BB_FM4:
 	smpsSetvoice        0x00
 	.byte	nE2, 0x08, 0x08

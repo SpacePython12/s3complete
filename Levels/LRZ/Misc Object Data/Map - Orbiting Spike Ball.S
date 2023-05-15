@@ -1,9 +1,9 @@
 		.word word_43D28-Map_LRZOrbitingSpikeBall
 		.word word_43D36-Map_LRZOrbitingSpikeBall
-word_43D28:	.word 2			/*  DATA XREF: ROM:00043D24o */
+word_43D28:	.word 2			/* DATA XREF: ROM:00043D24o*/
 		.byte  0xF0,   7,	  0, 0x10, 0xFF, 0xF0
 		.byte  0xF0,   7,	  8, 0x10,   0,	 0
-word_43D36:	.word 8			/*  DATA XREF: ROM:00043D24o */
+word_43D36:	.word 8			/* DATA XREF: ROM:00043D24o*/
 		.byte  0xE8,  0xA,	  0, 0x10, 0xFF, 0xE8
 		.byte  0xE8,  0xA,	  8, 0x10,   0,	 0
 		.byte	0,  0xA,	  0, 0x19, 0xFF, 0xE8

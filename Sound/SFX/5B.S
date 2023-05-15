@@ -6,10 +6,10 @@ Sound_5B_Header:
 
 	smpsHeaderSFXChannel cPSG2, Sound_5B_PSG2,	0x00, 0x00
 
-/*  PSG2 Data */
+/* PSG2 Data*/
 Sound_5B_PSG2:
 	.byte	nA5, 0x02
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_5B_Voices:

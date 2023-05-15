@@ -1,5 +1,5 @@
 		.word word_25656-Map_MGZFloatingPlatform
-word_25656:	.word 8			/*  DATA XREF: ROM:00025654o */
+word_25656:	.word 8			/* DATA XREF: ROM:00025654o*/
 		.byte  0xDC,  0xD,	  0,   0, 0xFF, 0xE0
 		.byte  0xDC,  0xD,	  0,   0,   0,	 0
 		.byte  0xEC,  0xD,	  0,   8, 0xFF, 0xE0

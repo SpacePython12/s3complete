@@ -8,33 +8,33 @@
 		.word word_35F10-Map_BPZBalloon
 		.word word_35F1E-Map_BPZBalloon
 		.word word_35F32-Map_BPZBalloon
-word_35EAE:	.word 2			/*  DATA XREF: ROM:00035E9Ao */
+word_35EAE:	.word 2			/* DATA XREF: ROM:00035E9Ao*/
 		.byte	8,   0,	  0, 0x13, 0xFF, 0xFC
 		.byte   0xD,   0,	0xE0, 0x12, 0xFF, 0xFC
-word_35EBC:	.word 2			/*  DATA XREF: ROM:00035E9Ao */
+word_35EBC:	.word 2			/* DATA XREF: ROM:00035E9Ao*/
 		.byte	8,   0,	  0, 0x14, 0xFF, 0xFC
 		.byte   0xD,   0,	0xE0, 0x12, 0xFF, 0xFC
-word_35ECA:	.word 2			/*  DATA XREF: ROM:00035E9Ao */
+word_35ECA:	.word 2			/* DATA XREF: ROM:00035E9Ao*/
 		.byte	2,   5,	  0, 0x15, 0xFF, 0xF8
 		.byte   0xD,   0,	0xE0, 0x12, 0xFF, 0xFC
-word_35ED8:	.word 2			/*  DATA XREF: ROM:00035E9Ao */
+word_35ED8:	.word 2			/* DATA XREF: ROM:00035E9Ao*/
 		.byte	0,   5,	  0, 0x19, 0xFF, 0xF8
 		.byte   0xD,   0,	0xE0, 0x12, 0xFF, 0xFC
-word_35EE6:	.word 2			/*  DATA XREF: ROM:00035E9Ao */
+word_35EE6:	.word 2			/* DATA XREF: ROM:00035E9Ao*/
 		.byte  0xF8,  0xA,	  0, 0x1D, 0xFF, 0xF4
 		.byte   0xD,   0,	0xE0, 0x12, 0xFF, 0xFC
-word_35EF4:	.word 2			/*  DATA XREF: ROM:00035E9Ao */
+word_35EF4:	.word 2			/* DATA XREF: ROM:00035E9Ao*/
 		.byte  0xF0,  0xF,	  0, 0x26, 0xFF, 0xF0
 		.byte   0xD,   0,	0xE0, 0x12, 0xFF, 0xFC
-word_35F02:	.word 2			/*  DATA XREF: ROM:00035E9Ao */
+word_35F02:	.word 2			/* DATA XREF: ROM:00035E9Ao*/
 		.byte  0xF0,  0xF,	  0, 0x36, 0xFF, 0xF0
 		.byte   0xD,   0,	0xE0, 0x12, 0xFF, 0xFC
-word_35F10:	.word 2			/*  DATA XREF: ROM:00035E9Ao */
+word_35F10:	.word 2			/* DATA XREF: ROM:00035E9Ao*/
 		.byte  0xF0,  0xF,	  0, 0x46, 0xFF, 0xF0
 		.byte   0xD,   0,	0xE0, 0x12, 0xFF, 0xFC
-word_35F1E:	.word 3			/*  DATA XREF: ROM:00035E9Ao */
+word_35F1E:	.word 3			/* DATA XREF: ROM:00035E9Ao*/
 		.byte  0xF0,  0xB,	  0, 0x56, 0xFF, 0xE8
 		.byte  0xF0,  0xB,	  0, 0x62,   0,	 0
 		.byte   0xD,   0,	0xE0, 0x12, 0xFF, 0xFC
-word_35F32:	.word 1			/*  DATA XREF: ROM:00035E9Ao */
+word_35F32:	.word 1			/* DATA XREF: ROM:00035E9Ao*/
 		.byte   0xD,   0,	0xE0, 0x12, 0xFF, 0xFC

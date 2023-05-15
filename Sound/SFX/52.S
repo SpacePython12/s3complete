@@ -6,7 +6,7 @@ Sound_52_Header:
 
 	smpsHeaderSFXChannel cPSG3, Sound_52_PSG3,	0x00, 0x03
 
-/*  PSG3 Data */
+/* PSG3 Data*/
 Sound_52_PSG3:
 	smpsModSet          0x01, 0x01, 0xF0, 0x08
 	smpsPSGform         0xE7
@@ -18,5 +18,5 @@ Sound_52_Loop00:
 	smpsLoop            0x00, 0x0C, Sound_52_Loop00
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_52_Voices:

@@ -7,23 +7,23 @@
 		.word word_39EBC-Map_LRZCollapsingBridge
 		.word word_39EC4-Map_LRZCollapsingBridge
 		.word word_39ECC-Map_LRZCollapsingBridge
-word_39E8C:	.word 1			/*  DATA XREF: ROM:00039E7Ao */
+word_39E8C:	.word 1			/* DATA XREF: ROM:00039E7Ao*/
 		.byte  0xF8,   5,	  0, 0x6D, 0xFF, 0xF8
-word_39E94:	.word 1			/*  DATA XREF: ROM:00039E7Ao */
+word_39E94:	.word 1			/* DATA XREF: ROM:00039E7Ao*/
 		.byte  0xF8,   5,	  8, 0x6D, 0xFF, 0xF8
-word_39E9C:	.word 1			/*  DATA XREF: ROM:00039E7Ao */
+word_39E9C:	.word 1			/* DATA XREF: ROM:00039E7Ao*/
 		.byte  0xF8,   5,	0x18, 0x6D, 0xFF, 0xF8
-word_39EA4:	.word 1			/*  DATA XREF: ROM:00039E7Ao */
+word_39EA4:	.word 1			/* DATA XREF: ROM:00039E7Ao*/
 		.byte  0xF8,   5,	0x10, 0x6D, 0xFF, 0xF8
-word_39EAC:	.word 1			/*  DATA XREF: ROM:00039E7Ao */
+word_39EAC:	.word 1			/* DATA XREF: ROM:00039E7Ao*/
 		.byte  0xF0,  0xF,	  0, 0x71, 0xFF, 0xF0
-word_39EB4:	.word 1			/*  DATA XREF: ROM:00039E7Ao */
+word_39EB4:	.word 1			/* DATA XREF: ROM:00039E7Ao*/
 		.byte  0xF0,  0xF,	  8, 0x71, 0xFF, 0xF0
-word_39EBC:	.word 1			/*  DATA XREF: ROM:00039E7Ao */
+word_39EBC:	.word 1			/* DATA XREF: ROM:00039E7Ao*/
 		.byte  0xF0,  0xF,	0x18, 0x71, 0xFF, 0xF0
-word_39EC4:	.word 1			/*  DATA XREF: ROM:00039E7Ao */
+word_39EC4:	.word 1			/* DATA XREF: ROM:00039E7Ao*/
 		.byte  0xF0,  0xF,	0x10, 0x71, 0xFF, 0xF0
-word_39ECC:	.word 0x10		/*  DATA XREF: ROM:00039E7Ao */
+word_39ECC:	.word 0x10		/* DATA XREF: ROM:00039E7Ao*/
 		.byte  0xE0,  0xD,	  0,  0xC, 0xFF, 0xC0
 		.byte  0xE0,  0xD,	  8,  0xC, 0xFF, 0xE0
 		.byte  0xE0,  0xD,	  0,  0xC,   0,	 0

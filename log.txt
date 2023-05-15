@@ -1,0 +1,1078 @@
+sonic3k.macros.S: Assembler messages:
+sonic3k.macros.S: Warning: end of file not at end of a line; newline inserted
+General/Save Menu/Map - Save Screen General.S: Warning: end of file not at end of a line; newline inserted
+General/Sprites/Shields/Anim - Shield S2.S: Warning: end of file not at end of a line; newline inserted
+General/Sprites/Level Misc/Map - Spring.S: Warning: end of file not at end of a line; newline inserted
+General/Sprites/Level Misc/Map - 2P Spring.S: Warning: end of file not at end of a line; newline inserted
+General/Sprites/Level Misc/Map - 2P Retracting Spring.S: Warning: end of file not at end of a line; newline inserted
+General/Sprites/Starpost/Map - Starpost Stars.S: Warning: end of file not at end of a line; newline inserted
+General/Sprites/Bubbles/Map - Bubbler.S: Warning: end of file not at end of a line; newline inserted
+Levels/DPZ/Misc Object Data/Anim - Dissolving Sand Bar.S: Warning: end of file not at end of a line; newline inserted
+Levels/DPZ/Misc Object Data/Map - Dissolving Sand Bar.S: Warning: end of file not at end of a line; newline inserted
+Levels/LRZ/Misc Object Data/Map - Button Horizontal.S: Warning: end of file not at end of a line; newline inserted
+Levels/LRZ/Misc Object Data/Map - Swinging Spike Ball.S: Warning: end of file not at end of a line; newline inserted
+Levels/LRZ/Misc Object Data/Map - Turbine.S: Warning: end of file not at end of a line; newline inserted
+Levels/DEZ/Misc Object Data/Map - Conveyor Pad.S: Warning: end of file not at end of a line; newline inserted
+Levels/Slots/Misc Object Data/Map - Slot.S: Warning: end of file not at end of a line; newline inserted
+Levels/Slots/Misc Object Data/Map - R and Peppermint.S: Warning: end of file not at end of a line; newline inserted
+Levels/Slots/Misc Object Data/Map - Goal.S: Warning: end of file not at end of a line; newline inserted
+Levels/Slots/Misc Object Data/Map - Bumper.S: Warning: end of file not at end of a line; newline inserted
+Levels/Slots/Misc Object Data/Map - Ring.S: Warning: end of file not at end of a line; newline inserted
+Levels/Slots/Misc Object Data/Map - Colored Wall.S: Warning: end of file not at end of a line; newline inserted
+General/Sprites/Sonic/Map - SStage Sonic.S: Warning: end of file not at end of a line; newline inserted
+General/Sprites/Knuckles/Map - SStage Knuckles.S: Warning: end of file not at end of a line; newline inserted
+General/Sprites/Sonic/Map - Sonic.S:1279: Warning: end of file not at end of a line; newline inserted
+General/Sprites/Sonic/Sonic pattern load cues.S:1793: Warning: end of file not at end of a line; newline inserted
+sonic3k.S:202949: Error: Unknown operator -- statement `artunc_obj_lightning_shield_sparks_end' ignored
+Levels/AIZ/Misc Object Data/Map - Disappearing Floor.S: Warning: end of file not at end of a line; newline inserted
+Levels/HCZ/Misc Object Data/Map - Water Splash 2.S: Warning: end of file not at end of a line; newline inserted
+Lockon S3/Screen Events.S:745: Error: Unknown operator -- statement `loc_23b-0:' ignored
+Lockon S3/Screen Events.S:1410: Error: Unknown operator -- statement `loc_23e-6:' ignored
+Lockon S3/Screen Events.S:1413: Error: Unknown operator -- statement `sub_23e-A:' ignored
+Lockon S3/LockOn Data.S:575: Warning: missing operand; zero assumed
+Lockon S3/LockOn Data.S:579: Warning: missing operand; zero assumed
+Lockon S3/LockOn Data.S:665: Warning: missing operand; zero assumed
+/tmp/ccU5KaHK.s: Error: attempt to get value of unresolved symbol `._headpos'
+sonic3k.S:168870: Error: Adjusted signed .word (0x83c3c) overflows: `switch'-statement too large.
+/tmp/ccU5KaHK.s: Error: attempt to get value of unresolved symbol `._headpos'
+sonic3k.S:168856: Error: Adjusted signed .word (0x83b92) overflows: `switch'-statement too large.
+/tmp/ccU5KaHK.s: Error: attempt to get value of unresolved symbol `._headpos'
+sonic3k.S:168840: Error: Adjusted signed .word (0x83a82) overflows: `switch'-statement too large.
+/tmp/ccU5KaHK.s: Error: attempt to get value of unresolved symbol `._headpos'
+sonic3k.S:151746: Error: Adjusted signed .word (0x77578) overflows: `switch'-statement too large.
+/tmp/ccU5KaHK.s: Error: attempt to get value of unresolved symbol `._headpos'
+sonic3k.S:151713: Error: Adjusted signed .word (0x77502) overflows: `switch'-statement too large.
+/tmp/ccU5KaHK.s: Error: attempt to get value of unresolved symbol `._headpos'
+sonic3k.S:146910: Error: Adjusted signed .word (0x73d30) overflows: `switch'-statement too large.
+/tmp/ccU5KaHK.s: Error: attempt to get value of unresolved symbol `._headpos'
+sonic3k.S:146883: Error: Adjusted signed .word (0x73cce) overflows: `switch'-statement too large.
+sonic3k.S:64: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:65: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:231: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:535: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:535: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:535: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:535: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:535: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:535: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:535: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:540: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:540: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:540: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:540: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:540: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:540: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:540: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:566: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:566: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:566: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:566: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:566: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:566: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:566: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:569: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:569: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:569: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:569: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:648: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:648: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:648: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:648: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:648: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:648: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:648: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:651: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:651: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:651: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:651: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:651: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:651: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:651: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:656: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:656: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:656: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:656: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:656: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:656: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:656: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:666: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:666: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:666: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:666: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:669: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:669: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:669: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:669: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:669: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:669: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:669: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:708: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:708: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:708: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:708: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:708: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:708: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:708: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:711: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:711: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:711: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:711: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:711: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:711: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:711: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:714: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:714: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:714: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:714: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:714: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:714: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:714: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:724: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:724: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:724: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:724: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:727: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:727: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:727: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:727: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:727: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:727: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:727: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:752: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:752: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:752: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:752: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:752: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:752: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:752: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:753: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:753: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:753: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:753: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:753: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:753: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:753: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:754: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:754: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:754: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:754: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:754: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:754: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:754: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:758: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:758: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:758: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:758: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:769: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:769: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:769: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:769: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:769: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:769: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:769: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:770: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:770: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:770: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:770: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:770: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:770: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:770: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:771: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:771: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:771: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:771: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:771: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:771: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:771: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:820: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:820: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:820: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:820: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:820: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:820: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:820: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:823: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:823: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:823: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:823: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:823: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:823: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:823: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:825: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:825: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:825: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:825: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:825: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:825: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:825: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:826: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:826: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:826: Error: invalid operands (.bss and *ABS* sections) for `>>'
+sonic3k.S:826: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:826: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:826: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:826: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:858: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:858: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:858: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:858: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:861: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:861: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:861: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:861: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:1271: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:1272: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:1294: Error: invalid operands (*UND* and *ABS* sections) for `/'
+sonic3k.S:4778: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:8697: Error: invalid operands (*UND* and *UND* sections) for `-'
+sonic3k.S:8716: Error: invalid operands (*UND* and *UND* sections) for `-'
+sonic3k.S:8738: Error: invalid operands (*UND* and *UND* sections) for `-'
+sonic3k.S:8762: Error: invalid operands (*UND* and *UND* sections) for `-'
+sonic3k.S:8785: Error: invalid operands (*UND* and *UND* sections) for `-'
+sonic3k.S:8809: Error: invalid operands (*UND* and *UND* sections) for `-'
+sonic3k.S:10023: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:10023: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:34072: Error: invalid operands (*UND* and .text sections) for `-'
+sonic3k.S:36367: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:36367: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:40466: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:40510: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:40556: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:41171: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:41193: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:44187: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:55236: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55236: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55248: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55248: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55259: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55259: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55274: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55274: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55281: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55281: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55293: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55293: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55304: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55304: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55311: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55311: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55322: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55322: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55328: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55328: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55351: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55351: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55358: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55358: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55381: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55381: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55390: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55390: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55401: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55401: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55420: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55420: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55439: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55439: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55458: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55458: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55469: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55469: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55480: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55480: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55489: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55489: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55500: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55500: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55505: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55505: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55514: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55514: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55525: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55525: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55530: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55530: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55543: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55543: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55554: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55554: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55563: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55563: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55574: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55574: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55579: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55579: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55592: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55592: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55607: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55607: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55618: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55618: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55625: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55625: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55638: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55638: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55645: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55645: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55658: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55658: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55681: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55681: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55696: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55696: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55707: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55707: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55722: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55722: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55729: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55729: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55740: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55740: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55746: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55746: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55761: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55761: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55768: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55768: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55775: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55775: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55782: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55782: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55789: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55789: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55796: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55796: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55807: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55807: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55812: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55812: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55821: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55821: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55832: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55832: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55839: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55839: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55846: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55846: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55855: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55855: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55860: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55860: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55999: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:55999: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56009: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56009: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56018: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56018: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56031: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56031: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56036: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56036: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56045: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56045: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56057: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56057: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56076: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56076: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56087: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56087: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56096: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56096: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56107: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:56107: Error: invalid operands (*UND* and *ABS* sections) for `&'
+sonic3k.S:58897: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:83778: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:84199: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:84327: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:90166: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:90307: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:90942: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:91125: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:93549: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:96276: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:100116: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:100122: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:108619: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:108621: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:108623: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:108625: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:108627: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:108629: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:109775: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:110867: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:111349: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:111351: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:111353: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:111355: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:111361: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:111367: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:111373: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:111379: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:117192: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:120651: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:128284: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:129316: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:129351: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:129478: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:129502: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:130367: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:133701: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:137405: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:137788: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:137794: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:137797: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:140897: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:146876: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:146883: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:146889: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:146895: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:146903: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:146910: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:146916: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:146922: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:146928: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:149175: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:151691: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:151707: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:151713: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:151719: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:151725: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:151731: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:151740: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:151746: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:151752: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:151758: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:151764: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:153168: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:155524: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:155958: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:159015: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:161212: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:162128: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:167474: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:168804: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:168825: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:168834: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:168840: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:168850: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:168856: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:168864: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:168873: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:170826: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:172634: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:174386: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:174399: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:174417: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:174430: Error: invalid operands (.bss and *ABS* sections) for `&'
+sonic3k.S:180379: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:180408: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:180423: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:183762: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:186406: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:193663: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:197092: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:197688: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:200940: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200940: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200940: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200940: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200941: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200941: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200941: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200941: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200942: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200942: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200942: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200942: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200943: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200943: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200943: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200943: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200944: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200944: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200944: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200944: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200945: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200945: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200945: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200945: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200946: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200946: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200946: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200946: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200947: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200947: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200947: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200947: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200948: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200948: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200948: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200948: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200949: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200949: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200949: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200949: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200950: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200950: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200950: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200950: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200951: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200951: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200951: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200951: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200952: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200952: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200952: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200952: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200953: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200953: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200953: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200953: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200954: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200954: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200954: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200954: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200955: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200955: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200955: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200955: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200956: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200956: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200956: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200956: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200957: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200957: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200957: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200957: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200958: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200958: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200958: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200958: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200959: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200959: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200959: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200959: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200960: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200960: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200960: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200960: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200961: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200961: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200961: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200961: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200962: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200962: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200962: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200962: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200963: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200963: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200963: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200963: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200964: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200964: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200964: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200964: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200965: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200965: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200965: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200965: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200967: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200967: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200967: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200967: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200968: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200968: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200968: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200968: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200970: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200970: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200970: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200970: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200971: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200971: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200971: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200971: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200972: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200972: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200972: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200972: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200973: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200973: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200973: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200973: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200974: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200974: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200974: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200974: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200975: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200975: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200975: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200975: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200976: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200976: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200976: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200976: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200977: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200977: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200977: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200977: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200978: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200978: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200978: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200978: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200979: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200979: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200979: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200979: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200981: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200981: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200981: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200981: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200982: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200982: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200982: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200982: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200983: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200983: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200983: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200983: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200984: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200984: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200984: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200984: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200985: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200985: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200985: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200985: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200986: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200986: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200986: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200986: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200988: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200988: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200988: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200988: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200989: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200989: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200989: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200989: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200990: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200990: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200990: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200990: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200991: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200991: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200991: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+sonic3k.S:200991: Error: invalid operands (*UND* and *ABS* sections) for `<<'
+Levels/Misc/Palette pointers.S:4: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:7: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:10: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:13: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:16: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:19: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:22: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:25: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:28: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:31: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:34: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:37: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:40: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:43: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:46: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:49: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:52: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:55: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:58: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:61: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:64: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:67: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:70: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:73: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:76: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:79: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:82: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:85: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:88: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:91: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:94: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:97: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:100: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:103: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:106: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:109: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:112: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:115: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:118: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:121: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:124: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:127: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:130: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:133: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:136: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:139: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:142: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:145: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:148: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:151: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:154: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:157: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:160: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:163: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:166: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:169: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:172: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:175: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:178: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:181: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:184: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:187: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:190: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:193: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:196: Error: invalid operands (.bss and *ABS* sections) for `&'
+Levels/Misc/Palette pointers.S:199: Error: invalid operands (.bss and *ABS* sections) for `&'
+Lockon S3/Screen Events.S:1498: Error: invalid operands (*UND* and *UND* sections) for `%'
+Lockon S3/Screen Events.S:1500: Error: invalid operands (*UND* and *UND* sections) for `%'
+Lockon S3/Screen Events.S:1502: Error: invalid operands (*UND* and *UND* sections) for `%'
+Lockon S3/Screen Events.S:1504: Error: invalid operands (*UND* and *UND* sections) for `%'
+Lockon S3/Screen Events.S:1510: Error: invalid operands (*UND* and *UND* sections) for `%'
+Lockon S3/Screen Events.S:1516: Error: invalid operands (*UND* and *UND* sections) for `%'
+Lockon S3/Screen Events.S:1530: Error: invalid operands (*UND* and *UND* sections) for `%'
+sonic3k.S:239: Error: value 330 out of range
+sonic3k.S:239: Error: value of 330 too large for field of 1 byte at 00000355
+sonic3k.S:649: Error: value 415288 out of range
+sonic3k.S:649: Error: value of 00065638 too large for field of 1 byte at 000008d3
+sonic3k.S:658: Error: value 415194 out of range
+sonic3k.S:658: Error: value of 000655da too large for field of 1 byte at 00000931
+sonic3k.S:667: Error: value 415122 out of range
+sonic3k.S:667: Error: value of 00065592 too large for field of 1 byte at 00000979
+sonic3k.S:709: Error: value 414900 out of range
+sonic3k.S:709: Error: value of 000654b4 too large for field of 1 byte at 00000a57
+sonic3k.S:716: Error: value 414806 out of range
+sonic3k.S:716: Error: value of 00065456 too large for field of 1 byte at 00000ab5
+sonic3k.S:725: Error: value 414734 out of range
+sonic3k.S:725: Error: value of 0006540e too large for field of 1 byte at 00000afd
+sonic3k.S:821: Error: value 414092 out of range
+sonic3k.S:821: Error: value of 0006518c too large for field of 1 byte at 00000d7f
+sonic3k.S:859: Error: value 413814 out of range
+sonic3k.S:859: Error: value of 00065076 too large for field of 1 byte at 00000e95
+sonic3k.S:883: Error: value 130 out of range
+sonic3k.S:883: Error: value of 130 too large for field of 1 byte at 00000eef
+sonic3k.S:943: Error: value 130 out of range
+sonic3k.S:943: Error: value of 130 too large for field of 1 byte at 00000f8f
+sonic3k.S:1002: Error: value 128 out of range
+sonic3k.S:1002: Error: value of 128 too large for field of 1 byte at 0000102f
+sonic3k.S:1060: Error: value 128 out of range
+sonic3k.S:1060: Error: value of 128 too large for field of 1 byte at 000010cd
+sonic3k.S:1347: Error: value 412206 out of range
+sonic3k.S:1347: Error: value of 00064a2e too large for field of 1 byte at 000014dd
+sonic3k.S:1963: Error: value 411114 out of range
+sonic3k.S:1963: Error: value of 000645ea too large for field of 1 byte at 00001921
+sonic3k.S:1965: Error: value 411106 out of range
+sonic3k.S:1965: Error: value of 000645e2 too large for field of 1 byte at 00001929
+sonic3k.S:2021: Error: value 158 out of range
+sonic3k.S:2021: Error: value of 158 too large for field of 1 byte at 000019b3
+sonic3k.S:2455: Error: value -136 out of range
+sonic3k.S:2455: Error: value of ffffff78 too large for field of 1 byte at 00001ca9
+sonic3k.S:2736: Error: value -136 out of range
+sonic3k.S:2736: Error: value of ffffff78 too large for field of 1 byte at 00001ef9
+sonic3k.S:2875: Error: value 408742 out of range
+sonic3k.S:2875: Error: value of 00063ca6 too large for field of 1 byte at 00002265
+sonic3k.S:3037: Error: value 142 out of range
+sonic3k.S:3037: Error: value of 142 too large for field of 1 byte at 00002509
+sonic3k.S:3696: Error: value 132 out of range
+sonic3k.S:3696: Error: value of 132 too large for field of 1 byte at 00002ecb
+sonic3k.S:8040: Error: value 152 out of range
+sonic3k.S:8040: Error: value of 152 too large for field of 1 byte at 00007921
+sonic3k.S:8042: Error: value 142 out of range
+sonic3k.S:8042: Error: value of 142 too large for field of 1 byte at 0000792b
+sonic3k.S:8117: Error: value 130 out of range
+sonic3k.S:8117: Error: value of 130 too large for field of 1 byte at 00007a01
+sonic3k.S:8250: Error: value 128 out of range
+sonic3k.S:8250: Error: value of 128 too large for field of 1 byte at 00007b39
+sonic3k.S:8343: Error: value 136 out of range
+sonic3k.S:8343: Error: value of 136 too large for field of 1 byte at 00007cd5
+sonic3k.S:9192: Error: value 130 out of range
+sonic3k.S:9192: Error: value of 130 too large for field of 1 byte at 00008537
+sonic3k.S:9232: Error: value 134 out of range
+sonic3k.S:9232: Error: value of 134 too large for field of 1 byte at 000085e7
+sonic3k.S:11480: Error: value 154 out of range
+sonic3k.S:11480: Error: value of 154 too large for field of 1 byte at 0000a54f
+sonic3k.S:12112: Error: value 148 out of range
+sonic3k.S:12112: Error: value of 148 too large for field of 1 byte at 0000ac71
+sonic3k.S:12116: Error: value 130 out of range
+sonic3k.S:12116: Error: value of 130 too large for field of 1 byte at 0000ac83
+sonic3k.S:12352: Error: value 128 out of range
+sonic3k.S:12352: Error: value of 128 too large for field of 1 byte at 0000aeeb
+sonic3k.S:12500: Error: value 128 out of range
+sonic3k.S:12500: Error: value of 128 too large for field of 1 byte at 0000b031
+sonic3k.S:12547: Error: value -144 out of range
+sonic3k.S:12547: Error: value of ffffff70 too large for field of 1 byte at 0000b0ad
+sonic3k.S:12598: Error: value -138 out of range
+sonic3k.S:12598: Error: value of ffffff76 too large for field of 1 byte at 0000b105
+sonic3k.S:13329: Error: value -152 out of range
+sonic3k.S:13329: Error: value of ffffff68 too large for field of 1 byte at 0000bf73
+sonic3k.S:16338: Error: value 134 out of range
+sonic3k.S:16338: Error: value of 134 too large for field of 1 byte at 0000e581
+sonic3k.S:16454: Error: value 154 out of range
+sonic3k.S:16454: Error: value of 154 too large for field of 1 byte at 0000e6ad
+sonic3k.S:16457: Error: value 140 out of range
+sonic3k.S:16457: Error: value of 140 too large for field of 1 byte at 0000e6bb
+sonic3k.S:23031: Error: invalid byte branch offset
+sonic3k.S:26873: Error: value 142 out of range
+sonic3k.S:26873: Error: value of 142 too large for field of 1 byte at 00015d5b
+sonic3k.S:26894: Error: value 136 out of range
+sonic3k.S:26894: Error: value of 136 too large for field of 1 byte at 00015db1
+sonic3k.S:27179: Error: value 130 out of range
+sonic3k.S:27179: Error: value of 130 too large for field of 1 byte at 000160f9
+sonic3k.S:31424: Error: value -33970 out of range
+sonic3k.S:32040: Error: value -33440 out of range
+sonic3k.S:32048: Error: value -34314 out of range
+sonic3k.S:32074: Error: value -33534 out of range
+sonic3k.S:32103: Error: value -34452 out of range
+sonic3k.S:32135: Error: value -33680 out of range
+sonic3k.S:33855: Error: value of fffe4f62 too large for field of 1 byte at 0001b09d
+sonic3k.S:33863: Error: value of fffe4f56 too large for field of 1 byte at 0001b0a9
+sonic3k.S:34072: Error: value -769115 out of range
+sonic3k.S:34072: Error: value of fff443a5 too large for field of 2 bytes at 0001b3ae
+sonic3k.S:34463: Error: value of fffe4088 too large for field of 1 byte at 0001bf77
+sonic3k.S:34847: Error: value -138 out of range
+sonic3k.S:34847: Error: value of ffffff76 too large for field of 1 byte at 0001c347
+sonic3k.S:38267: Error: value 136 out of range
+sonic3k.S:38267: Error: value of 136 too large for field of 1 byte at 0001e4e3
+sonic3k.S:40466: Error: value of fffe0082 too large for field of 2 bytes at 0001ff7e
+sonic3k.S:40510: Error: value of fffe001e too large for field of 2 bytes at 0001ffe2
+sonic3k.S:40556: Error: value of fffdffc8 too large for field of 2 bytes at 00020038
+sonic3k.S:41171: Error: value of fffdfaa4 too large for field of 2 bytes at 0002055c
+sonic3k.S:41193: Error: value of fffdfa6e too large for field of 2 bytes at 00020592
+sonic3k.S:45107: Error: value -130 out of range
+sonic3k.S:45107: Error: value of ffffff7e too large for field of 1 byte at 0002393f
+sonic3k.S:46046: Error: can't resolve 0 - Level_select_flag
+sonic3k.S:47539: Error: value 128 out of range
+sonic3k.S:47539: Error: value of 128 too large for field of 1 byte at 00025699
+sonic3k.S:52775: Error: value 128 out of range
+sonic3k.S:52775: Error: value of 128 too large for field of 1 byte at 00029397
+sonic3k.S:56804: Error: value 132 out of range
+sonic3k.S:56804: Error: value of 132 too large for field of 1 byte at 0002b9cb
+sonic3k.S:56987: Error: value 128 out of range
+sonic3k.S:56987: Error: value of 128 too large for field of 1 byte at 0002bbb3
+sonic3k.S:57562: Error: value 130 out of range
+sonic3k.S:57562: Error: value of 130 too large for field of 1 byte at 0002c265
+sonic3k.S:61719: Error: value 154 out of range
+sonic3k.S:61719: Error: value of 154 too large for field of 1 byte at 0002fc09
+sonic3k.S:63268: Error: value 136 out of range
+sonic3k.S:63268: Error: value of 136 too large for field of 1 byte at 00030e73
+sonic3k.S:65926: Error: value 128 out of range
+sonic3k.S:65926: Error: value of 128 too large for field of 1 byte at 000337c3
+sonic3k.S:66050: Error: value 136 out of range
+sonic3k.S:66050: Error: value of 136 too large for field of 1 byte at 00033939
+sonic3k.S:71593: Error: value 130 out of range
+sonic3k.S:71593: Error: value of 130 too large for field of 1 byte at 000378ab
+sonic3k.S:74438: Error: value 134 out of range
+sonic3k.S:74438: Error: value of 134 too large for field of 1 byte at 00039e91
+sonic3k.S:74741: Error: value 134 out of range
+sonic3k.S:74741: Error: value of 134 too large for field of 1 byte at 0003a9f7
+sonic3k.S:74981: Error: value 128 out of range
+sonic3k.S:74981: Error: value of 128 too large for field of 1 byte at 0003ad57
+sonic3k.S:78227: Error: value -130 out of range
+sonic3k.S:78227: Error: value of ffffff7e too large for field of 1 byte at 0003d4a9
+sonic3k.S:82606: Error: can't resolve 0 - Level_select_flag
+sonic3k.S:83837: Error: value 142 out of range
+sonic3k.S:83837: Error: value of 142 too large for field of 1 byte at 00042431
+sonic3k.S:85876: Error: value 130 out of range
+sonic3k.S:85876: Error: value of 130 too large for field of 1 byte at 00043bff
+sonic3k.S:88037: Error: value 132 out of range
+sonic3k.S:88037: Error: value of 132 too large for field of 1 byte at 00045afb
+sonic3k.S:88103: Error: value 128 out of range
+sonic3k.S:88103: Error: value of 128 too large for field of 1 byte at 00045c73
+sonic3k.S:88231: Error: value 128 out of range
+sonic3k.S:88231: Error: value of 128 too large for field of 1 byte at 00045e87
+sonic3k.S:91019: Error: value 146 out of range
+sonic3k.S:91019: Error: value of 146 too large for field of 1 byte at 00048897
+sonic3k.S:91025: Error: value 136 out of range
+sonic3k.S:91025: Error: value of 136 too large for field of 1 byte at 000488a1
+sonic3k.S:91598: Error: value 134 out of range
+sonic3k.S:91598: Error: value of 134 too large for field of 1 byte at 00048f05
+sonic3k.S:91731: Error: value 128 out of range
+sonic3k.S:91731: Error: value of 128 too large for field of 1 byte at 00049079
+sonic3k.S:92350: Error: value 128 out of range
+sonic3k.S:92350: Error: value of 128 too large for field of 1 byte at 00049767
+sonic3k.S:94224: Error: value 128 out of range
+sonic3k.S:94224: Error: value of 128 too large for field of 1 byte at 0004b611
+sonic3k.S:96552: Error: value 142 out of range
+sonic3k.S:96552: Error: value of 142 too large for field of 1 byte at 0004d31f
+sonic3k.S:96554: Error: value 134 out of range
+sonic3k.S:96554: Error: value of 134 too large for field of 1 byte at 0004d327
+sonic3k.S:99220: Error: value 134 out of range
+sonic3k.S:99220: Error: value of 134 too large for field of 1 byte at 0004f469
+sonic3k.S:104751: Error: value 142 out of range
+sonic3k.S:104751: Error: value of 142 too large for field of 1 byte at 000536b1
+sonic3k.S:104754: Error: value 134 out of range
+sonic3k.S:104754: Error: value of 134 too large for field of 1 byte at 000536b9
+sonic3k.S:108359: Error: value 140 out of range
+sonic3k.S:108359: Error: value of 140 too large for field of 1 byte at 00055e81
+sonic3k.S:108619: Error: value of fffa9e66 too large for field of 2 bytes at 0005619a
+sonic3k.S:108621: Error: value of fffa9e62 too large for field of 2 bytes at 0005619e
+sonic3k.S:108623: Error: value of fffa9e5e too large for field of 2 bytes at 000561a2
+sonic3k.S:108625: Error: value of fffa9e5a too large for field of 2 bytes at 000561a6
+sonic3k.S:108627: Error: value of fffa9e56 too large for field of 2 bytes at 000561aa
+sonic3k.S:108629: Error: value of fffa9e52 too large for field of 2 bytes at 000561ae
+sonic3k.S:109221: Error: value 144 out of range
+sonic3k.S:109221: Error: value of 144 too large for field of 1 byte at 00056717
+sonic3k.S:109775: Error: value of fffa934c too large for field of 2 bytes at 00056cb4
+sonic3k.S:110068: Error: value 158 out of range
+sonic3k.S:110068: Error: value of 158 too large for field of 1 byte at 00056fa7
+sonic3k.S:111349: Error: value of fffa7fc0 too large for field of 1 byte at 0005803f
+sonic3k.S:111351: Error: value of fffa7fbe too large for field of 1 byte at 00058041
+sonic3k.S:111353: Error: value of fffa7fbc too large for field of 1 byte at 00058043
+sonic3k.S:111355: Error: value of fffa7fba too large for field of 1 byte at 00058045
+sonic3k.S:111931: Error: value 152 out of range
+sonic3k.S:111931: Error: value of 152 too large for field of 1 byte at 000586e7
+sonic3k.S:112901: Error: value 156 out of range
+sonic3k.S:112901: Error: value of 156 too large for field of 1 byte at 00059113
+sonic3k.S:113407: Error: value 130 out of range
+sonic3k.S:113407: Error: value of 130 too large for field of 1 byte at 000596e1
+sonic3k.S:113707: Error: value 148 out of range
+sonic3k.S:113707: Error: value of 148 too large for field of 1 byte at 00059a71
+sonic3k.S:113712: Error: value 128 out of range
+sonic3k.S:113712: Error: value of 128 too large for field of 1 byte at 00059a85
+sonic3k.S:114809: Error: value 150 out of range
+sonic3k.S:114809: Error: value of 150 too large for field of 1 byte at 0005a915
+sonic3k.S:115773: Error: value -140 out of range
+sonic3k.S:115773: Error: value of ffffff74 too large for field of 1 byte at 0005b41d
+sonic3k.S:115778: Error: value 130 out of range
+sonic3k.S:115778: Error: value of 130 too large for field of 1 byte at 0005b425
+sonic3k.S:116546: Error: value 136 out of range
+sonic3k.S:116546: Error: value of 136 too large for field of 1 byte at 0005bd9b
+sonic3k.S:116722: Error: value 150 out of range
+sonic3k.S:116722: Error: value of 150 too large for field of 1 byte at 0005bf59
+sonic3k.S:116754: Error: value 156 out of range
+sonic3k.S:116754: Error: value of 156 too large for field of 1 byte at 0005bfef
+sonic3k.S:116759: Error: value 134 out of range
+sonic3k.S:116759: Error: value of 134 too large for field of 1 byte at 0005bff7
+sonic3k.S:116760: Error: value 146 out of range
+sonic3k.S:116760: Error: value of 146 too large for field of 1 byte at 0005bff9
+sonic3k.S:117474: Error: value 136 out of range
+sonic3k.S:117474: Error: value of 136 too large for field of 1 byte at 0005c907
+sonic3k.S:120035: Error: value 138 out of range
+sonic3k.S:120035: Error: value of 138 too large for field of 1 byte at 0005e6d9
+sonic3k.S:120480: Error: value 134 out of range
+sonic3k.S:120480: Error: value of 134 too large for field of 1 byte at 0005ebf7
+sonic3k.S:133065: Error: value 130 out of range
+sonic3k.S:133065: Error: value of 130 too large for field of 1 byte at 00069caf
+sonic3k.S:139506: Error: value -130 out of range
+sonic3k.S:139506: Error: value of ffffff7e too large for field of 1 byte at 0006edc7
+sonic3k.S:164529: Error: value -146 out of range
+sonic3k.S:164529: Error: value of ffffff6e too large for field of 1 byte at 0008072b
+sonic3k.S:174914: Error: value 128 out of range
+sonic3k.S:174914: Error: value of 128 too large for field of 1 byte at 00087c15
+sonic3k.S:180379: Error: value of fff74b40 too large for field of 1 byte at 0008b4bf
+sonic3k.S:180408: Error: value of fff74b02 too large for field of 1 byte at 0008b4fd
+sonic3k.S:180423: Error: value of fff74ad4 too large for field of 1 byte at 0008b52b
+sonic3k.S:185691: Error: value 128 out of range
+sonic3k.S:185691: Error: value of 128 too large for field of 1 byte at 0008e4e7
+Lockon S3/Screen Events.S:1406: Error: value of ffe10d8e too large for field of 1 byte at 001ef26b
+Lockon S3/Screen Events.S:1408: Error: can't resolve sub_23E - A
+Lockon S3/Screen Events.S:1408: Error: value of ffe10d8c too large for field of 1 byte at 001ef273
+Lockon S3/Screen Events.S:1498: Error: value of ffe10c9a too large for field of 1 byte at 001ef365
+Lockon S3/Screen Events.S:1500: Error: value of ffe10c98 too large for field of 1 byte at 001ef367
+Lockon S3/Screen Events.S:1502: Error: value of ffe10c96 too large for field of 1 byte at 001ef369
+Lockon S3/Screen Events.S:1504: Error: value of ffe10c94 too large for field of 1 byte at 001ef36b
+Lockon S3/Screen Events.S:1510: Error: value of ffe10c8c too large for field of 2 bytes at 001ef374
+Lockon S3/Screen Events.S:1516: Error: value of ffe10c80 too large for field of 1 byte at 001ef37f
+Lockon S3/Screen Events.S:1530: Error: value of ffe10c66 too large for field of 1 byte at 001ef399
+Lockon S3/Screen Events.S:1494: Error: invalid byte branch offset
+/tmp/ccU5KaHK.s: Error: can't resolve header - ._headpos
+/tmp/ccU5KaHK.s: Error: can't resolve header - ._headpos
+/tmp/ccU5KaHK.s: Error: can't resolve header - ._headpos
+/tmp/ccU5KaHK.s: Error: can't resolve header - ._headpos
+/tmp/ccU5KaHK.s: Error: can't resolve header - ._headpos
+/tmp/ccU5KaHK.s: Error: can't resolve header - ._headpos
+/tmp/ccU5KaHK.s: Error: can't resolve header - ._headpos
+/tmp/ccU5KaHK.s: Error: can't resolve header - ._headpos
+/tmp/ccU5KaHK.s: Error: can't resolve header - ._headpos
+/tmp/ccU5KaHK.s: Error: can't resolve header - ._headpos
+/tmp/ccU5KaHK.s: Error: can't resolve header - ._headpos
+sonic3k.S:123580: Warning: text label `ContinueScreen' aligned to odd boundary
+sonic3k.S:123594: Warning: text label `loc_5C314' aligned to odd boundary
+sonic3k.S:123618: Warning: text label `loc_5C394' aligned to odd boundary
+sonic3k.S:123630: Warning: text label `loc_5C3BC' aligned to odd boundary
+sonic3k.S:123649: Warning: text label `loc_5C3FE' aligned to odd boundary
+sonic3k.S:123645: Warning: text label `loc_5C3EE' aligned to odd boundary
+sonic3k.S:123850: Warning: text label `Obj_Continue_SonicAlone' aligned to odd boundary
+sonic3k.S:123739: Warning: text label `Obj_Continue_SonicWTails' aligned to odd boundary
+sonic3k.S:123916: Warning: text label `Obj_Continue_TailsWSonic' aligned to odd boundary
+sonic3k.S:124005: Warning: text label `loc_5C838' aligned to odd boundary
+sonic3k.S:123703: Warning: text label `loc_5C4D6' aligned to odd boundary
+sonic3k.S:124135: Warning: text label `loc_5C9DC' aligned to odd boundary
+sonic3k.S:124238: Warning: text label `sub_5CB1C' aligned to odd boundary
+sonic3k.S:123667: Warning: text label `loc_5C454' aligned to odd boundary
+sonic3k.S:123682: Warning: text label `loc_5C48A' aligned to odd boundary
+sonic3k.S:123699: Warning: text label `locret_5C4D4' aligned to odd boundary
+sonic3k.S:123708: Warning: text label `loc_5C4E6' aligned to odd boundary
+sonic3k.S:123731: Warning: text label `loc_5C51C' aligned to odd boundary
+sonic3k.S:123722: Warning: text label `locret_5C512' aligned to odd boundary
+sonic3k.S:123726: Warning: text label `loc_5C514' aligned to odd boundary
+sonic3k.S:124194: Warning: text label `sub_5CAAE' aligned to odd boundary
+sonic3k.S:123735: Warning: text label `locret_5C528' aligned to odd boundary
+sonic3k.S:123749: Warning: text label `loc_5C55C' aligned to odd boundary
+sonic3k.S:123762: Warning: text label `loc_5C582' aligned to odd boundary
+sonic3k.S:123758: Warning: text label `loc_5C57C' aligned to odd boundary
+sonic3k.S:123765: Warning: text label `loc_5C588' aligned to odd boundary
+sonic3k.S:123780: Warning: text label `loc_5C5AC' aligned to odd boundary
+sonic3k.S:123790: Warning: text label `loc_5C5D0' aligned to odd boundary
+sonic3k.S:123821: Warning: text label `loc_5C62C' aligned to odd boundary
+sonic3k.S:123833: Warning: text label `loc_5C642' aligned to odd boundary
+sonic3k.S:123846: Warning: text label `locret_5C65E' aligned to odd boundary
+sonic3k.S:123807: Warning: text label `locret_5C606' aligned to odd boundary
+sonic3k.S:123811: Warning: text label `loc_5C608' aligned to odd boundary
+sonic3k.S:123828: Warning: text label `loc_5C63A' aligned to odd boundary
+sonic3k.S:123841: Warning: text label `loc_5C656' aligned to odd boundary
+sonic3k.S:123865: Warning: text label `loc_5C684' aligned to odd boundary
+sonic3k.S:123875: Warning: text label `loc_5C6B6' aligned to odd boundary
+sonic3k.S:123890: Warning: text label `loc_5C6E0' aligned to odd boundary
+sonic3k.S:123900: Warning: text label `loc_5C6F4' aligned to odd boundary
+sonic3k.S:123912: Warning: text label `locret_5C716' aligned to odd boundary
+sonic3k.S:123883: Warning: text label `loc_5C6CC' aligned to odd boundary
+sonic3k.S:123896: Warning: text label `locret_5C6F2' aligned to odd boundary
+sonic3k.S:123908: Warning: text label `loc_5C70A' aligned to odd boundary
+sonic3k.S:123926: Warning: text label `loc_5C74A' aligned to odd boundary
+sonic3k.S:123939: Warning: text label `loc_5C770' aligned to odd boundary
+sonic3k.S:123935: Warning: text label `loc_5C76A' aligned to odd boundary
+sonic3k.S:123947: Warning: text label `loc_5C790' aligned to odd boundary
+sonic3k.S:124000: Warning: text label `loc_5C82C' aligned to odd boundary
+sonic3k.S:123961: Warning: text label `loc_5C7B2' aligned to odd boundary
+sonic3k.S:123973: Warning: text label `loc_5C7E2' aligned to odd boundary
+sonic3k.S:123981: Warning: text label `loc_5C802' aligned to odd boundary
+sonic3k.S:123990: Warning: text label `loc_5C814' aligned to odd boundary
+sonic3k.S:123986: Warning: text label `loc_5C80E' aligned to odd boundary
+sonic3k.S:123996: Warning: text label `loc_5C826' aligned to odd boundary
+sonic3k.S:124015: Warning: text label `loc_5C854' aligned to odd boundary
+sonic3k.S:124048: Warning: text label `loc_5C8C8' aligned to odd boundary
+sonic3k.S:124019: Warning: text label `loc_5C85A' aligned to odd boundary
+sonic3k.S:124029: Warning: text label `loc_5C88C' aligned to odd boundary
+sonic3k.S:124037: Warning: text label `loc_5C8AC' aligned to odd boundary
+sonic3k.S:124111: Warning: text label `loc_5C972' aligned to odd boundary
+sonic3k.S:124042: Warning: text label `loc_5C8B8' aligned to odd boundary
+sonic3k.S:124062: Warning: text label `loc_5C8EA' aligned to odd boundary
+sonic3k.S:124075: Warning: text label `loc_5C91E' aligned to odd boundary
+sonic3k.S:124085: Warning: text label `loc_5C932' aligned to odd boundary
+sonic3k.S:124107: Warning: text label `locret_5C970' aligned to odd boundary
+sonic3k.S:124082: Warning: text label `loc_5C92C' aligned to odd boundary
+sonic3k.S:124094: Warning: text label `loc_5C94C' aligned to odd boundary
+sonic3k.S:124101: Warning: text label `loc_5C95C' aligned to odd boundary
+sonic3k.S:124128: Warning: text label `Obj_Continue_EggRobo_5C9C4' aligned to odd boundary
+sonic3k.S:124146: Warning: text label `loc_5CA14' aligned to odd boundary
+sonic3k.S:124150: Warning: text label `loc_5CA1A' aligned to odd boundary
+sonic3k.S:124157: Warning: text label `loc_5CA36' aligned to odd boundary
+sonic3k.S:124266: Warning: text label `sub_5CB4A' aligned to odd boundary
+sonic3k.S:124166: Warning: text label `loc_5CA5C' aligned to odd boundary
+sonic3k.S:124287: Warning: text label `sub_5CB6A' aligned to odd boundary
+sonic3k.S:124172: Warning: text label `loc_5CA68' aligned to odd boundary
+sonic3k.S:124178: Warning: text label `Obj_5CA78' aligned to odd boundary
+sonic3k.S:124186: Warning: text label `loc_5CA9E' aligned to odd boundary
+sonic3k.S:124245: Warning: text label `loc_5CB2A' aligned to odd boundary
+sonic3k.S:124248: Warning: text label `loc_5CB2C' aligned to odd boundary
+sonic3k.S:124252: Warning: text label `loc_5CB32' aligned to odd boundary
+sonic3k.S:124294: Warning: text label `loc_5CB7E' aligned to odd boundary
+sonic3k.S:124299: Warning: text label `.notBlueKnuckles2' aligned to odd boundary

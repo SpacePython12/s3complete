@@ -1,4 +1,4 @@
-Map_21CDCA:	.word Frame_21CDDA-Map_21CDCA /*  ... */
+Map_21CDCA:	.word Frame_21CDDA-Map_21CDCA /* ...*/
 		.word Frame_21CDE8-Map_21CDCA
 		.word Frame_21CDFC-Map_21CDCA
 		.word Frame_21CE16-Map_21CDCA

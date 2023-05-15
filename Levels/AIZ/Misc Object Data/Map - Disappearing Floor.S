@@ -1,11 +1,11 @@
-Map_2294B4:	.word Frame_2294C8-Map_2294B4 /*  ... */
+Map_2294B4:	.word Frame_2294C8-Map_2294B4 /* ...*/
 		.word Frame_2294CC-Map_2294B4
 		.word Frame_2294DA-Map_2294B4
 		.word Frame_2294FA-Map_2294B4
 		.word Frame_229514-Map_2294B4
 		.word Frame_229540-Map_2294B4
 Map_AIZDisappearingFloor2:
-Map_2294C0:	.word Frame_229566-Map_2294C0 /*  ... */
+Map_2294C0:	.word Frame_229566-Map_2294C0 /* ...*/
 		.word Frame_2295A4-Map_2294C0
 		.word Frame_2295D6-Map_2294C0
 		.word Frame_229608-Map_2294C0

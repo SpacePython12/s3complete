@@ -1,4 +1,4 @@
-Map_66CD6		.word word_66CF0-Map_66CD6
+Map_66CD6:		.word word_66CF0-Map_66CD6
 		.word word_66CFE-Map_66CD6
 		.word word_66D18-Map_66CD6
 		.word word_66D3E-Map_66CD6

@@ -11,4 +11,4 @@ byte_3948E:	.byte	7,   6,	  6,   6,   6,	 6,   6,   6,	7,   8,	  7, 0xFF
 					
 byte_3949A:	.byte  0x1F,  0xB,	0xFF	
 byte_3949D:	.byte  0x1F,  0xC,	0xFF	
-	.balign 2
+	.align 2

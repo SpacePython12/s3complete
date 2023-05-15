@@ -1,4 +1,4 @@
-Map_3501E0:	.word Frame_3501E4-Map_3501E0 /*  ... */
+Map_3501E0:	.word Frame_3501E4-Map_3501E0 /* ...*/
 		.word Frame_350264-Map_3501E0
 Frame_3501E4:	.word 0x15
 		.byte 0x10, 0xF,  0,  0,0xFF,0x98

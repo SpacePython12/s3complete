@@ -1,4 +1,4 @@
-Map_227DBC:	.word Frame_227DDA-Map_227DBC /*  ... */
+Map_227DBC:	.word Frame_227DDA-Map_227DBC /* ...*/
 		.word Frame_227DEE-Map_227DBC
 		.word Frame_227E08-Map_227DBC
 		.word Frame_227E28-Map_227DBC

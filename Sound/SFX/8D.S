@@ -6,7 +6,7 @@ Sound_8D_Header:
 
 	smpsHeaderSFXChannel cPSG3, Sound_8D_PSG3,	0x1F, 0x05
 
-/*  PSG3 Data */
+/* PSG3 Data*/
 Sound_8D_PSG3:
 	smpsPSGform         0xE7
 	smpsPSGvoice        sTone_16
@@ -14,5 +14,5 @@ Sound_8D_PSG3:
 	.byte	nD4, 0x03, 0x03, 0x03, 0x03, 0x04
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_8D_Voices:

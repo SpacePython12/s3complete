@@ -1,4 +1,4 @@
-Map_21EA1A:	.word Frame_21EA32-Map_21EA1A /*  ... */
+Map_21EA1A:	.word Frame_21EA32-Map_21EA1A /* ...*/
 		.word Frame_21EA6A-Map_21EA1A
 		.word Frame_21EACC-Map_21EA1A
 		.word Frame_21EB2E-Map_21EA1A

@@ -6,7 +6,7 @@ Sound_7E_Header:
 
 	smpsHeaderSFXChannel cPSG3, Sound_7E_PSG3,	0x00, 0x03
 
-/*  PSG3 Data */
+/* PSG3 Data*/
 Sound_7E_PSG3:
 	smpsPSGform         0xE7
 	smpsModSet          0x01, 0x01, 0x01, 0x01
@@ -15,5 +15,5 @@ Sound_7E_PSG3:
 	.byte	nG6, 0x06
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_7E_Voices:

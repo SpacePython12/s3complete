@@ -1,4 +1,4 @@
-Map_22005E:	.word Frame_220062-Map_22005E /*  ... */
+Map_22005E:	.word Frame_220062-Map_22005E /* ...*/
 		.word Frame_22007C-Map_22005E
 Frame_220062:	.word 4
 		.byte 0xE0, 0xD,  0,0x3E,0xFF,0xF0

@@ -1,4 +1,4 @@
-Map_361CB8:	.word Frame_361CC8-Map_361CB8 /*  ... */
+Map_361CB8:	.word Frame_361CC8-Map_361CB8 /* ...*/
 		.word Frame_361CDC-Map_361CB8
 		.word Frame_361CF0-Map_361CB8
 		.word Frame_361D04-Map_361CB8

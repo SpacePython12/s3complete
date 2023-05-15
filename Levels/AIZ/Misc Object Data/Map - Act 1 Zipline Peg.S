@@ -1,4 +1,4 @@
-Map_21C42A:	.word Frame_21C42C-Map_21C42A /*  ... */
+Map_21C42A:	.word Frame_21C42C-Map_21C42A /* ...*/
 Frame_21C42C:	.word 3
 		.byte 0xF4, 0xC,  0,  0,0xFF,0xE0
 		.byte 0xFC,  4,  0,  4,0xFF,0xF8

@@ -7,11 +7,11 @@ Sound_A4_Header:
 	smpsHeaderSFXChannel cPSG1, Sound_A4_PSG1,	0x0F, 0x03
 	smpsHeaderSFXChannel cPSG2, Sound_A4_PSG2,	0x11, 0x04
 
-/*  PSG1 Data */
+/* PSG1 Data*/
 Sound_A4_PSG1:
 	.byte	nRst, 0x03
 
-/*  PSG2 Data */
+/* PSG2 Data*/
 Sound_A4_PSG2:
 	.byte	nRst, 0x03
 	smpsPSGvoice        sTone_16
@@ -22,5 +22,5 @@ Sound_A4_PSG2:
 	.byte	nRst, 0x03, nEb0, 0x05, nRst, 0x03, nEb0, 0x05
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_A4_Voices:

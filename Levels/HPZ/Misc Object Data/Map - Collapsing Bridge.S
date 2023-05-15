@@ -1,14 +1,14 @@
 		.word word_20FD4-Map_HPZCollapsingBridge
 		.word word_20FFA-Map_HPZCollapsingBridge
 		.word word_21044-Map_HPZCollapsingBridge
-word_20FD4:	.word 6			/*  DATA XREF: ROM:00020FCEo */
+word_20FD4:	.word 6			/* DATA XREF: ROM:00020FCEo*/
 		.byte  0xF0,  0xD,	  0,   0, 0xFF, 0xE0
 		.byte  0xF0,  0xD,	  8,   0,   0,	 0
 		.byte	0,  0xD,	0x20,   8, 0xFF, 0xE0
 		.byte	0,  0xD,	0x28,   8,   0,	 0
 		.byte  0x10,  0xD,	0x20, 0x10, 0xFF, 0xE0
 		.byte  0x10,  0xD,	0x28, 0x10,   0,	 0
-word_20FFA:	.word 0xC			/*  DATA XREF: ROM:00020FCEo */
+word_20FFA:	.word 0xC			/* DATA XREF: ROM:00020FCEo*/
 		.byte  0xF0,   5,	  0,   0, 0xFF, 0xE0
 		.byte  0xF0,   5,	  0,   4, 0xFF, 0xF0
 		.byte  0xF0,   5,	  8,   4,   0,	 0
@@ -21,7 +21,7 @@ word_20FFA:	.word 0xC			/*  DATA XREF: ROM:00020FCEo */
 		.byte  0x10,   5,	0x20, 0x14, 0xFF, 0xF0
 		.byte  0x10,   5,	0x28, 0x14,   0,	 0
 		.byte  0x10,   5,	0x28, 0x10,   0, 0x10
-word_21044:	.word 0xC			/*  DATA XREF: ROM:00020FCEo */
+word_21044:	.word 0xC			/* DATA XREF: ROM:00020FCEo*/
 		.byte  0xF0,   5,	  8,   0,   0, 0x10
 		.byte  0xF0,   5,	  0,   0, 0xFF, 0xE0
 		.byte  0xF0,   5,	  0,   4, 0xFF, 0xF0

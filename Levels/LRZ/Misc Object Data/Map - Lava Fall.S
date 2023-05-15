@@ -1,5 +1,5 @@
 		.word word_43784-Map_LRZLavaFall
-word_43784:	.word 4			/*  DATA XREF: ROM:00043782o */
+word_43784:	.word 4			/* DATA XREF: ROM:00043782o*/
 		.byte  0xE0,  0xF,	  0, 0x48, 0xFF, 0xE0
 		.byte  0xE0,  0xF,	  0, 0x48,   0,	 0
 		.byte	0,  0xF,	  0, 0x58, 0xFF, 0xE0

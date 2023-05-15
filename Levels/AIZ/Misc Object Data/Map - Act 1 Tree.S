@@ -1,4 +1,4 @@
-Map_21C3E8:	.word Frame_21C3EA-Map_21C3E8 /*  ... */
+Map_21C3E8:	.word Frame_21C3EA-Map_21C3E8 /* ...*/
 Frame_21C3EA:	.word 3
 		.byte 0xE8,  5,  0,0x38,0xFF,0xF8
 		.byte 0xF8,  5,  0,0x38,0xFF,0xF8

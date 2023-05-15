@@ -1,4 +1,4 @@
-Map_233318:	.word Frame_23331E-Map_233318 /*  ... */
+Map_233318:	.word Frame_23331E-Map_233318 /* ...*/
 		.word Frame_233326-Map_233318
 		.word Frame_23332E-Map_233318
 Frame_23331E:	.word 1

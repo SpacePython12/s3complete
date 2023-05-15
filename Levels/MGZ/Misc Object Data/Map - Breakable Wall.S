@@ -1,4 +1,4 @@
-Map_21FF18:	.word Frame_21FF20-Map_21FF18 /*  ... */
+Map_21FF18:	.word Frame_21FF20-Map_21FF18 /* ...*/
 		.word Frame_21FF5E-Map_21FF18
 		.word Frame_21FF20-Map_21FF18
 		.word Frame_21FF5E-Map_21FF18

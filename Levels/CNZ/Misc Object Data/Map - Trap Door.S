@@ -1,4 +1,4 @@
-Map_230DCC:	.word Frame_230DD2-Map_230DCC /*  ... */
+Map_230DCC:	.word Frame_230DD2-Map_230DCC /* ...*/
 		.word Frame_230DE0-Map_230DCC
 		.word Frame_230DEE-Map_230DCC
 Frame_230DD2:	.word 2

@@ -1,4 +1,4 @@
-Map_2A02AA:	.word Frame_2A030E-Map_2A02AA /*  ... */
+Map_2A02AA:	.word Frame_2A030E-Map_2A02AA /* ...*/
 		.word Frame_2A0310-Map_2A02AA
 		.word Frame_2A0318-Map_2A02AA
 		.word Frame_2A0320-Map_2A02AA

@@ -1,4 +1,4 @@
-Map_3A1AEE:	.word Frame_3A1AF4-Map_3A1AEE /*  ... */
+Map_3A1AEE:	.word Frame_3A1AF4-Map_3A1AEE /* ...*/
 		.word Frame_3A1B02-Map_3A1AEE
 		.word Frame_3A1B1C-Map_3A1AEE
 Frame_3A1AF4:	.word 2

@@ -6,7 +6,7 @@ Sound_AD_Header:
 
 	smpsHeaderSFXChannel cFM4, Sound_AD_FM4,	0x17, 0x0C
 
-/*  FM4 Data */
+/* FM4 Data*/
 Sound_AD_FM4:
 	smpsSetvoice        0x00
 	.byte	nB4, 0x48

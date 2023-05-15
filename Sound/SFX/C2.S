@@ -6,7 +6,7 @@ Sound_C2_Header:
 
 	smpsHeaderSFXChannel cPSG3, Sound_C2_PSG3,	0x00, 0x00
 
-/*  PSG3 Data */
+/* PSG3 Data*/
 Sound_C2_PSG3:
 	smpsPSGform         0xE7
 	.byte	nCs4
@@ -16,5 +16,5 @@ Sound_C2_Loop00:
 	smpsContinuousLoop  Sound_C2_Loop00
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_C2_Voices:

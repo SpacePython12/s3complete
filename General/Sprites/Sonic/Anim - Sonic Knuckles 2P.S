@@ -99,4 +99,4 @@ AniSonic2P20:	.byte    9, 0x1B, 0xFF
 AniSonic2P21:	.byte    3, 0x1B, 0xFD,   0
 AniSonic2P22:	.byte   0xB, 0x1B, 0xFF
 AniSonic2P23:	.byte   0xB, 0x1B, 0xFF
-		.balign 2
+		.align 2

@@ -1,4 +1,4 @@
-Map_227BC2:	.word Frame_227BC4-Map_227BC2 /*  ... */
+Map_227BC2:	.word Frame_227BC4-Map_227BC2 /* ...*/
 Frame_227BC4:	.word 7
 		.byte 0xE0,  4,  0, 0xC,0xFF,0xF0
 		.byte 0xE0, 0xD,  0, 0xE,  0,  0

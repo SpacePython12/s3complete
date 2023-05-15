@@ -9,30 +9,30 @@
 		.word word_2042E-Map_LRZBreakableRock
 		.word word_20454-Map_LRZBreakableRock
 		.word word_20454-Map_LRZBreakableRock
-word_203EE:	.word 1			/*  DATA XREF: ROM:000203D8o */
+word_203EE:	.word 1			/* DATA XREF: ROM:000203D8o*/
 		.byte  0xF8,   5,	  0, 0x6D, 0xFF, 0xF8
-word_203F6:	.word 1			/*  DATA XREF: ROM:000203D8o */
+word_203F6:	.word 1			/* DATA XREF: ROM:000203D8o*/
 		.byte  0xF8,   5,	  8, 0x6D, 0xFF, 0xF8
-word_203FE:	.word 1			/*  DATA XREF: ROM:000203D8o */
+word_203FE:	.word 1			/* DATA XREF: ROM:000203D8o*/
 		.byte  0xF8,   5,	0x18, 0x6D, 0xFF, 0xF8
-word_20406:	.word 1			/*  DATA XREF: ROM:000203D8o */
+word_20406:	.word 1			/* DATA XREF: ROM:000203D8o*/
 		.byte  0xF8,   5,	0x10, 0x6D, 0xFF, 0xF8
-word_2040E:	.word 1			/*  DATA XREF: ROM:000203D8o */
+word_2040E:	.word 1			/* DATA XREF: ROM:000203D8o*/
 		.byte  0xF0,  0xF,	  0, 0x71, 0xFF, 0xF0
-word_20416:	.word 1			/*  DATA XREF: ROM:000203D8o */
+word_20416:	.word 1			/* DATA XREF: ROM:000203D8o*/
 		.byte  0xF0,  0xF,	  8, 0x71, 0xFF, 0xF0
-word_2041E:	.word 1			/*  DATA XREF: ROM:000203D8o */
+word_2041E:	.word 1			/* DATA XREF: ROM:000203D8o*/
 		.byte  0xF0,  0xF,	0x18, 0x71, 0xFF, 0xF0
-word_20426:	.word 1			/*  DATA XREF: ROM:000203D8o */
+word_20426:	.word 1			/* DATA XREF: ROM:000203D8o*/
 		.byte  0xF0,  0xF,	0x10, 0x71, 0xFF, 0xF0
-word_2042E:	.word 6			/*  DATA XREF: ROM:000203D8o */
+word_2042E:	.word 6			/* DATA XREF: ROM:000203D8o*/
 		.byte	0,  0xF,	0x18, 0x71, 0xFF, 0xF0
 		.byte  0xF0,  0xF,	0x10, 0x71, 0xFF, 0xF0
 		.byte  0xE8,   5,	  8, 0x6D, 0xFF, 0xF0
 		.byte  0xD8,  0xF,	0x18, 0x71, 0xFF, 0xF0
 		.byte  0x18,   5,	  0, 0x6D,   0,	 0
 		.byte   0xB,  0xF,	0x10, 0x71, 0xFF, 0xF0
-word_20454:	.word 6			/*  DATA XREF: ROM:000203D8o */
+word_20454:	.word 6			/* DATA XREF: ROM:000203D8o*/
 		.byte  0xF3,  0xF,	0x10, 0x71, 0xFF, 0xF8
 		.byte  0xF3,   5,	  8, 0x6D, 0xFF, 0xF0
 		.byte	0,   5,	  8, 0x6D, 0xFF, 0xE8

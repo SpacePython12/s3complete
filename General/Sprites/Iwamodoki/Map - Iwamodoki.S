@@ -8,33 +8,33 @@
 		.word word_8FD18-Map_Iwamodoki
 		.word word_8FD20-Map_Iwamodoki
 		.word word_8FD28-Map_Iwamodoki
-word_8FCA4:	.word 1			/*  DATA XREF: ROM:0008FC90o */
+word_8FCA4:	.word 1			/* DATA XREF: ROM:0008FC90o*/
 		.byte  0xF4,  0xA,	0x40,   0, 0xFF, 0xF4
-word_8FCAC:	.word 3			/*  DATA XREF: ROM:0008FC90o */
+word_8FCAC:	.word 3			/* DATA XREF: ROM:0008FC90o*/
 		.byte	4,   0,	0x20, 0x1B, 0xFF, 0xF8
 		.byte	4,   0,	0x28, 0x1B,   0,	 0
 		.byte  0xF4,  0xA,	0x40,   9, 0xFF, 0xF4
-word_8FCC0:	.word 3			/*  DATA XREF: ROM:0008FC90o */
+word_8FCC0:	.word 3			/* DATA XREF: ROM:0008FC90o*/
 		.byte  0xFD,   5,	0x20, 0x1C, 0xFF, 0xF0
 		.byte  0xFD,   5,	0x28, 0x1C,   0,	 0
 		.byte  0xF4,  0xA,	0x40, 0x12, 0xFF, 0xF4
-word_8FCD4:	.word 3			/*  DATA XREF: ROM:0008FC90o */
+word_8FCD4:	.word 3			/* DATA XREF: ROM:0008FC90o*/
 		.byte  0xFD,   5,	0x20, 0x20, 0xFF, 0xF0
 		.byte  0xFD,   5,	0x28, 0x20,   0,	 0
 		.byte  0xF4,  0xA,	0x40, 0x12, 0xFF, 0xF4
-word_8FCE8:	.word 3			/*  DATA XREF: ROM:0008FC90o */
+word_8FCE8:	.word 3			/* DATA XREF: ROM:0008FC90o*/
 		.byte  0xFD,   5,	0x20, 0x24, 0xFF, 0xF0
 		.byte  0xFD,   5,	0x28, 0x24,   0,	 0
 		.byte  0xF4,  0xA,	0x40, 0x12, 0xFF, 0xF4
-word_8FCFC:	.word 3			/*  DATA XREF: ROM:0008FC90o */
+word_8FCFC:	.word 3			/* DATA XREF: ROM:0008FC90o*/
 		.byte  0xFD,   5,	0x20, 0x28, 0xFF, 0xF0
 		.byte  0xFD,   5,	0x28, 0x28,   0,	 0
 		.byte  0xF4,  0xA,	0x40, 0x12, 0xFF, 0xF4
-word_8FD10:	.word 1			/*  DATA XREF: ROM:0008FC90o */
+word_8FD10:	.word 1			/* DATA XREF: ROM:0008FC90o*/
 		.byte  0xFC,   4,	0x40, 0x2C, 0xFF, 0xF8
-word_8FD18:	.word 1			/*  DATA XREF: ROM:0008FC90o */
+word_8FD18:	.word 1			/* DATA XREF: ROM:0008FC90o*/
 		.byte  0xFC,   0,	0x40, 0x2E, 0xFF, 0xFC
-word_8FD20:	.word 1			/*  DATA XREF: ROM:0008FC90o */
+word_8FD20:	.word 1			/* DATA XREF: ROM:0008FC90o*/
 		.byte  0xFC,   4,	  0, 0x2F, 0xFF, 0xF8
-word_8FD28:	.word 1			/*  DATA XREF: ROM:0008FC90o */
+word_8FD28:	.word 1			/* DATA XREF: ROM:0008FC90o*/
 		.byte  0xFC,   0,	  0, 0x31, 0xFF, 0xFC

@@ -2,63 +2,85 @@ import os
 import sys
 import re
 
-def definesub(match):
-    if match.groups()[0] == "E": return f"{match.groups()[0]} {match.groups()[1]}"
-    else: return f".set {match.groups()[0]} {match.groups()[1]}"
+instr_regex = r"^[^\n]\s+([^\s]+)\s+([^\s,]+)(?:\s*,\s*([^\s]+))?" # \s(?:;([^\n]+))?
+alabel_regex = r"^([^:\s]+):"
+rlabel_regex = r"^([+-]+)"
+comment_regex = r"^\s*;([^\n]+)"
 
-def regsub(match):
-    # if (match.groups()[1].startswith("(")):
-    #     if (match.groups()[0] == "-"): return f"%{match.groups()[1][1:3]}@-"
-    #     if (match.groups()[0] != ""): return f"apc@({match.groups()[0]},%{match.groups()[1][1:3]})"
-    #     elif (match.groups()[2] == "+"): return f"%{match.groups()[1][1:3]}@+"
-    #     else: return f"%{match.groups()[1][1:3]}@"
-    # else:
-    return f"{match.groups()[0]}%{match.groups()[1]}"
+def regprefix(match): return f"%{match.group(0)}"
 
-def immsub(match):
-    return f"({match.groups()[0]}):{match.groups()[1]}"
+def include(match):
+    convert(match.group(1), match.group(1).replace(".asm", ".S").replace("%", ""))
+    new = match.group(1).replace(".asm", ".S").replace("%", "")
+    return f".include \"{new}\""
 
-def commsub(match):
-    return f"/* {match.groups()[0]} */"
+def tmplabdef(match):
+    return f"{len(match.group(1))}:"
 
-def tmpsub(match):
-    return f"{match.groups()[0]} = ."
+def tmplabref(match):
+    if match.group(1)[0] == "+": return f"{len(match.group(1))}f"
+    elif match.group(1)[0] == "-": return f"{len(match.group(1))}b"
+    return ""
 
-def gnuport(srcname: str, dstname: str):
+def macro(match):
+    return f".macro {match.group(1)} "
+
+def comment(match):
+    return f"/*{match.group(1)}*/"
+
+def convline(line: str) -> str:
+    line = re.sub(r"dc\.b\s+\"", ".ascii \"", line)
+    line = re.sub(r"dc\.b", ".byte", line)
+    line = re.sub(r"dc\.w", ".word", line)
+    line = re.sub(r"dc\.l", ".long", line)
+    line = re.sub(r"ds\.b\s+", ".space ", line)
+    line = re.sub(r"ds\.w\s+", ".space 2*", line)
+    line = re.sub(r"ds\.l\s+", ".space 4*", line)
+    line = re.sub(r"\$\$", ".", line)
+    line = re.sub(r"\$", "0x", line)
+    line = re.sub(r";", "//", line)
+    line = re.sub(r"\.b(?=\s)", "b", line)
+    line = re.sub(r"\.w(?=\s)", "w", line)
+    line = re.sub(r"\.l(?=\s)", "l", line)
+    line = re.sub(r"\.s(?=\s)", "s", line)
+    line = re.sub(r"\)\.w", ")", line)
+    line = re.sub(r"\)\.l", ")", line)
+    line = re.sub(r"\)w", ")", line)
+    line = re.sub(r"\)l", ")", line)
+    line = re.sub(r"(a[0-7]|d[0-7]|usp|sp|sr)(?=[\s\)\,\-\/])", regprefix, line)
+    line = re.sub(r"j%sr", "jsr", line)
+    line = re.sub(r"rept(?=\s)", ".rept", line)
+    line = re.sub(r"macro(?=\s)", ".macro", line)
+    line = re.sub(r"endm(?=\s)", ".endm", line)
+    line = re.sub(r"align(?=\s)", ".align", line)
+    line = re.sub(r"if(?=\s)", ".if", line)
+    line = re.sub(r"el.if(?=\s)", ".elif", line)
+    line = re.sub(r"else(?=\s)", ".else", line)
+    line = re.sub(r"end.if(?=\s)", ".endif", line)
+    line = re.sub(r"binclude(?=\s)", ".incbin", line)
+    line = re.sub(r"include \"([^\"]+)\"", include, line)
+    line = re.sub(r"^([-+]+)", tmplabdef, line)
+    line = re.sub(r"(?<=[ \t])([-+]+)", tmplabref, line)
+    line = re.sub(r"([^\.\s]+)\s+\.macro\s+", macro, line)
+    line = re.sub(r"//([^\n]+)", comment, line)
+    return line
+
+def convert(srcname: str, dstname: str):
     src = open(srcname, "r")
-    string: str = src.read()
+    lines = src.readlines()
     src.close()
-    string = re.sub(".asm", ".S", string)
-    string = re.sub("dc\\.b", ".byte", string)
-    string = re.sub("dc\\.w", ".word", string)
-    string = re.sub("dc\\.l", ".long", string)
-    string = re.sub("\\.b	", "b	", string)
-    string = re.sub("\\.w	", "w	", string)
-    string = re.sub("\\.l	", "l	", string)
-    string = re.sub("\\.s	", "s	", string)
-    string = re.sub("\\$", "0x", string)
-    # string = re.sub("#", "", string)
-    string = re.sub("0x0x([^:]+):", tmpsub, string)
-    # string = re.sub("\\.([^:]+):", tmpsub, string)
-    string = re.sub("EQU", ".equ", string)
-    # string = re.sub("([^\\s=\\/]+)\\s*=\\s*(.*)", definesub, string)
-    # string = re.sub("(-?|[^\\(adps]+)(\\(?(?:(?:(?:d|a)[0-7])|pc|sp)\\)?)(\\+?)", regsub, string)
-    string = re.sub("([^a-zA-Z])((?:(?:(?:d|a)[0-7])|pc|sp))", regsub, string)
-    string = re.sub("\\(([^\\)]+)\\)\\.?((?:b|w|l))", immsub, string)
-    string = re.sub("binclude", ".incbin", string)
-    string = re.sub("include", ".include", string)
-    string = re.sub("even", ".balig 2", string)
-    string = re.sub("align", ".balig", string)
-    string = re.sub(".balig", ".balign", string)
-    string = re.sub("macro", ".macro", string)
-    string = re.sub("endm", ".endm", string)
-
-    string = re.sub(";(.*)", commsub, string)
     dst = open(dstname, "w")
-    dst.write(string)
+    for line in lines:
+        dst.write(convline(line))
     dst.close()
 
-re.find
-for path, dirs, files in os.walk("."):
-    for f in [fil for fil in files if fil.endswith(".asm")]:
-        gnuport(os.path.join(path, f), os.path.join(path, f.replace(".asm", ".S")))
+if __name__ == "__main__":
+    convert(sys.argv[1], sys.argv[1].replace(".asm", ".S"))
+
+VRAM = 0
+DMA = 0
+
+
+x = ((((VRAM&DMA)&3)<<30)|((0x0000&0x3FFF)<<16)|(((VRAM&DMA)&0xFC)<<2)|((0x0000&0xC000)>>14))
+((0x9400|((((length)>>1)&0xFF00)>>8))<<16)|(0x9300|(((length)>>1)&0xFF))
+((0&1)<<15)+((0&3)<<13)+(0x33&tile_mask)

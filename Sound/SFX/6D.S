@@ -6,7 +6,7 @@ Sound_6D_Header:
 
 	smpsHeaderSFXChannel cPSG3, Sound_6D_PSG3,	0x00, 0x00
 
-/*  PSG3 Data */
+/* PSG3 Data*/
 Sound_6D_PSG3:
 	smpsPSGvoice        sTone_0D
 	smpsPSGform         0xE7
@@ -19,5 +19,5 @@ Sound_6D_Loop00:
 	smpsLoop            0x00, 0x15, Sound_6D_Loop00
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_6D_Voices:

@@ -1,47 +1,47 @@
-Map_Save_CE0E:		.word word_CE56-Map_Save_CE0E /*  00 */
-		.word word_CE58-Map_Save_CE0E /*  01 */
-		.word word_CEC6-Map_Save_CE0E /*  02 */
-		.word word_CF1C-Map_Save_CE0E /*  03 */
-		.word word_CF36-Map_Save_CE0E /*  04 */
-		.word word_CF5C-Map_Save_CE0E /*  05 */
-		.word word_CF6A-Map_Save_CE0E /*  06 */
-		.word word_CF84-Map_Save_CE0E /*  07 */
-		.word word_CF98-Map_Save_CE0E /*  08 */
-		.word word_CFA6-Map_Save_CE0E /*  09 */
-		.word word_CFAE-Map_Save_CE0E /*  0A */
-		.word word_CFB6-Map_Save_CE0E /*  0B */
-		.word word_CFBE-Map_Save_CE0E /*  0C */
-		.word word_CFCC-Map_Save_CE0E /*  0D */
-		.word word_CFE0-Map_Save_CE0E /*  0E */
-		.word word_CFF4-Map_Save_CE0E /*  0F */
+Map_Save_CE0E:		.word word_CE56-Map_Save_CE0E /* 00*/
+		.word word_CE58-Map_Save_CE0E /* 01*/
+		.word word_CEC6-Map_Save_CE0E /* 02*/
+		.word word_CF1C-Map_Save_CE0E /* 03*/
+		.word word_CF36-Map_Save_CE0E /* 04*/
+		.word word_CF5C-Map_Save_CE0E /* 05*/
+		.word word_CF6A-Map_Save_CE0E /* 06*/
+		.word word_CF84-Map_Save_CE0E /* 07*/
+		.word word_CF98-Map_Save_CE0E /* 08*/
+		.word word_CFA6-Map_Save_CE0E /* 09*/
+		.word word_CFAE-Map_Save_CE0E /* 0A*/
+		.word word_CFB6-Map_Save_CE0E /* 0B*/
+		.word word_CFBE-Map_Save_CE0E /* 0C*/
+		.word word_CFCC-Map_Save_CE0E /* 0D*/
+		.word word_CFE0-Map_Save_CE0E /* 0E*/
+		.word word_CFF4-Map_Save_CE0E /* 0F*/
 
-		.word word_D002-Map_Save_CE0E /*  10 */
-		.word word_D00A-Map_Save_CE0E /*  11 */
-		.word word_D012-Map_Save_CE0E /*  12 */
-		.word word_D01A-Map_Save_CE0E /*  13 */
-		.word word_D022-Map_Save_CE0E /*  14 */
-		.word word_D02A-Map_Save_CE0E /*  15 */
-		.word word_D032-Map_Save_CE0E /*  16 */
-		.word word_D03A-Map_Save_CE0E /*  17 */
-		.word word_D060-Map_Save_CE0E /*  18 */
-		.word word_D086-Map_Save_CE0E /*  19 */
-		.word word_D0AC-Map_Save_CE0E /*  1A */
-		.word word_D0BA-Map_Save_CE0E /*  1B */
-		.word word_D0E0-Map_Save_CE0E /*  1C */
-		.word word_D0E8-Map_Save_CE0E /*  1D */
-		.word word_D0F0-Map_Save_CE0E /*  1E */
-		.word word_D0F8-Map_Save_CE0E /*  1F */
-		.word word_D100-Map_Save_CE0E /*  20 */
-		.word word_D108-Map_Save_CE0E /*  21 */
-		.word word_D110-Map_Save_CE0E /*  22 */
-		.word word_D118-Map_Save_CE0E /*  23 */
-		.word word_CF36-Map_Save_CE0E /*  24 */
-		.word word_CF5C-Map_Save_CE0E /*  25 */
-		.word word_CF6A-Map_Save_CE0E /*  26 */
-		.word word_CF84-Map_Save_CE0E /*  27 */
-		.word word_CF842-Map_Save_CE0E /*  28 */
+		.word word_D002-Map_Save_CE0E /* 10*/
+		.word word_D00A-Map_Save_CE0E /* 11*/
+		.word word_D012-Map_Save_CE0E /* 12*/
+		.word word_D01A-Map_Save_CE0E /* 13*/
+		.word word_D022-Map_Save_CE0E /* 14*/
+		.word word_D02A-Map_Save_CE0E /* 15*/
+		.word word_D032-Map_Save_CE0E /* 16*/
+		.word word_D03A-Map_Save_CE0E /* 17*/
+		.word word_D060-Map_Save_CE0E /* 18*/
+		.word word_D086-Map_Save_CE0E /* 19*/
+		.word word_D0AC-Map_Save_CE0E /* 1A*/
+		.word word_D0BA-Map_Save_CE0E /* 1B*/
+		.word word_D0E0-Map_Save_CE0E /* 1C*/
+		.word word_D0E8-Map_Save_CE0E /* 1D*/
+		.word word_D0F0-Map_Save_CE0E /* 1E*/
+		.word word_D0F8-Map_Save_CE0E /* 1F*/
+		.word word_D100-Map_Save_CE0E /* 20*/
+		.word word_D108-Map_Save_CE0E /* 21*/
+		.word word_D110-Map_Save_CE0E /* 22*/
+		.word word_D118-Map_Save_CE0E /* 23*/
+		.word word_CF36-Map_Save_CE0E /* 24*/
+		.word word_CF5C-Map_Save_CE0E /* 25*/
+		.word word_CF6A-Map_Save_CE0E /* 26*/
+		.word word_CF84-Map_Save_CE0E /* 27*/
+		.word word_CF842-Map_Save_CE0E /* 28*/
 word_CE56:	.word 0			
-word_CE58:	.word 0x12 /*  Red save file selection box  */
+word_CE58:	.word 0x12 /* Red save file selection box */
 		.byte  0xA8,   0,	  1,   7, 0xFF, 0xD8
 		.byte  0xA8,  0xC,	  1,   8, 0xFF, 0xE0
 		.byte  0xA8,  0xC,	  1,   8,   0,	 0
@@ -60,7 +60,7 @@ word_CE58:	.word 0x12 /*  Red save file selection box  */
 		.byte  0x50,  0xD,	  1, 0x12, 0xFF, 0xE0
 		.byte  0x50,  0xD,	  1, 0x12,   0,	 0
 		.byte  0x50,   1,	  9, 0x10,   0, 0x20
-word_CEC6:	.word 0xE	/*  Red no save / delete selection box */
+word_CEC6:	.word 0xE	/* Red no save / delete selection box*/
 		.byte  0xA6,   0,	  0, 0xF9, 0xFF, 0xD8
 		.byte  0xA6,  0xC,	  0, 0xFA, 0xFF, 0xE0
 		.byte  0xA6,  0xC,	  0, 0xFA,   0,	 0
@@ -75,38 +75,38 @@ word_CEC6:	.word 0xE	/*  Red no save / delete selection box */
 		.byte  0xF6,  0xC,	  1,   3, 0xFF, 0xE0
 		.byte  0xF6,  0xC,	  1,   3,   0,	 0
 		.byte  0xF6,   0,	  9,   2,   0, 0x20
-word_CF1C:	.word 4	/*  Level Icon  */
+word_CF1C:	.word 4	/* Level Icon */
 		.byte  0xF4,  0xE,	0x20, 0x42, 0xFF, 0xC8
 		.byte  0xF4,  0xE,	0x20, 0x4E, 0xFF, 0xE8
 		.byte  0xF4,  0xE,	0x20, 0x5A,   0,	 8
 		.byte  0xF4,   6,	0x20, 0x66,   0, 0x28
-word_CF36:	.word 6	/*  Sonic and Tails save icon		 */
+word_CF36:	.word 6	/* Sonic and Tails save icon		*/
 		.byte  0xD8,  0xE,	0x28, 0x6C, 0xFF, 0xE8
 		.byte  0xF0,   9,	0x28, 0x78, 0xFF, 0xF0
 		.byte  0xD6,   0,	0x28, 0x7E,   0,	 0
 		.byte  0xDE,  0xD,	0x28, 0x7F, 0xFF, 0xF8
 		.byte  0xEE,  0xD,	0x28, 0x87,   0,	 0
 		.byte  0xF6,   0,	0x28, 0x8F, 0xFF, 0xF8
-word_CF5C:	.word 2	/*  Sonic alone save icon */
+word_CF5C:	.word 2	/* Sonic alone save icon*/
 		.byte  0xD8,  0xE,	0x28, 0x6C, 0xFF, 0xEE
 		.byte  0xF0,   9,	0x28, 0x78, 0xFF, 0xF6
-word_CF6A:	.word 4	/*  Tails alone save icon */
+word_CF6A:	.word 4	/* Tails alone save icon*/
 		.byte  0xD8,   0,	0x20, 0x7E, 0xFF, 0xFF
 		.byte  0xE0,  0xD,	0x20, 0x7F, 0xFF, 0xEF
 		.byte  0xF0,  0xD,	0x20, 0x87, 0xFF, 0xE7
 		.byte  0xF8,   0,	0x20, 0x8F,   0,	 7
-word_CF84:	.word 3	/*  Knuckles alone save icon */
+word_CF84:	.word 3	/* Knuckles alone save icon*/
 		.byte  0xD8,  0xE,	0x28, 0x90, 0xFF, 0xF3
 		.byte  0xF0,   8,	0x28, 0x9C, 0xFF, 0xF3
 		.byte  0xF8,  0xC,	0x28, 0x9F, 0xFF, 0xF3
-word_CF98:	.word 2	/*  Delete signpost	 */
+word_CF98:	.word 2	/* Delete signpost	*/
 		.byte  0xB8,  0xE,	0x20, 0xA3, 0xFF, 0xE4
 		.byte  0xB8,   2,	0x20, 0xAF,   0,	 4
-word_CFA6:	.word 1	/*  Delete signpost		 */
+word_CFA6:	.word 1	/* Delete signpost		*/
 		.byte  0xB8,  0xA,	0x20, 0xB2, 0xFF, 0xEC
-word_CFAE:	.word 1	/*  Delete signpost	 */
+word_CFAE:	.word 1	/* Delete signpost	*/
 		.byte  0xB8,   2,	0x20, 0xBB, 0xFF, 0xF4
-word_CFB6:	.word 1	/*  Delete signpost */
+word_CFB6:	.word 1	/* Delete signpost*/
 		.byte  0xB8,  0xA,	0x20, 0xB2, 0xFF, 0xEC
 word_CFBE:	.word 2			
 		.byte  0xB8,  0xE,	0x20, 0xBE, 0xFF, 0xE4
@@ -188,7 +188,7 @@ word_D118:	.word 6
 		.byte  0xA8,  0xE,	0x62, 0xA9, 0xFF, 0xF8
 		.byte  0x88,   7,	0x62, 0xB5,   0, 0x18
 		.byte  0xA8,   6,	0x62, 0xBD,   0, 0x18
-word_CF842:	.word 7	/*  Knuckles and Tails save icon */
+word_CF842:	.word 7	/* Knuckles and Tails save icon*/
 		.byte  0xD8,  0xE,	0x28, 0x90, 0xFF, 0xFC
 		.byte  0xF0,   8,	0x28, 0x9C, 0xFF, 0xFC
 		.byte  0xF8,  0xC,	0x28, 0x9F, 0xFF, 0xFC

@@ -6,7 +6,7 @@ Sound_A6_Header:
 
 	smpsHeaderSFXChannel cPSG3, Sound_A6_PSG3,	0x02, 0x00
 
-/*  PSG3 Data */
+/* PSG3 Data*/
 Sound_A6_PSG3:
 	smpsPSGform         0xE7
 	smpsPSGvoice        sTone_1D
@@ -14,5 +14,5 @@ Sound_A6_PSG3:
 	.byte	nF4, 0x03, nFs4, 0x0D
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_A6_Voices:

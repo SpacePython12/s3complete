@@ -1,4 +1,4 @@
-Map_228246:	.word Frame_228248-Map_228246 /*  ... */
+Map_228246:	.word Frame_228248-Map_228246 /* ...*/
 Frame_228248:	.word 0xA
 		.byte 0xD8, 0xE,0x20,0x38,0xFF,0xE0
 		.byte 0xD8, 0xE,0x28,0x38,  0,  0

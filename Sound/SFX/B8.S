@@ -6,7 +6,7 @@ Sound_B8_Header:
 
 	smpsHeaderSFXChannel cPSG2, Sound_B8_PSG2,	0x00, 0x00
 
-/*  PSG2 Data */
+/* PSG2 Data*/
 Sound_B8_PSG2:
 	smpsPSGvoice        sTone_03
 
@@ -23,5 +23,5 @@ Sound_B8_Loop01:
 	smpsLoop            0x00, 0x07, Sound_B8_Loop01
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_B8_Voices:

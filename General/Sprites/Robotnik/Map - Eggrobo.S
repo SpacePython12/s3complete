@@ -1,4 +1,4 @@
-/*  Eggrobo mappings */
+/* Eggrobo mappings*/
 		.word word_184F44-Map_EggRobo
 		.word word_184F46-Map_EggRobo
 		.word word_184F60-Map_EggRobo
@@ -7,28 +7,28 @@
 		.word word_184F96-Map_EggRobo
 		.word word_184F9E-Map_EggRobo
 		.word word_184FAC-Map_EggRobo
-word_184F44:	.word 0			/*  DATA XREF: ROM:00184F34o */
-word_184F46:	.word 4			/*  DATA XREF: ROM:00184F34o */
+word_184F44:	.word 0			/* DATA XREF: ROM:00184F34o*/
+word_184F46:	.word 4			/* DATA XREF: ROM:00184F34o*/
 		.byte  0xE8,  0xF,	0x20,   0, 0xFF, 0xEC
 		.byte  0xF0,   3,	0x20, 0x10,   0,	0xC
 		.byte	8,  0xC,	0x20, 0x14, 0xFF, 0xEC
 		.byte  0x10,   8,	0x20, 0x18, 0xFF, 0xEC
-word_184F60:	.word 2			/*  DATA XREF: ROM:00184F34o */
+word_184F60:	.word 2			/* DATA XREF: ROM:00184F34o*/
 		.byte  0xF4,  0xD,	0x20, 0x1B, 0xFF, 0xF0
 		.byte	4,   8,	0x20, 0x23, 0xFF, 0xF8
-word_184F6E:	.word 5			/*  DATA XREF: ROM:00184F34o */
+word_184F6E:	.word 5			/* DATA XREF: ROM:00184F34o*/
 		.byte  0xE8,  0xF,	0x20,   0, 0xFF, 0xEC
 		.byte  0xF0,   3,	0x20, 0x10,   0,	0xC
 		.byte	8,  0xC,	0x20, 0x14, 0xFF, 0xEC
 		.byte  0x10,   8,	0x20, 0x18, 0xFF, 0xEC
 		.byte	8,  0xA,	  0, 0x26,   0,	 4
-word_184F8E:	.word 1			/*  DATA XREF: ROM:00184F34o */
+word_184F8E:	.word 1			/* DATA XREF: ROM:00184F34o*/
 		.byte  0xF4,  0xA,	0x20, 0x2F, 0xFF, 0xF4
-word_184F96:	.word 1			/*  DATA XREF: ROM:00184F34o */
+word_184F96:	.word 1			/* DATA XREF: ROM:00184F34o*/
 		.byte  0xF4,  0xA,	0x20, 0x38, 0xFF, 0xF4
-word_184F9E:	.word 2			/*  DATA XREF: ROM:00184F34o */
+word_184F9E:	.word 2			/* DATA XREF: ROM:00184F34o*/
 		.byte  0xF4,  0xA,	0x20, 0x41, 0xFF, 0xF4
 		.byte   0xC,   0,	0x20, 0x4A, 0xFF, 0xFC
-word_184FAC:	.word 2			/*  DATA XREF: ROM:00184F34o */
+word_184FAC:	.word 2			/* DATA XREF: ROM:00184F34o*/
 		.byte  0xFC,  0xC,	0x20, 0x4B, 0xFF, 0xE0
 		.byte  0xFC,  0xC,	0x28, 0x4B,   0,	 0

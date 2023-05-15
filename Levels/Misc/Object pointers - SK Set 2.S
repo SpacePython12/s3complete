@@ -1,185 +1,185 @@
-		.long Obj_Ring				/*  0 */
-		.long Obj_Monitor			/*  1 */
-		.long Obj_PathSwap			/*  2 */
-		.long Obj_03_2				/*  3 */
-		.long Obj_CollapsingPlatform		/*  4 */
-		.long Obj_AIZLRZEMZRock			/*  5 */
-		.long Obj_MHZPulleyLift			/*  6 */
-		.long Obj_Spring				/*  7 */
-		.long Obj_Spikes				/*  8 */
-		.long Obj_MHZCurledVine			/*  9 */
-		.long Obj_MHZStickyVine			/*  10 */
-		.long Obj_MHZSwingBarHorizontal		/*  11 */
-		.long Obj_MHZSwingBarVertical		/*  12 */
-		.long Obj_BreakableWall			/*  13 */
-		.long Obj_0E				/*  14 */
-		.long Obj_CollapsingBridge		/*  15 */
-		.long Obj_MHZSwingVine			/*  16 */
-		.long Obj_MHZMushroomPlatform		/*  17 */
-		.long Obj_MHZMushroomParachute		/*  18 */
-		.long Obj_MHZMushroomCatapult		/*  19 */
-		.long Obj_14_2				/*  20 */
-		.long Obj_15_2				/*  21 */
-		.long Obj_16_2				/*  22 */
-		.long Obj_LRZSinkingRock			/*  23 */
-		.long Obj_LRZFallingSpike		/*  24 */
-		.long Obj_LRZDoor			/*  25 */
-		.long Obj_LRZBigDoor			/*  26 */
-		.long Obj_LRZFireballLauncher		/*  27 */
-		.long Obj_LRZButtonHorizontal		/*  28 */
-		.long Obj_LRZShootingTrigger		/*  29 */
-		.long Obj_LRZDashElevator		/*  30 */
-		.long Obj_LRZLavaFall			/*  31 */
-		.long Obj_LRZSwingingSpikeBall		/*  32 */
-		.long Obj_LRZSmashingSpikePlatform	/*  33 */
-		.long Obj_LRZSpikeBall			/*  34 */
-		.long Obj_MHZMushroomCap			/*  35 */
-		.long Obj_AutomaticTunnel		/*  36 */
-		.long Obj_LRZChainedPlatforms		/*  37 */
-		.long Obj_26				/*  38 */
-		.long Obj_27				/*  39 */
-		.long Obj_28_Invisible_Barrier		/*  40 */
-		.long Obj_LRZFlameThrower		/*  41 */
-		.long Obj_CorkFloor			/*  42 */
-		.long Obj_LRZOrbitingSpikeBallHorizontal	/*  43 */
-		.long Obj_LRZOrbitingSpikeBallVertical	/*  44 */
-		.long Obj_LRZSolidMovingPlatforms	/*  45 */
-		.long Obj_LRZSolidRock			/*  46 */
-		.long Obj_StillSprite			/*  47 */
-		.long Obj_AnimatedStillSprite		/*  48 */
-		.long Obj_LRZCollapsingBridge		/*  49 */
-		.long Obj_LRZTurbineSprites		/*  50 */
-		.long Obj_Button				/*  51 */
-		.long Obj_StarPost			/*  52 */
-		.long Obj_AIZForegroundPlant		/*  53 */
-		.long Obj_BreakableBar			/*  54 */
-		.long Obj_LRZSpikeBallLauncher		/*  55 */
-		.long Obj_38_2				/*  56 */
-		.long Obj_SOZSpawningSandBlocks		/*  57 */
-		.long Obj_3A_2				/*  58 */
-		.long Obj_3B_2				/*  59 */
-		.long Obj_Door				/*  60 */
-		.long Obj_RetractingSpring		/*  61 */
-		.long Obj_SOZPushableRock		/*  62 */
-		.long Obj_SOZSpringVine			/*  63 */
-		.long Obj_SOZRisingSandWall		/*  64 */
-		.long Obj_SOZLightSwitch			/*  65 */
-		.long Obj_SOZFloatingPillar		/*  66 */
-		.long Obj_SOZSwingingPlatform		/*  67 */
-		.long Obj_SOZBreakableSandRock		/*  68 */
-		.long Obj_SOZPushSwitch			/*  69 */
-		.long Obj_SOZDoor			/*  70 */
-		.long Obj_SOZSandCork			/*  71 */
-		.long Obj_SOZRapelWire			/*  72 */
-		.long Obj_SOZSolidSprites		/*  73 */
-		.long Obj_DEZFloatingPlatform		/*  74 */
-		.long Obj_TiltingBridge			/*  75 */
-		.long Obj_DEZHangCarrier			/*  76 */
-		.long Obj_DEZTorpedoLauncher		/*  77 */
-		.long Obj_DEZLiftPad			/*  78 */
-		.long Obj_DEZStaircase			/*  79 */
-		.long Obj_50_2				/*  80 */
-		.long Obj_FloatingPlatform		/*  81 */
-		.long Obj_DEZLightning			/*  82 */
-		.long Obj_DEZConveyorPad			/*  83 */
-		.long Obj_Bubbler			/*  84 */
-		.long Obj_DEZEnergyBridge		/*  85 */
-		.long Obj_56_2				/*  86 */
-		.long Obj_DEZTunnelLauncher		/*  87 */
-		.long Obj_DEZGravitySwitch		/*  88 */
-		.long Obj_59_2				/*  89 */
-		.long Obj_5A_2				/*  90 */
-		.long Obj_5B_2				/*  91 */
-		.long Obj_5C_2				/*  92 */
-		.long Obj_DEZRetractingSpring		/*  93 */
-		.long Obj_DEZHoverMachine		/*  94 */
-		.long Obj_5F_2				/*  95 */
-		.long Obj_DEZBumperWall			/*  96 */
-		.long Obj_DEZGravityPuzzle		/*  97 */
-		.long Obj_Ring				/*  98 */
-		.long Obj_Ring				/*  99 */
-		.long Obj_Ring				/*  100 */
-		.long Obj_Ring				/*  101 */
-		.long Obj_Ring				/*  102 */
-		.long Obj_Ring				/*  103 */
-		.long Obj_Ring				/*  104 */
-		.long Obj_Ring				/*  105 */
-		.long Obj_InvisibleHurtBlockHorizontal	/*  106 */
-		.long Obj_InvisibleHurtBlockVertical	/*  107 */
-		.long Obj_TensionBridge			/*  108 */
-		.long Obj_6D_2				/*  109 */
-		.long Obj_6E_2				/*  110 */
-		.long Obj_Ring				/*  111 */
-		.long Obj_Ring				/*  112 */
-		.long Obj_Ring				/*  113 */
-		.long Obj_Ring				/*  114 */
-		.long Obj_Ring				/*  115 */
-		.long Obj_SSZRetractingSpring		/*  116 */
-		.long Obj_SSZSwingingCarrier		/*  117 */
-		.long Obj_SSZRotatingPlatform		/*  118 */
-		.long Obj_77_2				/*  119 */
-		.long Obj_FBZDEZPlayerLauncher		/*  120 */
-		.long Obj_SSZHPZTeleporter		/*  121 */
-		.long Obj_SSZElevatorBar			/*  122 */
-		.long Obj_SSZCollapsingBridgeDiagonal	/*  123 */
-		.long Obj_SSZCollapsingBridge		/*  124 */
-		.long Obj_SSZBouncyCloud			/*  125 */
-		.long Obj_SSZCollapsingColumn		/*  126 */
-		.long Obj_SSZFloatingPlatform		/*  127 */
-		.long Obj_HiddenMonitor			/*  128 */
-		.long Obj_81				/*  129 */
-		.long Obj_CutsceneKnuckles		/*  130 */
-		.long Obj_83				/*  131 */
-		.long Obj_AIZPlaneIntro			/*  132 */
-		.long Obj_SSEntryRing			/*  133 */
-		.long Obj_86				/*  134 */
-		.long Obj_87				/*  135 */
-		.long Obj_88				/*  136 */
-		.long Obj_89				/*  137 */
-		.long Obj_8A				/*  138 */
-		.long Obj_8B				/*  139 */
-		.long Obj_Madmole			/*  140 */
-		.long Obj_Mushmeanie			/*  141 */
-		.long Obj_Dragonfly			/*  142 */
-		.long Obj_Butterdroid			/*  143 */
-		.long Obj_Cluckoid			/*  144 */
-		.long Obj_91_2				/*  145 */
-		.long Obj_MHZ_Miniboss			/*  146 */
-		.long Obj_MHZ_EndBoss			/*  147 */
-		.long Obj_Skorp				/*  148 */
-		.long Obj_Sandworm			/*  149 */
-		.long Obj_Rockn				/*  150 */
-		.long Obj_SOZ_Miniboss			/*  151 */
-		.long Obj_SOZ_EndBoss			/*  152 */
-		.long Obj_Fireworm			/*  153 */
-		.long Obj_LRZExplodingRock		/*  154 */
-		.long Obj_Toxomister			/*  155 */
-		.long Obj_LRZRockCrusher			/*  156 */
-		.long Obj_LRZ_Miniboss			/*  157 */
-		.long Obj_9E_2				/*  158 */
-		.long Obj_Ring				/*  159 */
-		.long Obj_EggRobo			/*  160 */
-		.long Obj_SSZGHZBoss			/*  161 */
-		.long Obj_SSZMTZBoss			/*  162 */
-		.long Obj_A3_2				/*  163 */
-		.long Obj_Spikebonker			/*  164 */
-		.long Obj_Chainspike			/*  165 */
-		.long Obj_DEZ_Miniboss			/*  166 */
-		.long Obj_DEZ_EndBoss			/*  167 */
-		.long Obj_A8_2				/*  168 */
-		.long Obj_A9_2				/*  169 */
-		.long Obj_SOZ_Ghosts			/*  170 */
-		.long Obj_AB_2				/*  171 */
-		.long Obj_AC_2_SOZ2_Ghost_Capsule	/*  172 */
-		.long Obj_AD_2				/*  173 */
-		.long Obj_AE_2				/*  174 */
-		.long Obj_AF_2				/*  175 */
-		.long Obj_B0_2				/*  176 */
-		.long Obj_B1_2				/*  177 */
-		.long Obj_B2_2				/*  178 */
-		.long Obj_B3_2				/*  179 */
-		.long Obj_B4_2				/*  180 */
-		.long Obj_B5_2				/*  181 */
-		.long Obj_B6_2				/*  182 */
-		.long Obj_DDZAsteroid			/*  183 */
-		.long Obj_DDZMissile			/*  184 */
+		.long Obj_Ring				/* 0*/
+		.long Obj_Monitor			/* 1*/
+		.long Obj_PathSwap			/* 2*/
+		.long Obj_03_2				/* 3*/
+		.long Obj_CollapsingPlatform		/* 4*/
+		.long Obj_AIZLRZEMZRock			/* 5*/
+		.long Obj_MHZPulleyLift			/* 6*/
+		.long Obj_Spring				/* 7*/
+		.long Obj_Spikes				/* 8*/
+		.long Obj_MHZCurledVine			/* 9*/
+		.long Obj_MHZStickyVine			/* 10*/
+		.long Obj_MHZSwingBarHorizontal		/* 11*/
+		.long Obj_MHZSwingBarVertical		/* 12*/
+		.long Obj_BreakableWall			/* 13*/
+		.long Obj_0E				/* 14*/
+		.long Obj_CollapsingBridge		/* 15*/
+		.long Obj_MHZSwingVine			/* 16*/
+		.long Obj_MHZMushroomPlatform		/* 17*/
+		.long Obj_MHZMushroomParachute		/* 18*/
+		.long Obj_MHZMushroomCatapult		/* 19*/
+		.long Obj_14_2				/* 20*/
+		.long Obj_15_2				/* 21*/
+		.long Obj_16_2				/* 22*/
+		.long Obj_LRZSinkingRock			/* 23*/
+		.long Obj_LRZFallingSpike		/* 24*/
+		.long Obj_LRZDoor			/* 25*/
+		.long Obj_LRZBigDoor			/* 26*/
+		.long Obj_LRZFireballLauncher		/* 27*/
+		.long Obj_LRZButtonHorizontal		/* 28*/
+		.long Obj_LRZShootingTrigger		/* 29*/
+		.long Obj_LRZDashElevator		/* 30*/
+		.long Obj_LRZLavaFall			/* 31*/
+		.long Obj_LRZSwingingSpikeBall		/* 32*/
+		.long Obj_LRZSmashingSpikePlatform	/* 33*/
+		.long Obj_LRZSpikeBall			/* 34*/
+		.long Obj_MHZMushroomCap			/* 35*/
+		.long Obj_AutomaticTunnel		/* 36*/
+		.long Obj_LRZChainedPlatforms		/* 37*/
+		.long Obj_26				/* 38*/
+		.long Obj_27				/* 39*/
+		.long Obj_28_Invisible_Barrier		/* 40*/
+		.long Obj_LRZFlameThrower		/* 41*/
+		.long Obj_CorkFloor			/* 42*/
+		.long Obj_LRZOrbitingSpikeBallHorizontal	/* 43*/
+		.long Obj_LRZOrbitingSpikeBallVertical	/* 44*/
+		.long Obj_LRZSolidMovingPlatforms	/* 45*/
+		.long Obj_LRZSolidRock			/* 46*/
+		.long Obj_StillSprite			/* 47*/
+		.long Obj_AnimatedStillSprite		/* 48*/
+		.long Obj_LRZCollapsingBridge		/* 49*/
+		.long Obj_LRZTurbineSprites		/* 50*/
+		.long Obj_Button				/* 51*/
+		.long Obj_StarPost			/* 52*/
+		.long Obj_AIZForegroundPlant		/* 53*/
+		.long Obj_BreakableBar			/* 54*/
+		.long Obj_LRZSpikeBallLauncher		/* 55*/
+		.long Obj_38_2				/* 56*/
+		.long Obj_SOZSpawningSandBlocks		/* 57*/
+		.long Obj_3A_2				/* 58*/
+		.long Obj_3B_2				/* 59*/
+		.long Obj_Door				/* 60*/
+		.long Obj_RetractingSpring		/* 61*/
+		.long Obj_SOZPushableRock		/* 62*/
+		.long Obj_SOZSpringVine			/* 63*/
+		.long Obj_SOZRisingSandWall		/* 64*/
+		.long Obj_SOZLightSwitch			/* 65*/
+		.long Obj_SOZFloatingPillar		/* 66*/
+		.long Obj_SOZSwingingPlatform		/* 67*/
+		.long Obj_SOZBreakableSandRock		/* 68*/
+		.long Obj_SOZPushSwitch			/* 69*/
+		.long Obj_SOZDoor			/* 70*/
+		.long Obj_SOZSandCork			/* 71*/
+		.long Obj_SOZRapelWire			/* 72*/
+		.long Obj_SOZSolidSprites		/* 73*/
+		.long Obj_DEZFloatingPlatform		/* 74*/
+		.long Obj_TiltingBridge			/* 75*/
+		.long Obj_DEZHangCarrier			/* 76*/
+		.long Obj_DEZTorpedoLauncher		/* 77*/
+		.long Obj_DEZLiftPad			/* 78*/
+		.long Obj_DEZStaircase			/* 79*/
+		.long Obj_50_2				/* 80*/
+		.long Obj_FloatingPlatform		/* 81*/
+		.long Obj_DEZLightning			/* 82*/
+		.long Obj_DEZConveyorPad			/* 83*/
+		.long Obj_Bubbler			/* 84*/
+		.long Obj_DEZEnergyBridge		/* 85*/
+		.long Obj_56_2				/* 86*/
+		.long Obj_DEZTunnelLauncher		/* 87*/
+		.long Obj_DEZGravitySwitch		/* 88*/
+		.long Obj_59_2				/* 89*/
+		.long Obj_5A_2				/* 90*/
+		.long Obj_5B_2				/* 91*/
+		.long Obj_5C_2				/* 92*/
+		.long Obj_DEZRetractingSpring		/* 93*/
+		.long Obj_DEZHoverMachine		/* 94*/
+		.long Obj_5F_2				/* 95*/
+		.long Obj_DEZBumperWall			/* 96*/
+		.long Obj_DEZGravityPuzzle		/* 97*/
+		.long Obj_Ring				/* 98*/
+		.long Obj_Ring				/* 99*/
+		.long Obj_Ring				/* 100*/
+		.long Obj_Ring				/* 101*/
+		.long Obj_Ring				/* 102*/
+		.long Obj_Ring				/* 103*/
+		.long Obj_Ring				/* 104*/
+		.long Obj_Ring				/* 105*/
+		.long Obj_InvisibleHurtBlockHorizontal	/* 106*/
+		.long Obj_InvisibleHurtBlockVertical	/* 107*/
+		.long Obj_TensionBridge			/* 108*/
+		.long Obj_6D_2				/* 109*/
+		.long Obj_6E_2				/* 110*/
+		.long Obj_Ring				/* 111*/
+		.long Obj_Ring				/* 112*/
+		.long Obj_Ring				/* 113*/
+		.long Obj_Ring				/* 114*/
+		.long Obj_Ring				/* 115*/
+		.long Obj_SSZRetractingSpring		/* 116*/
+		.long Obj_SSZSwingingCarrier		/* 117*/
+		.long Obj_SSZRotatingPlatform		/* 118*/
+		.long Obj_77_2				/* 119*/
+		.long Obj_FBZDEZPlayerLauncher		/* 120*/
+		.long Obj_SSZHPZTeleporter		/* 121*/
+		.long Obj_SSZElevatorBar			/* 122*/
+		.long Obj_SSZCollapsingBridgeDiagonal	/* 123*/
+		.long Obj_SSZCollapsingBridge		/* 124*/
+		.long Obj_SSZBouncyCloud			/* 125*/
+		.long Obj_SSZCollapsingColumn		/* 126*/
+		.long Obj_SSZFloatingPlatform		/* 127*/
+		.long Obj_HiddenMonitor			/* 128*/
+		.long Obj_81				/* 129*/
+		.long Obj_CutsceneKnuckles		/* 130*/
+		.long Obj_83				/* 131*/
+		.long Obj_AIZPlaneIntro			/* 132*/
+		.long Obj_SSEntryRing			/* 133*/
+		.long Obj_86				/* 134*/
+		.long Obj_87				/* 135*/
+		.long Obj_88				/* 136*/
+		.long Obj_89				/* 137*/
+		.long Obj_8A				/* 138*/
+		.long Obj_8B				/* 139*/
+		.long Obj_Madmole			/* 140*/
+		.long Obj_Mushmeanie			/* 141*/
+		.long Obj_Dragonfly			/* 142*/
+		.long Obj_Butterdroid			/* 143*/
+		.long Obj_Cluckoid			/* 144*/
+		.long Obj_91_2				/* 145*/
+		.long Obj_MHZ_Miniboss			/* 146*/
+		.long Obj_MHZ_EndBoss			/* 147*/
+		.long Obj_Skorp				/* 148*/
+		.long Obj_Sandworm			/* 149*/
+		.long Obj_Rockn				/* 150*/
+		.long Obj_SOZ_Miniboss			/* 151*/
+		.long Obj_SOZ_EndBoss			/* 152*/
+		.long Obj_Fireworm			/* 153*/
+		.long Obj_LRZExplodingRock		/* 154*/
+		.long Obj_Toxomister			/* 155*/
+		.long Obj_LRZRockCrusher			/* 156*/
+		.long Obj_LRZ_Miniboss			/* 157*/
+		.long Obj_9E_2				/* 158*/
+		.long Obj_Ring				/* 159*/
+		.long Obj_EggRobo			/* 160*/
+		.long Obj_SSZGHZBoss			/* 161*/
+		.long Obj_SSZMTZBoss			/* 162*/
+		.long Obj_A3_2				/* 163*/
+		.long Obj_Spikebonker			/* 164*/
+		.long Obj_Chainspike			/* 165*/
+		.long Obj_DEZ_Miniboss			/* 166*/
+		.long Obj_DEZ_EndBoss			/* 167*/
+		.long Obj_A8_2				/* 168*/
+		.long Obj_A9_2				/* 169*/
+		.long Obj_SOZ_Ghosts			/* 170*/
+		.long Obj_AB_2				/* 171*/
+		.long Obj_AC_2_SOZ2_Ghost_Capsule	/* 172*/
+		.long Obj_AD_2				/* 173*/
+		.long Obj_AE_2				/* 174*/
+		.long Obj_AF_2				/* 175*/
+		.long Obj_B0_2				/* 176*/
+		.long Obj_B1_2				/* 177*/
+		.long Obj_B2_2				/* 178*/
+		.long Obj_B3_2				/* 179*/
+		.long Obj_B4_2				/* 180*/
+		.long Obj_B5_2				/* 181*/
+		.long Obj_B6_2				/* 182*/
+		.long Obj_DDZAsteroid			/* 183*/
+		.long Obj_DDZMissile			/* 184*/

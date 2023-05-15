@@ -1,4 +1,4 @@
-/*  Palette pointers */
+/* Palette pointers*/
 
 		.long Pal_Unknown1
 		.word Normal_palette&0xFFFF

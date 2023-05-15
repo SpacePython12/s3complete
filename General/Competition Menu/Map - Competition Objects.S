@@ -1,4 +1,4 @@
-Map_2098C0:	.word Frame_2098CE-Map_2098C0 /*  ... */
+Map_2098C0:	.word Frame_2098CE-Map_2098C0 /* ...*/
 		.word Frame_209906-Map_2098C0
 		.word Frame_20993E-Map_2098C0
 		.word Frame_20997C-Map_2098C0

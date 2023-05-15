@@ -1,4 +1,4 @@
-Map_21E896:	.word Frame_21E89C-Map_21E896 /*  ... */
+Map_21E896:	.word Frame_21E89C-Map_21E896 /* ...*/
 		.word Frame_21E8CE-Map_21E896
 		.word Frame_21E930-Map_21E896
 Frame_21E89C:	.word 8

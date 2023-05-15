@@ -1,4 +1,4 @@
 		.word word_498C4-Map_DEZBumperWall
-word_498C4:	.word 2			/*  DATA XREF: ROM:000498C2o */
+word_498C4:	.word 2			/* DATA XREF: ROM:000498C2o*/
 		.byte  0xE0,  0xB,	  0, 0x10, 0xFF, 0xF4
 		.byte	0,  0xB,	0x10, 0x10, 0xFF, 0xF4

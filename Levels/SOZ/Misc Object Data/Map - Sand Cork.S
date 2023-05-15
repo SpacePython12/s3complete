@@ -1,16 +1,16 @@
 		.word word_41EB4-Map_SOZSandCork
 		.word word_41EBC-Map_SOZSandCork
 		.word word_41EE2-Map_SOZSandCork
-word_41EB4:	.word 1			/*  DATA XREF: ROM:00041EAEo */
+word_41EB4:	.word 1			/* DATA XREF: ROM:00041EAEo*/
 		.byte  0xF8,   9,	  0,   0, 0xFF, 0xF4
-word_41EBC:	.word 6			/*  DATA XREF: ROM:00041EAEo */
+word_41EBC:	.word 6			/* DATA XREF: ROM:00041EAEo*/
 		.byte  0xF8,   0,	  0,   0, 0xFF, 0xF4
 		.byte  0xF8,   0,	  0,   2, 0xFF, 0xFC
 		.byte  0xF8,   0,	  0,   4,   0,	 4
 		.byte	0,   0,	  0,   1, 0xFF, 0xF4
 		.byte	0,   0,	  0,   3, 0xFF, 0xFC
 		.byte	0,   0,	  0,   5,   0,	 4
-word_41EE2:	.word 0x10		/*  DATA XREF: ROM:00041EAEo */
+word_41EE2:	.word 0x10		/* DATA XREF: ROM:00041EAEo*/
 		.byte  0x80,   9,	  0,   6, 0xFF, 0xF4
 		.byte  0x90,   9,	  0,   6, 0xFF, 0xF4
 		.byte  0xA0,   9,	  0,   6, 0xFF, 0xF4

@@ -1,4 +1,4 @@
-Map_66C12		.word word_66C20-Map_66C12
+Map_66C12:		.word word_66C20-Map_66C12
 		.word word_66C82-Map_66C12
 		.word word_66C96-Map_66C12
 		.word word_66CAA-Map_66C12

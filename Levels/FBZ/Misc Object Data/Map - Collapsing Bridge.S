@@ -1,7 +1,7 @@
 		.word word_21094-Map_FBZCollapsingBridge
 		.word word_210F6-Map_FBZCollapsingBridge
 		.word word_211B8-Map_FBZCollapsingBridge
-word_21094:	.word 0x10		/*  DATA XREF: ROM:0002108Eo */
+word_21094:	.word 0x10		/* DATA XREF: ROM:0002108Eo*/
 		.byte  0xF0,  0xD,	  0,   0, 0xFF, 0xC0
 		.byte  0xF0,  0xD,	  0,   0, 0xFF, 0xE0
 		.byte  0xF0,  0xD,	  0,   0,   0,	 0
@@ -18,7 +18,7 @@ word_21094:	.word 0x10		/*  DATA XREF: ROM:0002108Eo */
 		.byte  0x20,  0xD,	  8, 0x10, 0xFF, 0xE0
 		.byte  0x20,  0xD,	  0, 0x10,   0,	 0
 		.byte  0x20,  0xD,	  8, 0x10,   0, 0x20
-word_210F6:	.word 0x20		/*  DATA XREF: ROM:0002108Eo */
+word_210F6:	.word 0x20		/* DATA XREF: ROM:0002108Eo*/
 		.byte  0xF0,   5,	  0,   0, 0xFF, 0xC0
 		.byte  0xF0,   5,	  0,   4, 0xFF, 0xD0
 		.byte  0xF0,   5,	  0,   0, 0xFF, 0xE0
@@ -51,7 +51,7 @@ word_210F6:	.word 0x20		/*  DATA XREF: ROM:0002108Eo */
 		.byte  0x20,   5,	  0, 0x14,   0, 0x10
 		.byte  0x20,   5,	  8, 0x14,   0, 0x20
 		.byte  0x20,   5,	  8, 0x10,   0, 0x30
-word_211B8:	.word 0x20		/*  DATA XREF: ROM:0002108Eo */
+word_211B8:	.word 0x20		/* DATA XREF: ROM:0002108Eo*/
 		.byte  0xF0,   5,	  0,   4,   0, 0x30
 		.byte  0xF0,   5,	  0,   0, 0xFF, 0xC0
 		.byte  0xF0,   5,	  0,   4, 0xFF, 0xD0

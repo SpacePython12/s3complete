@@ -2,7 +2,7 @@
 		.word word_4CD0-Map_TitleScreenText
 		.word word_4CFC-Map_TitleScreenText
 		.word word_4D16-Map_TitleScreenText
-word_4CA4:	.word 7			/*  DATA XREF: ROM:00004C9Co */
+word_4CA4:	.word 7			/* DATA XREF: ROM:00004C9Co*/
 		.byte	0,  0xC,	0x20,   0,   0,	 0
 		.byte	0,  0xC,	0x20,   4,   0, 0x20
 		.byte	0,  0xC,	0x20,   8,   0, 0x40
@@ -10,11 +10,11 @@ word_4CA4:	.word 7			/*  DATA XREF: ROM:00004C9Co */
 		.byte  0x10,  0xC,	  0, 0x10,   0, 0x20
 		.byte  0x10,  0xC,	  0, 0x14,   0, 0x40
 		.byte	0,   4,	0x20, 0x24, 0xFF, 0xEC
-word_4CD0:	.word	7,  0xC,	  0,   0,  0xC,	 4 /*  DATA XREF:	ROM:00004C9Co */
+word_4CD0:	.word	7,  0xC,	  0,   0,  0xC,	 4 /* DATA XREF:	ROM:00004C9Co*/
 		.word  0x20,  0xC,	  8, 0x40,0x100C,0x200C
 		.word	0,0x100C,0x2010, 0x20,0x100C,0x2014
 		.word  0x40,0x1004,0x2024,0xFFEC
-word_4CFC:	.word 4			/*  DATA XREF: ROM:00004C9Co */
+word_4CFC:	.word 4			/* DATA XREF: ROM:00004C9Co*/
 		.byte	0,  0xC,	0x20, 0x18,   0,	 0
 		.byte	0,  0xC,	0x20, 0x1C,   0, 0x20
 		.byte	0,  0xC,	0x20, 0x20,   0, 0x40
@@ -22,7 +22,7 @@ word_4CFC:	.word 4			/*  DATA XREF: ROM:00004C9Co */
 		.byte  0x10,  0xC,	  0, 0x1C,   0, 0x20
 		.byte  0x10,  0xC,	  0, 0x20,   0, 0x40
 		.byte	0,   4,	0x20, 0x24, 0xFF, 0xEC
-word_4D16:	.word 3			/*  DATA XREF: ROM:00004C9Co */
+word_4D16:	.word 3			/* DATA XREF: ROM:00004C9Co*/
 		.byte	0,   0,	  0, 0x26,   0,	 0
 		.byte	0,  0xC,	  0, 0x27,   0, 0x10
 		.byte	0,  0xC,	  0, 0x2B,   0, 0x38

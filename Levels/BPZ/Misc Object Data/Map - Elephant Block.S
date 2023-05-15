@@ -1,9 +1,9 @@
 		.word word_35D5E-Map_BPZElephantBlock
 		.word word_35D6C-Map_BPZElephantBlock
-word_35D5E:	.word 2			/*  DATA XREF: ROM:00035D5Ao */
+word_35D5E:	.word 2			/* DATA XREF: ROM:00035D5Ao*/
 		.byte  0xF0,  0xF,	  0, 0x6E, 0xFF, 0xF8
 		.byte  0xF0,  0xF,	  0, 0x7E,   0, 0x18
-word_35D6C:	.word 3			/*  DATA XREF: ROM:00035D5Ao */
+word_35D6C:	.word 3			/* DATA XREF: ROM:00035D5Ao*/
 		.byte  0xF0,  0xF,	  0, 0x6E, 0xFF, 0xF8
 		.byte  0xF0,  0xF,	  0, 0x7E,   0, 0x18
 		.byte  0xF0,  0xF,	  0, 0x7E,   0, 0x38

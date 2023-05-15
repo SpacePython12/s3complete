@@ -1,14 +1,14 @@
 		.word word_43A94-Map_LRZSpikeBall
 		.word word_43ABA-Map_LRZSpikeBall
 		.word word_43AE6-Map_LRZSpikeBall
-word_43A94:	.word 6			/*  DATA XREF: ROM:00043A8Eo */
+word_43A94:	.word 6			/* DATA XREF: ROM:00043A8Eo*/
 		.byte  0xE0,  0xA,	  0,   0, 0xFF, 0xE8
 		.byte  0xE0,  0xA,	  8,   0,   0,	 0
 		.byte  0xF8,  0xD,	  0,   9, 0xFF, 0xE0
 		.byte  0xF8,  0xD,	  8,   9,   0,	 0
 		.byte	8,  0xA,	  0, 0x11, 0xFF, 0xE8
 		.byte	8,  0xA,	  8, 0x11,   0,	 0
-word_43ABA:	.word 7			/*  DATA XREF: ROM:00043A8Eo */
+word_43ABA:	.word 7			/* DATA XREF: ROM:00043A8Eo*/
 		.byte  0xE0,   9,	  8, 0x1A,   0,	 0
 		.byte  0xE0,   9,	  8, 0x20, 0xFF, 0xE8
 		.byte  0xF0,  0xF,	  8, 0x26,   0,	 0
@@ -16,7 +16,7 @@ word_43ABA:	.word 7			/*  DATA XREF: ROM:00043A8Eo */
 		.byte  0x10,  0xD,	  8, 0x46, 0xFF, 0xF8
 		.byte  0x10,   8,	  8, 0x4E, 0xFF, 0xE0
 		.byte  0x18,   0,	  8, 0x51, 0xFF, 0xF0
-word_43AE6:	.word 7			/*  DATA XREF: ROM:00043A8Eo */
+word_43AE6:	.word 7			/* DATA XREF: ROM:00043A8Eo*/
 		.byte  0xE0,   9,	  0, 0x1A, 0xFF, 0xE8
 		.byte  0xE0,   9,	  0, 0x20,   0,	 0
 		.byte  0xF0,  0xF,	  0, 0x26, 0xFF, 0xE0

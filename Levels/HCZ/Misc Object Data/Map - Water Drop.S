@@ -1,4 +1,4 @@
-Map_23794E:	.word Frame_23795C-Map_23794E /*  ... */
+Map_23794E:	.word Frame_23795C-Map_23794E /* ...*/
 		.word Frame_237964-Map_23794E
 		.word Frame_23796C-Map_23794E
 		.word Frame_237974-Map_23794E

@@ -1,4 +1,4 @@
-Map_231AEE:	.word Frame_231AF4-Map_231AEE /*  ... */
+Map_231AEE:	.word Frame_231AF4-Map_231AEE /* ...*/
 		.word Frame_231B14-Map_231AEE
 		.word Frame_231B34-Map_231AEE
 Frame_231AF4:	.word 5

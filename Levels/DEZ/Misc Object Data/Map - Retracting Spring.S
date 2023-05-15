@@ -1,14 +1,14 @@
 		.word word_481BC-Map_DEZRetractingSpring
 		.word word_481D0-Map_DEZRetractingSpring
 		.word word_481DE-Map_DEZRetractingSpring
-word_481BC:	.word 3			/*  DATA XREF: ROM:000481B6o */
+word_481BC:	.word 3			/* DATA XREF: ROM:000481B6o*/
 		.byte	0,  0xD,	  0,   0, 0xFF, 0xF0
 		.byte  0xF0,  0xC,	0xE1, 0x72, 0xFF, 0xF0
 		.byte  0xF8,   4,	0xE1, 0x7A, 0xFF, 0xF8
-word_481D0:	.word 2			/*  DATA XREF: ROM:000481B6o */
+word_481D0:	.word 2			/* DATA XREF: ROM:000481B6o*/
 		.byte	0,  0xD,	  0,   0, 0xFF, 0xF0
 		.byte  0xF8,  0xC,	0xE1, 0x72, 0xFF, 0xF0
-word_481DE:	.word 3			/*  DATA XREF: ROM:000481B6o */
+word_481DE:	.word 3			/* DATA XREF: ROM:000481B6o*/
 		.byte	0,  0xD,	  0,   0, 0xFF, 0xF0
 		.byte  0xE0,  0xC,	0xE1, 0x72, 0xFF, 0xF0
 		.byte  0xE8,   6,	0xE1, 0x7C, 0xFF, 0xF8

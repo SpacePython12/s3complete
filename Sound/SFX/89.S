@@ -6,10 +6,10 @@ Sound_89_Header:
 
 	smpsHeaderSFXChannel cPSG2, Sound_89_PSG2,	0xFB, 0x02
 
-/*  PSG2 Data */
+/* PSG2 Data*/
 Sound_89_PSG2:
 	.byte	nD4, 0x05
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_89_Voices:

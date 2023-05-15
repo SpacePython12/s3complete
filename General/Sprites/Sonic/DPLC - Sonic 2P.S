@@ -1,4 +1,4 @@
-PLC_29FDE4:	.word Frame_29FE3C-PLC_29FDE4 /*  ... */
+PLC_29FDE4:	.word Frame_29FE3C-PLC_29FDE4 /* ...*/
 		.word Frame_29FE3E-PLC_29FDE4
 		.word Frame_29FE42-PLC_29FDE4
 		.word Frame_29FE46-PLC_29FDE4

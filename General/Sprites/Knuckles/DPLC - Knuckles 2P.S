@@ -1,4 +1,4 @@
-PLC_2A0498:	.word Frame_2A04FC-PLC_2A0498 /*  ... */
+PLC_2A0498:	.word Frame_2A04FC-PLC_2A0498 /* ...*/
 		.word Frame_2A04FE-PLC_2A0498
 		.word Frame_2A0502-PLC_2A0498
 		.word Frame_2A0506-PLC_2A0498

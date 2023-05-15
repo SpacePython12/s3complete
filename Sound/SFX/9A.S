@@ -6,7 +6,7 @@ Sound_9A_Header:
 
 	smpsHeaderSFXChannel cPSG3, Sound_9A_PSG3,	0xFF, 0x00
 
-/*  PSG3 Data */
+/* PSG3 Data*/
 Sound_9A_PSG3:
 	smpsPSGform         0xE7
 	smpsPSGvoice        sTone_15
@@ -19,5 +19,5 @@ Sound_9A_Loop00:
 	smpsLoop            0x00, 0x0C, Sound_9A_Loop00
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_9A_Voices:

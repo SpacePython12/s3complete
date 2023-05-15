@@ -1,4 +1,4 @@
-Map_224B88:	.word Frame_224B92-Map_224B88 /*  ... */
+Map_224B88:	.word Frame_224B92-Map_224B88 /* ...*/
 		.word Frame_224BA6-Map_224B88
 		.word Frame_224BB4-Map_224B88
 		.word Frame_224BC8-Map_224B88

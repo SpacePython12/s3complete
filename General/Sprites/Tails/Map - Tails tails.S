@@ -1,4 +1,4 @@
-Map_344BB8:	.word Frame_344C12-Map_344BB8 /*  ... */
+Map_344BB8:	.word Frame_344C12-Map_344BB8 /* ...*/
 		.word Frame_344C14-Map_344BB8
 		.word Frame_344C1C-Map_344BB8
 		.word Frame_344C24-Map_344BB8

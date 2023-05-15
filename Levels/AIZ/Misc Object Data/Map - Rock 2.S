@@ -1,4 +1,4 @@
-Map_21DD64:	.word Frame_21DD72-Map_21DD64 /*  ... */
+Map_21DD64:	.word Frame_21DD72-Map_21DD64 /* ...*/
 		.word Frame_21DD98-Map_21DD64
 		.word Frame_21DDB2-Map_21DD64
 		.word Frame_21DDCC-Map_21DD64

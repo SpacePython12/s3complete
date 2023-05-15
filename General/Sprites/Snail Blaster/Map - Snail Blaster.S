@@ -1,4 +1,4 @@
-Map_360400:	.word Frame_360416-Map_360400 /*  ... */
+Map_360400:	.word Frame_360416-Map_360400 /* ...*/
 		.word Frame_36042A-Map_360400
 		.word Frame_36043E-Map_360400
 		.word Frame_360452-Map_360400

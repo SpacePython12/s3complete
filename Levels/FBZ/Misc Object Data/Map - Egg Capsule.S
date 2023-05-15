@@ -1,4 +1,4 @@
-/*  FBZ Egg Capsule mappings */
+/* FBZ Egg Capsule mappings*/
 		.word word_187202-Map_FBZEggCapsule
 		.word word_187240-Map_FBZEggCapsule
 		.word word_187272-Map_FBZEggCapsule

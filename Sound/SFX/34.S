@@ -6,7 +6,7 @@ Sound_34_Header:
 
 	smpsHeaderSFXChannel cFM5, Sound_34_FM5,	0x00, 0x05
 
-/*  FM5 Data */
+/* FM5 Data*/
 Sound_34_FM5:
 	smpsSetvoice        0x00
 	smpsPan             panLeft, 0x00

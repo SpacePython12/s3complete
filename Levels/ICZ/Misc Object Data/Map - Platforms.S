@@ -1,4 +1,4 @@
-Map_363C44:	.word Frame_363C94-Map_363C44 /*  ... */
+Map_363C44:	.word Frame_363C94-Map_363C44 /* ...*/
 		.word Frame_363CAE-Map_363C44
 		.word Frame_363CBC-Map_363C44
 		.word Frame_363CD6-Map_363C44

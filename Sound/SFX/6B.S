@@ -6,11 +6,11 @@ Sound_6B_Header:
 
 	smpsHeaderSFXChannel cPSG2, Sound_6B_PSG2,	0x0C, 0x00
 
-/*  PSG2 Data */
+/* PSG2 Data*/
 Sound_6B_PSG2:
 	smpsModSet          0x01, 0x01, 0xE6, 0x35
 	.byte	nCs1, 0x06
 	smpsStop
 
-/*  Song seems to not use any FM voices */
+/* Song seems to not use any FM voices*/
 Sound_6B_Voices:
