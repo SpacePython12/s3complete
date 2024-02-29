@@ -223,17 +223,17 @@ Snd_LRZ1_FM4:
 	dc.b	nRst, $08, nC4, $10, nRst, $02, nB3, $04, nRst, $0C, nA3, $06
 	dc.b	nRst, $08, nB3, $10, nRst, $02, nC4, $04, nRst, $0E, nD4, $04
 	dc.b	nRst, $08, nE4, $16, nRst, $02, nB3, $16, nRst, $02
-	smpsSetvoice        $0D
+	smpsSetvoice        $0A ; Fix
 	smpsAlterNote       $01
 	smpsModSet          $0F, $01, $06, $04
-	smpsFMAlterVol      $04
+	smpsFMAlterVol      $FC
 	dc.b	nE3, $0C, nA2, $04, nRst, $02, nE3, $04, nRst, $0E, nA2, $24
 	dc.b	nC3, $16, nRst, $02, nB2, $06, nRst, $06, nB2, $04, nRst, $02
 	dc.b	nD3, $06, nRst, $0C, nC3, $36, nRst, $06, nE3, $0C, nA2, $04
 	dc.b	nRst, $02, nE3, $04, nRst, $0E, nA2, $24, nC3, $16, nRst, $02
 	dc.b	nB2, $06, nRst, $06, nB2, $04, nRst, $02, nD3, $06, nRst, $06
 	dc.b	nB2, $04, nRst, $02, nC3, $3C
-	smpsFMAlterVol      $FC
+	smpsFMAlterVol      $04
 	smpsJump            Snd_LRZ1_FM4
 
 ; Unreachable
@@ -283,17 +283,17 @@ Snd_LRZ1_FM5:
 	dc.b	nC4, $04, nRst, $08, nE4, $10, nRst, $02, nE4, $04, nRst, $0C
 	dc.b	nE4, $06, nRst, $08, nF4, $10, nRst, $02, nF4, $04, nRst, $0E
 	dc.b	nF4, $04, nRst, $08, nG4, $16, nRst, $02, nD4, $16, nRst, $02
-	smpsSetvoice        $0D
+	smpsSetvoice        $0A ; Fix
 	smpsAlterNote       $FF
 	smpsModSet          $0F, $01, $06, $04
-	smpsFMAlterVol      $04
+	smpsFMAlterVol      $FC
 	dc.b	nC4, $0C, nF3, $04, nRst, $02, nC4, $04, nRst, $0E, nF3, $24
 	dc.b	nA3, $16, nRst, $02, nG3, $06, nRst, $06, nG3, $04, nRst, $02
 	dc.b	nB3, $06, nRst, $0C, nA3, $36, nRst, $06, nC4, $0C, nF3, $04
 	dc.b	nRst, $02, nC4, $04, nRst, $0E, nF3, $24, nA3, $16, nRst, $02
 	dc.b	nG3, $06, nRst, $06, nG3, $04, nRst, $02, nB3, $06, nRst, $06
 	dc.b	nG3, $04, nRst, $02, nA3, $3C
-	smpsFMAlterVol      $FC
+	smpsFMAlterVol      $04
 	smpsJump            Snd_LRZ1_FM5
 
 ; Unreachable

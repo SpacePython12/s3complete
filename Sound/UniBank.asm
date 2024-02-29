@@ -206,7 +206,7 @@
 	smpsVcAmpMod        $00, $00, $00, $00
 	smpsVcDecayRate1    $03, $00, $00, $09
 	smpsVcDecayRate2    $00, $02, $02, $01
-	smpsVcDecayLevel    $02, $00, $00, $05
+	smpsVcDecayLevel    $0F, $00, $00, $05
 	smpsVcReleaseRate   $08, $02, $02, $02
 	smpsVcTotalLevel    $00, $18, $22, $18
 
@@ -253,7 +253,7 @@
 ;	$38
 ;	$63, $31, $31, $31, 	$10, $13, $1A, $1B, 	$0E, $00, $00, $00
 ;	$00, $00, $00, $00, 	$3F, $0F, $0F, $0F, 	$1A, $19, $1A, $80
-	smpsVcAlgorithm     $02
+	smpsVcAlgorithm     $00
 	smpsVcFeedback      $07
 	smpsVcUnusedBits    $00
 	smpsVcDetune        $03, $03, $03, $06
@@ -666,3 +666,59 @@
 	smpsVcReleaseRate   $08, $00, $00, $00
 	smpsVcTotalLevel    $00, $13, $37, $19
 
+; Synth Trumpet (early)
+;	Voice $23
+;	$3A
+;	$31, $53, $31, $41, 	$8D, $4F, $15, $52, 	$06, $08, $07, $04
+;	$02, $00, $00, $00, 	$1F, $1F, $2F, $2F, 	$19, $20, $2A, $80
+	smpsVcAlgorithm     $02
+	smpsVcFeedback      $07
+	smpsVcUnusedBits    $00
+	smpsVcDetune        $04, $03, $05, $03
+	smpsVcCoarseFreq    $01, $01, $03, $01
+	smpsVcRateScale     $01, $00, $01, $02
+	smpsVcAttackRate    $12, $15, $0F, $0D
+	smpsVcAmpMod        $00, $00, $00, $00
+	smpsVcDecayRate1    $04, $07, $08, $06
+	smpsVcDecayRate2    $00, $00, $00, $02
+	smpsVcDecayLevel    $02, $02, $01, $01
+	smpsVcReleaseRate   $0F, $0F, $0F, $0F
+	smpsVcTotalLevel    $80, $2A, $20, $19
+
+; Synth Bass 1 (early)
+;	Voice $24
+;	$3A
+;	$01, $07, $01, $01, 	$8E, $8E, $8D, $53, 	$0E, $0E, $0E, $03
+;	$00, $00, $00, $07, 	$1F, $FF, $1F, $0F, 	$18, $28, $27, $80
+	smpsVcAlgorithm     $02
+	smpsVcFeedback      $07
+	smpsVcUnusedBits    $00
+	smpsVcDetune        $00, $00, $00, $00
+	smpsVcCoarseFreq    $01, $01, $07, $01
+	smpsVcRateScale     $01, $02, $02, $02
+	smpsVcAttackRate    $13, $0D, $0E, $0E
+	smpsVcAmpMod        $00, $00, $00, $00
+	smpsVcDecayRate1    $03, $0E, $0E, $0E
+	smpsVcDecayRate2    $07, $00, $00, $00
+	smpsVcDecayLevel    $00, $01, $0F, $01
+	smpsVcReleaseRate   $0F, $0F, $0F, $0F
+	smpsVcTotalLevel    $80, $27, $28, $18
+
+; Strike Bass 
+;	Voice $25
+;	$3A
+;	$01, $07, $01, $01, 	$8E, $8E, $8D, $53, 	$0E, $0E, $0E, $03
+;	$00, $00, $00, $07, 	$1F, $FF, $1F, $0F, 	$18, $28, $27, $80
+	smpsVcAlgorithm     $02
+	smpsVcFeedback      $07
+	smpsVcUnusedBits    $00
+	smpsVcDetune        $00, $00, $00, $00
+	smpsVcCoarseFreq    $01, $01, $07, $01
+	smpsVcRateScale     $01, $02, $02, $02
+	smpsVcAttackRate    $13, $0D, $0E, $0E
+	smpsVcAmpMod        $00, $00, $00, $00
+	smpsVcDecayRate1    $03, $0E, $0E, $0E
+	smpsVcDecayRate2    $07, $00, $00, $00
+	smpsVcDecayLevel    $00, $01, $0F, $01
+	smpsVcReleaseRate   $0F, $0F, $0F, $0F
+	smpsVcTotalLevel    $80, $27, $28, $18

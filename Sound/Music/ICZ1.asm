@@ -143,33 +143,14 @@ Snd_ICZ1_FM5:
 
 ; DAC Data
 Snd_ICZ1_DAC:
-	dc.b	dKickS3, $04, nRst, $10, dKickS3, $04, dSnareS3, $04, nRst, $08, dKickS3, $04
-	dc.b	nRst, $14, dKickS3, $04, nRst, $08, dSnareS3, $04, nRst, $08, dKickS3, $04
-	dc.b	nRst, $08, dKickS3, $04, nRst, $14, dSnareS3, $04, nRst, $10, dSnareS3, $04
-	dc.b	dSnareS3, $04, nRst, dSnareS3, nRst, $08, dSnareS3, $04, dSnareS3, nRst, dSnareS3, dSnareS3
-	dc.b	nRst, dSnareS3
+	dc.b	dKickS3, $04, nRst, $14, dKickS3, $04, nRst, $14, dKickS3, $04, nRst, $14
+	dc.b	dKickS3, $04, nRst, $14, dKickS3, $04, nRst, $14, dSnareS3, $04, nRst, $14 
+	dc.b	dKickS3, $04, nRst, $14, dSnareS3, $04, nRst, $14, dKickS3, $04, nRst, $14 
 
-Snd_ICZ1_DACJump00:
-	dc.b	dKickS3, $04, nRst, $10, dKickS3, $04, dSnareS3, nRst, $08, dKickS3, $04, nRst
-	dc.b	$08, dKickS3, $04, nRst, dSnareS3, dKickS3, nRst, $08, dSnareS3, $04, nRst, $08
-	dc.b	dKickS3, $04, nRst, $08, dKickS3, $04, nRst, $10, dKickS3, $04, dSnareS3, nRst
-	dc.b	$08, dKickS3, $04, nRst, $08, dKickS3, $04, nRst, dSnareS3, dKickS3, nRst, $08
-	dc.b	dSnareS3, $04, nRst, $08, dKickS3, $04, nRst, dSnareS3, dKickS3, $04, nRst, $10
-	dc.b	dKickS3, $04, dSnareS3, nRst, $08, dKickS3, $04, nRst, $08, dKickS3, $04, nRst
-	dc.b	dSnareS3, dKickS3, nRst, $08, dSnareS3, $04, nRst, $08, dKickS3, $04, nRst, $08
-	dc.b	dKickS3, $04, nRst, $10, dKickS3, $04, dSnareS3, nRst, $08, dKickS3, $04, nRst
-	dc.b	$08, dKickS3, $04, nRst, dSnareS3, dKickS3, nRst, $08, dSnareS3, $04, nRst, $08
-	dc.b	dKickS3, $04, nRst, dSnareS3, dKickS3, $04, nRst, $10, dKickS3, $04, dSnareS3, nRst
-	dc.b	$08, dKickS3, $04, nRst, $08, dKickS3, $04, nRst, dSnareS3, dKickS3, nRst, $08
-	dc.b	dSnareS3, $04, nRst, $08, dKickS3, $04, nRst, $08, dKickS3, $04, nRst, $10
-	dc.b	dKickS3, $04, dSnareS3, nRst, $08, dKickS3, $04, nRst, $08, dKickS3, $04, nRst
-	dc.b	dSnareS3, dKickS3, nRst, $08, dSnareS3, $04, nRst, $08, dKickS3, $04, nRst, dSnareS3
-	dc.b	dKickS3, $04, nRst, $10, dKickS3, $04, dSnareS3, nRst, $08, dKickS3, $04, nRst
-	dc.b	$08, dKickS3, $04, nRst, dSnareS3, dKickS3, nRst, $08, dSnareS3, $04, nRst, $08
-	dc.b	dKickS3, $04, nRst, $08, dKickS3, $04, nRst, $08, dSnareS3, $04, nRst, $08
-	dc.b	dSnareS3, $04, nRst, dSnareS3, nRst, $08, dSnareS3, $04, dSnareS3, nRst, $08, dSnareS3
-	dc.b	$04, nRst, dSnareS3, dSnareS3, nRst, dSnareS3, dSnareS3, nRst, $08
-	smpsJump            Snd_ICZ1_DACJump00
+Snd_ICZ1_Jump05:
+	dc.b	dSnareS3, $04, nRst, $14, dKickS3, $04, nRst, $14, dSnareS3, $04, nRst, $14 
+	dc.b	dKickS3, $04, nRst, $14, dSnareS3, $04, nRst, $14, dKickS3, $04, nRst, $14
+	smpsJump            Snd_ICZ1_Jump05
 ; PSG1 Data
 Snd_ICZ1_PSG1:
 	smpsPSGvoice        sTone_05

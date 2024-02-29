@@ -1,6 +1,6 @@
 Snd_Comp_Header:
 	smpsHeaderStartSong 3, 1
-	smpsHeaderVoice     Snd_Comp_Voices
+	smpsHeaderVoiceUVB
 	smpsHeaderChan      $06, $03
 	smpsHeaderTempo     $01, $25
 
@@ -11,12 +11,12 @@ Snd_Comp_Header:
 	smpsHeaderFM        Snd_Comp_FM4,	$0C, $19
 	smpsHeaderFM        Snd_Comp_FM5,	$0C, $19
 	smpsHeaderPSG       Snd_Comp_PSG1,	$F4, $04, $00, sTone_0C
-	smpsHeaderPSG       Snd_Comp_PSG2,	$F4, $04, $00, sTone_0C
+	smpsHeaderPSG       Snd_Comp_PSG2,	$F4, $06, $00, sTone_0C
 	smpsHeaderPSG       Snd_Comp_PSG3,	$00, $04, $00, sTone_0C
 
 ; DAC Data
 Snd_Comp_DAC:
-	dc.b	nRst, $30, dSnareS3, $02, dSnareS3, dSnareS3, dSnareS3, $06, dSnareS3, dSnareS3, dSnareS3, dSnareS3
+	dc.b	dSnareS3, $02, dSnareS3, dSnareS3, dSnareS3, $06, dSnareS3, dSnareS3, dSnareS3, dSnareS3
 	dc.b	dSnareS3, dSnareS3
 
 Snd_Comp_Jump00:
@@ -52,7 +52,7 @@ Snd_Comp_FM1:
 	smpsSetvoice        $15
 	smpsDetune          $00
 	smpsModSet          $0F, $01, $06, $06
-	dc.b	nRst, $60
+	dc.b	nRst, $30
 
 Snd_Comp_Jump04:
 	dc.b	nC1, $06, nRst, $12, nC2, nG1, $06, nRst, nBb1, $04, nRst, $02
@@ -111,18 +111,19 @@ Snd_Comp_FM5:
 
 ; FM2 Data
 Snd_Comp_FM2:
-	smpsSetvoice        $0D
-	smpsDetune          $03
-	smpsModSet          $0F, $01, $06, $06
-	dc.b	nRst, $60
+	dc.b	nRst, $30
 
 Snd_Comp_Jump03:
+	smpsSetvoice        $06
+	smpsDetune          $03
+	smpsModSet          $0F, $01, $06, $06
 	dc.b	nRst, $1E, nBb4, $0A, nRst, $02, nA4, $04, nRst, $50, nA4, $0A
 	dc.b	nRst, $02, nBb4, $04, nRst, $50, nBb4, $0A, nRst, $02, nA4, $04
 	dc.b	nRst, $50, nA4, $0A, nRst, $02, nBb4, $04, nRst, $32
-	smpsSetvoice        $17
+	smpsSetvoice        $0C
 	smpsDetune          $03
-	smpsModSet          $0F, $01, $06, $06
+	smpsModSet          $0F, $01, $07, $07
+	smpsAlterVol		$EC
 	dc.b	nEb4, $04, nRst, $08, nD4, $04, nRst, $08, nC4, $0C, nBb3, $06
 	dc.b	nC4, $1C, nRst, $08, nF3, $02, nFs3, nRst, nG3, $06, nBb3, nEb4
 	dc.b	$04, nRst, $08, nD4, $04, nRst, $08, nC4, $06, nBb3, $12, nC4
@@ -145,6 +146,7 @@ Snd_Comp_Jump03:
 	smpsSetvoice        $0E
 	smpsDetune          $00
 	smpsModSet          $0F, $01, $06, $06
+	smpsAlterVol		$14
 	dc.b	nC3, $06, nEb3, nF3, nFs3, nG3, nBb3, nC4, $0C, nBb3, $04, nRst
 	dc.b	$02, nC4, $06, nEb4, nF4, nRst, nF4, $02, nF4, nFs4, nF4, $0C
 	dc.b	nEb4, $06, nC4, nEb4, nF4, $10, nRst, $02, nFs4, nG4, $0A, nBb4
@@ -173,7 +175,7 @@ Snd_Comp_Jump03:
 ; FM3 Data
 Snd_Comp_FM3:
 	smpsSetvoice        $18
-	dc.b	nRst, $60
+	dc.b	nRst, $30
 
 Snd_Comp_Jump02:
 	dc.b	nF3, $04, nRst, $08, nEb3, $06, nF3, $04, nRst, $26, nG3, $04
@@ -229,32 +231,32 @@ Snd_Comp_Jump02:
 ; FM4 Data
 Snd_Comp_FM4:
 	smpsSetvoice        $19
-	dc.b	nRst, $60
+	dc.b	nRst, $30
 
 Snd_Comp_Jump01:
 	dc.b	nD3, $04, nRst, $08, nC3, $06, nD3, $04, nRst, $08
-	smpsSetvoice        $0D
+	smpsSetvoice        $06
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
 	dc.b	nEb4, $0A, nRst, $02, nEb4, $04, nRst, $0E
 	smpsSetvoice        $19
 	dc.b	nEb3, $02, nRst, $0A, nD3, $04, nRst, $02, nEb3, $12, nD3, $04
 	dc.b	nRst, $08, nC3, $06, nD3, $04, nRst, $08
-	smpsSetvoice        $0D
+	smpsSetvoice        $06
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
 	dc.b	nEb4, $0A, nRst, $02, nEb4, $04, nRst, $0E
 	smpsSetvoice        $19
 	dc.b	nG3, $02, nRst, $10, nG3, $0A, nRst, $08, nD3, $04, nRst, $08
 	dc.b	nC3, $06, nD3, $04, nRst, $08
-	smpsSetvoice        $0D
+	smpsSetvoice        $06
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
 	dc.b	nEb4, $0A, nRst, $02, nEb4, $04, nRst, $0E
 	smpsSetvoice        $19
 	dc.b	nEb3, $02, nRst, $0A, nD3, $04, nRst, $02, nEb3, $12, nD3, $04
 	dc.b	nRst, $08, nC3, $06, nD3, $04, nRst, $08
-	smpsSetvoice        $0D
+	smpsSetvoice        $06
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
 	dc.b	nEb4, $0A, nRst, $02, nEb4, $04, nRst, $0E
@@ -307,7 +309,7 @@ Snd_Comp_Jump01:
 
 ; PSG1 Data
 Snd_Comp_PSG1:
-	dc.b	nRst, $60
+	dc.b	nRst, $30
 
 Snd_Comp_Jump06:
 	dc.b	nC4, $06, nRst, nC5, nC4, nRst, $1E, nC4, $06, nRst, nC5, nC4
@@ -379,15 +381,14 @@ Snd_Comp_Jump06:
 
 ; PSG2 Data
 Snd_Comp_PSG2:
-	dc.b	nRst, $7F, nRst, nRst, nRst, nRst, nRst, nRst, nRst, nRst, nRst, nRst
-	dc.b	nRst, nRst, nRst, nRst, nRst, nRst, nRst, nRst, $72
+	dc.b	nRst, $32
 	smpsJump            Snd_Comp_Jump06
 
 ; PSG3 Data
 Snd_Comp_PSG3:
 	smpsPSGvoice        sTone_02
 	smpsPSGform         $E7
-	dc.b	nRst, $60
+	dc.b	nRst, $30
 
 Snd_Comp_Jump05:
 	dc.b	nMaxPSG1, $06, nMaxPSG1, nMaxPSG1, nMaxPSG1, nMaxPSG1, nMaxPSG1, nMaxPSG1, nMaxPSG1, nMaxPSG1, nMaxPSG1, nMaxPSG1

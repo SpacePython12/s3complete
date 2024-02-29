@@ -4,7 +4,7 @@ Sound_AB_Header:
 	smpsHeaderTempoSFX  $01
 	smpsHeaderChanSFX   $01
 
-	smpsHeaderSFXChannel cFM5, Sound_AB_FM5,	$00, $00
+	smpsHeaderSFXChannel cFM5, Sound_AB_FM5,	$00, $08
 
 ; FM5 Data
 Sound_AB_FM5:

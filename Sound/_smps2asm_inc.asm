@@ -335,7 +335,7 @@ smpsHeaderSFXChannel macro chanid,loc,pitch,vol
 	else
 		dc.b	pitch
 	endif
-	dc.b	vol
+	dc.b 	vol
 	endm
 ; ---------------------------------------------------------------------------
 ; Co-ord Flag Macros and Equates

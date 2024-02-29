@@ -18,20 +18,60 @@ Snd_LBZ2_Header:
 Snd_LBZ2_DAC:
 	dc.b	dKickS3, $18, dSnareS3, $12, dSnareS3, $06, dKickS3, dSnareS3, $12, dSnareS3, $18, dKickS3
 	dc.b	dSnareS3, dKickS3, dSnareS3, $0C, dSnareS3, $06, dSnareS3, dKickS3, $18, dSnareS3, $12, dSnareS3
-	dc.b	$06, dKickS3, dSnareS3, $12, dSnareS3, $0C, dMidTomS3, $06, dMidTomS3, dKickS3, $18, dSnareS3
-	dc.b	$0C, dLowTomS3, $06, dLowTomS3, dKickS3, $18, dSnareS3, $06, dSnareS3, dSnareS3, dSnareS3, dKickS3
+	dc.b	$06, dKickS3, dSnareS3, $12, dSnareS3, $0C
+	smpsPan			panLeft, $00
+	dc.b	dMidTomS3, $06
+	smpsPan			panCenter, $00
+	dc.b	dMidTomS3, $06
+	dc.b	dKickS3, $18, dSnareS3, $0C
+	smpsPan			panLeft, $00
+	dc.b	dLowTomS3, $06
+	smpsPan			panRight, $00
+	dc.b	dLowTomS3, $06
+	smpsPan			panCenter, $00
+	dc.b	dKickS3, $18, dSnareS3, $06, dSnareS3, dSnareS3, dSnareS3, dKickS3
 	dc.b	$18, dSnareS3, $12, dSnareS3, $06, dKickS3, dSnareS3, $12, dSnareS3, $18, dKickS3, dSnareS3
 	dc.b	dKickS3, dSnareS3, $0C, dSnareS3, $06, dSnareS3, dKickS3, $18, dSnareS3, $12, dSnareS3, $06
-	dc.b	dKickS3, dSnareS3, $12, dSnareS3, $0C, dMidTomS3, $06, dMidTomS3, dKickS3, $18, dSnareS3, $0C
-	dc.b	dLowTomS3, $06, dLowTomS3, dKickS3, $18, dSnareS3, $06, dSnareS3, dSnareS3, dSnareS3, dKickS3, $18
+	dc.b	dKickS3, dSnareS3, $12, dSnareS3, $0C
+	smpsPan			panLeft, $00
+	dc.b	dMidTomS3, $06
+	smpsPan			panCenter, $00
+	dc.b	dMidTomS3, $06
+	dc.b	dKickS3, $18, dSnareS3, $0C
+	smpsPan			panLeft, $00
+	dc.b	dLowTomS3, $06
+	smpsPan			panRight, $00
+	dc.b	dLowTomS3, $06
+	smpsPan			panCenter, $00
+	dc.b	dKickS3, $18, dSnareS3, $06, dSnareS3, dSnareS3, dSnareS3, dKickS3, $18
 	dc.b	dSnareS3, $12, dSnareS3, $06, dKickS3, dSnareS3, $12, dSnareS3, $18, dKickS3, dSnareS3, dKickS3
 	dc.b	dSnareS3, $0C, dSnareS3, $06, dSnareS3, dKickS3, $18, dSnareS3, $12, dSnareS3, $06, dKickS3
-	dc.b	dSnareS3, $12, dSnareS3, $0C, dMidTomS3, $06, dMidTomS3, dKickS3, $18, dSnareS3, $0C, dLowTomS3
-	dc.b	$06, dLowTomS3, dKickS3, $18, dSnareS3, $06, dSnareS3, dSnareS3, dSnareS3, dKickS3, $18, dSnareS3
+	dc.b	dSnareS3, $12, dSnareS3, $0C
+	smpsPan			panLeft, $00
+	dc.b	dMidTomS3, $06
+	smpsPan			panCenter, $00
+	dc.b	dMidTomS3, $06
+	dc.b	dKickS3, $18, dSnareS3, $0C
+	smpsPan			panLeft, $00
+	dc.b	dLowTomS3, $06
+	smpsPan			panRight, $00
+	dc.b	dLowTomS3, $06
+	smpsPan			panCenter, $00
+	dc.b	dKickS3, $18, dSnareS3, $06, dSnareS3, dSnareS3, dSnareS3, dKickS3, $18, dSnareS3
 	dc.b	$12, dSnareS3, $06, dKickS3, dSnareS3, $12, dSnareS3, $18, dKickS3, dSnareS3, dKickS3, dSnareS3
 	dc.b	$0C, dSnareS3, $06, dSnareS3, dKickS3, $18, dSnareS3, $12, dSnareS3, $06, dKickS3, dSnareS3
-	dc.b	$12, dSnareS3, $0C, dMidTomS3, $06, dMidTomS3, dKickS3, $18, dSnareS3, $0C, dLowTomS3, $06
-	dc.b	dLowTomS3, dKickS3, $18, dSnareS3, $06, dSnareS3, dSnareS3, dSnareS3, dKickS3, $18, dSnareS3, $12
+	dc.b	$12, dSnareS3, $0C
+	smpsPan			panLeft, $00
+	dc.b	dMidTomS3, $06
+	smpsPan			panCenter, $00
+	dc.b	dMidTomS3, $06
+	dc.b	dKickS3, $18, dSnareS3, $0C
+	smpsPan			panLeft, $00
+	dc.b	dLowTomS3, $06
+	smpsPan			panRight, $00
+	dc.b	dLowTomS3, $06
+	smpsPan			panCenter, $00
+	dc.b	dKickS3, $18, dSnareS3, $06, dSnareS3, dSnareS3, dSnareS3, dKickS3, $18, dSnareS3, $12
 	dc.b	dSnareS3, $06, dKickS3, dSnareS3, $12, dSnareS3, $18, dKickS3, dSnareS3, dKickS3, dSnareS3, $0C
 	dc.b	dSnareS3, $06, dSnareS3, dKickS3, $18, dSnareS3, $12, dSnareS3, $06, dKickS3, dSnareS3, $12
 	dc.b	dSnareS3, $18, dKickS3, dSnareS3, dKickS3, dSnareS3, $06, dSnareS3, dSnareS3, dSnareS3, dKickS3, $18
@@ -196,6 +236,7 @@ Snd_LBZ2_FM2:
 	smpsDetune          $FF
 	smpsModSet          $0A, $01, $00, $06
 	smpsPan             panLeft, $00
+	dc.b 	nRst, $01
 
 Snd_LBZ2_Jump02:
 	dc.b	nE3, $04, nRst, $02, nG3, $04, nRst, $02, nA3, $04, nRst, $02
@@ -353,9 +394,10 @@ Snd_LBZ2_FM3:
 	dc.b	nRst, $08, nF3, $04, nRst, $08, nAb3, $16, nRst, $02, nG3, $10
 	dc.b	nRst, $02, nEb3, $04, nRst, $26, nG3, $0A, nRst, $02, nF3, $52
 	dc.b	nRst, $02, nF3, $06, nBb2, nC3, $52, nRst, $0E
-	smpsSetvoice        $03
+	smpsSetvoice        $24
 	smpsDetune          $FE
 	smpsModSet          $0F, $01, $06, $06
+	smpsAlterVol		$F8
 	dc.b	nF4, $16, nRst, $02, nBb4, $10, nRst, $02, nF4, $04, nRst, $08
 	dc.b	nD4, $04, nRst, $02, nF4, $0A, nRst, $02, nA4, $0A, nRst, $02
 	dc.b	nF4, $0A, nRst, $02, nBb4, $16, nRst, $02, nA4, $10, nRst, $02
@@ -372,6 +414,7 @@ Snd_LBZ2_FM3:
 	smpsSetvoice        $03
 	smpsDetune          $FE
 	smpsModSet          $0F, $01, $06, $06
+	smpsAlterVol		$08
 	dc.b	nD3, $06, nE3, nF3, nG3, nA3, nB3, nD4, nEb4, $0A, nRst, $0E
 	dc.b	nEb4, $10, nRst, $02, nEb4, $04, nRst, $08, nEb4, $04, nRst, $02
 	dc.b	nEb4, $0A, nRst, $02, nEb4, $0A, nRst, $02, nEb4, $0A, nRst, $02
@@ -465,7 +508,7 @@ Snd_LBZ2_Jump01:
 
 ; FM5 Data
 Snd_LBZ2_FM5:
-	dc.b	nRst, $02
+	dc.b	nRst, $04
 	smpsFMAlterVol      $08
 
 Snd_LBZ2_Jump00:
@@ -491,9 +534,10 @@ Snd_LBZ2_Jump00:
 	dc.b	nRst, $08, nF3, $04, nRst, $08, nAb3, $16, nRst, $02, nG3, $10
 	dc.b	nRst, $02, nEb3, $04, nRst, $26, nG3, $0A, nRst, $02, nF3, $52
 	dc.b	nRst, $02, nF3, $06, nBb2, nC3, $52, nRst, $0E
-	smpsSetvoice        $03
+	smpsSetvoice        $24
 	smpsDetune          $02
 	smpsModSet          $0F, $01, $06, $06
+	smpsAlterVol		$F4
 	dc.b	nF4, $16, nRst, $02, nBb4, $10, nRst, $02, nF4, $04, nRst, $08
 	dc.b	nD4, $04, nRst, $02, nF4, $0A, nRst, $02, nA4, $0A, nRst, $02
 	dc.b	nF4, $0A, nRst, $02, nBb4, $16, nRst, $02, nA4, $10, nRst, $02
@@ -510,6 +554,7 @@ Snd_LBZ2_Jump00:
 	smpsSetvoice        $03
 	smpsDetune          $02
 	smpsModSet          $0F, $01, $06, $06
+	smpsAlterVol		$0C
 	dc.b	nD3, $06, nE3, nF3, nG3, nA3, nB3, nD4, nEb4, $0A, nRst, $0E
 	dc.b	nEb4, $10, nRst, $02, nEb4, $04, nRst, $08, nEb4, $04, nRst, $02
 	dc.b	nEb4, $0A, nRst, $02, nEb4, $0A, nRst, $02, nEb4, $0A, nRst, $02

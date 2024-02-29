@@ -10,8 +10,8 @@ Snd_Super_Header:
 	smpsHeaderFM        Snd_Super_FM3,	$00, $11
 	smpsHeaderFM        Snd_Super_FM4,	$00, $11
 	smpsHeaderFM        Snd_Super_FM5,	$00, $11
-	smpsHeaderPSG       Snd_Super_PSG1,	$00, $02, $00, $00
-	smpsHeaderPSG       Snd_Super_PSG2,	$00, $02, $00, $00
+	smpsHeaderPSG       Snd_Super_PSG1,	$E8, $02, $00, $00
+	smpsHeaderPSG       Snd_Super_PSG2,	$E8, $02, $00, $00
 	smpsHeaderPSG       Snd_Super_PSG3,	$00, $02, $00, $00
 
 ; FM1 Data
@@ -24,19 +24,27 @@ Snd_Super_Jump04:
 	dc.b	nAb4, $14, nRst, $04, nE4, $14, nRst, $04, nFs4, $24, nAb4, nRst
 	dc.b	$18, nFs4, $0C, nAb4, $06, nRst, nA4, $0C, nRst, nAb4, $14, nRst
 	dc.b	$04, nE4, $14, nRst, $04, nFs4, $24, nG4, $30, smpsNoAttack, $18, nB4
-	dc.b	nA4, $30, nFs4, nAb4, smpsNoAttack, $30, smpsNoAttack, $60, nC4, $24, nRst, nE4
+	dc.b	nA4, $30, nFs4, nAb4, smpsNoAttack, $30, smpsNoAttack, $30, smpsNoAttack, $30, nC4, $24, nRst, nE4
 	dc.b	$0C, nD4, nRst, nA3, $18, nFs3, nA3, $24, nRst, $30, nEb4, $12
 	dc.b	nE4, nFs4, $0C, $18, nG4, $0C, nE4, $30, nRst, $0C, nCs4, $30
 	dc.b	nEb4, nE4, $14, nRst, $04, nE4, $14, nRst, $04, nE4, $12, nFs4
-	dc.b	nAb4, $0C, nB4, $30, smpsNoAttack, $30, smpsNoAttack, $60, nA5, $24, nAb5, nE5
+	dc.b	nAb4, $0C, nB4, $30, smpsNoAttack, $30
+	smpsSetVoice		$02
+	smpsModSet          $07, $01, $04, $03
+	dc.b	nB2, $04, nCs3, nEb3, nE3, nEb3, nE3, nFs3, nAb3
+	dc.b	nFs3, nAb3, nA3, nB3, nA3, nB3, nCs4, nEb4, nB3, nCs4, nEb4, nE4
+	dc.b	nEb4, nE4, nFs4, nAb4
+	smpsSetVoice		$00
+	smpsModSet          $11, $01, $09, $08
+	dc.b	nA5, $24, nAb5, nE5
 	dc.b	$18, smpsNoAttack, $30, smpsNoAttack, $18, nAb5, nA5, $10, nRst, $08, nA5, $0C
 	dc.b	nAb5, $18, nA5, $0C, nAb5, nE5, smpsNoAttack, $30, smpsNoAttack, $18, nFs5, $10
 	dc.b	nRst, $08, nG5, $24, nFs5, nE5, $18, nA5, nG5, nFs5, nE5, nAb5
-	dc.b	$30, smpsNoAttack, $30, smpsNoAttack, $60, nA5, $24, nAb5, nE5, $18, nRst, $30
+	dc.b	$30, smpsNoAttack, $30, smpsNoAttack, $30, smpsNoAttack, $30, nA5, $24, nAb5, nE5, $18, smpsNoAttack, $30
 	dc.b	nRst, nA5, $10, nRst, $08, nA5, $0C, nAb5, $14, nRst, $04, nA5
-	dc.b	$0C, nAb5, nE5, nRst, $30, nE5, $10, nRst, $08, nFs5, $10, nRst
+	dc.b	$0C, nAb5, nE5, smpsNoAttack, $30, nE5, $10, nRst, $08, nFs5, $10, nRst
 	dc.b	$08, nG5, $24, nFs5, nE5, $18, nA5, nFs5, nA5, nD6, nE6, $30
-	dc.b	smpsNoAttack, $30, smpsNoAttack, $60, smpsNoAttack, $60, smpsNoAttack, $30, nRst, $30
+	dc.b	smpsNoAttack, $30, smpsNoAttack, $30, smpsNoAttack, $30, smpsNoAttack, $30, smpsNoAttack, $30, smpsNoAttack, $30, nRst, $30
 	smpsJump            Snd_Super_Jump04
 
 ; FM2 Data
@@ -94,30 +102,10 @@ Snd_Super_Jump03:
 
 ; FM3 Data
 Snd_Super_FM3:
-	smpsSetvoice        $02
-
-Snd_Super_Jump02:
-	dc.b	nRst, $30, nRst, nRst, nRst, nRst, nRst, nRst, nRst, nRst, nRst, nRst
-	dc.b	nRst, nRst, nRst, nRst, nRst, $24
-	smpsSetvoice        $02
-	dc.b	nRst, $0C
-	smpsModSet          $07, $01, $04, $03
-	smpsPan             panCenter, $00
-	dc.b	nE5, $30, nRst, nFs5, nRst, nFs5, nRst, nG5, nRst, nA5, $60, smpsNoAttack
-	dc.b	$60, nB5, $60, nB2, $04, nCs3, nEb3, nE3, nEb3, nE3, nFs3, nAb3
-	dc.b	nFs3, nAb3, nA3, nB3, nA3, nB3, nCs4, nEb4, nB3, nCs4, nEb4, nE4
-	dc.b	nEb4, nE4, nFs4, nAb4, nB5, $1E, nRst, $06, nB5, $1E, nRst, $06
-	dc.b	nB5, $18, nA5, $24, nAb5, nE5, $18, nB5, $1E, nRst, $06, nB5
-	dc.b	$1E, nRst, $06, nB5, $18, nA5, $10, nRst, $08, nA5, $0C, nAb5
-	dc.b	$18, nA5, $0C, nAb5, nE5, nE6, $24, nD6, nC6, $12, nRst, $06
-	dc.b	nC6, $18, nB5, nA5, nB5, $14, nRst, $04, nB5, $30, smpsNoAttack, $30
-	dc.b	nRst, $30, nRst, nB5, $1E, nRst, $06, nB5, $1E, nRst, $06, nB5
-	dc.b	$14, nRst, $04, nA5, $24, nAb5, nE5, $18, nB5, $1E, nRst, $06
-	dc.b	nB5, $1E, nRst, $06, nB5, $14, nRst, $04, nA5, $10, nRst, $08
-	dc.b	nA5, $0C, nAb5, $18, nA5, $0C, nAb5, nE5, nE6, $24, nD6, nC6
-	dc.b	$14, nRst, $04, nC6, $18, nB5, nA5, nD6, nAb6, $30, smpsNoAttack, $30
-	dc.b	nRst, $30, nRst, nRst, nRst, nRst, nRst
-	smpsJump            Snd_Super_Jump02
+	smpsAlterPitch 		$0C
+	smpsAlterVol 		$02
+	dc.b	nRst, $04
+	smpsJump 			Snd_Super_FM1
 
 ; FM4 Data
 Snd_Super_FM4:
@@ -144,8 +132,8 @@ Snd_Super_Jump01:
 	dc.b	nAb4, $0F, nRst, $03, nA4, $0A, nRst, $02, nAb4, $0A, nRst, $02
 	smpsSetvoice        $02
 	smpsModSet          $07, $01, $04, $02
-	dc.b	nC4, $30, nRst, nD4, nRst, nEb4, nRst, nE4, nRst, nE4, $60, smpsNoAttack
-	dc.b	$60, nFs4, $60, smpsNoAttack, $60
+	dc.b	nC4, $30, nRst, nD4, nRst, nEb4, nRst, nE4, nRst, nE4, $30, smpsNoAttack, $30, smpsNoAttack
+	dc.b	$30, smpsNoAttack, $30, nFs4, $30, smpsNoAttack, $30, smpsNoAttack, $30, smpsNoAttack, $30
 	smpsSetvoice        $03
 	smpsModSet          $05, $01, $07, $03
 	dc.b	nAb4, $0F, nRst, $03, nAb4, $04, nRst, $0E, nAb4, $0F, nRst, $03
@@ -188,10 +176,9 @@ Snd_Super_Jump01:
 
 ; FM5 Data
 Snd_Super_FM5:
-	smpsSetvoice        $03
+	smpsSetvoice        $00
 	smpsPan             panRight, $00
 	smpsModSet          $05, $01, $07, $03
-
 Snd_Super_Jump00:
 	dc.b	nE4, $0F, nRst, $03, nE4, $04, nRst, $0E, nE4, $0F, nRst, $03
 	dc.b	nE4, $0F, nRst, $03, nE4, $0A, nRst, $02, nE4, $0A, nRst, $02
@@ -253,17 +240,63 @@ Snd_Super_Jump00:
 	dc.b	nE4, $0F, nRst, $03, nE4, $0A, nRst, $02, nE4, $0A, nRst, $02
 	smpsJump            Snd_Super_Jump00
 
-; PSG1 Data
-Snd_Super_PSG1:
-	smpsStop
-
 ; PSG2 Data
 Snd_Super_PSG2:
-	smpsStop
+	dc.b	nRst, $02
+
+; PSG1 Data
+Snd_Super_PSG1:
+	smpsPSGVoice		sTone_0A
+	smpsModSet          $0F, $01, $01, $04
+Snd_Super_PSG1Loop:
+	dc.b	nB5, $60, nA5, $60, nB5, $60
+	dc.b	nA5, $60, nG5, $60
+	dc.b	nA5, $60, nB5, $60, nB5, $60
+	dc.b	nE5, $30, nRst, nFs5, nRst, nFs5, nRst, nG5, nRst, nA5, $30, smpsNoAttack, $30, smpsNoAttack
+	dc.b	$30, smpsNoAttack, $30, nB5, $30, smpsNoAttack, $30
+	dc.b	nRst, $60, nB5, $1E, nRst, $06, nB5, $1E, nRst, $06
+	dc.b	nB5, $18, nA5, $24, nAb5, nE5, $18, nB5, $1E, nRst, $06, nB5
+	dc.b	$1E, nRst, $06, nB5, $18, nA5, $10, nRst, $08, nA5, $0C, nAb5
+	dc.b	$18, nA5, $0C, nAb5, nE5, nE6, $24, nD6, nC6, $12, nRst, $06
+	dc.b	nC6, $18, nB5, nA5, nB5, $14, nRst, $04, nB5, $30, smpsNoAttack, $30
+	dc.b	nRst, $30, nRst, nB5, $1E, nRst, $06, nB5, $1E, nRst, $06, nB5
+	dc.b	$14, nRst, $04, nA5, $24, nAb5, nE5, $18, nB5, $1E, nRst, $06
+	dc.b	nB5, $1E, nRst, $06, nB5, $14, nRst, $04, nA5, $10, nRst, $08
+	dc.b	nA5, $0C, nAb5, $18, nA5, $0C, nAb5, nE5, nE6, $24, nD6, nC6
+	dc.b	$14, nRst, $04, nC6, $18, nB5, nA5, nD6, nAb6, $30, smpsNoAttack, $30
+	dc.b	nRst, $30, nRst, nRst, nRst, nRst, nRst
+	smpsJump            Snd_Super_PSG1Loop
+
 
 ; PSG3 Data
 Snd_Super_PSG3:
-	smpsStop
+	smpsPSGform         $E7
+Snd_Super_PSG3Loop:
+	smpsCall Snd_Super_HiHat0
+	smpsCall Snd_Super_HiHat1
+	smpsCall Snd_Super_HiHat2
+	smpsJump Snd_Super_PSG3Loop
+
+Snd_Super_HiHat0:
+	smpsPSGvoice		sTone_0F
+	dc.b	nMaxPSG2, $0C
+	smpsLoop			$01,$40,Snd_Super_HiHat0
+	smpsReturn
+
+Snd_Super_HiHat1:
+	smpsPSGvoice		sTone_02
+	dc.b	nMaxPSG2, $06, $06
+	smpsPSGvoice		sTone_04
+	dc.b	nMaxPSG2, $0C, nRst, $0C
+	smpsLoop			$01,$0A,Snd_Super_HiHat1
+	smpsReturn
+
+
+Snd_Super_HiHat2:
+	smpsPSGvoice		sTone_0F
+	dc.b	nMaxPSG2, $0C
+	smpsLoop			$01,$B4,Snd_Super_HiHat2
+	smpsReturn
 
 ; DAC Data
 Snd_Super_DAC:

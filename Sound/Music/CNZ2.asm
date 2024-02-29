@@ -280,9 +280,10 @@ Snd_CNZ2_FM3:
 	smpsPan             panLeft, $00
 
 Snd_CNZ2_Jump01:
-	smpsSetvoice        $0D
+	smpsSetvoice        $0A ; Fix
 	smpsDetune          $01
 	smpsModSet          $0F, $01, $06, $04
+	smpsAlterVol        $FA
 	dc.b	nFs3, $04, nRst, $08, nFs3, $04, nRst, $08, nEb3, $10, nRst, $02
 	dc.b	nF3, $04, nRst, $08, nF3, $04, nRst, $08, nF3, $04, nRst, $08
 	dc.b	nD3, $04, nRst, $02, nD3, $0A, nRst, $02, nFs3, $04, nRst, $08
@@ -299,6 +300,7 @@ Snd_CNZ2_Jump01:
 	smpsSetvoice        $03
 	smpsDetune          $FE
 	smpsModSet          $0F, $01, $06, $06
+	smpsAlterVol        $06
 	dc.b	nEb4, nE4, nRst, $08, nF4, $04, nRst, $08, nG4, $16, nRst, $14
 	dc.b	nE4, $04, nRst, $02, nF4, $04, nRst, $08, nG4, $04, nRst, $08
 	dc.b	nBb4, $04, nRst, $02, nBb4, $04, nRst, $08, nBb4, $04, nRst, $08
@@ -348,10 +350,12 @@ Snd_CNZ2_Jump01:
 	dc.b	$12, nD5, $06, nRst, nC5, nRst, nBb4, nRst, nC5, nRst, nEb5, $0C
 	dc.b	nD5, $06, nBb4, $1E, nRst, $06, nC4, nEb4, nFs4, nF5, nF5, nRst
 	dc.b	nF5, nF5, nRst, nF5, nF5, nRst, nF5, nF5, nRst, $0C
-	smpsSetvoice        $0D
+	smpsSetvoice        $0A ; Fix
 	smpsDetune          $01
 	smpsModSet          $0F, $01, $06, $04
+	smpsAlterVol        $FA
 	dc.b	nEb3, $06, nF3, $0C
+	smpsAlterVol        $06
 	smpsJump            Snd_CNZ2_Jump01
 
 ; FM4 Data
@@ -426,9 +430,10 @@ Snd_CNZ2_FM5:
 	smpsDetune          $01
 
 Snd_CNZ2_Jump00:
-	smpsSetvoice        $0D
+	smpsSetvoice        $0A ; Fix
 	smpsDetune          $FF
 	smpsModSet          $0F, $01, $06, $04
+	smpsAlterVol        $FA
 	dc.b	nFs3, $04, nRst, $08, nFs3, $04, nRst, $08, nEb3, $10, nRst, $02
 	dc.b	nF3, $04, nRst, $08, nF3, $04, nRst, $08, nF3, $04, nRst, $08
 	dc.b	nD3, $04, nRst, $02, nD3, $0A, nRst, $02, nFs3, $04, nRst, $08
@@ -445,6 +450,7 @@ Snd_CNZ2_Jump00:
 	smpsSetvoice        $03
 	smpsDetune          $02
 	smpsModSet          $0F, $01, $06, $06
+	smpsAlterVol        $06
 	dc.b	nEb4, nE4, nRst, $08, nF4, $04, nRst, $08, nG4, $16, nRst, $14
 	dc.b	nE4, $04, nRst, $02, nF4, $04, nRst, $08, nG4, $04, nRst, $08
 	dc.b	nBb4, $04, nRst, $02, nBb4, $04, nRst, $08, nBb4, $04, nRst, $08
@@ -497,11 +503,12 @@ Snd_CNZ2_Jump00:
 	dc.b	nF5, $12, nD5, $06, nRst, nC5, nRst, nBb4, nRst, nC5, nRst, nEb5
 	dc.b	$0C, nD5, $06, nBb4, $1E, nRst, $06, nC4, nEb4, nFs4, nF5, nF5
 	dc.b	nRst, nF5, nF5, nRst, nF5, nF5, nRst, nF5, nF5, nRst, $0C
-	smpsSetvoice        $0D
+	smpsSetvoice        $0A ; Fix
 	smpsDetune          $FF
 	smpsModSet          $0F, $01, $06, $04
-	smpsFMAlterVol      $02
+	smpsAlterVol        $FC
 	dc.b	nEb3, $06, nF3, $0C
+	smpsAlterVol        $06
 	smpsJump            Snd_CNZ2_Jump00
 
 ; PSG1 Data
