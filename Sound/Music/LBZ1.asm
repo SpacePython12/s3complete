@@ -4,27 +4,27 @@ Snd_LBZ1_Header:
 	smpsHeaderChan      $06, $03
 	smpsHeaderTempo     $01, $10
 
-	ifndef PC_Pitch
-		smpsHeaderDAC       Snd_LBZ1_DAC
-		smpsHeaderFM        Snd_LBZ1_FM1,	$18, $14
-		smpsHeaderFM        Snd_LBZ1_FM2,	$00, $13
-		smpsHeaderFM        Snd_LBZ1_FM3,	$00, $14
-		smpsHeaderFM        Snd_LBZ1_FM4,	$00, $19
-		smpsHeaderFM        Snd_LBZ1_FM5,	$00, $19
-		smpsHeaderPSG       Snd_LBZ1_PSG1,	$00, $05, $00, sTone_0C
-		smpsHeaderPSG       Snd_LBZ1_PSG2,	$00, $05, $00, sTone_0C
-		smpsHeaderPSG       Snd_LBZ1_PSG3,	$00, $03, $00, sTone_0C
-	else
-		smpsHeaderDAC       Snd_LBZ1_DAC
-		smpsHeaderFM        Snd_LBZ1_FM1,	$17, $14
-		smpsHeaderFM        Snd_LBZ1_FM2,	$FF, $13
-		smpsHeaderFM        Snd_LBZ1_FM3,	$FF, $14
-		smpsHeaderFM        Snd_LBZ1_FM4,	$FF, $19
-		smpsHeaderFM        Snd_LBZ1_FM5,	$FF, $19
-		smpsHeaderPSG       Snd_LBZ1_PSG1,	$FF, $05, $00, sTone_0C
-		smpsHeaderPSG       Snd_LBZ1_PSG2,	$FF, $05, $00, sTone_0C
-		smpsHeaderPSG       Snd_LBZ1_PSG3,	$00, $03, $00, sTone_0C
-	endif
+	; ifndef PC_Pitch
+	smpsHeaderDAC       Snd_LBZ1_DAC
+	smpsHeaderFM        Snd_LBZ1_FM1,	$18, $14
+	smpsHeaderFM        Snd_LBZ1_FM2,	$00, $13
+	smpsHeaderFM        Snd_LBZ1_FM3,	$00, $14
+	smpsHeaderFM        Snd_LBZ1_FM4,	$00, $19
+	smpsHeaderFM        Snd_LBZ1_FM5,	$00, $19
+	smpsHeaderPSG       Snd_LBZ1_PSG1,	$00, $05, $00, sTone_0C
+	smpsHeaderPSG       Snd_LBZ1_PSG2,	$00, $05, $00, sTone_0C
+	smpsHeaderPSG       Snd_LBZ1_PSG3,	$00, $03, $00, sTone_0C
+	; else
+	; 	smpsHeaderDAC       Snd_LBZ1_DAC
+	; 	smpsHeaderFM        Snd_LBZ1_FM1,	$17, $14
+	; 	smpsHeaderFM        Snd_LBZ1_FM2,	$FF, $13
+	; 	smpsHeaderFM        Snd_LBZ1_FM3,	$FF, $14
+	; 	smpsHeaderFM        Snd_LBZ1_FM4,	$FF, $19
+	; 	smpsHeaderFM        Snd_LBZ1_FM5,	$FF, $19
+	; 	smpsHeaderPSG       Snd_LBZ1_PSG1,	$FF, $05, $00, sTone_0C
+	; 	smpsHeaderPSG       Snd_LBZ1_PSG2,	$FF, $05, $00, sTone_0C
+	; 	smpsHeaderPSG       Snd_LBZ1_PSG3,	$00, $03, $00, sTone_0C
+	; endif
 
 ; DAC Data
 Snd_LBZ1_DAC:

@@ -9990,24 +9990,24 @@ loc_8036:
 ; ---------------------------------------------------------------------------
 LevSel_MarkTable:	; 4 bytes per level select entry
 ; line primary, 2*column ($E fields), line secondary, 2*column secondary (1 field)
-		dc.b   1,  6,  1,$24	;0
-		dc.b   1,  6,  2,$24
-		dc.b   4,  6,  4,$24
-		dc.b   4,  6,  5,$24
-		dc.b   7,  6,  7,$24	;4
-		dc.b   7,  6,  8,$24
-		dc.b  $A,  6, $A,$24
-		dc.b  $A,  6, $B,$24
-		dc.b  $D,  6, $D,$24	;8
-		dc.b  $D,  6, $E,$24
-		dc.b $10,  6,$10,$24
-		dc.b $10,  6,$11,$24
-		dc.b $13,  6,$13,$24	;$C
-		dc.b $13,  6,$14,$24
-		dc.b $16,  6,$16,$24
-		dc.b $16,  6,$17,$24
-		dc.b $19,  6,$19,$24	;$10
-		dc.b $19,  6,$1A,$24
+		dc.b   1,  6,  1,$0E	;0
+		dc.b   1,  6,  2,$0E
+		dc.b   4,  6,  4,$0E
+		dc.b   4,  6,  5,$0E
+		dc.b   7,  6,  7,$0E	;4
+		dc.b   7,  6,  8,$0E
+		dc.b  $A,  6, $A,$0E
+		dc.b  $A,  6, $B,$0E
+		dc.b  $D,  6, $D,$0E	;8
+		dc.b  $D,  6, $E,$0E
+		dc.b $10,  6,$10,$0E
+		dc.b $10,  6,$11,$0E
+		dc.b $13,  6,$13,$0E	;$C
+		dc.b $13,  6,$14,$0E
+		dc.b $16,  6,$16,$0E
+		dc.b $16,  6,$17,$0E
+		dc.b $19,  6,$19,$0E	;$10
+		dc.b $19,  6,$1A,$0E
 ; --- second column ---
 		dc.b   1,$2C,  1,$4A
 		dc.b   1,$2C,  2,$4A
@@ -35780,11 +35780,13 @@ loc_1AD54:
 		sub.w	(a3),d0
 		move.w	d0,d3
 		add.w	d2,d3		; is the object right edge to the left of the screen?
+		addi.w	#96,d3
 		bmi.s	Render_Sprites_NextObj	; if it is, branch
 		move.w	d0,d3
 		sub.w	d2,d3
-		cmpi.w	#320,d3		; is the object left edge to the right of the screen?
+		cmpi.w	#416,d3		; is the object left edge to the right of the screen?
 		bge.s	Render_Sprites_NextObj	; if it is, branch
+		subi.w	#96,d3
 		addi.w	#128,d0
 		sub.w	4(a3),d1
 		move.b	height_pixels(a0),d2
@@ -102650,13 +102652,14 @@ Draw_TileColumn:
 		bpl.s	loc_4E948
 		neg.w	d2
 		move.w	d3,d0
-		addi.w	#$150,d0
+		addi.w	#$200,d0
 
 loc_4E948:
 		andi.w	#$30,d2
 		cmpi.w	#$10,d2
 		sne	(Plane_double_update_flag).w
 		movem.w	d1/d6,-(sp)
+		subq	#1,d1
 		bsr.s	Setup_TileColumnDraw
 		movem.w	(sp)+,d1/d6
 		tst.b	(Plane_double_update_flag).w
@@ -102681,16 +102684,17 @@ Draw_TileColumn2:
 		bpl.s	loc_4E98C
 		neg.w	d2
 		move.w	d3,d0
-		addi.w	#$150,d0
+		addi.w	#$200,d0
 		swap	d1
 
 loc_4E98C:
 		andi.w	#$30,d2
 		cmpi.w	#$10,d2
 		sne	(Plane_double_update_flag).w
-		movem.w	d1/d6,-(sp)
+		movem.w	d0-d1/d6,-(sp)
+		subi.w	#$10,d0
 		bsr.s	Setup_TileColumnDraw
-		movem.w	(sp)+,d1/d6
+		movem.w	(sp)+,d0-d1/d6
 		tst.b	(Plane_double_update_flag).w
 		beq.w	locret_4EAB6
 		addi.w	#$10,d0
@@ -102701,6 +102705,7 @@ loc_4E98C:
 
 
 Setup_TileColumnDraw:
+		subi.w	#$60,d0
 		move.w	d1,d2
 		andi.w	#$70,d2
 		move.w	d1,d3
@@ -103216,7 +103221,8 @@ DrawTilesAsYouMove:
 		lea	(Camera_Y_pos_copy).w,a6
 		lea	(Camera_Y_pos_rounded).w,a5
 		move.w	(Camera_X_pos_copy).w,d1
-		moveq	#$15,d6
+		subi.w	#$60,d1
+		moveq	#$20,d6
 		jmp	Draw_TileRow(pc)
 ; End of function DrawTilesAsYouMove
 
@@ -103233,7 +103239,7 @@ DrawBGAsYouMove:
 		lea	(Camera_Y_pos_BG_copy).w,a6
 		lea	(Camera_Y_pos_BG_rounded).w,a5
 		move.w	(Camera_X_pos_BG_copy).w,d1
-		moveq	#$15,d6
+		moveq	#$20,d6
 		jmp	Draw_TileRow(pc)
 ; End of function DrawBGAsYouMove
 

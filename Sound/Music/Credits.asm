@@ -208,7 +208,7 @@ Snd_SKCredits_Call01:
 	dc.b	$04, nRst, $08, nD4, $04, nRst, $02, nEb4, $10, nRst, $02, nEb4
 	dc.b	$04, nRst, $02, nF4, $0A, nRst, $02, nEb4, $04, nRst, $08, nAb4
 	dc.b	$04, nRst, $0E, nC5, $04, nRst, $08, nC5, $04, nRst, $08, nC5
-	dc.b	$04, nRst, $02, nC5, $0A, nRst, $02, nB4, $04, $F9
+	dc.b	$04, nRst, $02, nC5, $0A, nRst, $02, nB4, $04, nB4, $7F, $7A
 	
 ; FM2 Data
 Snd_SKCredits_FM2:

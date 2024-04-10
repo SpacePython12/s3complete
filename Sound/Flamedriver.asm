@@ -4660,7 +4660,7 @@ __LABEL___Bank = soundBankStart
 
 ; Setup macro for DAC samples.
 DAC_Setup macro rate,dacptr
-	dc.b	rate
+	dc.b	rate*2
 	dc.w	dacptr_Len
 	dc.w	dacptr_Ptr
     endm
