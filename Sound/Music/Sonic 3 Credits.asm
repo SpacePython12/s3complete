@@ -268,33 +268,33 @@ Snd_CreditsS3_PSG3:
 	smpsCall            Snd_CreditsS3_Call00
 	smpsCall            Snd_CreditsS3_Call01
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, $06, (nMaxPSG2-$23)&$FF
+	dc.b	nBb2, $06, nBb2
 	smpsPSGvoice        sTone_12
 	dc.b	$0C
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, $06
+	dc.b	nBb2, $06
 	smpsPSGvoice        sTone_12
-	dc.b	(nMaxPSG2-$23)&$FF, $0C, (nMaxPSG2-$23)&$FF, $36
+	dc.b	nBb2, $0C, nBb2, $36
 	smpsCall            Snd_CreditsS3_Call02
 	smpsCall            Snd_CreditsS3_Call02
 	smpsCall            Snd_CreditsS3_Call03
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, $06, (nMaxPSG2-$23)&$FF
+	dc.b	nBb2, $06, nBb2
 	smpsPSGvoice        sTone_12
 	dc.b	$0C
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, $06, (nMaxPSG2-$23)&$FF
+	dc.b	nBb2, $06, nBb2
 	smpsPSGvoice        sTone_12
 	dc.b	$0C
 	smpsPSGvoice        sTone_12
-	dc.b	(nMaxPSG2-$23)&$FF, $18, $18
+	dc.b	nBb2, $18, $18
 	smpsCall            Snd_CreditsS3_Call00
 	smpsCall            Snd_CreditsS3_Call01
 	smpsJump            Snd_CreditsS3_PSG3
 
 Snd_CreditsS3_Call00:
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, $06, (nMaxPSG2-$23)&$FF
+	dc.b	nBb2, $06, nBb2
 	smpsPSGvoice        sTone_12
 	dc.b	$0C
 	smpsLoop            $00, $10, Snd_CreditsS3_Call00
@@ -302,25 +302,25 @@ Snd_CreditsS3_Call00:
 
 Snd_CreditsS3_Call01:
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, $06, (nMaxPSG2-$23)&$FF
+	dc.b	nBb2, $06, nBb2
 	smpsPSGvoice        sTone_12
-	dc.b	(nMaxPSG2-$23)&$FF
+	dc.b	nBb2
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF
+	dc.b	nBb2
 	smpsLoop            $00, $10, Snd_CreditsS3_Call01
 	smpsReturn
 
 Snd_CreditsS3_Call02:
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, $06, nRst, (nMaxPSG2-$23)&$FF, (nMaxPSG2-$23)&$FF
+	dc.b	nBb2, $06, nRst, nBb2, nBb2
 	smpsPSGvoice        sTone_12
-	dc.b	(nMaxPSG2-$23)&$FF, $0C
+	dc.b	nBb2, $0C
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, $06, (nMaxPSG2-$23)&$FF
+	dc.b	nBb2, $06, nBb2
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, $06, nRst, (nMaxPSG2-$23)&$FF, nRst
+	dc.b	nBb2, $06, nRst, nBb2, nRst
 	smpsPSGvoice        sTone_12
-	dc.b	(nMaxPSG2-$23)&$FF, $0C
+	dc.b	nBb2, $0C
 	smpsPSGvoice        sTone_0F
 	dc.b	$06, $06
 	smpsLoop            $00, $04, Snd_CreditsS3_Call02
@@ -328,15 +328,15 @@ Snd_CreditsS3_Call02:
 
 Snd_CreditsS3_Call03:
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, $06, (nMaxPSG2-$23)&$FF, (nMaxPSG2-$23)&$FF, (nMaxPSG2-$23)&$FF
+	dc.b	nBb2, $06, nBb2, nBb2, nBb2
 	smpsPSGvoice        sTone_12
-	dc.b	(nMaxPSG2-$23)&$FF, $0C
+	dc.b	nBb2, $0C
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, $06, (nMaxPSG2-$23)&$FF
+	dc.b	nBb2, $06, nBb2
 	smpsPSGvoice        sTone_12
-	dc.b	(nMaxPSG2-$23)&$FF, $06
+	dc.b	nBb2, $06
 	smpsPSGvoice        sTone_0F
-	dc.b	(nMaxPSG2-$23)&$FF, (nMaxPSG2-$23)&$FF, (nMaxPSG2-$23)&$FF, (nMaxPSG2-$23)&$FF, (nMaxPSG2-$23)&$FF, (nMaxPSG2-$23)&$FF, (nMaxPSG2-$23)&$FF
+	dc.b	nBb2, nBb2, nBb2, nBb2, nBb2, nBb2, nBb2
 	smpsLoop            $00, $07, Snd_CreditsS3_Call03
 	smpsReturn
 

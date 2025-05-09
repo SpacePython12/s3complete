@@ -109,10 +109,20 @@ Snd_S3_PresSega_FM3:
 	smpsFMAlterVol      $ED
 	smpsAlterPitch      $F4
 	smpsSetvoice        $01
-	smpsCall            Snd_S3_Title_Call04
-	smpsCall            Snd_S3_Title_Call05
+	dc.b	nG2, $05, nRst, $01, nG2, $05, nRst, $01, nG2, $05, nRst, $01
+	dc.b	nRst, $06, nG2, $05, nRst, $01, nRst, $06, nG2, $05, nRst, $01
+	dc.b	nG2, $05, nRst, $01, nRst, $06, nG2, $05, nRst, $01, nG2, $05
+	dc.b	nRst, $01, nRst, $06, nG2, $05, nRst, $01, nRst, $06, nG2, $05
+	dc.b	nRst, $01, nRst, $06
+	dc.b	nD2, $05, nRst, $01, nD2, $05, nRst, $01, nD2, $05, nRst, $01
+	dc.b	nRst, $06, nD2, $05, nRst, $01, nRst, $06, nD2, $05, nRst, $01
+	dc.b	nD2, $05, nRst, $01, nRst, $06, nD2, $05, nRst, $01, nD2, $05
+	dc.b	nRst, $01, nRst, $06, nD2, $05, nRst, $01, nRst, $06
 	dc.b	nE2, $05, nRst, $01, nRst, $06
-	smpsCall            Snd_S3_Title_Call06
+	dc.b	nF2, $05, nRst, $01, nF2, $05, nRst, $01, nF2, $05, nRst, $01
+	dc.b	nRst, $06, nF2, $05, nRst, $01, nRst, $06, nF2, $05, nRst, $01
+	dc.b	nF2, $05, nRst, $01, nRst, $06, nF2, $05, nRst, $01, nF2, $05
+	dc.b	nRst, $01, nRst, $06, nF2, $05, nRst, $01, nRst, $06
 	dc.b	nA2, $05, nRst, $01, nRst, $06, nG2, $05, nRst, $01, nG2, $05
 	dc.b	nRst, $01, nG2, $05, nRst, $01, nRst, $06, nG2, $05, nRst, $01
 	dc.b	nRst, $06, nG2, $05, nRst, $01, nG2, $05, nRst, $06, nG3, $06
@@ -142,15 +152,16 @@ Snd_S3_PresSega_FM4:
 	dc.b	nRst, $03
 
 Snd_S3_PresSega_Loop00:
-	smpsCall            Snd_S3_Title_Call00
+	dc.b	nG4, $06, nF4, nD4, nF4
 	smpsLoop            $00, $08, Snd_S3_PresSega_Loop00
 
 Snd_S3_PresSega_Loop01:
-	smpsCall            Snd_S3_Title_Call01
+	dc.b	nA4, $06, nG4, nE4, nG4
+
 	smpsLoop            $00, $04, Snd_S3_PresSega_Loop01
 
 Snd_S3_PresSega_Loop02:
-	smpsCall            Snd_S3_Title_Call00
+	dc.b	nG4, $06, nF4, nD4, nF4
 	smpsLoop            $00, $04, Snd_S3_PresSega_Loop02
 	smpsPan             panLeft, $00
 	smpsStop

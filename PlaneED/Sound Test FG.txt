@@ -1,0 +1,7 @@
+Palette File: General/Sound Test/Palettes/FG.bin
+Save To: General/Sound Test/Enigma Map/Sound Test FG.bin
+Art File: General/Sound Test/Kosinski Art/Menu Art.bin
+Mapping Compression: Enigma
+Art Compression: Kosinski
+x-Size: 40
+y-Size: 28

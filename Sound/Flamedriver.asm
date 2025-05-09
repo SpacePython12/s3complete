@@ -453,8 +453,13 @@ FirstCoordFlag			= 0E0h
 ; ---------------------------------------------------------------------------
 zID_MusicPointers = 0
 zID_SFXPointers = 2
-zID_ModEnvPointers = 4
-zID_VolEnvPointers = 6
+
+zID_DACPointers = 4
+zID_ModEnvPointers = 6
+zID_VolEnvPointers = 8
+
+zID_DACBanksPointer = 10
+zID_MusicBanksPointer = 12
 ; ---------------------------------------------------------------------------
 
 ; ===========================================================================
@@ -649,9 +654,10 @@ zVInt:	rsttarget
 .not_pal:
 		ld	a, (zDACIndex)					; Get index of playing DAC sample
 		and	7Fh								; Strip 'DAC playing' bit
+		ld 	c, zID_DACBanksPointer
+		rst	GetPointerTable					; hl = pointer to DAC banks
 		ld	c, a							; c = a
 		ld	b, 0							; Sign extend c to bc
-		ld	hl, DAC_Banks					; Make hl point to DAC bank table
 		add	hl, bc							; Offset into entry for current sample
 		ld	a, (hl)							; Get bank index
 		bankswitch							; Switch to current DAC sample's bank
@@ -674,7 +680,7 @@ zInitAudioDriver:
 		jr	z, .loop						; Loop if c = 0
 
 		call	zMusicFade					; Stop all music
-		ld	a, zmake68kBank(DacBank2)		; Set song bank to second DAC bank (default value)
+		ld	a, (z80_DefaultSongBank)		; Set song bank to second DAC bank (default value)
 		ld	(zSongBank), a					; Store it
 		xor	a								; a = 0
 		ld	(zSpindashRev), a				; Reset spindash rev
@@ -818,7 +824,7 @@ zUpdateMusic:
 zUpdateSFXTracks:
 		ld	a, 1							; a = 1
 		ld	(zUpdatingSFX), a				; Updating SFX
-		ld	a, zmake68kBank(SndBank)		; Get SFX bank ID
+		ld	a, (z80_SndBank)		; Get SFX bank ID
 		bankswitch							; Bank switch to SFX
 		ld	ix, zTracksSFXStart				; ix = start of SFX track RAM
 		ld	b, zNumSFXTracks				; Number of channels
@@ -1641,21 +1647,18 @@ zCycleSoundQueue:
 		; Fall through to zPlaySFXByIndex
 
 zPlaySFXByIndex:
-	if SndID__First=1
-		or	a								; Is this below the sound start point?
-		ret	z								; Return if yes
-	else
-		cp	SndID__First					; Is this below the sound start point?
+		ld 	ix,	z80_SoundDriverParams		; ix = pointer to sound driver params
+		cp	(ix+zParam_SndID_First)			; Is this below the sound start point?
 		ret	c								; Return if yes
-	endif
-		cp	SndID__End						; Is this a sound effect?
+		cp	(ix+zParam_SndID_End)			; Is this a sound effect?
 		jp	c, zPlaySound_CheckRing			; Branch if yes
-		cp	DACID__First
+		cp	(ix+zParam_DACID_First)
 		ret	c
-		cp	DACID__End
+		cp	(ix+zParam_DACID_End)
 		ret	nc
 		; "PlayVoice/PlayDACSFX" in ValleyBell's SMPS disassemblies
-		sub	DACID__First-1
+		sub	(ix+zParam_DACID_First)
+		inc a
 		ld	(zDACIndex), a
 		ld	a, 1
 		ld	(zSongDAC.DACSFXPlaying), a
@@ -1686,15 +1689,16 @@ zCycleMusicQueue:
 ; TypeCheck:
 ;sub_4FB
 zPlaySoundByIndex:
-		cp	MusID_SegaSound					; Is this the SEGA sound?
+		ld 	ix,	z80_SoundDriverParams		; ix = pointer to sound driver params
+		cp	(ix+zParam_MusID_SegaSound)		; Is this the SEGA sound?
 		jp	z, zPlaySegaSound				; Branch if yes
-		cp	MusID__End						; Is this a music?
+		cp	(ix+zParam_MusID_End)			; Is this a music?
 		jp	c, zPlayMusic					; Branch if yes
-		cp	FadeID__First					; Is it before the first fade effect?
+		cp	(ix+zParam_FadeID_First)		; Is it before the first fade effect?
 		jp	c, zMusicFade					; Branch if yes
-		cp	FadeID__End						; Is this after the last fade effect?
+		cp	(ix+zParam_FadeID_End)			; Is this after the last fade effect?
 		jp	nc, zMusicFade					; Branch if yes
-		sub	FadeID__First					; If none of the checks passed, do fade effects.
+		sub	(ix+zParam_FadeID_First)		; If none of the checks passed, do fade effects.
 		ld	hl, zFadeEffects				; hl = switch table pointer
 		rst	PointerTableOffset				; Get address of function that handles the fade effect
 		jp	(hl)							; Handle fade effect
@@ -1739,10 +1743,10 @@ zSilenceStopTrack:
 
 ;loc_558
 zPlayMusic:
-		sub	MusID__First					; Remap index from 1h-33h to 0h-32h
+		sub	(ix+zParam_MusID_First)			; Remap index from 1h-33h to 0h-32h
 		ret	m								; Return if negative (id = 0)
 		push	af							; Save af
-		cp	MusID_ExtraLife-MusID__First	; Is it the 1-up music?
+		cp (ix+zParam_MusID_ExtraLife)		; Is it the 1-up music?
 		jp	nz, zPlayMusic_DoFade			; Branch if not
 		ld	a, (zFadeInTimeout)				; Fading timeout
 		or	a								; Is music being faded?
@@ -1760,7 +1764,7 @@ zPlayMusic:
 ; ---------------------------------------------------------------------------
 .no_fade:
 		ld	a, (zFadeToPrevFlag)			; Get fade-to-prev flag
-		cp	MusID_ExtraLife-1				; Was it triggered by the 1-up song?
+		cp	(ix+zParam_MusID_ExtraLife)		; Was it triggered by the 1-up song?
 		jp	z, zBGMLoad						; Branch if yes
 		xor	a								; a = 0
 		ld	(zMusicNumber), a				; Clear M68K input queue...
@@ -1798,7 +1802,7 @@ zPlayMusic:
 		add	hl, de							; Advance to next track
 		djnz	.loop						; Loop for all tracks
 
-		ld	a, MusID_ExtraLife-1			; a = 1-up id-1
+		ld	a, (ix+zParam_MusID_ExtraLife)	; a = 1-up id
 		ld	(zFadeToPrevFlag), a			; Set fade-to-prev flag to it
 		ld	hl, (zVoiceTblPtr)				; Get voice table pointer
 		ld	(zVoiceTblPtrSave), hl			; Save it
@@ -1813,7 +1817,8 @@ zPlayMusic_DoFade:
 zBGMLoad:
 		pop	af								; Restore af
 		push	af							; Then save it back again
-		ld	hl, z80_MusicBanks				; hl = table of music banks
+		ld 	c, zID_MusicBanksPointer
+		rst	GetPointerTable					; hl = pointer to music banks
 		; The following block adds the music index to the table address as a 16-bit offset
 		add	a, l							; a += l
 		ld	l, a							; l = low byte of offset into music entry
@@ -1989,43 +1994,32 @@ zPSGInitBytes:
 ; ---------------------------------------------------------------------------
 ;loc_6A9
 zPlaySound_CheckRing:
-		sub	SndID__First					; Make it a 0-based index
-	if SndID_Ring==SndID__First
-		or	a								; Is it the ring sound?
-	else
-		cp	SndID_Ring-SndID__First			; Is it the ring sound?
-	endif
+		sub	(ix+zParam_SndID_First)			; Make it a 0-based index
+		cp	(ix+zParam_SndID_Ring)			; Is it the ring sound?
 		jp	nz, zPlaySound_Bankswitch		; Branch if not
-	if RingSoundsAdjacent==0
 		ld	c, a							; Save SFX ID
-	endif
 		ld	a, (zRingSpeaker)				; Get speaker on which ring sound is played
 		xor	1								; Toggle bit 0
 		ld	(zRingSpeaker), a				; Save it
-	if RingSoundsAdjacent==1
-		if SndID_Ring<>SndID__First
-			add	a, SndID_Ring-SndID__First
-		endif
-	else
 		or	a								; 0 plays left, 1 plays right
 		jr	nz, .play_right
-		ld	c, SndID_RingLeft-SndID__First	; Play on left speaker
+		ld	c, (ix+zParam_SndID_RingLeft)	; Play on left speaker
 .play_right:
 		ld	a, c							; Get ring sound to play
-	endif
+
 
 ;loc_6B7
 zPlaySound_Bankswitch:
 		ex	af, af'							; Save af
-		ld	a, zmake68kBank(SndBank)		; Load SFX sound bank address
+		ld	a, (z80_SndBank)				; Load SFX sound bank address
 		bankswitch							; Bank switch to it
 		xor	a								; a = 0
 		ld	c, zID_SFXPointers				; SFX table index
 		ld	(zUpdatingSFX), a				; Clear flag to update SFX
 		ex	af, af'							; Restore af
-		cp	SndID_SpindashRev-SndID__First	; Is this the spindash sound?
+		cp	(ix+zParam_SndID_SpindashREv)	; Is this the spindash sound?
 		jp	z, zPlaySound					; Branch if yes
-		cp	SndID__FirstContinuous-SndID__First	; Is this before sound 0BCh?
+		cp	(ix+zParam_SndID_FirstContinous); Is this before sound 0BCh?
 		jp	c, zPlaySound_Normal			; Branch if yes
 		push	af							; Save af
 		ld	b, a							; b = sound index
@@ -3414,7 +3408,7 @@ cfStopTrack:
 		pop	hl								; Restore hl
 		call	zGetFMInstrumentOffset		; hl = pointer to instrument data
 		call	zSendFMInstrument.active	; Send FM instrument
-		ld	a, zmake68kBank(SndBank)		; Get SFX bank
+		ld	a, (z80_SndBank)		; Get SFX bank
 		bankswitch							; Bank switch to it
 		ld	a, (ix+zTrack.HaveSSGEGFlag)	; Get custom SSG-EG flag
 		or	a								; Does track have custom SSG-EG data?
@@ -4167,7 +4161,8 @@ zPlayDigitalAudio:
 		ld	a, (hl)							; a = DAC index
 		dec	a								; a -= 1
 		set	7, (hl)							; Set bit 7 to indicate that DAC sample is being played
-		ld	hl, zmake68kPtr(DACPointers)	; hl = pointer to ROM window
+		ld	c, zID_DACPointers
+		rst GetPointerTable					; hl = pointer to ROM window
 		ld	c, a
 		ld	b, 0
 		add	hl, bc
@@ -4265,6 +4260,8 @@ DecTable:
 ;loc_1126
 zPlaySEGAPCM:
 		di									; Disable interrupts
+		push	ix
+		ld	ix, z80_SoundDriverParams
 		xor	a								; a = 0
 		ld	(PlaySegaPCMFlag), a			; Clear flag
 		ld	a, 2Bh							; DAC enable/disable register
@@ -4272,21 +4269,22 @@ zPlaySEGAPCM:
 		nop									; Delay
 		ld	a, 80h							; Value to enable DAC
 		ld	(zYM2612_D0), a					; Enable DAC
-		ld	a, zmake68kBank(SEGA_PCM)		; a = sound bank index
+		ld	a, (z80_SegaPCMBank)			; a = sound bank index
 		bankswitchLoop						; Bank switch to sound bank
-		ld	hl, zmake68kPtr(SEGA_PCM)		; hl = pointer to SEGA PCM
-		ld	de, SEGA_PCM_End-SEGA_PCM		; de = length of SEGA PCM
+		ld	hl, (z80_SegaPCMPtr)			; hl = pointer to SEGA PCM
+		ld	de, (z80_SegaPCMLen)			; de = length of SEGA PCM
 		ld	a, 2Ah							; DAC channel register
 		ld	(zYM2612_A0), a					; Send to YM2612
 		nop									; Delay
-
+		push	bc
+		ld	c, (ix+zParam_MusID_StopSega)	; Cache stop command value
 .loop:
 		ld	a, (hl)							; a = next byte of SEGA PCM
 		ld	(zYM2612_D0), a					; Send to DAC
 		ld	a, (zMusicNumber)				; Check next song number
-		cp	MusID_StopSega					; Is it the command to stop playing SEGA PCM?
+		cp	c								; Is it the command to stop playing SEGA PCM?
 		jr	z, .done						; Break the loop if yes
-		nop
+		add a, 00h
 		nop
 
 		ld	b, 0Ch							; Loop counter
@@ -4299,7 +4297,79 @@ zPlaySEGAPCM:
 		jr	nz, .loop						; Loop if not
 
 .done:
+		pop bc
+		pop ix
 		jp	zPlayDigitalAudio				; Go back to normal DAC code
+
+; ---------------------------------------------------------------------------
+; ===========================================================================
+; Pointers
+; ===========================================================================
+
+		align 400h
+z80_SoundDriverPointersStart:
+
+zParam_MusID_First 			= 0
+zParam_MusID_End			= 1
+
+zParam_SndID_First 			= 2
+zParam_SndID_End			= 3
+
+zParam_DACID_First 			= 4	
+zParam_DACID_End			= 5
+
+zParam_FadeID_First 		= 6
+zParam_FadeID_End			= 7
+
+zParam_MusID_ExtraLife		= 8
+zParam_MusID_StopSega		= 9
+zParam_MusID_SegaSound		= 10
+
+zParam_SndID_FirstContinous	= 11
+zParam_SndID_Ring			= 12
+zParam_SndID_RingLeft		= 13
+zParam_SndID_SpindashRev	= 14
+
+z80_SoundDriverParams:
+		db	MusID__First
+		db 	MusID__End
+		db 	SndID__First
+		db	SndID__End
+		db	DACID__First
+		db	DACID__End
+		db	FadeID__First
+		db	FadeID__End
+		db	MusID_ExtraLife-MusID__First
+		db	MusID_StopSega
+		db	MusID_SegaSound
+		db	SndID__FirstContinuous-SndID__First
+		db	SndID_Ring-SndID__First
+		db	SndID_RingLeft-SndID__First
+		db	SndID_SpindashRev-SndID__First
+
+
+z80_DefaultSongBank:
+		db 	zmake68kBank(DacBank2)
+z80_SndBank: 
+		db	zmake68kBank(SndBank)
+
+z80_SegaPCMBank:
+		db	zmake68kBank(SEGA_PCM)
+
+z80_SegaPCMPtr:
+		dw	zmake68kPtr(SEGA_PCM)
+
+z80_SegaPCMLen:
+		dw	SEGA_PCM_End-SEGA_PCM
+z80_SoundDriverPointers:
+		dw	zmake68kPtr(MusicPointers)
+		dw	zmake68kPtr(SFXPointers)
+		dw	zmake68kPtr(DACPointers)
+		dw	z80_ModEnvPointers
+		dw	z80_VolEnvPointers
+		dw	z80_DACBanks
+		dw	z80_MusicBanks
+
 ; ---------------------------------------------------------------------------
 ; ===========================================================================
 ; DAC BANKS
@@ -4307,9 +4377,8 @@ zPlaySEGAPCM:
 ; Note: this table has a dummy first entry for the case when there is no DAC
 ; sample being played -- the code still results in a valid bank switch, and
 ; does not need to worry about special cases.
-DAC_Banks:
-; Set to zero to not use S3/S&K DAC samples:
-		db		zmake68kBank(DacBank1)
+z80_DACBanks:
+		db	zmake68kBank(DacBank1)
 	if (use_s3_samples<>0)||(use_sk_samples<>0)||(use_s3d_samples<>0)
 		db	zmake68kBank(DAC_81_Data)
 		db	zmake68kBank(DAC_82_83_84_85_Data)
@@ -4409,15 +4478,7 @@ DAC_Banks:
 		db	zmake68kBank(DAC_D8_D9_Data)
 		db	zmake68kBank(DAC_D8_D9_Data)
 	endif
-; ---------------------------------------------------------------------------
-; ===========================================================================
-; Pointers
-; ===========================================================================
-z80_SoundDriverPointers:
-		dw	zmake68kPtr(MusicPointers)
-		dw	zmake68kPtr(SFXPointers)
-		dw	z80_ModEnvPointers
-		dw	z80_VolEnvPointers
+
 ; ---------------------------------------------------------------------------
 ; ===========================================================================
 ; Modulation Envelope Pointers
@@ -4600,6 +4661,7 @@ z80_MusicBanks:
 	db zmake68kBank(MusData_Drown)
 	db zmake68kBank(MusData_PresSega)
 	db zmake68kBank(MusData_SKCredits)
+
 ; ---------------------------------------------------------------------------
 	if $ > z80_stack_top
 		fatal "Your Z80 tables won't fit before the z80 stack. It's \{$-z80_stack_top}h bytes past the start of the bottom of the stack, at \{z80_stack_top}h"
@@ -4618,7 +4680,8 @@ z80_SoundDriverPointersEnd:
 
 Z80_Snd_Driver_End:
 
-	shared z80_SoundDriverStart,z80_SoundDriverPointers,z80_SoundDriverPointersEnd,Z80_Snd_Driver_End,z80_MusicBanks,DAC_Banks
+	shared z80_SoundDriverStart,z80_SoundDriverPointers,z80_SoundDriverPointersStart,z80_SoundDriverPointersEnd,Z80_Snd_Driver_End
+	shared z80_MusicBanks,z80_DACBanks,z80_SoundDriverParams,z80_DefaultSongBank,z80_SndBank,z80_SegaPCMBank,z80_SegaPCMPtr,z80_SegaPCMLen
 
 little_endian function x,((x)<<8)&$FF00|((x)>>8)&$FF
 
@@ -4660,7 +4723,7 @@ __LABEL___Bank = soundBankStart
 
 ; Setup macro for DAC samples.
 DAC_Setup macro rate,dacptr
-	dc.b	rate*2
+	dc.b	rate
 	dc.w	dacptr_Len
 	dc.w	dacptr_Ptr
     endm

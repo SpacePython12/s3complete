@@ -147,94 +147,94 @@ Snd_CNZ1_Jump03:
 	dc.b	nE4, $14, nC4, $04, nRst, $08, nRst, $04, nRst, $12, nRst, nF3
 	dc.b	$08, nF3, $04, nRst, $08, nE3, $04, nRst, $08, nE3, $0C, nE3
 	dc.b	$04, nD3, $0C, nD3, nE3, $04, nRst, $18
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $03
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nC4, nC4, $04, nB3, $0C, nB3, $08, nC4, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $01
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panRight, $00
-	smpsAlterVol        $08
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nB2, $0C, nC3, $04, nRst, $08, nC3, $04, nB2, $08, nC3, $04
 	dc.b	nRst
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $03
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nG3, nG3, $04, nE3, $0C, nE3, $08, nG3, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $01
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panRight, $00
-	smpsAlterVol        $08
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nG3, $0C, nB3, $04, nRst, $08, nB3, $04, nG3, $08, nE3, $04
 	dc.b	nRst
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $03
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nA3, nA3, $04, nF3, $0C, nF3, $08, nA3, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $01
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panRight, $00
-	smpsAlterVol        $08
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nRst, $0C, nC3, nC3, $04, nA2, $08, nC3, $04, nA3, $18, nA3
 	dc.b	$14, nG3, $04, nRst, $34
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $03
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nC4, nC4, $04, nB3, $0C, nB3, $08, nC4, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $01
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panRight, $00
-	smpsAlterVol        $08
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nB2, $0C, nC3, $04, nRst, $08, nC3, $04, nB2, $08, nC3, $04
 	dc.b	nRst
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $03
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nG3, nG3, $04, nE3, $0C, nE3, $08, nG3, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $01
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panRight, $00
-	smpsAlterVol        $06
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nG3, $0C, nB3, $04, nRst, $08, nB3, $04, nG3, $08, nE3, $04
 	dc.b	nRst
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $03
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nA3, nA3, $04, nF3, $0C, nF3, $08, nA3, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $01
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panRight, $00
-	smpsAlterVol        $08
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nF3, $10, nFs3, $0C, nA3, nBb3, $18, nD4, $14, nE4, $04, nRst
 	dc.b	$08, nG4, $10, nBb4, $0C, nBb4, nC4, $08, nC4, $04, nC4, $08
 	dc.b	nC4, $04, nRst, $0C, nE4, $14, nF4, $04, nRst, $08, nF4, $04
@@ -294,95 +294,95 @@ Snd_CNZ1_Jump02:
 	dc.b	nE3, $14, nE3, $04, nG3, $14, nE3, $04, nRst, $08, nC4, $04
 	dc.b	nC5, $12, nRst, nBb2, $08, nBb2, $04, nRst, $08, nC3, $04, nRst
 	dc.b	$08, nC3, $0C, nC3, $04, nBb2, $0C, nBb2, nBb2, $04, nRst, $18
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nA3, nA3, $04, nG3, $0C, nG3, $08, nA3, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $FF
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panLeft, $00
-	smpsAlterVol        $08
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nG2, $0C, nA2, $04, nRst, $08, nA2, $04, nG2, $08, nA2, $04
 	dc.b	nRst
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nE3, nE3, $04, nC3, $0C, nC3, $08, nE3, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $FF
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panLeft, $00
-	smpsAlterVol        $08
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nE3, $0C, nG3, $04, nRst, $08, nG3, $04, nE3, $08, nC3, $04
 	dc.b	nRst
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nF3, nF3, $04, nD3, $0C, nD3, $08, nF3, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $FF
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panLeft, $00
-	smpsAlterVol        $08
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nRst, $0C, nA2, nA2, $04, nF2, $08, nA2, $04, nC3, $18, nC3
 	dc.b	$14, nB2, $04, nRst, $08, nG3, $04, nG3, $08, nA3, $04, nB3
 	dc.b	$08, nG3, $04, nA3, $08, nB3, $04, nRst
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nA3, nA3, $04, nG3, $0C, nG3, $08, nA3, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $FF
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panLeft, $00
-	smpsAlterVol        $08
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nG2, $0C, nA2, $04, nRst, $08, nA2, $04, nG2, $08, nA2, $04
 	dc.b	nRst
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nE3, nE3, $04, nC3, $0C, nC3, $08, nE3, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $FF
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panLeft, $00
-	smpsAlterVol        $08
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nE3, $0C, nG3, $04, nRst, $08, nG3, $04, nE3, $08, nC3, $04
 	dc.b	nRst
-	smpsSetvoice        $06 ; Fix
+	smpsSetvoice        $0E ; Fix
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
-	smpsAlterVol        $F8
-	smpsAlterPitch      $00
+	; smpsAlterVol        $F8 ; Volume fix
+	smpsAlterPitch      $0C ; Pitch fix
 	dc.b	nRst, $08, nF3, nF3, $04, nD3, $0C, nD3, $08, nF3, $04, nRst
 	dc.b	$08
 	smpsSetvoice        $1C
 	smpsDetune          $FF
 	smpsModSet          $0A, $01, $03, $06
 	smpsPan             panLeft, $00
-	smpsAlterVol        $08
-	smpsAlterPitch      $00
+	; smpsAlterVol        $08 ; Volume fix
+	smpsAlterPitch      $F4 ; Pitch fix
 	dc.b	nD3, $10, nD3, $0C, nC3, nD3, $18, nBb3, $14, nBb3, $04, nRst
 	dc.b	$08, nBb3, $10, nD4, $0C, nE4, nA3, $08, nA3, $04, nA3, $08
 	dc.b	nA3, $04, nRst, $0C, nG3, $14, nA3, $04, nRst, $08, nA3, $04

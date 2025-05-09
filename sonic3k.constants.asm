@@ -51,7 +51,7 @@ ground_vel =		$1C ; word ; overall velocity along ground, not updated when in th
 double_jump_property =	$25 ; byte ; remaining frames of flight / 2 for Tails, gliding-related for Knuckles
 flip_angle =		$27 ; byte ; angle about horizontal axis (360 degrees = 256)
 status_secondary =	$2B ; byte ; see SCHG for details
-air_left =		$2C ; byte
+air_left =		$2C ; byte ; 
 flip_type =		$2D ; byte ; bit 7 set means flipping is inverted, lower bits control flipping type
 object_control =	$2E ; byte ; bit 0 set means character can jump out, bit 7 set means he can't
 double_jump_flag =	$2F ; byte ; meaning depends on current character, see SCHG for details
@@ -256,6 +256,7 @@ _unkA880 :=			HScroll_table+$80	; used in SSZ screen/background events
 _unkA8E0 :=			HScroll_table+$E0	; used in SSZ screen/background events
 Nem_code_table			ds.b $200		; code table is built up here and then used during decompression
 Sprite_table_input		ds.b $400		; 8 priority levels, $80 bytes per level
+
 
 Object_RAM =			*			; $1FCC bytes ; $4A bytes per object, 110 objects
 Player_1			ds.b object_size	; main character in 1 player mode, player 1 in Competition mode

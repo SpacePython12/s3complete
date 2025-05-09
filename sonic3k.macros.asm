@@ -200,18 +200,14 @@ __LABEL__ label *
     endm
 
 ; macro to define debug list object data
-dbglistobj macro   obj, mapaddr, subtype, frame, vram
+dbglistobj macro obj, mapaddr, subtype, frame, vram
 	dc.l frame<<24|obj
 	dc.l subtype<<24|mapaddr
 	dc.w vram
     endm
 
 tribyte macro val
-	if "val"<>""
-		dc.b (val >> 16)&$FF,(val>>8)&$FF,val&$FF
-		shift
-		tribyte ALLARGS
-	endif
+	dc.b (val >> 16)&$FF,(val>>8)&$FF,val&$FF
     endm
 
 ; macro to define a palette script pointer

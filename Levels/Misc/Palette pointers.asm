@@ -198,3 +198,6 @@
 		dc.l Pal_DEZBoss
 		dc.w Normal_palette_line_2&$FFFF
 		dc.w $17
+		dc.l Pal_SoundTestFG
+		dc.w Normal_palette&$FFFF
+		dc.w $1F
