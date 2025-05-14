@@ -838,9 +838,9 @@ VInt_1A:
 ; ---------------------------------------------------------------------------
 
 VInt_1C:
-		bsr.w	Rotate_SSPal
+		jsr	(Rotate_SSPal).l
 		bsr.w	Do_ControllerPal
-		bsr.w	Update_SSMap
+		jsr	(Update_SSMap).l
 		tst.w	(Demo_timer).w
 		beq.w	+
 		subq.w	#1,(Demo_timer).w
@@ -9391,6 +9391,9 @@ SoundTest:
 		move.l	#$40000000,(VDP_control_port).l
 		lea	(ArtNem_SoundTestFG).l,a0
 		bsr.w	Nem_Decomp
+		move.l	#$70000001,(VDP_control_port).l
+		lea	(ArtNem_SoundTestChars).l,a0
+		bsr.w	Nem_Decomp
 		lea	(RAM_start).l,a1
 		lea	(MapEni_SoundTestFG).l,a0
 		move.w	#$6000,d0
@@ -9419,6 +9422,25 @@ SoundTest:
 		move.b	#$1E,(V_int_routine).w
 		jsr	(Wait_VSync).l
 
+		lea	(Object_RAM).l,a0
+		lea	SoundTest_ObjDat(pc),a1
+		move.w	#11-1,d0
+-		
+		move.l	(a1)+,(a0)
+		move.w	(a1)+,x_pos(a0)
+		move.w	(a1)+,y_pos(a0)
+		move.w	(a1)+,art_tile(a0)
+		move.l	#Map_SoundTest,mappings(a0)
+		move.b	(a1)+,mapping_frame(a0)
+		move.b	(a1)+,objoff_2E(a0)
+
+		lea	next_object(a0),a0
+		dbf	d0,-
+
+		jsr	(Init_SpriteTable).l
+		jsr	(Process_Sprites).l
+		jsr	(Render_Sprites).l
+
 		lea	(Pal_SoundTestFG).w,a1
 		lea	(Target_palette_line_3).w,a2
 		moveq	#$7,d1
@@ -9430,7 +9452,7 @@ SoundTest:
 -
 		move.l	(a1)+,(a2)+
 		dbf	d1,-
-		moveq	#mus_DataSelect,d0
+		move.w	#mus_DataSelect,d0
 		jsr	(Play_Music).l
 		move.w	#$707,(Demo_timer).w
 		move.b	#$16,(V_int_routine).w
@@ -9443,14 +9465,541 @@ SoundTest:
 SoundTest_Main:	; routine running during sound test
 		move.b	#$16,(V_int_routine).w
 		bsr.w	Wait_VSync
-		move.b	(Ctrl_1_pressed).w,d0
-		or.b	(Ctrl_2_pressed).w,d0
 
-		andi.b	#$80,d0
+		jsr (SoundTest_ReadZ80).l
+
+		addq.w	#1,(Level_frame_counter).w
+		jsr	(Process_Sprites).l
+		jsr	(Render_Sprites).l
+		
+		move.w	(Sound_test_sound).w,d0
+		move.b	(Ctrl_1_pressed).w,d1
+		or.b	(Ctrl_2_pressed).w,d1
+		btst	#2,d1
+		beq.w	+
+		subq.b	#1,d0
+		bcc.w	+
+		moveq	#0,d0
+
++
+		btst	#3,d1
+		beq.w	+
+		addq.b	#1,d0
+		cmpi.w	#$100,d0
+		blo.w	+
+		moveq	#0,d0
++
+		cmp.w	(Sound_test_sound).w,d0
+		beq.w	++
+		move.w	d0,(Sound_test_sound).w
+	if sfx_First<>0
+		cmpi.b	#sfx_First,d0
+		blo.s	+
+	endif
+	if sfx_First<$ff
+		cmpi.b	#sfx__End,d0
+		bhi.s	+
+	endif
+		jsr	(Play_SFX).l
+		bra.w	++
++
+		jsr	(Play_Music).l
++		btst	#7,d1
 		bne.s	+
 		bra.w	SoundTest_Main
 +		move.b	#0,(Game_mode).w
 		rts
+
+SoundTest_ReadZ80:
+		; TODO make this copy over less useless stuff
+		lea	(RAM_start).l,a2
+		lea (Z80_RAM+zTracksStart).l,a1
+		move.w	#zNumMusicTracks-1,d0
+		stopZ80
+-		
+		move.b	zTrack.PlaybackControl(a1),(a2)+
+		move.b	zTrack.Transpose(a1),(a2)+
+		move.b	zTrack.FreqHigh(a1),(a2)+
+		move.b	zTrack.FreqLow(a1),(a2)+
+
+		lea	zTrack.len(a1),a1
+
+		dbf	d0,-
+		startZ80
+		rts
+
+; d0
+SoundTest_ObjDat:
+		dc.l Draw_Sprite ; Channel text
+		dc.w $0094
+		dc.w $00D0
+		dc.w $C380
+		dc.b 0
+		dc.b 0
+
+		dc.l Obj_SoundTest_Key ; FM 1
+		dc.w $0001
+		dc.w $0090
+		dc.w $C000
+		dc.b 2
+		dc.b 1
+		dc.l Obj_SoundTest_Key ; FM 2
+		dc.w $0001
+		dc.w $00A0
+		dc.w $C000
+		dc.b 2
+		dc.b 2
+		dc.l Obj_SoundTest_Key ; FM 3
+		dc.w $0001
+		dc.w $00B0
+		dc.w $C000
+		dc.b 2
+		dc.b 3
+		dc.l Obj_SoundTest_Key ; FM 4
+		dc.w $0001
+		dc.w $00C0
+		dc.w $C000
+		dc.b 2
+		dc.b 4
+		dc.l Obj_SoundTest_Key ; FM 5
+		dc.w $0001
+		dc.w $00D0
+		dc.w $C000
+		dc.b 2
+		dc.b 5
+		dc.l Obj_SoundTest_Key ; FM 6
+		dc.w $0001
+		dc.w $00E0
+		dc.w $C000
+		dc.b 2
+		dc.b 6
+		dc.l Obj_SoundTest_Key ; PSG 1
+		dc.w $0001
+		dc.w $00F0
+		dc.w $C000
+		dc.b 2
+		dc.b 7
+		dc.l Obj_SoundTest_Key ; PSG 2
+		dc.w $0001
+		dc.w $0100
+		dc.w $C000
+		dc.b 2
+		dc.b 8
+		dc.l Obj_SoundTest_Key ; PSG 3
+		dc.w $0001
+		dc.w $0110
+		dc.w $C000
+		dc.b 4
+		dc.b 9
+		dc.l Obj_SoundTest_Key  ; DAC
+		dc.w $0001
+		dc.w $0127
+		dc.w $C000
+		dc.b 5
+		dc.b 0
+
+SoundTest_Key_Positions:
+		; Octave 0
+		dc.w $00C1 	; C
+		dc.w $00C3 	; C#/Db
+		dc.w $00C5 	; D
+		dc.w $00C7 	; D#/Eb
+		dc.w $00C9 	; E
+		dc.w $00CD	; F
+		dc.w $00CF	; F#/Gb
+		dc.w $00D1	; G
+		dc.w $00D3	; G#/Ab
+		dc.w $00D5	; A
+		dc.w $00D7	; A#/Bb
+		dc.w $00D9	; B
+
+		; Octave 1
+		dc.w $00DD 	; C
+		dc.w $00DF 	; C#/Db
+		dc.w $00E1 	; D
+		dc.w $00E3 	; D#/Eb
+		dc.w $00E5 	; E
+		dc.w $00E9	; F
+		dc.w $00EB	; F#/Gb
+		dc.w $00ED	; G
+		dc.w $00EF	; G#/Ab
+		dc.w $00F1	; A
+		dc.w $00F3	; A#/Bb
+		dc.w $00F5	; B
+
+		; Octave 2
+		dc.w $00F9 	; C
+		dc.w $00FB 	; C#/Db
+		dc.w $00FD 	; D
+		dc.w $00FF 	; D#/Eb
+		dc.w $0101 	; E
+		dc.w $0105	; F
+		dc.w $0107	; F#/Gb
+		dc.w $0109	; G
+		dc.w $010B	; G#/Ab
+		dc.w $010D	; A
+		dc.w $010F	; A#/Bb
+		dc.w $0111	; B
+
+		; Octave 3
+		dc.w $0115 	; C
+		dc.w $0117 	; C#/Db
+		dc.w $0119 	; D
+		dc.w $011B 	; D#/Eb
+		dc.w $011D 	; E
+		dc.w $0121	; F
+		dc.w $0123	; F#/Gb
+		dc.w $0125	; G
+		dc.w $0127	; G#/Ab
+		dc.w $0129	; A
+		dc.w $012B	; A#/Bb
+		dc.w $012D	; B
+
+		; Octave 4
+		dc.w $0131 	; C
+		dc.w $0133 	; C#/Db
+		dc.w $0135 	; D
+		dc.w $0137 	; D#/Eb
+		dc.w $0139 	; E
+		dc.w $013D	; F
+		dc.w $013F	; F#/Gb
+		dc.w $0141	; G
+		dc.w $0143	; G#/Ab
+		dc.w $0145	; A
+		dc.w $0147	; A#/Bb
+		dc.w $0149	; B
+
+		; Octave 5
+		dc.w $014D 	; C
+		dc.w $014F 	; C#/Db
+		dc.w $0151 	; D
+		dc.w $0153 	; D#/Eb
+		dc.w $0155 	; E
+		dc.w $0159	; F
+		dc.w $015B	; F#/Gb
+		dc.w $015D	; G
+		dc.w $015F	; G#/Ab
+		dc.w $0161	; A
+		dc.w $0163	; A#/Bb
+		dc.w $0165	; B
+
+		; Octave 6
+		dc.w $0169 	; C
+		dc.w $016B 	; C#/Db
+		dc.w $016D 	; D
+		dc.w $016F 	; D#/Eb
+		dc.w $0171 	; E
+		dc.w $0175	; F
+		dc.w $0177	; F#/Gb
+		dc.w $0179	; G
+		dc.w $017B	; G#/Ab
+		dc.w $017D	; A
+		dc.w $017F	; A#/Bb
+		dc.w $0181	; B
+
+		; Octave 7
+		dc.w $0185 	; C
+		dc.w $0187 	; C#/Db
+		dc.w $0189 	; D
+		dc.w $018B 	; D#/Eb
+		dc.w $018D 	; E
+		dc.w $0191	; F
+		dc.w $0193	; F#/Gb
+		dc.w $0195	; G
+		dc.w $0197	; G#/Ab
+		dc.w $0199	; A
+		dc.w $019B	; A#/Bb
+		dc.w $019D	; B
+
+SoundTest_Pad_Positions:
+		dc.w $00C9,$0127
+		dc.w $00CE,$0131
+		dc.w $00D4,$0127
+		dc.w $00D9,$0131
+		dc.w $00DF,$0127
+		dc.w $00E4,$0131
+		dc.w $00EA,$0127
+		dc.w $00EF,$0131
+		dc.w $00F5,$0127
+		dc.w $00FA,$0131
+		dc.w $0100,$0127
+		dc.w $0105,$0131
+		dc.w $010B,$0127
+		dc.w $0110,$0131
+		dc.w $0116,$0127
+		dc.w $011B,$0131
+		dc.w $0121,$0127
+		dc.w $0126,$0131
+		dc.w $012C,$0127
+		dc.w $0131,$0131
+		dc.w $0137,$0127
+		dc.w $013C,$0131
+		dc.w $0142,$0127
+		dc.w $0147,$0131
+
+; Is this inefficient? Yes. Do I care? No. It's like 72 bytes.
+SoundTest_Key_Frames:
+		; Octave 0
+		dc.b 2 ; C
+		dc.b 1 ; C#/Db
+		dc.b 3 ; D 
+		dc.b 1 ; D#/Eb
+		dc.b 4 ; E
+		dc.b 2 ; F
+		dc.b 1 ; F#/Gb
+		dc.b 3 ; G
+		dc.b 1 ; G#/Ab
+		dc.b 3 ; A
+		dc.b 1 ; A#/Bb
+		dc.b 4 ; B
+
+		; Octave 1
+		dc.b 2 ; C
+		dc.b 1 ; C#/Db
+		dc.b 3 ; D 
+		dc.b 1 ; D#/Eb
+		dc.b 4 ; E
+		dc.b 2 ; F
+		dc.b 1 ; F#/Gb
+		dc.b 3 ; G
+		dc.b 1 ; G#/Ab
+		dc.b 3 ; A
+		dc.b 1 ; A#/Bb
+		dc.b 4 ; B
+
+		; Octave 2
+		dc.b 2 ; C
+		dc.b 1 ; C#/Db
+		dc.b 3 ; D 
+		dc.b 1 ; D#/Eb
+		dc.b 4 ; E
+		dc.b 2 ; F
+		dc.b 1 ; F#/Gb
+		dc.b 3 ; G
+		dc.b 1 ; G#/Ab
+		dc.b 3 ; A
+		dc.b 1 ; A#/Bb
+		dc.b 4 ; B
+
+		; Octave 3
+		dc.b 2 ; C
+		dc.b 1 ; C#/Db
+		dc.b 3 ; D 
+		dc.b 1 ; D#/Eb
+		dc.b 4 ; E
+		dc.b 2 ; F
+		dc.b 1 ; F#/Gb
+		dc.b 3 ; G
+		dc.b 1 ; G#/Ab
+		dc.b 3 ; A
+		dc.b 1 ; A#/Bb
+		dc.b 4 ; B
+
+		; Octave 4
+		dc.b 2 ; C
+		dc.b 1 ; C#/Db
+		dc.b 3 ; D 
+		dc.b 1 ; D#/Eb
+		dc.b 4 ; E
+		dc.b 2 ; F
+		dc.b 1 ; F#/Gb
+		dc.b 3 ; G
+		dc.b 1 ; G#/Ab
+		dc.b 3 ; A
+		dc.b 1 ; A#/Bb
+		dc.b 4 ; B
+
+		; Octave 5
+		dc.b 2 ; C
+		dc.b 1 ; C#/Db
+		dc.b 3 ; D 
+		dc.b 1 ; D#/Eb
+		dc.b 4 ; E
+		dc.b 2 ; F
+		dc.b 1 ; F#/Gb
+		dc.b 3 ; G
+		dc.b 1 ; G#/Ab
+		dc.b 3 ; A
+		dc.b 1 ; A#/Bb
+		dc.b 4 ; B
+
+		; Octave 6
+		dc.b 2 ; C
+		dc.b 1 ; C#/Db
+		dc.b 3 ; D 
+		dc.b 1 ; D#/Eb
+		dc.b 4 ; E
+		dc.b 2 ; F
+		dc.b 1 ; F#/Gb
+		dc.b 3 ; G
+		dc.b 1 ; G#/Ab
+		dc.b 3 ; A
+		dc.b 1 ; A#/Bb
+		dc.b 4 ; B
+
+		; Octave 7
+		dc.b 2 ; C
+		dc.b 1 ; C#/Db
+		dc.b 3 ; D 
+		dc.b 1 ; D#/Eb
+		dc.b 4 ; E
+		dc.b 2 ; F
+		dc.b 1 ; F#/Gb
+		dc.b 3 ; G
+		dc.b 1 ; G#/Ab
+		dc.b 3 ; A
+		dc.b 1 ; A#/Bb
+		dc.b 4 ; B
+
+PSGFrequencies:
+		dc.w $03FF,$03FF,$03FF,$03FF,$03FF,$03FF,$03FF,$03FF,$03FF,$03F7,$03BE,$0388 ; Octave 1
+		dc.w $0356,$0326,$02F9,$02CE,$02A5,$0280,$025C,$023A,$021A,$01FB,$01DF,$01C4 ; Octave 2
+		dc.w $01AB,$0193,$017D,$0167,$0153,$0140,$012E,$011D,$010D,$00FE,$00EF,$00E2 ; Octave 3
+		dc.w $00D6,$00C9,$00BE,$00B4,$00A9,$00A0,$0097,$008F,$0087,$007F,$0078,$0071 ; Octave 4
+		dc.w $006B,$0065,$005F,$005A,$0055,$0050,$004B,$0047,$0043,$0040,$003C,$0039 ; Octave 5
+		dc.w $0036,$0033,$0030,$002D,$002B,$0028,$0026,$0024,$0022,$0020,$001F,$001D ; Octave 6
+		dc.w $001B,$001A,$0018,$0017,$0016,$0015,$0013,$0012,$0011,$0010,$0000,$0000 ; Octave 7
+
+FMFrequencies:
+		dc.w $0284 ; 00, C
+		dc.w $02AB ; 02, C#/Db
+		dc.w $02D3 ; 04, D 
+		dc.w $02FE ; 06, D#/Eb
+		dc.w $032D ; 08, E
+		dc.w $035C ; 0A, F
+		dc.w $038F ; 0C, F#/Gb
+		dc.w $03C5 ; 0E, G
+		dc.w $03FF ; 10, G#/Ab
+		dc.w $043C ; 12, A
+		dc.w $047C ; 14, A#/Bb
+		dc.w $04C0 ; 16, B
+
+; Binary Search >:)
+; Should only complete in 7-8 iterations.
+; Note that because PSG frequency values decrease with increasing pitch, the bsearch algorithm has been modified to search a greatest-to-least sorted list.
+Decode_PSGFrequencies:
+		movem.l	d1-d5/a0,-(sp)
+
+		move.w	d0,d5
+
+		lea		PSGFrequencies(pc),a0
+		move.w	#0,d3 ; Base index
+		move.w	#168,d4 ; Size, 12*7*2
+	.loop:
+		cmpi.w	#2,d4
+		bls.w	.done
+
+		move.w	d4,d2 ; mid = size
+		lsr.w	#1,d2 ; mid /= 2
+		bclr	#0,d2 ; mid &= !1
+		add.w	d3,d2 ; mid += base
+
+		cmp.w	(a0,d2.w),d5 ; Compare to given value
+		bhi.w 	.greater ; If the given value is greater than the table's value, branch
+		move.w	d2,d3 ; base = mid
+	.greater:
+		lsr.w	#1,d4 ; size /= 2
+		bclr	#0,d4 ; size &= !1
+		bra.w 	.loop
+	.done:
+		cmp.w	(a0,d3.w),d5 ; Compare to given value
+		bhs.w	+ ; If the given value is less or equal to the table's value, branch
+		add.w	d4,d3 ; Use end bound instead
++		lsr.w	#1,d3 ; Turn it into a valid note value
+		addi.w	#12,d3 ; Add one octave because PSG values start at octave 1
+		move.w	d3,d0
+		movem.l	(sp)+,d1-d5/a0
+		rts
+
+; Binary Search >:)
+; Should only complete in 3-4 iterations.
+Decode_FMFrequencies:
+		movem.l	d1-d5/a0,-(sp)
+
+		move.w	d0,d5
+		andi.w	#$07FF,d5 ; Mask out octave from frequency value
+
+		lea		FMFrequencies(pc),a0
+		move.w	#0,d3 ; Base index
+		move.w	#24,d4 ; Size
+	.loop:
+		cmpi.w	#2,d4
+		bls.w	.done
+
+		move.w	d4,d2 ; mid = size
+		lsr.w	#1,d2 ; mid /= 2
+		bclr	#0,d2 ; mid &= !1
+		add.w	d3,d2 ; mid += base
+
+		cmp.w	(a0,d2.w),d5 ; Compare to given value
+		blo.w 	.less ; If the given value is less than the table's value, branch
+		move.w	d2,d3 ; base = mid
+	.less:
+		lsr.w	#1,d4 ; size /= 2
+		bclr	#0,d4 ; size &= !1
+		bra.w 	.loop
+	.done:
+		cmp.w	(a0,d3.w),d5 ; Compare to given value
+		bls.w	+ ; If the given value is greater or equal to the table's value, branch
+		add.w	d4,d3 ; Use end bound instead
++		lsr.w	#1,d3 ; Turn it into a value between 0-11
+		lsr.w 	#6,d0 ; Shift the octave down to the end
+		lsr.w	#5,d0 ; Can only shift 7 bits at a time (or maybe 8, idk)
+		mulu.w	#12,d0 ; Make each octave add 12
+		add.w	d3,d0
+		movem.l	(sp)+,d1-d5/a0
+		rts
+
+Obj_SoundTest_Key:
+		movem.l	d0-d1/a1-a2,-(sp)
+		clr.w	d1
+		move.b	objoff_2E(a0),d1
+		lsl.w	#2,d1 ; Make d1 a long table index
+		lea	(RAM_start).l,a1
+		lea	(a1,d1.w),a1
+		btst	#7,0(a1) ; Is this channel playing?
+		beq.s	.notplaying ; If not, then skip resting check
+		btst	#4,0(a1) ; Is this channel resting?
+		beq.s	.playing ; If not, it's playing
+	.notplaying:
+		move.w	#1,x_pos(a0) ; Set x pos to 1 (off screen but not triggering that weird masking behavior)
+		bra.w	.ret ; Our work is done here
+	.playing:
+		move.w 	2(a1),d0 ; Move note frequency into d0
+		tst.b	objoff_2E(a0) ; Is this for the DAC channel?
+		bne.s	.fm ; If not, go to FM section
+		subi.w	#$81,d0 ; Remove leading values
+		cmpi.w	#22,d0 ; Is the sample out of range?
+		bhs.s	.dacoutofrange ; If it is, branch
+		lsl.w	#2,d0
+		lea	SoundTest_Pad_Positions(pc),a2
+		lea	(a2,d0.w),a2
+		move.w	0(a2),x_pos(a0)
+		move.w	2(a2),y_pos(a0)
+		bra.s	.ret
+	.dacoutofrange:
+		move.w	#1,x_pos(a0)
+		bra.s	.ret
+	.fm:
+		cmpi.b	#6,objoff_2E(a0) ; Is this for an FM channel?
+		bhs.w	.psg ; If not, go to PSG section
+		bsr.w	Decode_FMFrequencies ; Decode frequency
+		lea	SoundTest_Key_Frames(pc),a2
+		move.b	(a2,d0.w),mapping_frame(a0) ; Set mappping frame
+		lsl.w	#1,d0
+		lea	SoundTest_Key_Positions(pc),a2
+		move.w	(a2,d0.w),x_pos(a0) ; Set x pos
+		bra.w	.ret
+	.psg:
+		bsr.w	Decode_PSGFrequencies ; Decode frequency
+		lea	SoundTest_Key_Frames(pc),a2
+		move.b	(a2,d0.w),mapping_frame(a0) ; Set mappping frame
+		lsl.w	#1,d0
+		lea	SoundTest_Key_Positions(pc),a2
+		move.w	(a2,d0.w),x_pos(a0) ; Set x pos
+	.ret: ; Ik it's not a return shut up
+		movem.l	(sp)+,d0-d1/a1-a2
+		jmp	(Draw_Sprite).l
 
 LevelSelect_S2Options:
 		clr.w	(Current_zone_and_act).w
@@ -202691,6 +203240,11 @@ MapEni_S22POptions:binclude "General/Sprites/S2Menu/Enigma Map/2P Options.bin"
 
 ArtNem_SoundTestFG:binclude "General/Sound Test/Nemesis Art/Menu Art.bin"
 	even
+
+ArtNem_SoundTestChars:binclude "General/Sound Test/Nemesis Art/Charset.bin"
+	even
+
+Map_SoundTest:	include "General/Sound Test/Mapping.asm"
 
 MapEni_SoundTestFG:binclude "General/Sound Test/Enigma Map/Menu.bin"
 	even

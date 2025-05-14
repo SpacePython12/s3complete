@@ -1,5 +1,22 @@
 ; Equates section - names for variables
 
+Object STRUCT DOTS
+	update: 		ds.l 1
+	render_flags: 	ds.b 1
+	routine:		ds.b 1
+	height_pixels: 	ds.b 1
+	width_pixels: 	ds.b 1
+	priority:		ds.w 1
+	art_tile:		ds.w 1
+	mappings: 		ds.l 1
+	x_pos:			ds.l 1
+	y_pos: 			ds.l 1
+	child_count: 	ds.w 1
+	x_vel:			ds.w 1
+	y_vel: 			ds.w 1
+	ground_vel:		ds.w 1
+Object ENDSTRUCT
+
 ; ---------------------------------------------------------------------------
 ; Object Status Table offsets
 ; ---------------------------------------------------------------------------

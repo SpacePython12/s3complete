@@ -117,6 +117,8 @@ zTrack STRUCT DOTS
 	VoicesHigh:			ds.b 1	; S&K: 2Bh		; High byte of pointer to track's voices, used only if zUpdatingSFX is set
 	Stack_top:			ds.b 4	; S&K: 2Ch-2Fh	; Track stack; can be used by LoopCounters
 zTrack ENDSTRUCT
+
+	shared zTrack.len,zTrack.FreqHigh,zTrack.FreqLow,zTrack.PlaybackControl,zTrack.Transpose
 ; ---------------------------------------------------------------------------
 ; equates: standard (for Genesis games) addresses in the memory map
 zYM2612_A0				=	$4000
@@ -195,6 +197,7 @@ zSongPSG1:		zTrack
 zSongPSG2:		zTrack
 zSongPSG3:		zTrack
 zTracksEnd:
+	shared	zTracksStart,zTracksEnd
 ; This is RAM for backup of songs (when 1-up jingle is playing)
 ; and for SFX channels. Note these two overlap.
 ; Max number of SFX channels: 4 FM + 3 PSG
@@ -227,7 +230,9 @@ zTracksSaveEnd:
 		fatal "The RAM variable declarations are too large by $\{$} bytes."
 	endif
 		dephase
+
 zNumMusicTracks = (zTracksEnd-zTracksStart)/zTrack.len
+	shared zNumMusicTracks
 zNumMusicFMorPSGTracks = (zTracksEnd-zSongFM1)/zTrack.len
 zNumMusicFMorDACTracks = (zSongPSG1-zTracksStart)/zTrack.len
 zNumMusicFMTracks = (zSongPSG1-zSongFM1)/zTrack.len
