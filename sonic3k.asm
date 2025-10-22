@@ -9489,9 +9489,9 @@ SoundTest_Main:	; routine running during sound test
 		blo.w	+
 		moveq	#0,d0
 +
-		cmp.w	(Sound_test_sound).w,d0
-		beq.w	++
-		move.w	d0,(Sound_test_sound).w
+		cmp.w	(Sound_test_sound).w,d0 ; Has the sound test sound changed?
+		beq.w	++ ; If not, skip
+		move.w	d0,(Sound_test_sound).w ; Set with new value
 	if sfx_First<>0
 		cmpi.b	#sfx_First,d0
 		blo.s	+

@@ -235,28 +235,28 @@ Snd_Comp_FM4:
 
 Snd_Comp_Jump01:
 	dc.b	nD3, $04, nRst, $08, nC3, $06, nD3, $04, nRst, $08
-	smpsSetvoice        $06
+	smpsSetvoice        $24
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
 	dc.b	nEb4, $0A, nRst, $02, nEb4, $04, nRst, $0E
 	smpsSetvoice        $19
 	dc.b	nEb3, $02, nRst, $0A, nD3, $04, nRst, $02, nEb3, $12, nD3, $04
 	dc.b	nRst, $08, nC3, $06, nD3, $04, nRst, $08
-	smpsSetvoice        $06
+	smpsSetvoice        $24
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
 	dc.b	nEb4, $0A, nRst, $02, nEb4, $04, nRst, $0E
 	smpsSetvoice        $19
 	dc.b	nG3, $02, nRst, $10, nG3, $0A, nRst, $08, nD3, $04, nRst, $08
 	dc.b	nC3, $06, nD3, $04, nRst, $08
-	smpsSetvoice        $06
+	smpsSetvoice        $24
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
 	dc.b	nEb4, $0A, nRst, $02, nEb4, $04, nRst, $0E
 	smpsSetvoice        $19
 	dc.b	nEb3, $02, nRst, $0A, nD3, $04, nRst, $02, nEb3, $12, nD3, $04
 	dc.b	nRst, $08, nC3, $06, nD3, $04, nRst, $08
-	smpsSetvoice        $06
+	smpsSetvoice        $24
 	smpsDetune          $FD
 	smpsModSet          $0F, $01, $06, $06
 	dc.b	nEb4, $0A, nRst, $02, nEb4, $04, nRst, $0E
