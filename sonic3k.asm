@@ -10235,7 +10235,9 @@ loc_7CA0:
 LevelSelect_SpecialStage:
 		cmpi.w 	#8,(Sound_test_sound).w
 		bne.w 	normalSpecialStage
-		jsr		BlueSpheresSelected
+		move.b	#1,(Blue_spheres_mode).w
+		move.b	#81,(Blue_spheres_menu_flag).w
+		move.b	#$2C,(Game_mode).w		; Game Mode 2C is the blue spheres minigame
 		bra.s locret_7D12
 normalSpecialStage:
 		move.b	#$34,(Game_mode).w
@@ -24003,9 +24005,9 @@ Sonic_Transform:
 		move.b	#0,invincibility_timer(a0)
 		bset	#Status_Invincible,status_secondary(a0)
 		moveq	#sfx_SuperTransform,d0
-		jsr	(Play_SFX).l
-		moveq	#mus_Super,d0		; play invincibility theme
-		jmp	(Play_Music).l
+		jmp	(Play_SFX).l
+		; moveq	#mus_Super,d0		; play invincibility theme
+		; jmp	(Play_Music).l
 ; ---------------------------------------------------------------------------
 
 Sonic_HyperDash:
@@ -29291,9 +29293,9 @@ Tails_Transform:
 		move.b	#0,invincibility_timer(a0)
 		bset	#Status_Invincible,status_secondary(a0)
 		moveq	#sfx_SuperTransform,d0
-		jsr	(Play_SFX).l
-		moveq	#mus_Super,d0		; play invincibility theme
-		jmp	(Play_Music).l
+		jmp	(Play_SFX).l
+		; moveq	#mus_Super,d0		; play invincibility theme
+		; jmp	(Play_Music).l
 ; End of function Tails_JumpHeight
 
 
@@ -32891,9 +32893,9 @@ Knux_Transform:
 		move.b	#0,invincibility_timer(a0)
 		bset	#Status_Invincible,status_secondary(a0)
 		moveq	#sfx_SuperTransform,d0
-		jsr	(Play_SFX).l
-		moveq	#mus_Super,d0		; play invincibility theme
-		jmp	(Play_Music).l
+		jmp	(Play_SFX).l
+		; moveq	#mus_Super,d0		; play invincibility theme
+		; jmp	(Play_Music).l
 ; End of function Knux_JumpHeight
 
 
@@ -33946,13 +33948,13 @@ Player_ResetAirTimer:
 		bne.s	loc_186BC		; branch if it isn't player 1
 		move.w	(Level_music).w,d0	; prepare to play current level's music
 		btst	#Status_Invincible,status_secondary(a1)
-		beq.s	loc_186A0		; branch if Sonic is not invincible
+		beq.s	loc_186AC		; branch if Sonic is not invincible
 		move.w	#mus_Invincibility,d0	; prepare to play invincibility music
 
-loc_186A0:
-		tst.b	(Super_Sonic_Knux_flag).w
-		beq.w	loc_186AC		; branch if it isn't Super?Hyper
-		move.w	#mus_Super,d0	; prepare to play super sonic music
+; loc_186A0:
+; 		tst.b	(Super_Sonic_Knux_flag).w
+; 		beq.w	loc_186AC		; branch if it isn't Super?Hyper
+; 		move.w	#mus_Super,d0	; prepare to play super sonic music
 
 loc_186AC:
 		tst.b	(Boss_flag).w
@@ -41199,9 +41201,9 @@ Monitor_Give_SuperSonic:
 		move.b	#0,(Player_1+invincibility_timer).w
 		bset	#Status_Invincible,status_secondary(a1)
 		moveq	#sfx_SuperTransform,d0
-		jsr	(Play_SFX).l
-		moveq	#mus_Super,d0		; play invincibility theme
-		jmp	(Play_Music).l
+		jmp	(Play_SFX).l
+		; moveq	#mus_Super,d0		; play invincibility theme
+		; jmp	(Play_Music).l
 ; ---------------------------------------------------------------------------
 		rts
 ; ---------------------------------------------------------------------------
@@ -101054,7 +101056,7 @@ loc_4CAA8:
 		move.l	#Obj_SpheresTitle_4D986,(Reserved_object_3).w
 		jsr	(Process_Sprites).l
 		jsr	(Render_Sprites).l
-		moveq	#mus_Continue,d0
+		moveq	#mus_Super,d0
 		jsr	(Play_Music).l
 		move.w	(VDP_reg_1_command).w,d0
 		ori.b	#$40,d0
@@ -102480,8 +102482,8 @@ loc_4DC7E:
 		clr.b	(Super_Sonic_Knux_flag).w
 		clr.b	(Super_palette_status).w
 		move.w	#1,(Player_mode).w
-		moveq	#mus_Super,d0
-		jsr	(Play_Music).l
+		; moveq	#mus_Super,d0
+		; jsr	(Play_Music).l
 		move.w	(VDP_reg_1_command).w,d0
 		ori.b	#$40,d0
 		move.w	d0,(VDP_control_port).l
@@ -104369,11 +104371,11 @@ sub_4EFCA:
 		blo.s	loc_4EFEA
 		cmp.w	d3,d0
 		bhi.s	loc_4EFEA
-		moveq	#$40,d6
+		moveq	#$10,d6
 		jsr	Setup_TileColumnDraw(pc)
 
 loc_4EFEA:
-		subi.w	#$40,(Draw_delayed_position).w
+		subi.w	#$10,(Draw_delayed_position).w
 		subq.w	#1,(Draw_delayed_rowcount).w
 		rts
 ; End of function sub_4EFCA
@@ -104404,7 +104406,7 @@ sub_4F004:
 		blo.s	loc_4F024
 		cmp.w	d3,d0
 		bhi.s	loc_4F024
-		moveq	#$40,d6
+		moveq	#$10,d6
 		jsr	Setup_TileColumnDraw(pc)
 
 loc_4F024:
@@ -182481,11 +182483,11 @@ Obj_PlayLevelMusic:
 		lea	(LevelMusic_Playlist).l,a2
 		move.b	(a2,d0.w),d0
 		move.w	d0,(Level_music).w
-		btst	#Status_Invincible,(Player_1+status_secondary).w
-		beq.s	loc_85B84
-		moveq	#mus_Super,d0		; If invincible, play invincibility
+; 		btst	#Status_Invincible,(Player_1+status_secondary).w
+; 		beq.s	loc_85B84
+; 		moveq	#mus_Super,d0		; If invincible, play invincibility
 
-loc_85B84:
+; loc_85B84:
 		jmp	(Play_Music).l
 ; End of function Obj_PlayLevelMusic
 
@@ -202579,7 +202581,7 @@ sub_92C54:
 		; dirty after the HUD_DrawInitial call, which wasn't there in S3.
 		; Miraculously, drawing the lives HUD sets d0 back to zero, but since that
 		; part is skipped in Competition mode, exiting debug is broken there.
-		clr.b 	d0
+		clr.w 	d0
 		move.b	d0,$20(a1)
 		move.w	d0,$12(a1)
 		move.w	d0,$16(a1)
